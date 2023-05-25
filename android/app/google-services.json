@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "270698953995",
+    "project_id": "lit-app-6d966",
+    "storage_bucket": "lit-app-6d966.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270698953995:android:1f43b356fe781d3d9df60e",
+        "android_client_info": {
+          "package_name": "com.litapp.lit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270698953995-u16m2t5t6o8h33pil9hqi4e1t33ulah3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.litapp.lit",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "270698953995-trpmltoe7k9fourdq5d3qef3ug663g9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAoITEdz8AmHCZDLBRWWj-p1ZO3fBD9vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270698953995-n4g6avu26vnjlui7il0o3ch7dd94p8ql.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "270698953995-0eqsnbub65utht4r27e85qqqreiuugvc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.litapp.lit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
