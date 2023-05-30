@@ -888,7 +888,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                               if (widget.isInfluencer == true) {
                                 context.pushNamed(
                                   'I07Influencers',
-                                  queryParams: {
+                                  queryParameters: {
                                     'tipo': serializeParam(
                                       'INFLUENCERS',
                                       ParamType.String,
@@ -898,7 +898,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                               } else {
                                 context.pushNamed(
                                   'I07Influencers',
-                                  queryParams: {
+                                  queryParameters: {
                                     'tipo': serializeParam(
                                       'COMERCIO',
                                       ParamType.String,

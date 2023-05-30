@@ -779,7 +779,7 @@ class _I16redesWidgetState extends State<I16redesWidget>
 
                           context.pushNamed(
                             'op1',
-                            queryParams: {
+                            queryParameters: {
                               'isMember': serializeParam(
                                 false,
                                 ParamType.bool,

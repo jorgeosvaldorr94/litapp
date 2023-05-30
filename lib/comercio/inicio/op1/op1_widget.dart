@@ -581,7 +581,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                             if (widget.isMember == false) {
                                               context.pushNamed(
                                                 'I18Membresias',
-                                                queryParams: {
+                                                queryParameters: {
                                                   'titulo': serializeParam(
                                                     FFLocalizations.of(context)
                                                         .getText(
@@ -615,7 +615,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                             } else {
                                               context.pushNamed(
                                                 'I172oro',
-                                                queryParams: {
+                                                queryParameters: {
                                                   'titulo': serializeParam(
                                                     FFLocalizations.of(context)
                                                         .getText(
@@ -1049,7 +1049,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                               if (widget.isMember == false) {
                                                 context.pushNamed(
                                                   'I18Membresias',
-                                                  queryParams: {
+                                                  queryParameters: {
                                                     'titulo': serializeParam(
                                                       FFLocalizations.of(
                                                               context)
@@ -1088,7 +1088,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                               } else {
                                                 context.pushNamed(
                                                   'I172oro',
-                                                  queryParams: {
+                                                  queryParameters: {
                                                     'titulo': serializeParam(
                                                       'Platinum',
                                                       ParamType.String,

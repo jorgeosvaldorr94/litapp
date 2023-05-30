@@ -5,17 +5,16 @@ import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
 import '../flutter_flow_theme.dart';
 import '../../backend/backend.dart';
-
+import 'package:flutter_web_plugins/url_strategy.dart';
 import '../../auth/base_auth_user_provider.dart';
-
 import '../../index.dart';
 import '../../main.dart';
 import '../lat_lng.dart';
 import '../place.dart';
 import 'serialization_util.dart';
-
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
+ 
 
 const kTransitionInfoKey = '__transition_info__';
 
@@ -517,8 +516,10 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/roles',
           builder: (context, params) => RolesWidget(),
         )
-      ].map((r) => r.toRoute(appStateNotifier)).toList(),
-      urlPathStrategy: UrlPathStrategy.path,
+      ].map((r) => r.toRoute(appStateNotifier)).toList()
+      ,
+      
+     // urlPathStrategy: UrlPathStrategy.path,
     );
 
 extension NavParamExtensions on Map<String, String?> {
@@ -542,8 +543,8 @@ extension NavigationExtensions on BuildContext {
           ? null
           : goNamed(
               name,
-              params: params,
-              queryParams: queryParams,
+              pathParameters: params,
+              queryParameters: queryParams,
               extra: extra,
             );
 
@@ -559,15 +560,16 @@ extension NavigationExtensions on BuildContext {
           ? null
           : pushNamed(
               name,
-              params: params,
-              queryParams: queryParams,
+              pathParameters: params,
+              queryParameters: queryParams,
               extra: extra,
             );
 
   void safePop() {
     // If there is only one route on the stack, navigate to the initial
     // page instead of popping.
-    if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
+   // if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
+     if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
       go('/');
     } else {
       pop();
@@ -594,12 +596,15 @@ extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get extraMap =>
       extra != null ? extra as Map<String, dynamic> : {};
   Map<String, dynamic> get allParams => <String, dynamic>{}
-    ..addAll(params)
-    ..addAll(queryParams)
+    ..addAll(pathParameters)
+  //puede que este mal
+    ..addAll(queryParams!)
     ..addAll(extraMap);
   TransitionInfo get transitionInfo => extraMap.containsKey(kTransitionInfoKey)
       ? extraMap[kTransitionInfoKey] as TransitionInfo
       : TransitionInfo.appDefault();
+      
+        Map<String, dynamic>? get queryParams => null;
 }
 
 class FFParameters {
@@ -675,7 +680,7 @@ class FFRoute {
   GoRoute toRoute(AppStateNotifier appStateNotifier) => GoRoute(
         name: name,
         path: path,
-        redirect: (state) {
+        redirect: (context,state) {
           if (appStateNotifier.shouldRedirect) {
             final redirectLocation = appStateNotifier.getRedirectLocation();
             appStateNotifier.clearRedirectLocation();
