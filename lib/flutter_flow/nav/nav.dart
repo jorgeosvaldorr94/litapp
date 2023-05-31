@@ -569,7 +569,7 @@ extension NavigationExtensions on BuildContext {
     // If there is only one route on the stack, navigate to the initial
     // page instead of popping.
    // if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
-     if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
+     if (GoRouter.of(this).routerDelegate.toString().length <= 1) {
       go('/');
     } else {
       pop();
@@ -577,7 +577,7 @@ extension NavigationExtensions on BuildContext {
   }
 }
 
-extension GoRouterExtensions on GoRouter {
+/*extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
       (routerDelegate.refreshListenable as AppStateNotifier);
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
@@ -589,6 +589,21 @@ extension GoRouterExtensions on GoRouter {
   void clearRedirectLocation() => appState.clearRedirectLocation();
   void setRedirectLocationIfUnset(String location) =>
       (routerDelegate.refreshListenable as AppStateNotifier)
+          .updateNotifyOnAuthChange(false);
+}*/
+
+extension GoRouterExtensions on GoRouter {
+  AppStateNotifier get appState =>
+      (routerDelegate  as AppStateNotifier);
+  void prepareAuthEvent([bool ignoreRedirect = false]) =>
+      appState.hasRedirect() && !ignoreRedirect
+          ? null
+          : appState.updateNotifyOnAuthChange(false);
+  bool shouldRedirect(bool ignoreRedirect) =>
+      !ignoreRedirect && appState.hasRedirect();
+  void clearRedirectLocation() => appState.clearRedirectLocation();
+  void setRedirectLocationIfUnset(String location) =>
+      (routerDelegate  as AppStateNotifier)
           .updateNotifyOnAuthChange(false);
 }
 
