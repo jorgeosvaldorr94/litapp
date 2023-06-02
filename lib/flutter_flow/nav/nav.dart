@@ -208,11 +208,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/i34Ajustescuenta',
           builder: (context, params) => I34AjustescuentaWidget(),
         ),
+       //editadooo tomar en cuenta
         FFRoute(
-          name: 'I186Atencionalcliente',
-          path: '/i186Atencionalcliente',
-          builder: (context, params) => I186AtencionalclienteWidget(),
+          name: 'I186Atencionalclientei',
+          path: '/i186Atencionalclientei',
+          builder: (context, params) => I186AtencionalclienteiWidget(),
         ),
+
+         
         FFRoute(
           name: 'I38Metododepago',
           path: '/i38Metododepago',
@@ -456,11 +459,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/i143ajustes3',
           builder: (context, params) => I143ajustes3Widget(),
         ),
-        FFRoute(
+         FFRoute(
           name: 'I186atencionalcliente',
           path: '/i186atencionalcliente',
           builder: (context, params) => I186atencionalclienteWidget(),
         ),
+       /* FFRoute(
+          name: 'I186atencionalcliente',
+          path: '/i186atencionalcliente',
+          builder: (context, params) => I186atencionalclienteWidget(),
+        ),*/
         FFRoute(
           name: 'I145ayuda',
           path: '/i145ayuda',
@@ -613,7 +621,7 @@ extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get allParams => <String, dynamic>{}
     ..addAll(pathParameters)
   //puede que este mal
-    ..addAll(queryParams!)
+    ..addAll(queryParameters)
     ..addAll(extraMap);
   TransitionInfo get transitionInfo => extraMap.containsKey(kTransitionInfoKey)
       ? extraMap[kTransitionInfoKey] as TransitionInfo

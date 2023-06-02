@@ -7,17 +7,17 @@ import 'package:provider/provider.dart';
 import 'i186_atencionalcliente_model.dart';
 export 'i186_atencionalcliente_model.dart';
 
-class I186AtencionalclienteWidget extends StatefulWidget {
-  const I186AtencionalclienteWidget({Key? key}) : super(key: key);
+class I186AtencionalclienteiWidget extends StatefulWidget {
+  const I186AtencionalclienteiWidget({Key? key}) : super(key: key);
 
   @override
-  _I186AtencionalclienteWidgetState createState() =>
-      _I186AtencionalclienteWidgetState();
+  _I186AtencionalclienteiWidgetState createState() =>
+      _I186AtencionalclienteiWidgetState();
 }
 
-class _I186AtencionalclienteWidgetState
-    extends State<I186AtencionalclienteWidget> {
-  late I186AtencionalclienteModel _model;
+class _I186AtencionalclienteiWidgetState
+    extends State<I186AtencionalclienteiWidget> {
+  late I186AtencionalclienteiModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
@@ -25,7 +25,7 @@ class _I186AtencionalclienteWidgetState
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => I186AtencionalclienteModel());
+    _model = createModel(context, () => I186AtencionalclienteiModel());
 
     _model.textController ??= TextEditingController();
   }
