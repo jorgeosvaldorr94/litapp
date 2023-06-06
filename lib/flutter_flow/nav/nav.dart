@@ -15,7 +15,27 @@ import 'serialization_util.dart';
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
  
+ 
+class AppLitListRouterConfig {
+  final int? id;
+  final String? selectedItem;
+  final String? selectedRoute;
+  final bool show404;
 
+// Add initializers for your routes
+// Sample initializer is:
+
+  AppLitListRouterConfig.list()
+      : selectedRoute = null,
+        selectedItem = null,
+        show404 = false,
+        id = null;
+
+// Add getter for your routes
+// Sample getter is:
+
+  bool get isListPage => selectedItem == null && selectedRoute == null;
+}
 const kTransitionInfoKey = '__transition_info__';
 
 class AppStateNotifier extends ChangeNotifier {
@@ -62,6 +82,63 @@ class AppStateNotifier extends ChangeNotifier {
     notifyListeners();
   }
 }
+ //prueba ----
+class AppLitListRouterDelegate extends RouterDelegate<AppLitListRouterConfig> 
+with ChangeNotifier, PopNavigatorRouterDelegateMixin<AppLitListRouterConfig>{
+ 
+  final GlobalKey<NavigatorState> navigatorKey;
+
+  AppLitListRouterDelegate() : navigatorKey = GlobalKey<NavigatorState>();
+
+  AppLitListRouterConfig get currentConfiguration{
+    return 
+  }
+
+  Widget build(BuildContext context) {
+    return Navigator(
+      key: navigatorKey,
+      pages: [
+        // Add list of pages here
+        // Sample from Working with Pages
+      ],
+      onPopPage: (route, result) {
+        // Handle removal of pages here
+      },
+    );
+  }
+
+ @override
+  Future<void> setNewRoutePath(AppLitListRouterConfig configuration) async {
+    // Update the app state to set a new route based on the configuration settings
+  }
+
+}
+
+class AppLitRouterInformationParser extends RouteInformationParser<AppLitListRouterConfig>{
+
+  
+}
+
+RouteInformation? restoreRouteInformation(AppLitListRouterConfig configuration){
+
+}
+  
+  
+class _MyAppState extends State<MyApp> {
+  AppLitListRouterDelegate routerDelegate = AppLitListRouterDelegate();
+  AppLitRouterInformationParser routerInformationParser = AppLitRouterInformationParser();
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp.router(
+      
+      routerDelegate: routerDelegate,
+      routeInformationParser: routerInformationParser,
+    );
+  }
+}
+/*
+
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
@@ -599,10 +676,10 @@ extension NavigationExtensions on BuildContext {
       (routerDelegate.refreshListenable as AppStateNotifier)
           .updateNotifyOnAuthChange(false);
 }*/
-
+// problema es el refreshlistenable
 extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
-      (routerDelegate  as AppStateNotifier);
+      ( routerDelegate.notifyListeners() as AppStateNotifier);
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
       appState.hasRedirect() && !ignoreRedirect
           ? null
@@ -610,9 +687,7 @@ extension GoRouterExtensions on GoRouter {
   bool shouldRedirect(bool ignoreRedirect) =>
       !ignoreRedirect && appState.hasRedirect();
   void clearRedirectLocation() => appState.clearRedirectLocation();
-  void setRedirectLocationIfUnset(String location) =>
-      (routerDelegate  as AppStateNotifier)
-          .updateNotifyOnAuthChange(false);
+  void setRedirectLocationIfUnset(String location) => (routerDelegate.notifyListeners()  as AppStateNotifier).updateNotifyOnAuthChange(false);
 }
 
 extension _GoRouterStateExtensions on GoRouterState {
@@ -751,6 +826,7 @@ class FFRoute {
               : MaterialPage(key: state.pageKey, child: child);
         },
         routes: routes,
+        
       );
 }
 
@@ -768,4 +844,4 @@ class TransitionInfo {
   final Alignment? alignment;
 
   static TransitionInfo appDefault() => TransitionInfo(hasTransition: false);
-}
+}*/
