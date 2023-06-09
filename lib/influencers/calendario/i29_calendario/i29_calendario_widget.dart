@@ -281,6 +281,7 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
+                                       /*cambiar
                                         context.pushNamed(
                                           'I20listadodeofertas',
                                           extra: <String, dynamic>{
@@ -292,7 +293,7 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/inicio1.png',
@@ -312,6 +313,7 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
+                                        /* cambiar
                                         context.pushNamed(
                                           'I28Atencionalcliente',
                                           extra: <String, dynamic>{
@@ -323,7 +325,7 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/mensaje.png',
@@ -343,7 +345,8 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed(
+                                      /* cambiar  
+                                      context.pushNamed(
                                           'I24missolicitudes',
                                           extra: <String, dynamic>{
                                             kTransitionInfoKey: TransitionInfo(
@@ -354,7 +357,7 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/pendientes.png',

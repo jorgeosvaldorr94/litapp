@@ -73,7 +73,8 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                               //cambiar
+                               // context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -146,6 +147,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                       EdgeInsetsDirectional.fromSTEB(25.0, 550.0, 27.0, 0.0),
                   child: FFButtonWidget(
                     onPressed: () async {
+                      /* cambiar
                       context.pushNamed(
                         'I07Influencers',
                         queryParameters: {
@@ -154,7 +156,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                             ParamType.String,
                           ),
                         }.withoutNulls,
-                      );
+                      );*/
                     },
                     text: FFLocalizations.of(context).getText(
                       '387f0t2a' /* INICIAR SESION */,
@@ -187,6 +189,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                       EdgeInsetsDirectional.fromSTEB(25.0, 733.0, 27.0, 0.0),
                   child: FFButtonWidget(
                     onPressed: () async {
+                      /* cambiar
                       context.pushNamed(
                         'I01Registracionpaso1',
                         queryParameters: {
@@ -195,7 +198,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                             ParamType.bool,
                           ),
                         }.withoutNulls,
-                      );
+                      );*/
                     },
                     text: FFLocalizations.of(context).getText(
                       '3bm7q5r2' /* REGISTRARSE */,

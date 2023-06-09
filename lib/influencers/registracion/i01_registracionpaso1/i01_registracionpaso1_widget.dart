@@ -411,7 +411,8 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.safePop();
+                            //cambiar
+                            //  context.safePop();
                             },
                             child: Icon(
                               Icons.chevron_left,
@@ -724,13 +725,15 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  GoRouter.of(context).prepareAuthEvent();
+                                 //cambiar
+                                 // GoRouter.of(context).prepareAuthEvent();
                                   final user = await authManager
                                       .signInWithGoogle(context);
                                   if (user == null) {
                                     return;
                                   }
 
+                                  /*cambiar
                                   context.goNamedAuth(
                                     'I56datospersonales',
                                     mounted,
@@ -741,7 +744,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                         duration: Duration(milliseconds: 0),
                                       ),
                                     },
-                                  );
+                                  );*/
                                 },
                                 child: Container(
                                   width: 60.0,
@@ -777,14 +780,16 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  GoRouter.of(context).prepareAuthEvent();
+                                 //cambiar
+                                 // GoRouter.of(context).prepareAuthEvent();
                                   final user = await authManager
                                       .signInWithFacebook(context);
                                   if (user == null) {
                                     return;
                                   }
 
-                                  context.goNamedAuth(
+                                 /*cambiar 
+                                 context.goNamedAuth(
                                     'I56datospersonales',
                                     mounted,
                                     extra: <String, dynamic>{
@@ -794,7 +799,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                         duration: Duration(milliseconds: 0),
                                       ),
                                     },
-                                  );
+                                  );*/
                                 },
                                 child: Container(
                                   width: 60.0,
@@ -830,14 +835,16 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  GoRouter.of(context).prepareAuthEvent();
+                                  //cambiar
+                                  //GoRouter.of(context).prepareAuthEvent();
                                   final user = await authManager
                                       .signInWithApple(context);
                                   if (user == null) {
                                     return;
                                   }
 
-                                  context.goNamedAuth('I190splash', mounted);
+                                  /*cambiar
+                                  context.goNamedAuth('I190splash', mounted);*/
                                 },
                                 child: Container(
                                   width: 60.0,
@@ -885,7 +892,8 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              if (widget.isInfluencer == true) {
+                             /*cambiar 
+                             if (widget.isInfluencer == true) {
                                 context.pushNamed(
                                   'I07Influencers',
                                   queryParameters: {
@@ -905,7 +913,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                     ),
                                   }.withoutNulls,
                                 );
-                              }
+                              }*/
                             },
                             child: RichText(
                               text: TextSpan(
@@ -1094,7 +1102,8 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                   _model.claveController.text != '') {
                                 if (_model.confirmarclaveController.text ==
                                     _model.claveController.text) {
-                                  GoRouter.of(context).prepareAuthEvent();
+                                 //cambiar
+                                 // GoRouter.of(context).prepareAuthEvent();
                                   if (_model.claveController.text !=
                                       _model.confirmarclaveController.text) {
                                     ScaffoldMessenger.of(context).showSnackBar(
@@ -1118,6 +1127,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                   }
 
                                   if (widget.isInfluencer == true) {
+                                   /* cambiar
                                     context.goNamedAuth(
                                       'I56datospersonales',
                                       mounted,
@@ -1129,10 +1139,11 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                           duration: Duration(milliseconds: 0),
                                         ),
                                       },
-                                    );
+                                    );*/
                                   } else {
+                                    /*cambiar
                                     context.pushNamedAuth(
-                                        'I12Registrarcomercio2', mounted);
+                                        'I12Registrarcomercio2', mounted);*/
                                   }
                                 } else {
                                   await showDialog(

@@ -191,6 +191,7 @@ class _I161RegistroexitosoWidgetState extends State<I161RegistroexitosoWidget>
                           EdgeInsetsDirectional.fromSTEB(66.0, 18.0, 66.0, 0.0),
                       child: FFButtonWidget(
                         onPressed: () async {
+                          /* cambiar
                           context.pushNamed(
                             'I07Influencers',
                             queryParameters: {
@@ -199,7 +200,7 @@ class _I161RegistroexitosoWidgetState extends State<I161RegistroexitosoWidget>
                                 ParamType.String,
                               ),
                             }.withoutNulls,
-                          );
+                          );*/
                         },
                         text: FFLocalizations.of(context).getText(
                           '7r1rcnze' /* CONTINUAR */,

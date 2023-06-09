@@ -449,7 +449,8 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.pushNamed(
+                             /*cambiar 
+                             context.pushNamed(
                                 'I08ReseteoContrasena',
                                 extra: <String, dynamic>{
                                   kTransitionInfoKey: TransitionInfo(
@@ -458,7 +459,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                     duration: Duration(milliseconds: 0),
                                   ),
                                 },
-                              );
+                              );*/
                             },
                             child: Text(
                               FFLocalizations.of(context).getText(
@@ -517,14 +518,16 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    GoRouter.of(context).prepareAuthEvent();
+                                //cambiar
+                                //  GoRouter.of(context).prepareAuthEvent();
                                     final user = await authManager
                                         .signInWithGoogle(context);
                                     if (user == null) {
                                       return;
                                     }
 
-                                    context.pushNamedAuth(
+                                   /* cambiar
+                                   context.pushNamedAuth(
                                       'I0X1HOMEInfluencersinofertas',
                                       mounted,
                                       extra: <String, dynamic>{
@@ -534,7 +537,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                               PageTransitionType.fade,
                                         ),
                                       },
-                                    );
+                                    );*/
                                   },
                                   child: Container(
                                     width: 60.0,
@@ -570,14 +573,15 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    GoRouter.of(context).prepareAuthEvent();
+                                  //  GoRouter.of(context).prepareAuthEvent();
                                     final user = await authManager
                                         .signInWithFacebook(context);
                                     if (user == null) {
                                       return;
                                     }
 
-                                    context.goNamedAuth('I190splash', mounted);
+                                  //cambiar
+                                  //  context.goNamedAuth('I190splash', mounted);
                                   },
                                   child: Container(
                                     width: 60.0,
@@ -613,14 +617,15 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    GoRouter.of(context).prepareAuthEvent();
+                                  //  GoRouter.of(context).prepareAuthEvent();
                                     final user = await authManager
                                         .signInWithApple(context);
                                     if (user == null) {
                                       return;
                                     }
 
-                                    context.goNamedAuth('I190splash', mounted);
+                                    //cambiar
+                                    //context.goNamedAuth('I190splash', mounted);
                                   },
                                   child: Container(
                                     width: 60.0,
@@ -676,7 +681,8 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                               _model.emailController.text != '') {
                             if (_model.claveController.text != null &&
                                 _model.claveController.text != '') {
-                              GoRouter.of(context).prepareAuthEvent();
+                            //cambiar
+                            //  GoRouter.of(context).prepareAuthEvent();
 
                               final user = await authManager.signInWithEmail(
                                 context,
@@ -687,8 +693,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                 return;
                               }
 
-                              _navigate = () =>
-                                  context.goNamedAuth('I190splash', mounted);
+                              //cambiar
+                              //_navigate = () =>
+                                 // context.goNamedAuth('I190splash', mounted);
                             } else {
                               await showDialog(
                                 context: context,
@@ -810,7 +817,8 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.safePop();
+                          // cambiar 
+                          // context.safePop();
                         },
                         child: Icon(
                           Icons.chevron_left,

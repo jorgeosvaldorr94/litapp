@@ -387,11 +387,11 @@ con la of... */
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'nuffcnl8' /* 8.30pm */,
-                                                        ),
+                                                        ),*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -451,13 +451,13 @@ con la of... */
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'doco6tz4' /* Hola! ¿Qué tal? Sí,
 gracias! 1... */
                                                           ,
-                                                        ),
+                                                        ),*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium

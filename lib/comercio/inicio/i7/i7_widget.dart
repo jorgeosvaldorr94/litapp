@@ -122,7 +122,8 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.safePop();
+                            //cambiar
+                            //  context.safePop();
                             },
                             child: Container(
                               width: 47.0,
@@ -145,7 +146,8 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.safePop();
+                                 //cambiar
+                                 // context.safePop();
                                 },
                                 child: Icon(
                                   Icons.chevron_left,
@@ -561,7 +563,8 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('I0Inicirsesion');
+                         //cambiar
+                         // context.pushNamed('I0Inicirsesion');
                         },
                         child: Container(
                           width: 391.0,

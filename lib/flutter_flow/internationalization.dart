@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const _kLocaleStorageKey = '__locale_key__';
+/*const _kLocaleStorageKey = '__locale_key__';
 
 class FFLocalizations {
   FFLocalizations(this.locale);
 
   final Locale locale;
 
-  static FFLocalizations of(BuildContext context) =>
-      Localizations.of<FFLocalizations>(context, FFLocalizations)!;
+  
 
   static List<String> languages() => ['es', 'en'];
 
@@ -4941,3 +4940,4 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
   },
 ].reduce((a, b) => a..addAll(b));
+*/

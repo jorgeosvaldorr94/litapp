@@ -1,5 +1,5 @@
 // Export pages
-export '/influencers/entrada/i50_selectordeperfil/i50_selectordeperfil_widget.dart'
+/*export '/influencers/entrada/i50_selectordeperfil/i50_selectordeperfil_widget.dart'
     show I50SelectordeperfilWidget;
 export '/influencers/entrada/i00inicio/i00inicio_widget.dart'
     show I00inicioWidget;
@@ -134,3 +134,4 @@ export '/sprint3/a2_inicio/a2_inicio_widget.dart' show A2InicioWidget;
 export '/sprint3/a3_comercio/a3_comercio_widget.dart' show A3ComercioWidget;
 export '/sprint3/a7_comercio/a7_comercio_widget.dart' show A7ComercioWidget;
 export '/roles/roles_widget.dart' show RolesWidget;
+*/

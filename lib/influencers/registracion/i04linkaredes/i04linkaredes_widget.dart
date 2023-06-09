@@ -286,7 +286,8 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                                //cambiar
+                                //context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -882,6 +883,7 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                           );
                           await currentUserReference!.update(usersUpdateData);
 
+                          /*cambiar
                           context.pushNamed(
                             'I07Influencers',
                             queryParameters: {
@@ -890,7 +892,7 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                 ParamType.String,
                               ),
                             }.withoutNulls,
-                          );
+                          );*/
                         },
                         child: Container(
                           width: 391.0,

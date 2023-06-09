@@ -66,7 +66,7 @@ class _I190splashWidgetState extends State<I190splashWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   //context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -87,7 +87,8 @@ class _I190splashWidgetState extends State<I190splashWidget>
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      context.pushNamed('I187bienvenido');
+                     // cambiar
+                     //context.pushNamed('I187bienvenido');
                     },
                     child: Container(
                       width: 313.0,
@@ -103,9 +104,9 @@ class _I190splashWidgetState extends State<I190splashWidget>
                       child: Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             'y6fyk3mk' /* LOGO */,
-                          ),
+                          ),*/"",
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
@@ -136,12 +137,13 @@ class _I190splashWidgetState extends State<I190splashWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('I0X1HOMEInfluencersinofertas');
+                       // cambiar
+                       //  context.pushNamed('I0X1HOMEInfluencersinofertas');
                         },
                         child: Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             'pzlaloch' /* LIT */,
-                          ),
+                          ),*/"",
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(

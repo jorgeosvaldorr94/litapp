@@ -202,7 +202,8 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.safePop();
+                                  //cambiar
+                                  //    context.safePop();
                                     },
                                     child: Icon(
                                       Icons.chevron_left,
@@ -347,7 +348,8 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.pushNamed('I34Ajustescuenta');
+                             //cambiar
+                             // context.pushNamed('I34Ajustescuenta');
                             },
                             child: Container(
                               width: 359.0,
@@ -496,7 +498,8 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.goNamed('I28Atencionalcliente');
+                               // cambiar 
+                               // context.goNamed('I28Atencionalcliente');
                               },
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -632,7 +635,8 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.pushNamed('I38Metododepago');
+                               //cambiar
+                               //context.pushNamed('I38Metododepago');
                               },
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,

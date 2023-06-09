@@ -210,7 +210,8 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.safePop();
+                              // cambiar
+                              //context.safePop();
                             },
                             child: Icon(
                               Icons.chevron_left,
@@ -666,7 +667,8 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('I12Registrarcomercio2');
+                        // cambiar
+                        //  context.pushNamed('I12Registrarcomercio2');
                         },
                         child: Container(
                           width: 391.0,

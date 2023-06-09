@@ -196,7 +196,8 @@ class _I172oroWidgetState extends State<I172oroWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                              // cambiar
+                              //  context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -641,7 +642,8 @@ class _I172oroWidgetState extends State<I172oroWidget>
                             FFAppState().vinculacion = true;
                           });
 
-                          context.goNamed('I187bienvenido');
+                         //cambiar
+                         // context.goNamed('I187bienvenido');
 
                           setState(() {});
                         },

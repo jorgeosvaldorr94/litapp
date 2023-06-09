@@ -274,7 +274,8 @@ class _I12Registrarcomercio2WidgetState
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                              //cambiar
+                              //  context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -894,7 +895,8 @@ class _I12Registrarcomercio2WidgetState
                           );
                           await currentUserReference!.update(usersUpdateData);
 
-                          context.pushNamed('I16redes');
+                        //cambiar
+                        //  context.pushNamed('I16redes');
                         },
                         child: Container(
                           width: 391.0,

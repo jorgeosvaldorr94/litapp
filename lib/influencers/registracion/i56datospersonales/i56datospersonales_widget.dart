@@ -274,7 +274,8 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                              //cambiar
+                              //  context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -1143,7 +1144,8 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                           );
                           await currentUserReference!.update(usersUpdateData);
 
-                          context.pushNamed('I04linkaredes');
+                         //cambiar
+                         // context.pushNamed('I04linkaredes');
                         },
                         child: Container(
                           width: 391.0,

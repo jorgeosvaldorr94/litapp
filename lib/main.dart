@@ -1,3 +1,4 @@
+import 'package:lit_app/i190splash/i190splash_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -12,12 +13,27 @@ import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
 import 'flutter_flow/nav/nav.dart';
+
 import 'index.dart';
+import 'my_app.dart';
+
+import '../routes/routes.dart';
 
 import 'backend/stripe/payment_manager.dart';
 
-void main() async {
+void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
+  await initFirebase();
+
+  await FlutterFlowTheme.initialize();
+  await FFLocalizations.initialize();
+
+  final appState = FFAppState(); // Initialize FFAppState
+  await appState.initializePersistedState();
+
+  await initializeStripe();
+  runApp(MyApp());
+ /* WidgetsFlutterBinding.ensureInitialized();
   await initFirebase();
 
   await FlutterFlowTheme.initialize();
@@ -31,11 +47,11 @@ void main() async {
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
     child: MyApp(),
-  ));
+  ));*/
 }
 
-class MyApp extends StatefulWidget {
-  // This widget is the root of your application.
+
+ /* // This widget is the root of your application.
   @override
   State<MyApp> createState() => _MyAppState();
 
@@ -109,5 +125,5 @@ class _MyAppState extends State<MyApp> {
       
       routerDelegate: _router.routerDelegate,
     );
-  }
-}
+  }*/
+

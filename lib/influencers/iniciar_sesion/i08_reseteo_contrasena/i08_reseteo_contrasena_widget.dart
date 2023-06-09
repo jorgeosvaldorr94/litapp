@@ -101,7 +101,8 @@ class _I08ReseteoContrasenaWidgetState extends State<I08ReseteoContrasenaWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.safePop();
+                             //cambiar
+                             // context.safePop();
                             },
                             child: Icon(
                               Icons.chevron_left,

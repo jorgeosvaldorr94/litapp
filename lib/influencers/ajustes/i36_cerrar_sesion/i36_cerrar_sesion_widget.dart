@@ -180,13 +180,14 @@ cer... */
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  GoRouter.of(context).prepareAuthEvent();
+                                 // cambiar
+                                 // GoRouter.of(context).prepareAuthEvent();
                                   await authManager.signOut();
-                                  GoRouter.of(context).clearRedirectLocation();
+                                 // GoRouter.of(context).clearRedirectLocation();
 
-                                  context.goNamedAuth(
+                                 /* context.goNamedAuth(
                                       'I50Selectordeperfil', mounted);
-                                },
+                                },*/},
                                 child: Container(
                                   width: 122.0,
                                   height: 38.0,

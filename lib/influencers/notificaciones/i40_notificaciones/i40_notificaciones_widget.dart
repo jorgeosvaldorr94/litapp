@@ -190,7 +190,8 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.safePop();
+                                   //cambiar
+                                   //   context.safePop();
                                     },
                                     child: Icon(
                                       Icons.chevron_left,

@@ -342,7 +342,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                               highlightColor:
                                                   Colors.transparent,
                                               onTap: () async {
-                                                context.pushNamed(
+                                            /*    context.pushNamed(
                                                   'I21detalledeoferta',
                                                   queryParameters: {
                                                     'offer': serializeParam(
@@ -352,7 +352,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                           .DocumentReference,
                                                     ),
                                                   }.withoutNulls,
-                                                );
+                                                );*/
                                               },
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.min,
@@ -606,8 +606,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                           hoverColor: Colors.transparent,
                                           highlightColor: Colors.transparent,
                                           onTap: () async {
-                                            context.pushNamed(
-                                                'I21detalledeoferta');
+                                          /*  context.pushNamed(
+                                                'I21detalledeoferta');*/
                                           },
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -803,8 +803,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                           hoverColor: Colors.transparent,
                                           highlightColor: Colors.transparent,
                                           onTap: () async {
-                                            context.pushNamed(
-                                                'I21detalledeoferta');
+                                           /* context.pushNamed(
+                                                'I21detalledeoferta');*/
                                           },
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -1000,8 +1000,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                           hoverColor: Colors.transparent,
                                           highlightColor: Colors.transparent,
                                           onTap: () async {
-                                            context.pushNamed(
-                                                'I21detalledeoferta');
+                                            /*context.pushNamed(
+                                                'I21detalledeoferta');*/
                                           },
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -1209,7 +1209,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed('I37ajustesdeperfil');
+                                //cambiar 
+                                //  context.pushNamed('I37ajustesdeperfil');
                                 },
                                 child: Image.asset(
                                   'assets/images/setting.png',
@@ -1256,7 +1257,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            context.pushNamed('I40Notificaciones');
+                           //cambiar
+                           // context.pushNamed('I40Notificaciones');
                           },
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
@@ -1368,7 +1370,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed(
+                                     /*cambiar  
+                                      context.pushNamed(
                                           'I28Atencionalcliente',
                                           extra: <String, dynamic>{
                                             kTransitionInfoKey: TransitionInfo(
@@ -1379,7 +1382,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/mensaje.png',
@@ -1399,7 +1402,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed(
+                                      /* cambiar 
+                                      context.pushNamed(
                                           'I24missolicitudes',
                                           extra: <String, dynamic>{
                                             kTransitionInfoKey: TransitionInfo(
@@ -1410,7 +1414,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/Group_238904.png',
@@ -1427,7 +1431,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed('I29Calendario');
+                                 //cambiar
+                                 //   context.pushNamed('I29Calendario');
                                   },
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -1438,7 +1443,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
-                                          context.pushNamed(
+                                         /*cambiar 
+                                         context.pushNamed(
                                             'I29Calendario',
                                             extra: <String, dynamic>{
                                               kTransitionInfoKey:
@@ -1450,7 +1456,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                     Duration(milliseconds: 0),
                                               ),
                                             },
-                                          );
+                                          );*/
                                         },
                                         child: Image.asset(
                                           'assets/images/calendario.png',

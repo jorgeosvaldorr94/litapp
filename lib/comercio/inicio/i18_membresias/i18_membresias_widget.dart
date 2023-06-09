@@ -155,7 +155,8 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                               // cambiar
+                               // context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -165,9 +166,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'c7ff047p' /* COMERCIO */,
-                            ),
+                            ),*/"",
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(

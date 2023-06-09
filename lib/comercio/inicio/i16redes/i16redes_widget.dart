@@ -293,7 +293,8 @@ class _I16redesWidgetState extends State<I16redesWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                               // cambiar
+                               // context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -777,7 +778,8 @@ class _I16redesWidgetState extends State<I16redesWidget>
                           );
                           await currentUserReference!.update(usersUpdateData);
 
-                          context.pushNamed(
+                         /* cambiar 
+                         context.pushNamed(
                             'op1',
                             queryParameters: {
                               'isMember': serializeParam(
@@ -785,7 +787,7 @@ class _I16redesWidgetState extends State<I16redesWidget>
                                 ParamType.bool,
                               ),
                             }.withoutNulls,
-                          );
+                          );*/
                         },
                         child: Container(
                           width: 391.0,

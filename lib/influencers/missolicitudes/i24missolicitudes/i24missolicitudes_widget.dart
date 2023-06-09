@@ -162,6 +162,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
+                                        /* cambiar
                                         context.pushNamed(
                                           'I20listadodeofertas',
                                           extra: <String, dynamic>{
@@ -173,7 +174,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/inicio1.png',
@@ -193,6 +194,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
+                                        /*cambiar
                                         context.pushNamed(
                                           'I28Atencionalcliente',
                                           extra: <String, dynamic>{
@@ -204,7 +206,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/mensaje.png',
@@ -236,7 +238,8 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed(
+                                       /* cambiar
+                                       context.pushNamed(
                                           'I29Calendario',
                                           extra: <String, dynamic>{
                                             kTransitionInfoKey: TransitionInfo(
@@ -247,7 +250,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                                   Duration(milliseconds: 0),
                                             ),
                                           },
-                                        );
+                                        );*/
                                       },
                                       child: Image.asset(
                                         'assets/images/calendario.png',
@@ -305,7 +308,8 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed('I37ajustesdeperfil');
+                                   //cambiar
+                                   // context.pushNamed('I37ajustesdeperfil');
                                   },
                                   child: Image.asset(
                                     'assets/images/setting.png',
@@ -346,7 +350,8 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed('I40Notificaciones');
+                                 //cambiar
+                                 // context.pushNamed('I40Notificaciones');
                                 },
                                 child: Image.asset(
                                   'assets/images/noti.png',
@@ -398,7 +403,8 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed(
+                                 /*cambiar 
+                                 context.pushNamed(
                                     'I25Detalledesolicitud',
                                     queryParameters: {
                                       'offer': serializeParam(
@@ -406,7 +412,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                         ParamType.DocumentReference,
                                       ),
                                     }.withoutNulls,
-                                  );
+                                  );*/
                                 },
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -436,8 +442,9 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
+                                          /*cambiar
                                           context.pushNamed(
-                                              'I25Detalledesolicitud');
+                                              'I25Detalledesolicitud');*/
                                         },
                                         child: Column(
                                           mainAxisSize: MainAxisSize.max,

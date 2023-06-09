@@ -81,7 +81,8 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.pushNamed('I37ajustesdeperfil');
+                            //cambiar
+                            //  context.pushNamed('I37ajustesdeperfil');
                             },
                             child: Image.asset(
                               'assets/images/setting.png',
@@ -119,7 +120,8 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            context.pushNamed('I40Notificaciones');
+                          // cambiar
+                          //  context.pushNamed('I40Notificaciones');
                           },
                           child: Image.asset(
                             'assets/images/Group_1000003360.png',
@@ -267,7 +269,8 @@ comuni... */
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            context.pushNamed('I20listadodeofertas');
+                           //cambiar 
+                           // context.pushNamed('I20listadodeofertas');
                           },
                           child: Row(
                             mainAxisSize: MainAxisSize.max,

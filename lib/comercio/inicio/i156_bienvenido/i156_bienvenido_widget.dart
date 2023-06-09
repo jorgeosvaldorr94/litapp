@@ -121,7 +121,8 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.safePop();
+                             // cambiar 
+                             // context.safePop();
                             },
                             child: Icon(
                               Icons.chevron_left,
@@ -351,7 +352,8 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('I191Bienvenido');
+                          // cambiar
+                          //context.pushNamed('I191Bienvenido');
                         },
                         child: Container(
                           width: 391.0,

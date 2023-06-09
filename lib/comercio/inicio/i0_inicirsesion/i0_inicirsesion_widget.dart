@@ -107,7 +107,8 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.safePop();
+                             // cambiar
+                             // context.safePop();
                             },
                             child: Container(
                               width: 47.0,
@@ -130,7 +131,8 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.safePop();
+                                 // cambiar
+                                 // context.safePop();
                                 },
                                 child: Icon(
                                   Icons.chevron_left,
@@ -216,7 +218,8 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed(
+                         //cambiar
+                          /*context.pushNamed(
                             'I07Influencers',
                             queryParameters: {
                               'tipo': serializeParam(
@@ -224,7 +227,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                                 ParamType.String,
                               ),
                             }.withoutNulls,
-                          );
+                          );*/
                         },
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -280,6 +283,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+                              /* cambiar  
                               context.pushNamed(
                                 'I01Registracionpaso1',
                                 queryParameters: {
@@ -288,7 +292,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                                     ParamType.bool,
                                   ),
                                 }.withoutNulls,
-                              );
+                              );*/
                             },
                             child: Container(
                               width: 338.0,

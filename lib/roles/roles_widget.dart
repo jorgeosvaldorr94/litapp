@@ -69,7 +69,8 @@ class _RolesWidgetState extends State<RolesWidget> {
                 padding: EdgeInsetsDirectional.fromSTEB(20.0, 10.0, 20.0, 10.0),
                 child: FFButtonWidget(
                   onPressed: () async {
-                    context.pushNamed('I50Selectordeperfil');
+                  //CAMBIAR
+                  //  context.pushNamed('I50Selectordeperfil');
                   },
                   text: FFLocalizations.of(context).getText(
                     'p8f2jd2y' /* Influencers */,
@@ -98,7 +99,7 @@ class _RolesWidgetState extends State<RolesWidget> {
                 padding: EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 20.0, 0.0),
                 child: FFButtonWidget(
                   onPressed: () async {
-                    context.pushNamed('I7');
+                   // context.pushNamed('I7');
                   },
                   text: FFLocalizations.of(context).getText(
                     'k27q6hdn' /* Comercios */,

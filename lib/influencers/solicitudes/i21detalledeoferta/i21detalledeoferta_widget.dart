@@ -182,7 +182,8 @@ class _I21detalledeofertaWidgetState extends State<I21detalledeofertaWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.safePop();
+                                   //cambiar
+                                   // context.safePop();
                                   },
                                   child: Container(
                                     width: 47.0,

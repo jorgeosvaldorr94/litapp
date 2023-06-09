@@ -291,6 +291,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                           hoverColor: Colors.transparent,
                                           highlightColor: Colors.transparent,
                                           onTap: () async {
+                                           /*cambiar
                                             context.pushNamed(
                                               'I21detalledeoferta',
                                               queryParameters: {
@@ -300,7 +301,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                                   ParamType.DocumentReference,
                                                 ),
                                               }.withoutNulls,
-                                            );
+                                            );*/
                                           },
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -544,7 +545,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed('I21detalledeoferta');
+                                       // context.pushNamed('I21detalledeoferta');
                                       },
                                       child: Column(
                                         mainAxisSize: MainAxisSize.min,
@@ -713,7 +714,8 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed('I21detalledeoferta');
+                                       //cambiar
+                                       // context.pushNamed('I21detalledeoferta');
                                       },
                                       child: Column(
                                         mainAxisSize: MainAxisSize.min,
@@ -882,7 +884,8 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                       hoverColor: Colors.transparent,
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
-                                        context.pushNamed('I21detalledeoferta');
+                                      //cambiar
+                                      //  context.pushNamed('I21detalledeoferta');
                                       },
                                       child: Column(
                                         mainAxisSize: MainAxisSize.min,
@@ -1079,7 +1082,8 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed(
+                                 /*cambiar   
+                                  context.pushNamed(
                                       'I28Atencionalcliente',
                                       extra: <String, dynamic>{
                                         kTransitionInfoKey: TransitionInfo(
@@ -1089,7 +1093,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                           duration: Duration(milliseconds: 0),
                                         ),
                                       },
-                                    );
+                                    );*/
                                   },
                                   child: Image.asset(
                                     'assets/images/mensaje.png',
@@ -1109,7 +1113,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed(
+                                    /*context.pushNamed(
                                       'I24missolicitudes',
                                       extra: <String, dynamic>{
                                         kTransitionInfoKey: TransitionInfo(
@@ -1119,7 +1123,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                           duration: Duration(milliseconds: 0),
                                         ),
                                       },
-                                    );
+                                    );*/
                                   },
                                   child: Image.asset(
                                     'assets/images/pendientes.png',
@@ -1136,7 +1140,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.pushNamed('I29Calendario');
+                                //context.pushNamed('I29Calendario');
                               },
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -1147,7 +1151,8 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.pushNamed(
+                                     /*cambiar  
+                                     context.pushNamed(
                                         'I29Calendario',
                                         extra: <String, dynamic>{
                                           kTransitionInfoKey: TransitionInfo(
@@ -1157,7 +1162,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                             duration: Duration(milliseconds: 0),
                                           ),
                                         },
-                                      );
+                                      );*/
                                     },
                                     child: Image.asset(
                                       'assets/images/calendario.png',
@@ -1207,7 +1212,8 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.pushNamed('I37ajustesdeperfil');
+                              //cambiar
+                              //context.pushNamed('I37ajustesdeperfil');
                             },
                             child: Image.asset(
                               'assets/images/setting.png',
@@ -1253,7 +1259,8 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
-                        context.pushNamed('I40Notificaciones');
+                       //cambiar
+                       // context.pushNamed('I40Notificaciones');
                       },
                       child: Row(
                         mainAxisSize: MainAxisSize.max,

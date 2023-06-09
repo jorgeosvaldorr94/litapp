@@ -174,7 +174,7 @@ class _I192ofertapublicadaWidgetState extends State<I192ofertapublicadaWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.goNamed('I187bienvenido');
+                             // context.goNamed('I187bienvenido');
                             },
                             child: Container(
                               width: 122.0,

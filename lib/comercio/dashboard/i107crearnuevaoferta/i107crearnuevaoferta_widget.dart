@@ -133,7 +133,7 @@ class _I107crearnuevaofertaWidgetState extends State<I107crearnuevaofertaWidget>
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                               // context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -143,9 +143,9 @@ class _I107crearnuevaofertaWidgetState extends State<I107crearnuevaofertaWidget>
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                         /*   FFLocalizations.of(context).getText(
                               'qd817vwe' /* Crear una nueva oferta */,
-                            ),
+                            ),*/"",
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -492,7 +492,7 @@ class _I107crearnuevaofertaWidgetState extends State<I107crearnuevaofertaWidget>
                         highlightColor: Colors.transparent,
                         onTap: () async {
                           if (FFAppState().nivel == 'Mega Influencer') {
-                            context.pushNamed('I196Foto');
+                          //  context.pushNamed('I196Foto');
                           } else {
                             final offersCreateData = createOffersRecordData(
                               category: 'food',

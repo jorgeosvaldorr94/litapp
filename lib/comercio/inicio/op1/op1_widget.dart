@@ -150,7 +150,8 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                              // cambiar
+                              //  context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -578,7 +579,8 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                           hoverColor: Colors.transparent,
                                           highlightColor: Colors.transparent,
                                           onTap: () async {
-                                            if (widget.isMember == false) {
+                                           /* cambiar 
+                                           if (widget.isMember == false) {
                                               context.pushNamed(
                                                 'I18Membresias',
                                                 queryParameters: {
@@ -646,7 +648,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                   ),
                                                 }.withoutNulls,
                                               );
-                                            }
+                                            }*/
                                           },
                                           child: Container(
                                             width: 281.2,
@@ -1046,7 +1048,8 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                             hoverColor: Colors.transparent,
                                             highlightColor: Colors.transparent,
                                             onTap: () async {
-                                              if (widget.isMember == false) {
+                                            /* cambiar 
+                                             if (widget.isMember == false) {
                                                 context.pushNamed(
                                                   'I18Membresias',
                                                   queryParameters: {
@@ -1108,7 +1111,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                     ),
                                                   }.withoutNulls,
                                                 );
-                                              }
+                                              }*/
                                             },
                                             child: Container(
                                               width: 281.2,

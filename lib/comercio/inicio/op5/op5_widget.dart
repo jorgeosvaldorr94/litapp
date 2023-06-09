@@ -101,7 +101,8 @@ class _Op5WidgetState extends State<Op5Widget> {
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                               //cambiar
+                               // context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,

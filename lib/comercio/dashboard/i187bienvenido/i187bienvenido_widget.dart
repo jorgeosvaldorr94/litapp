@@ -140,7 +140,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('I112inicio');
+                        //  context.pushNamed('I112inicio');
                         },
                         child: Container(
                           width: 100.0,
@@ -204,7 +204,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed('I77');
+                                 //   context.pushNamed('I77');
                                   },
                                   child: Image.asset(
                                     'assets/images/sele.png',
@@ -224,7 +224,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed('I77');
+                                  //  context.pushNamed('I77');
                                   },
                                   child: Text(
                                     FFLocalizations.of(context).getText(
@@ -280,7 +280,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              context.pushNamed('I37ajustesdeperfil');
+                              //context.pushNamed('I37ajustesdeperfil');
                             },
                             child: Image.asset(
                               'assets/images/setting.png',
@@ -318,7 +318,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            context.pushNamed('I40Notificaciones');
+                         //   context.pushNamed('I40Notificaciones');
                           },
                           child: Image.asset(
                             'assets/images/Group_1000003360.png',
@@ -339,7 +339,8 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                   hoverColor: Colors.transparent,
                   highlightColor: Colors.transparent,
                   onTap: () async {
-                    context.pushNamed(
+                 /* cambio 
+                  context.pushNamed(
                       'op1',
                       queryParameters: {
                         'isMember': serializeParam(
@@ -347,7 +348,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                           ParamType.bool,
                         ),
                       }.withoutNulls,
-                    );
+                    );*/
                   },
                   child: wrapWithModel(
                     model: _model.yasosparteModel,

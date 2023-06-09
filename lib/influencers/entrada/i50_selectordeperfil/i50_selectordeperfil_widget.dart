@@ -79,7 +79,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+  //  context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -104,7 +104,8 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            context.pushNamed('I00INICIO');
+                           //cambiar
+                           // context.pushNamed('I00INICIO');
                           },
                           child: Container(
                             width: double.infinity,
@@ -141,10 +142,10 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                                               alignment: AlignmentDirectional(
                                                   0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                              /*  FFLocalizations.of(context)
                                                     .getText(
                                                   'rr00kqho' /* LOGO */,
-                                                ),
+                                                ),*/"2222",
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium,
@@ -164,10 +165,10 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                                     mainAxisSize: MainAxisSize.max,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text(
-                                        FFLocalizations.of(context).getText(
+                                      Text("fff"
+                                      /*  FFLocalizations.of(context).getText(
                                           'w668u0ep' /* INFLUENCER */,
-                                        ),
+                                        ),*/,
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
@@ -193,7 +194,8 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed('I7');
+                          //cambiar
+                          //context.pushNamed('I7');
                         },
                         child: Container(
                           width: double.infinity,
@@ -210,10 +212,10 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Text(
-                                  FFLocalizations.of(context).getText(
+                                Text("aaa"
+                                 /* FFLocalizations.of(context).getText(
                                     '3floxn8e' /* COMERCIO */,
-                                  ),
+                                  ),*/,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

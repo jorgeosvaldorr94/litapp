@@ -404,9 +404,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 'dwamur0q' /* Chat */,
-                              ),
+                              ),*/"",
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -453,9 +453,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'yltgerjb' /* Cerrar sesión */,
-                              ),
+                              ),*/"",
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

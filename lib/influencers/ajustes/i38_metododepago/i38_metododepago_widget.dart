@@ -94,7 +94,8 @@ class _I38MetododepagoWidgetState extends State<I38MetododepagoWidget> {
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.safePop();
+                                      //cambiar
+                                      //context.safePop();
                                     },
                                     child: Icon(
                                       Icons.chevron_left,

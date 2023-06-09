@@ -52,7 +52,8 @@ class _I202masinformacionenviodemailWidgetState
     SchedulerBinding.instance.addPostFrameCallback((_) async {
       await Future.delayed(const Duration(milliseconds: 2000));
 
-      context.pushNamed('I20listadodeofertas');
+    //cambiar
+    //  context.pushNamed('I20listadodeofertas');
     });
   }
 

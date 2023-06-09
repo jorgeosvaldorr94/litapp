@@ -82,7 +82,8 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.safePop();
+                               //cambiar
+                               //   context.safePop();
                                 },
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -612,7 +613,8 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      context.safePop();
+                      // cambiar
+                      // context.safePop();
                     },
                     child: Container(
                       width: 391.0,

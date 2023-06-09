@@ -112,7 +112,8 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                               //cambio
+                               // context.safePop();
                               },
                               child: Icon(
                                 Icons.chevron_left,
@@ -1024,7 +1025,8 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
-                        context.pushNamed(
+                     /* cambiar  
+                      context.pushNamed(
                           'I107crearnuevaoferta',
                           queryParameters: {
                             'fecha': serializeParam(
@@ -1048,7 +1050,7 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                               ParamType.String,
                             ),
                           }.withoutNulls,
-                        );
+                        );*/
                       },
                       child: Container(
                         width: 391.0,

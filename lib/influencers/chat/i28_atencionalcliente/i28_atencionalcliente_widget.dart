@@ -727,7 +727,8 @@ gracias! 1... */
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.pushNamed(
+                                     /* cambiar 
+                                     context.pushNamed(
                                         'I20listadodeofertas',
                                         extra: <String, dynamic>{
                                           kTransitionInfoKey: TransitionInfo(
@@ -737,7 +738,7 @@ gracias! 1... */
                                             duration: Duration(milliseconds: 0),
                                           ),
                                         },
-                                      );
+                                      );*/
                                     },
                                     child: Image.asset(
                                       'assets/images/inicio1.png',
@@ -769,6 +770,7 @@ gracias! 1... */
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
+                                      /*cambiar
                                       context.pushNamed(
                                         'I24missolicitudes',
                                         extra: <String, dynamic>{
@@ -779,7 +781,7 @@ gracias! 1... */
                                             duration: Duration(milliseconds: 0),
                                           ),
                                         },
-                                      );
+                                      );*/
                                     },
                                     child: Image.asset(
                                       'assets/images/pendientes.png',
@@ -799,7 +801,9 @@ gracias! 1... */
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.pushNamed(
+                                    /* cambiar  
+                                    
+                                    context.pushNamed(
                                         'I29Calendario',
                                         extra: <String, dynamic>{
                                           kTransitionInfoKey: TransitionInfo(
@@ -809,7 +813,7 @@ gracias! 1... */
                                             duration: Duration(milliseconds: 0),
                                           ),
                                         },
-                                      );
+                                      );*/
                                     },
                                     child: Image.asset(
                                       'assets/images/calendario.png',

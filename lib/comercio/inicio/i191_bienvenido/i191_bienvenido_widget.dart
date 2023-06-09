@@ -149,7 +149,8 @@ class _I191BienvenidoWidgetState extends State<I191BienvenidoWidget>
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
-                        context.pushNamed('I77');
+                       // cambiar
+                       // context.pushNamed('I77');
                       },
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
@@ -174,7 +175,8 @@ class _I191BienvenidoWidgetState extends State<I191BienvenidoWidget>
                 hoverColor: Colors.transparent,
                 highlightColor: Colors.transparent,
                 onTap: () async {
-                  context.pushNamed('op5');
+                  //cambiar
+                  //context.pushNamed('op5');
                 },
                 child: wrapWithModel(
                   model: _model.yasosparteModel,
