@@ -111,9 +111,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'j8b2ifvr' /* Comercios */,
-                            ),
+                            ),*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -159,9 +159,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'q4kbplx7' /* Notificaciones */,
-                              ),
+                              ),*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -208,9 +208,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'mc8ktnre' /* Membresias */,
-                              ),
+                              ),*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -257,9 +257,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 '8sxcmq3a' /* Influencers */,
-                              ),
+                              ),*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -306,9 +306,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'jsvkpokj' /* Ofertas */,
-                              ),
+                              ),*/ '',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -355,9 +355,9 @@ class _SideBarWidgetState extends State<SideBarWidget> {
                               ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'x2h7h7yt' /* Administración general */,
-                              ),
+                              ),*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

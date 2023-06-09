@@ -419,9 +419,9 @@ class _I107crearnuevaofertaWidgetState extends State<I107crearnuevaofertaWidget>
                       padding:
                           EdgeInsetsDirectional.fromSTEB(30.0, 34.0, 0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                      /*  FFLocalizations.of(context).getText(
                           'nakgys59' /* Descripción del beneficio */,
-                        ),
+                        ),*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontSize: 18.0,
@@ -501,8 +501,9 @@ class _I107crearnuevaofertaWidgetState extends State<I107crearnuevaofertaWidget>
                               schedule: dateTimeFormat(
                                 'd/M h:mm a',
                                 widget.fecha,
-                                locale:
-                                    FFLocalizations.of(context).languageCode,
+                                locale: ''
+                                   //cambio
+                                   // FFLocalizations.of(context).languageCode,),
                               ),
                               placeName: valueOrDefault(
                                   currentUserDocument?.nombrecomercio, ''),
@@ -569,9 +570,9 @@ class _I107crearnuevaofertaWidgetState extends State<I107crearnuevaofertaWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                       /*   FFLocalizations.of(context).getText(
                                             '5xvlom3g' /* CREAR */,
-                                          ),
+                                          ),*/ "",
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

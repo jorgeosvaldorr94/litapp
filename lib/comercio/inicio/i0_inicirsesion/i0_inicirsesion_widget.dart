@@ -251,9 +251,9 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                               child: Align(
                                 alignment: AlignmentDirectional(0.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'qhjb2xh1' /* INICIAR SESION */,
-                                  ),
+                                  ),*/ "",
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

@@ -123,9 +123,9 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                        /*    FFLocalizations.of(context).getText(
                               'dep7v5mr' /* Crear una nueva oferta */,
-                            ),
+                            ),*/"",
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -611,9 +611,9 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                                 Align(
                                   alignment: AlignmentDirectional(-1.0, 0.3),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                 /*   FFLocalizations.of(context).getText(
                                       '66gh667i' /* Fecha/Hora */,
-                                    ),
+                                    ),*/"",
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
@@ -683,10 +683,10 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                                         controller: _model.cantidadiController,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          hintText: FFLocalizations.of(context)
+                                          /*hintText: FFLocalizations.of(context)
                                               .getText(
                                             'lwu998u6' /* Cantidad de influencer  */,
-                                          ),
+                                          ),*/
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodySmall
@@ -800,9 +800,9 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                                       () => _model.placePickerValue = place);
                                 },
                                 defaultText:
-                                    FFLocalizations.of(context).getText(
+                                /*    FFLocalizations.of(context).getText(
                                   'zdfrybg2' /* Ubicacion */,
-                                ),
+                                ),*/"",
                                 buttonOptions: FFButtonOptions(
                                   width: double.infinity,
                                   height: double.infinity,
@@ -841,9 +841,9 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(30.0, 30.0, 0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                       /* FFLocalizations.of(context).getText(
                           'tmol1lv0' /* Descripción del trabajo */,
-                        ),
+                        ),*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontSize: 18.0,
@@ -983,9 +983,9 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                                         MainAxisAlignment.spaceAround,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                        /*FFLocalizations.of(context).getText(
                                           'arpxgxg9' /* Cargar imágenes (opcional) */,
-                                        ),
+                                        ),*/ '',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(

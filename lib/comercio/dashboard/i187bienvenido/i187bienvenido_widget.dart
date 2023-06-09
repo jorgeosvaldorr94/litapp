@@ -152,9 +152,9 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                           child: Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                           /*   FFLocalizations.of(context).getText(
                                 'zhozyark' /* LOGO */,
-                              ),
+                              ),*/ '',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -173,9 +173,9 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 11.0, 0.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
+                    /*  FFLocalizations.of(context).getText(
                         'bfytz9ge' /* ¡Bienvenido! */,
-                      ),
+                      ),*/"",
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
@@ -227,9 +227,9 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                                   //  context.pushNamed('I77');
                                   },
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       '8b19f0b1' /* Subí una nueva oferta */,
-                                    ),
+                                    ),*/"",
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -296,9 +296,9 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             'rgjfoj7z' /* Comercio */,
-                          ),
+                          ),*/ '',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',

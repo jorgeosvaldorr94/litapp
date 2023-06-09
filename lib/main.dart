@@ -25,9 +25,9 @@ void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
   await initFirebase();
 
-  await FlutterFlowTheme.initialize();
+ /* await FlutterFlowTheme.initialize();
   await FFLocalizations.initialize();
-
+*/
   final appState = FFAppState(); // Initialize FFAppState
   await appState.initializePersistedState();
 
