@@ -23,7 +23,15 @@ import 'backend/stripe/payment_manager.dart';
 
 void main(List<String> args)  {
   WidgetsFlutterBinding.ensureInitialized();
+   //initFirebase();
+   FlutterFlowTheme.initialize();
    initFirebase();
+
+  FlutterFlowTheme.initialize();
+ //  FFLocalizations.initialize();
+
+  final appState = FFAppState(); // Initialize FFAppState
+   appState.initializePersistedState();
  initializeStripe();
   runApp(
     const MyApp());

@@ -22,7 +22,7 @@ import '../routes/routes.dart';
 
 import '../backend/stripe/payment_manager.dart';
 
-import 'package:faker/faker.dart';
+
 import 'package:flutter/material.dart';
 
 
@@ -36,12 +36,21 @@ class HomeLit extends StatefulWidget {
 }
 
 class _HomeLitState extends State<HomeLit> {
-  
+    ThemeMode _themeMode = FlutterFlowTheme.themeMode;
+
+  late Stream<BaseAuthUser> userStream;
+
+  // AppStateNotifier _appStateNotifier;
+  //late GoRouter _router;
+
+  //final authUserSub = authenticatedUserStream.listen((_) {});
+
 
   @override
   void initState() {
     super.initState();
-
+    //probar conexion de firebase
+//userStream = litAppFirebaseUserStream();
    
    
   }

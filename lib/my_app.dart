@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lit_app/influencers/entrada/i00inicio/i00inicio_widget.dart';
 import 'package:lit_app/sprint1/homelit.dart';
+import 'package:lit_app/sprint2/i50selector/i50selector_widget.dart';
 import 'flutter_flow/internationalization.dart';
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
@@ -16,13 +17,13 @@ class MyApp extends StatelessWidget {
 
     
     return  MaterialApp(
-     /* home: Navigator(
+      home: Navigator(
        pages: [
-        MaterialPage(child: I00inicioWidget())
+        MaterialPage(child: I50selectorWidget() )
        ], 
-      ),*/
-    initialRoute: Routes.initialize,
-     routes: appRoutes,
+      ),
+    /*initialRoute: Routes.initialize,
+     routes: appRoutes,*/
     );
   }
   

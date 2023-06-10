@@ -35,7 +35,7 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   // context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -84,9 +84,9 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                                         alignment:
                                             AlignmentDirectional(0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).(
                                             'p0bbct9i' /* LOGO */,
-                                          ),
+                                          )*/ 'LOGO',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
                                         ),
@@ -102,10 +102,10 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text(
+                                    Text(/*
                                       FFLocalizations.of(context).getText(
                                         'duv4r07f' /* INFLUENCER */,
-                                      ),
+                                      )*/'INFLUENCER',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -138,10 +138,10 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Text(
+                              Text(/*
                                 FFLocalizations.of(context).getText(
                                   'x0nf9gfg' /* COMERCIO */,
-                                ),
+                                )*/'COMERCIO',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
