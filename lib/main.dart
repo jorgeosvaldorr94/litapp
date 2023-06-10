@@ -21,12 +21,12 @@ import '../routes/routes.dart';
 
 import 'backend/stripe/payment_manager.dart';
 
-void main(List<String> args) async {
+void main(List<String> args)  {
   WidgetsFlutterBinding.ensureInitialized();
-  await initFirebase();
-await initializeStripe();
-  runApp(ChangeNotifierProvider(create: (BuildContext context) {  },
-  child:MyApp()));
+   initFirebase();
+ initializeStripe();
+  runApp(
+    const MyApp());
    
     
       
