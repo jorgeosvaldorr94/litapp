@@ -105,9 +105,9 @@ class _I168WidgetState extends State<I168Widget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               '0hc8zrdk' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -142,9 +142,9 @@ class _I168WidgetState extends State<I168Widget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'wdh39kjm' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium

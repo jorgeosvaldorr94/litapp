@@ -105,9 +105,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'hkmb3mf3' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -142,9 +142,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'lq6qnr9w' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -188,9 +188,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'xsxh1dae' /* Oro */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -225,9 +225,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'f9z5h1uo' /* 50 $ */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -245,9 +245,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   '6utdmu7h' /* 30 Influencers */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -266,9 +266,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                               children: [
                                 Expanded(
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       '075jj52n' /* Lorem ipsum dolor sit amet con... */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -288,9 +288,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                /*  FFLocalizations.of(context).getText(
                                     'goj4v46c' /* Método de pago */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -344,9 +344,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                     textStyle:
                                         FlutterFlowTheme.of(context).bodyMedium,
                                     hintText:
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                       'qilrov6f' /* Pago */,
-                                    ),
+                                    )*/'',
                                     searchHintText: '',
                                     fillColor: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
@@ -384,9 +384,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           55.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                     /*   FFLocalizations.of(context).getText(
                                           '7l0vw7hq' /* Sincronizar */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -443,9 +443,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           6.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           'y4pv5d8k' /* Sincronizar */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -523,9 +523,9 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'rdhq7weg' /* UPGRADE */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

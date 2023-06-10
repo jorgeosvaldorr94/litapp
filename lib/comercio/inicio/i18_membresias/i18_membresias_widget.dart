@@ -203,9 +203,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'izp626fn' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -249,9 +249,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'ddct1cud' /* Oro */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -287,9 +287,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                /*  FFLocalizations.of(context).getText(
                                     'nj12rdtb' /* 50 $ */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -307,9 +307,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   'kr8grcav' /* 30 Influencers */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -328,9 +328,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                               children: [
                                 Expanded(
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'uobegcxk' /* Lorem ipsum dolor sit amet con... */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -414,9 +414,9 @@ class _I18MembresiasWidgetState extends State<I18MembresiasWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                      /*    FFLocalizations.of(context).getText(
                                             'o8akdfnm' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

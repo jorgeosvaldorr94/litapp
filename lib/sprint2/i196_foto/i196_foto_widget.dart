@@ -83,9 +83,9 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           '2lvbkoz1' /* Kristin Watson, 24 */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -108,9 +108,9 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 2.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                        /*  FFLocalizations.of(context).getText(
                                             'ew2eefud' /* Modelo */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -169,9 +169,9 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'culxz6vn' /* Juan Carlo, 61 */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -194,9 +194,9 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 2.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                      /*    FFLocalizations.of(context).getText(
                                             'nv4u8fwj' /* Modelo */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -255,9 +255,9 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'lcwpb0v7' /* Kristin Watson, 24 */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -280,9 +280,9 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 2.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                       /*   FFLocalizations.of(context).getText(
                                             'x3mf0wp4' /* Modelo */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(

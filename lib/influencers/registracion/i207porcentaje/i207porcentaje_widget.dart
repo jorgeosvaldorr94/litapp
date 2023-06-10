@@ -124,9 +124,9 @@ class _I207porcentajeWidgetState extends State<I207porcentajeWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           'i8nn89wn' /* 10% */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -205,9 +205,9 @@ class _I207porcentajeWidgetState extends State<I207porcentajeWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           'i4lfw7sy' /* 15% */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -286,9 +286,9 @@ class _I207porcentajeWidgetState extends State<I207porcentajeWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           '9lk5xjl5' /* 25% */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(

@@ -99,9 +99,9 @@ class _I39comercioWidgetState extends State<I39comercioWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         '2hn3gckx' /* Redireccionando a Mercado Pago... */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',

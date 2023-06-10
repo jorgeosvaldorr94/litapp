@@ -103,9 +103,9 @@ class _I51RegistroexitosoWidgetState extends State<I51RegistroexitosoWidget> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
+                   /* FFLocalizations.of(context).getText(
                       'nvx3t073' /* Registro exitoso! */,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Albra',
@@ -124,9 +124,9 @@ class _I51RegistroexitosoWidgetState extends State<I51RegistroexitosoWidget> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
+                   /* FFLocalizations.of(context).getText(
                       '5mkon361' /* Estamos evaluando tu perfil. E... */,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Brandon',
@@ -144,9 +144,9 @@ class _I51RegistroexitosoWidgetState extends State<I51RegistroexitosoWidget> {
                 onPressed: () {
                   print('Button pressed ...');
                 },
-                text: FFLocalizations.of(context).getText(
+                text: /*FFLocalizations.of(context).getText(
                   's9ax2123' /* CONTINUAR */,
-                ),
+                )*/'',
                 options: FFButtonOptions(
                   width: 178.0,
                   height: 38.0,

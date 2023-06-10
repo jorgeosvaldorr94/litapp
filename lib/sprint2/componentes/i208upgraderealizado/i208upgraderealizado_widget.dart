@@ -128,9 +128,9 @@ class _I208upgraderealizadoWidgetState
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: FFLocalizations.of(context).getText(
+                  text: /*FFLocalizations.of(context).getText(
                     'bcaxbd16' /* CONTINUAR */,
-                  ),
+                  )*/'',
                   options: FFButtonOptions(
                     width: 178.0,
                     height: 38.0,

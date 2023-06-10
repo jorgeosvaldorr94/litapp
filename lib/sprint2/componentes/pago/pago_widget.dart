@@ -94,9 +94,9 @@ class _PagoWidgetState extends State<PagoWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   '2zvmxtf6' /* Mensual */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -112,9 +112,9 @@ class _PagoWidgetState extends State<PagoWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 '7u1a2yf6' /* 5% off */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -175,9 +175,9 @@ class _PagoWidgetState extends State<PagoWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   '0i4tvc6m' /* Trimestral */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -193,9 +193,9 @@ class _PagoWidgetState extends State<PagoWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
+                              /*FFLocalizations.of(context).getText(
                                 '8pvuzglb' /* 20% off */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -256,9 +256,9 @@ class _PagoWidgetState extends State<PagoWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'cgjs9jbw' /* Anual */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -274,9 +274,9 @@ class _PagoWidgetState extends State<PagoWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
+                            /* FFLocalizations.of(context).getText(
                                 'c9f3wd4b' /* 50% off */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

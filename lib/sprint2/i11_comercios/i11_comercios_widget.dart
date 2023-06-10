@@ -210,9 +210,9 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             'rg4j6x4g' /* COMERCIO */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',

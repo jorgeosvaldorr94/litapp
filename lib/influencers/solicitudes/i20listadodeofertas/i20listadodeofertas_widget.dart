@@ -208,9 +208,9 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 15.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   'c2cdvwew' /* Comida */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -435,11 +435,11 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                                       MainAxisAlignment.end,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'xa276vi6' /* 2Km */,
-                                                      ),
+                                                      )*/'',
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -484,9 +484,9 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 15.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'cvawfwdg' /* Fitness */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -576,10 +576,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                  /*FFLocalizations.of(context)
                                                       .getText(
                                                     'urh6z0sx' /* Drinks + entrada */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -606,10 +606,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                                       .fromSTEB(
                                                           0.0, 2.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                 /*   FFLocalizations.of(context)
                                                         .getText(
                                                       '72d6rutm' /* De 18:00 - 19:30pm */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -635,10 +635,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     '2lou2ygw' /* NEGRONI */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -833,10 +833,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                                   MainAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     'r1wrk7l2' /* 2Km */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -916,10 +916,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                  /*FFLocalizations.of(context)
                                                       .getText(
                                                     'wmht69g9' /* Drinks + entrada */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -975,10 +975,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     '9g3mmwko' /* NEGRONI */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -1003,10 +1003,10 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                                   MainAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     '5dtuwbbh' /* 2Km */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -1230,9 +1230,9 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             '2go60xkj' /* Buenos Aires */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',

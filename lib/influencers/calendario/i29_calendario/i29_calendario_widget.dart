@@ -171,9 +171,9 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   '1iba03c9' /* Calendario */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -230,7 +230,7 @@ class _I29CalendarioWidgetState extends State<I29CalendarioWidget>
                               dateStyle: TextStyle(),
                               selectedDateStyle: TextStyle(),
                               inactiveDateStyle: TextStyle(),
-                              locale: FFLocalizations.of(context).languageCode,
+                              locale:/*FFLocalizations.of(context).languageCode,*/''
                             ),
                           ],
                         ).animateOnPageLoad(

@@ -127,9 +127,9 @@ class _I36CerrarSesionWidgetState extends State<I36CerrarSesionWidget>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                  /*FFLocalizations.of(context).getText(
                                     '834ecagq' /* Cerrar Sesión */,
-                                  ),
+                                  )*/'',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -144,11 +144,11 @@ class _I36CerrarSesionWidgetState extends State<I36CerrarSesionWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 9.0, 0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                  /* FFLocalizations.of(context).getText(
                                       '16zosju0' /* Estás seguro de que querés
 cer... */
                                       ,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -205,9 +205,9 @@ cer... */
                                   child: Align(
                                     alignment: AlignmentDirectional(0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'o3mgnk1z' /* CERRAR SESIÓN */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -248,9 +248,9 @@ cer... */
                                 child: Align(
                                   alignment: AlignmentDirectional(0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'v97dlnl4' /* CANCELAR */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

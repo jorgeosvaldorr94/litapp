@@ -72,11 +72,11 @@ class _I14MensajeClaveIncorrectaWidgetState
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
+                     /*   FFLocalizations.of(context).getText(
                           'lziad38j' /* ¡Las contraseñas 
 no coinciden... */
                           ,
-                        ),
+                        )*/'',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Albra',
@@ -95,9 +95,9 @@ no coinciden... */
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
+                       /* FFLocalizations.of(context).getText(
                           'svbjmbyk' /* Verificá que ambas contraseñas... */,
-                        ),
+                        )*/'',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
@@ -116,9 +116,9 @@ no coinciden... */
                     onPressed: () {
                       print('Button pressed ...');
                     },
-                    text: FFLocalizations.of(context).getText(
+                    text:/* FFLocalizations.of(context).getText(
                       'tz7yefw3' /* REINTENTAR */,
-                    ),
+                    )*/'',
                     options: FFButtonOptions(
                       width: 178.0,
                       height: 38.0,

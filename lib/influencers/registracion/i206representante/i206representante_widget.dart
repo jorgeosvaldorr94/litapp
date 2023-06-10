@@ -60,9 +60,9 @@ class _I206representanteWidgetState extends State<I206representanteWidget> {
               controller: _model.textController1,
               obscureText: false,
               decoration: InputDecoration(
-                hintText: FFLocalizations.of(context).getText(
+                hintText: /*FFLocalizations.of(context).getText(
                   '12x8hfkh' /* Nombre del representante */,
-                ),
+                )*/'',
                 hintStyle: FlutterFlowTheme.of(context).bodySmall.override(
                       fontFamily: 'Brandon',
                       fontSize: 18.0,
@@ -133,9 +133,9 @@ class _I206representanteWidgetState extends State<I206representanteWidget> {
               },
               obscureText: false,
               decoration: InputDecoration(
-                hintText: FFLocalizations.of(context).getText(
+                hintText: /*FFLocalizations.of(context).getText(
                   'ghqvofof' /* Porcentaje del representante */,
-                ),
+                )*/'',
                 hintStyle: FlutterFlowTheme.of(context).bodySmall.override(
                       fontFamily: 'Brandon',
                       fontSize: 18.0,

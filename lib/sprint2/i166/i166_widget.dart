@@ -102,7 +102,7 @@ class _I166WidgetState extends State<I166Widget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'yquba9xh' /* COMERCIO */,
                             ),
                             style: FlutterFlowTheme.of(context)
@@ -111,7 +111,7 @@ class _I166WidgetState extends State<I166Widget> {
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.normal,
                                   useGoogleFonts: false,
-                                ),
+                                ),*/''
                           ),
                           Container(
                             width: 50.0,
@@ -139,9 +139,9 @@ class _I166WidgetState extends State<I166Widget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'l7bs7wtu' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -185,9 +185,9 @@ class _I166WidgetState extends State<I166Widget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                  /*FFLocalizations.of(context).getText(
                                     'l51ru6go' /* Platinum */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -222,9 +222,9 @@ class _I166WidgetState extends State<I166Widget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'cv58q9az' /* 100 $ */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -242,9 +242,9 @@ class _I166WidgetState extends State<I166Widget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   'rpx7cji1' /* 100 Influencers */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -263,9 +263,9 @@ class _I166WidgetState extends State<I166Widget> {
                               children: [
                                 Expanded(
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       '1p8v510b' /* Lorem ipsum dolor sit amet con... */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -319,9 +319,9 @@ class _I166WidgetState extends State<I166Widget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                        /*FFLocalizations.of(context).getText(
                                           'xqf7s2d6' /* UPGRADE */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

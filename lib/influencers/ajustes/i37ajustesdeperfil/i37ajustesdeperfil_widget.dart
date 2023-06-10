@@ -223,9 +223,9 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 5.0, 120.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                  /*FFLocalizations.of(context).getText(
                                     '72x7xb3k' /* Ajustes */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -282,9 +282,9 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 50.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'snvtog7t' /* Claudia Fernandez */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -297,12 +297,12 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                         'textOnPageLoadAnimation1']!),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'md5mjyf3' /* @clau.fern
 
  */
                                       ,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -406,10 +406,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     'o5js6wsu' /* Mi cuenta */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -427,10 +427,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                /* FFLocalizations.of(context)
                                                       .getText(
                                                     'y7w8zqmk' /* Usuario, contraseña... */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -543,10 +543,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     '4k8f3knh' /* Soporte Técnico */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -564,10 +564,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     '6ojnhlwn' /* Responde tus preguntas... */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -680,10 +680,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                  /*FFLocalizations.of(context)
                                                       .getText(
                                                     'ud9evqcj' /* Método de pago */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -701,10 +701,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                  /*FFLocalizations.of(context)
                                                       .getText(
                                                     'utynvfdi' /* La mejor manera de recibir los... */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -793,9 +793,9 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                     child: Align(
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                       /* FFLocalizations.of(context).getText(
                           'dgo2m3qb' /* CERRAR SESIÓN */,
-                        ),
+                        )*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontWeight: FontWeight.w500,

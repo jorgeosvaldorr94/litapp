@@ -281,9 +281,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 1.0, 10.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 '7xwzd3ul' /* 1 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -324,9 +324,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'mqz5xehl' /* 2 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -366,9 +366,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                           /*   FFLocalizations.of(context).getText(
                                 'up8ct5i7' /* 3 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -423,9 +423,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                               animationsMap['iconOnPageLoadAnimation']!),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             'ulhvsyu8' /* INFLUENCERS */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -452,9 +452,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             'vlffg9jx' /* Registrar */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -475,9 +475,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       controller: _model.emailController,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText:/* FFLocalizations.of(context).getText(
                           '2ri837qc' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -539,9 +539,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       controller: _model.claveController,
                       obscureText: !_model.claveVisibility,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /* FFLocalizations.of(context).getText(
                           '4xo0u3yc' /* Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -617,9 +617,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       controller: _model.confirmarclaveController,
                       obscureText: !_model.confirmarclaveVisibility,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           '912gsmqc' /* Confirmar Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -695,9 +695,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             'pvt3efh2' /* Use las redes sociales para re... */,
-                          ),
+                          )*/'',
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
@@ -919,9 +919,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                               text: TextSpan(
                                 children: [
                                   TextSpan(
-                                    text: FFLocalizations.of(context).getText(
+                                    text:/* FFLocalizations.of(context).getText(
                                       'iq6vnd6p' /* ¿Ya tenés cuenta? */,
-                                    ),
+                                    )*/'',
                                     style: TextStyle(
                                       fontFamily: 'Brandon',
                                       fontWeight: FontWeight.w300,
@@ -929,9 +929,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                     ),
                                   ),
                                   TextSpan(
-                                    text: FFLocalizations.of(context).getText(
+                                    text:/* FFLocalizations.of(context).getText(
                                       '8mft0x2d' /* Ingresá acá */,
-                                    ),
+                                    )*/'',
                                     style: TextStyle(
                                       fontFamily: 'Brandon',
                                       fontWeight: FontWeight.w300,
@@ -1010,9 +1010,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 0.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'buyqwset' /* Acepto los términos y condicio... */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -1057,9 +1057,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           12.0, 14.0, 10.0, 14.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'as0gfc3t' /* Lorem ipsum dolor sit amet con... */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -1265,9 +1265,9 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'psmak8r9' /* CONTINUAR */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

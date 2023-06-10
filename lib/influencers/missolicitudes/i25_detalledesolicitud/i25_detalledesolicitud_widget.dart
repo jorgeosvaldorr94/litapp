@@ -221,9 +221,9 @@ class _I25DetalledesolicitudWidgetState
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                              /*    FFLocalizations.of(context).getText(
                                     'cg0497t5' /* Drinks + entrada */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -239,9 +239,9 @@ class _I25DetalledesolicitudWidgetState
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                               /*   FFLocalizations.of(context).getText(
                                     'hwbv57ly' /* Pasá entre las 18:00 - 19:30pm */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -364,9 +364,9 @@ class _I25DetalledesolicitudWidgetState
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         4.0, 3.0, 4.0, 4.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
+                                      /*FFLocalizations.of(context).getText(
                                         'j0pu6nkh' /* 2km */,
-                                      ),
+                                      )*/'',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -418,10 +418,10 @@ class _I25DetalledesolicitudWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 6.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
+                                              /*FFLocalizations.of(context)
                                                   .getText(
                                                 'nh5vrgow' /* NEGRONI */,
-                                              ),
+                                              )*/'',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -459,9 +459,9 @@ class _I25DetalledesolicitudWidgetState
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       '2nzzldb6' /* Av. Santa Fe 19888 */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -533,9 +533,9 @@ class _I25DetalledesolicitudWidgetState
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'fjb9imrn' /* Código - AD1234  */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -554,9 +554,9 @@ class _I25DetalledesolicitudWidgetState
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 3.0, 0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       's0uld9cm' /* Disfrutá una porción de pan o ... */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -575,11 +575,11 @@ class _I25DetalledesolicitudWidgetState
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 5.0, 0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'bjdgeooc' /* Dejanos tu reseña en Google!
  */
                                       ,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

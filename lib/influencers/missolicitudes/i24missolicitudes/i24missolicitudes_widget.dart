@@ -326,9 +326,9 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   'hkud7ua5' /* Mis solicitudes */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -540,11 +540,11 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                                             .fromSTEB(0.0, 11.0,
                                                                 0.0, 0.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'yp8qpp6k' /* En proceso */,
-                                                      ),
+                                                      )*/'',
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)

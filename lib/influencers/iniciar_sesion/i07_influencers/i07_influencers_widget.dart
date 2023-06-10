@@ -244,9 +244,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'aq6mnpob' /* Iniciar Sesión */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -268,9 +268,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         controller: _model.emailController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'wjn72zq7' /* E-mail */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -340,9 +340,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                             desktop: false,
                           ))
                             Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 '233sok0q' /* Olvidé mi mail */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -364,9 +364,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         controller: _model.claveController,
                         obscureText: !_model.claveVisibility,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText:/*FFLocalizations.of(context).getText(
                             '28oyqje9' /* Contraseña */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -462,9 +462,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                               );*/
                             },
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'ucfw6ed1' /* Olvide mi contraseña */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -487,9 +487,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 60.0, 0.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                            /*FFLocalizations.of(context).getText(
                               'dso4mwgj' /* Use las redes sociales para in... */,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -763,9 +763,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                          /*FFLocalizations.of(context).getText(
                                             '1gwusawk' /* INICIAR SESION */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

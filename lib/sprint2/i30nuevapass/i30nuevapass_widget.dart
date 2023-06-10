@@ -203,9 +203,9 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /* FFLocalizations.of(context).getText(
                           'kr3upoa8' /* Nueva Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -301,9 +301,9 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           '27o4fqsv' /* CONFIRMAR */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

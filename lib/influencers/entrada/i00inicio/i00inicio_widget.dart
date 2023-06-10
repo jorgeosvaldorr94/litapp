@@ -94,9 +94,9 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'llo98c4u' /* NOMBRE DE LA APP */,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -124,9 +124,9 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                         child: Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                         /*   FFLocalizations.of(context).getText(
                               'lmn7wvkx' /* LOGO */,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -145,7 +145,8 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                 Padding(
                   padding:
                       EdgeInsetsDirectional.fromSTEB(25.0, 550.0, 27.0, 0.0),
-                  child: FFButtonWidget(
+                  child: Text('')
+                  /* FFButtonWidget(
                     onPressed: () async {
                       /* cambiar
                       context.pushNamed(
@@ -158,9 +159,9 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                         }.withoutNulls,
                       );*/
                     },
-                    text: FFLocalizations.of(context).getText(
+                    text: /*FFLocalizations.of(context).getText(
                       '387f0t2a' /* INICIAR SESION */,
-                    ),
+                    )*/'',
                     options: FFButtonOptions(
                       width: 338.0,
                       height: 56.0,
@@ -224,7 +225,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                       ),
                       borderRadius: BorderRadius.circular(8.0),
                     ),
-                  ),
+                  ),*/
                 ),
               ],
             ),

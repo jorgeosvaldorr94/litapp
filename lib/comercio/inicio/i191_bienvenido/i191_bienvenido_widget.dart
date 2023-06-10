@@ -108,9 +108,9 @@ class _I191BienvenidoWidgetState extends State<I191BienvenidoWidget>
                         child: Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'nf5igd7c' /* LOGO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -128,9 +128,9 @@ class _I191BienvenidoWidgetState extends State<I191BienvenidoWidget>
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 11.0, 0.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         '7e256607' /* ¡Bienvenido! */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',

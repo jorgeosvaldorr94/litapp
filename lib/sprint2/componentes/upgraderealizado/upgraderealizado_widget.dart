@@ -74,9 +74,9 @@ class _UpgraderealizadoWidgetState extends State<UpgraderealizadoWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                       /* FFLocalizations.of(context).getText(
                           'hreozumr' /* Upgrade realizado! */,
-                        ),
+                        )*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontSize: 20.0,

@@ -1077,9 +1077,9 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           '64ldl9x5' /* CONTINUAR */,
-                                        ),
+                                        ),*/ '',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

@@ -149,9 +149,9 @@ class _I194vacarchatWidgetState extends State<I194vacarchatWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   'sq05mjol' /* Atención al Cliente */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -215,9 +215,9 @@ class _I194vacarchatWidgetState extends State<I194vacarchatWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'dlwdojew' /* Martes, 15 */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -236,9 +236,9 @@ class _I194vacarchatWidgetState extends State<I194vacarchatWidget> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'ih2iqd6c' /* Todavía no tenés mensajes! */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -289,9 +289,9 @@ class _I194vacarchatWidgetState extends State<I194vacarchatWidget> {
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(
-                              hintText: FFLocalizations.of(context).getText(
+                              hintText: /*FFLocalizations.of(context).getText(
                                 'kgiugcuc' /* Escribir... */,
-                              ),
+                              )*/'',
                               hintStyle: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(

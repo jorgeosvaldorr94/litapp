@@ -73,9 +73,9 @@ class _FilterWidgetState extends State<FilterWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
+                       /*FFLocalizations.of(context).getText(
                           'fq6b649z' /* Mejor a peor */,
-                        ),
+                        )*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontSize: 9.0,
@@ -115,9 +115,9 @@ class _FilterWidgetState extends State<FilterWidget> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  FFLocalizations.of(context).getText(
+                /*  FFLocalizations.of(context).getText(
                     'ap6510n3' /* Mas recientes */,
-                  ),
+                  )*/'',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Brandon',
                         fontSize: 9.0,

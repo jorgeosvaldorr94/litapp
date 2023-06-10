@@ -309,9 +309,9 @@ class _I40notificacionescomercioWidgetState
                                     mainAxisAlignment: MainAxisAlignment.end,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                       /*FFLocalizations.of(context).getText(
                                           'j9l5j0x5' /* Hoy 12:00 */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -364,9 +364,9 @@ class _I40notificacionescomercioWidgetState
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           'rqejleqc' /* ¡Este mes tuviste 30 contratac... */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -387,9 +387,9 @@ class _I40notificacionescomercioWidgetState
                                     mainAxisAlignment: MainAxisAlignment.end,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                     /*   FFLocalizations.of(context).getText(
                                           'c7v7z0m3' /* Hoy 12:00 */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(

@@ -86,9 +86,9 @@ class _I11verificaciondecodigoWidgetState
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 133.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'frzgb4aa' /* INFLUENCERS */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -108,9 +108,9 @@ class _I11verificaciondecodigoWidgetState
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             'uefxx5l1' /* Cambiar Contraseña */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -171,9 +171,9 @@ class _I11verificaciondecodigoWidgetState
                     padding:
                         EdgeInsetsDirectional.fromSTEB(120.0, 39.0, 121.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
+                    /*  FFLocalizations.of(context).getText(
                         '7a21mb0m' /* REENVIAR CÓDIGO */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',
@@ -196,9 +196,9 @@ class _I11verificaciondecodigoWidgetState
                             text: TextSpan(
                               children: [
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
+                                  text: /* FFLocalizations.of(context).getText(
                                     'mi7uy3m7' /* ¿No te llegó el mail? Contacta... */,
-                                  ),
+                                  )*/'',
                                   style: TextStyle(
                                     fontFamily: 'Brandon',
                                     color: Colors.black,
@@ -207,9 +207,9 @@ class _I11verificaciondecodigoWidgetState
                                   ),
                                 ),
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
+                                  text: /* FFLocalizations.of(context).getText(
                                     't9g1drhx' /* soporte técnico */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -266,9 +266,9 @@ class _I11verificaciondecodigoWidgetState
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                        /*FFLocalizations.of(context).getText(
                                           'zfglz8q3' /* ENVIAR CÓDIGO */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

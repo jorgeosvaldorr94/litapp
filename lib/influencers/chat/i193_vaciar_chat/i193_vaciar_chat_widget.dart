@@ -176,11 +176,11 @@ class _I193VaciarChatWidgetState extends State<I193VaciarChatWidget>
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               '5xgkzi4w' /* ¿Estás seguro que
 querés elimi... */
                               ,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -230,9 +230,9 @@ querés elimi... */
                             child: Align(
                               alignment: AlignmentDirectional(0.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   '0ay6myii' /* ELIMINAR */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -273,9 +273,9 @@ querés elimi... */
                           child: Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 'zrssrskn' /* CANCELAR */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

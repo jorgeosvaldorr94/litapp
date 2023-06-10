@@ -79,9 +79,9 @@ class _I209baja2WidgetState extends State<I209baja2Widget> {
                   children: [
                     Expanded(
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                       /* FFLocalizations.of(context).getText(
                           'hn1wymd1' /* El influencer @pedroalonso se ... */,
-                        ),
+                        )*/'',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Albra',
@@ -128,9 +128,9 @@ class _I209baja2WidgetState extends State<I209baja2Widget> {
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: FFLocalizations.of(context).getText(
+                  text: /*FFLocalizations.of(context).getText(
                     'bwrkxygs' /* VER OFERTA */,
-                  ),
+                  )*/'',
                   options: FFButtonOptions(
                     width: 200.0,
                     height: 38.0,

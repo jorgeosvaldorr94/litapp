@@ -169,9 +169,9 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                         children: [
                           Expanded(
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 'wlzmruvm' /* INFLUENCERS */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -225,10 +225,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                 alignment: AlignmentDirectional(
                                                     0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'yqjzp08e' /* IMG / ILLU */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -248,10 +248,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 71.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
+                                             /* FFLocalizations.of(context)
                                                   .getText(
                                                 'mh1eqgje' /* Creá ofertas */,
-                                              ),
+                                              )*/'',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -270,10 +270,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                   .fromSTEB(
                                                       75.0, 2.0, 74.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                               /* FFLocalizations.of(context)
                                                     .getText(
                                                   'd1x7dy1p' /* Hacé que tu negocio despegue c... */,
-                                                ),
+                                                )*/'',
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -311,10 +311,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                 alignment: AlignmentDirectional(
                                                     0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     'oiidp0s1' /* IMG / ILLU */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -335,10 +335,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                   .fromSTEB(
                                                       70.0, 45.0, 61.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                              /*  FFLocalizations.of(context)
                                                     .getText(
                                                   'vbs7b0cw' /* Encontrá al influencer indicad... */,
-                                                ),
+                                                )*/'',
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -359,10 +359,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                   .fromSTEB(
                                                       75.0, 7.0, 74.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                                /*FFLocalizations.of(context)
                                                     .getText(
                                                   'syvrkqm7' /* Conectá directamente con todo ... */,
-                                                ),
+                                                )*/'',
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -403,10 +403,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                       AlignmentDirectional(
                                                           0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                    /*FFLocalizations.of(context)
                                                         .getText(
                                                       '7u085ox8' /* IMG / ILLU */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -427,10 +427,10 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                     .fromSTEB(
                                                         70.0, 45.0, 61.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'pdrfijfa' /* Potenciá tu negocio */,
-                                                  ),
+                                                  )*/'',
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -469,11 +469,11 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                           AlignmentDirectional(
                                                               0.0, 0.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
+                                                       /* FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'waru4gg0' /* Video Tutorial */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -592,9 +592,9 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             '4otlrqq9' /* EMPEZAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

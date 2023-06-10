@@ -115,9 +115,9 @@ class _I08ReseteoContrasenaWidgetState extends State<I08ReseteoContrasenaWidget>
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 133.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'qany14gn' /* INFLUENCERS */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -137,9 +137,9 @@ class _I08ReseteoContrasenaWidgetState extends State<I08ReseteoContrasenaWidget>
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             '3nbg97cr' /* Cambiar Contraseña */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -159,9 +159,9 @@ class _I08ReseteoContrasenaWidgetState extends State<I08ReseteoContrasenaWidget>
                       controller: _model.emailTextController,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText:/* FFLocalizations.of(context).getText(
                           '4zv7bgjg' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -273,9 +273,9 @@ class _I08ReseteoContrasenaWidgetState extends State<I08ReseteoContrasenaWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                        /*  FFLocalizations.of(context).getText(
                                             'i5eq2q5h' /* ENVIAR CÓDIGO */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

@@ -71,9 +71,9 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                         child: Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               '64lf8cuz' /* CERRAR SESIÓN */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -133,9 +133,9 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'ee6chbyj' /* Ajustes */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -192,9 +192,9 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 50.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'iuxxdjs8' /* Claudia Fernandez */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -206,12 +206,12 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'ck74coxl' /* @clau.fern
 
  */
                                       ,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -302,10 +302,10 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                FFLocalizations.of(context)
+                                               /* FFLocalizations.of(context)
                                                     .getText(
                                                   'xqbdnti2' /* Mi cuenta */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -323,10 +323,10 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                FFLocalizations.of(context)
+                                              /* FFLocalizations.of(context)
                                                     .getText(
                                                   'bq7otfc8' /* Usuario, contraseña... */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -426,10 +426,10 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                FFLocalizations.of(context)
+                                                /*FFLocalizations.of(context)
                                                     .getText(
                                                   'yl7m6equ' /* Atencion al cliente */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -447,10 +447,10 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                FFLocalizations.of(context)
+                                               /* FFLocalizations.of(context)
                                                     .getText(
                                                   'j0pvckff' /* Responde tus preguntas... */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium

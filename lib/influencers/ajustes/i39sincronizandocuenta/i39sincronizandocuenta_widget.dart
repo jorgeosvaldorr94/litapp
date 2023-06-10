@@ -80,9 +80,9 @@ class _I39sincronizandocuentaWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         '2mehm7ce' /* Se sincronizó tu cuenta! */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
@@ -101,9 +101,9 @@ class _I39sincronizandocuentaWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         '6l3cpvg8' /* Redireccionando a Mercado Pago... */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',

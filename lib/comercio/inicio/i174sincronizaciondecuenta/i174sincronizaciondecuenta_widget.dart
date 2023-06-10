@@ -70,9 +70,9 @@ class _I174sincronizaciondecuentaWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                 /*     FFLocalizations.of(context).getText(
                         'oxjpskar' /* Se sincronizó tu cuenta! */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
@@ -91,9 +91,9 @@ class _I174sincronizaciondecuentaWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                    /*  FFLocalizations.of(context).getText(
                         '0cobzc4z' /* Redireccionando a Mercado Pago... */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',

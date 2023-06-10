@@ -88,11 +88,11 @@ class _I45EliminarOfertaWidgetState extends State<I45EliminarOfertaWidget> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                  /*    FFLocalizations.of(context).getText(
                         '3jl3llsa' /* ¿Seguro querés e
 liminar la of... */
                         ,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
@@ -105,9 +105,9 @@ liminar la of... */
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 9.0, 0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                       /*FFLocalizations.of(context).getText(
                           'num6yn0e' /* Después de varias cancelacione... */,
-                        ),
+                        )*/'',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
@@ -156,23 +156,23 @@ liminar la of... */
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text:/* FFLocalizations.of(context).getText(
                                   '7zwujri6' /* Cancelación  */,
-                                ),
+                                )*/'',
                                 style: TextStyle(),
                               ),
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text: /*FFLocalizations.of(context).getText(
                                   '1hpfus00' /* 2 */,
-                                ),
+                                ),*/'',
                                 style: TextStyle(
                                   color: Color(0xFFFF5A26),
                                 ),
                               ),
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text: /*FFLocalizations.of(context).getText(
                                   'ckft0yzg' /* /3 */,
-                                ),
+                                )*/'',
                                 style: TextStyle(),
                               )
                             ],
@@ -216,9 +216,9 @@ liminar la of... */
                     child: Align(
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
+                       /* FFLocalizations.of(context).getText(
                           'zzm45be8' /* ELIMINAR */,
-                        ),
+                        )*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontSize: 12.0,
@@ -246,9 +246,9 @@ liminar la of... */
                   child: Align(
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
+                    /*  FFLocalizations.of(context).getText(
                         'm8f1u4w4' /* CANCELAR */,
-                      ),
+                      )*/'',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',
                             fontSize: 12.0,

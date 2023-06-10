@@ -84,9 +84,9 @@ class _A8comercioWidgetState extends State<A8comercioWidget> {
                   padding:
                       EdgeInsetsDirectional.fromSTEB(87.0, 14.0, 72.0, 0.0),
                   child: Text(
-                    FFLocalizations.of(context).getText(
+                   /* FFLocalizations.of(context).getText(
                       'bkjjcoqy' /* Se ha editado información del ... */,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Albra',
@@ -106,9 +106,9 @@ class _A8comercioWidgetState extends State<A8comercioWidget> {
               children: [
                 Expanded(
                   child: Text(
-                    FFLocalizations.of(context).getText(
+                  /*  FFLocalizations.of(context).getText(
                       'vak9sukr' /* Automáticamente se le enviará ... */,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Brandon',
@@ -120,14 +120,14 @@ class _A8comercioWidgetState extends State<A8comercioWidget> {
               ],
             ),
           ),
-          FFButtonWidget(
+          /*FFButtonWidget(
             onPressed: () {
               print('Button pressed ...');
             },
-            text: FFLocalizations.of(context).getText(
-              'jpegg5iq' /* ACEPTAR */,
-            ),
-            options: FFButtonOptions(
+            //text: FFLocalizations.of(context).getText(
+              //'jpegg5iq' /* ACEPTAR */,
+            ),*/
+          /*  options: FFButtonOptions(
               width: 210.0,
               height: 65.0,
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
@@ -146,7 +146,7 @@ class _A8comercioWidgetState extends State<A8comercioWidget> {
               ),
               borderRadius: BorderRadius.circular(27.0),
             ),
-          ),
+          ),*/
         ],
       ),
     );

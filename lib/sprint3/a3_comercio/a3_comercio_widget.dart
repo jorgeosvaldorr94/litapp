@@ -116,10 +116,10 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       '3l6s05iz' /* Comercios */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -177,11 +177,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                             .fromSTEB(22.0, 0.0,
                                                                 11.0, 0.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
+                                                    /*  FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'mh9ukq53' /* Filtrar por */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -268,11 +268,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'a0zd4jhu' /* Filtrar por */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -342,11 +342,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                           '9a0vjy2h' /* Dia */,
                                                         ),
                                                         searchHintText:
-                                                            FFLocalizations.of(
+                                                         /*   FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                           'mw3nfer8' /* Search for an item... */,
-                                                        ),
+                                                        )*/'',
                                                         fillColor: FlutterFlowTheme
                                                                 .of(context)
                                                             .secondaryBackground,
@@ -418,17 +418,17 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       false,
                                                                 ),
                                                         hintText:
-                                                            FFLocalizations.of(
+                                                           /* FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                           'tvbfvrk0' /* Mes */,
-                                                        ),
+                                                        )*/'',
                                                         searchHintText:
-                                                            FFLocalizations.of(
+                                                           /* FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                           'h1e499h6' /* Search for an item... */,
-                                                        ),
+                                                        )*/'',
                                                         fillColor: FlutterFlowTheme
                                                                 .of(context)
                                                             .secondaryBackground,
@@ -500,17 +500,17 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       false,
                                                                 ),
                                                         hintText:
-                                                            FFLocalizations.of(
+                                                          /*  FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                           'an4gcih5' /* Año */,
-                                                        ),
+                                                        )*/'',
                                                         searchHintText:
-                                                            FFLocalizations.of(
+                                                            /*FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                           'yd9yw2n0' /* Search for an item... */,
-                                                        ),
+                                                        )*/'',
                                                         fillColor: FlutterFlowTheme
                                                                 .of(context)
                                                             .secondaryBackground,
@@ -547,11 +547,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                   15.0,
                                                                   0.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'dhm2dumg' /* Mostrar como */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -665,11 +665,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       0.0,
                                                                       9.0),
                                                           child: Text(
-                                                            FFLocalizations.of(
+                                                          /*  FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                               'fatc8glo' /* NUEVOS COMERCIANTES */,
-                                                            ),
+                                                            )*/'',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -685,11 +685,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                           ),
                                                         ),
                                                         Text(
-                                                          FFLocalizations.of(
+                                                         /* FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'c5l8z3r9' /* 24 */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -713,11 +713,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       0.0,
                                                                       7.0),
                                                           child: Text(
-                                                            FFLocalizations.of(
+                                                         /*   FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                               '9gqv59cl' /* en el último mes */,
-                                                            ),
+                                                            )*/'',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -779,11 +779,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                           0.0,
                                                                           9.0),
                                                               child: Text(
-                                                                FFLocalizations.of(
+                                                              /*  FFLocalizations.of(
                                                                         context)
                                                                     .getText(
                                                                   'ajdd873x' /* BAJAS */,
-                                                                ),
+                                                                )*/'',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -823,11 +823,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                           ],
                                                         ),
                                                         Text(
-                                                          FFLocalizations.of(
+                                                         /* FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'rr6dmss4' /* 24 */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -851,11 +851,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       0.0,
                                                                       7.0),
                                                           child: Text(
-                                                            FFLocalizations.of(
+                                                          /*  FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                               'aq4ge67a' /* en el último mes */,
-                                                            ),
+                                                            )*/'',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -910,11 +910,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       0.0,
                                                                       9.0),
                                                           child: Text(
-                                                            FFLocalizations.of(
+                                                            /*FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                               '3drwc49m' /* NUEVAS SOLICITUDES */,
-                                                            ),
+                                                            )*/'',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -930,11 +930,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                           ),
                                                         ),
                                                         Text(
-                                                          FFLocalizations.of(
+                                                         /* FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'jhkjh7k2' /* 24 */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -958,11 +958,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       0.0,
                                                                       7.0),
                                                           child: Text(
-                                                            FFLocalizations.of(
+                                                           /* FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                               'k3kme18t' /* en el último mes */,
-                                                            ),
+                                                            )*/'',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -1037,11 +1037,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                           ),
                                                         ),
                                                         Text(
-                                                          FFLocalizations.of(
+                                                        /*  FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'bk4p37tf' /* MODA */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -1065,11 +1065,11 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                       0.0,
                                                                       7.0),
                                                           child: Text(
-                                                            FFLocalizations.of(
+                                                           /* FFLocalizations.of(
                                                                     context)
                                                                 .getText(
                                                               'r0smdgf4' /* en el último mes */,
-                                                            ),
+                                                            )*/'',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium

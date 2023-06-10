@@ -357,10 +357,10 @@ class _I21detalledeofertaWidgetState extends State<I21detalledeofertaWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 6.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
+                                            /*  FFLocalizations.of(context)
                                                   .getText(
                                                 '337cqpn1' /* NEGRONI */,
-                                              ),
+                                              )*/'',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -408,9 +408,9 @@ class _I21detalledeofertaWidgetState extends State<I21detalledeofertaWidget>
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'pvr1oh5j' /* Av. Santa Fe 19888 */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -442,9 +442,9 @@ class _I21detalledeofertaWidgetState extends State<I21detalledeofertaWidget>
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
+                                      /*FFLocalizations.of(context).getText(
                                         'i1txylr2' /* Código - AD1234  */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -464,9 +464,9 @@ class _I21detalledeofertaWidgetState extends State<I21detalledeofertaWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           '2omyeu81' /* Disfrutá una porción de pan o ... */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -485,11 +485,11 @@ class _I21detalledeofertaWidgetState extends State<I21detalledeofertaWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 5.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           '8dcqwbka' /* Dejanos tu reseña en Google!
  */
                                           ,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(

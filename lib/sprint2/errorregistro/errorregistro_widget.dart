@@ -81,9 +81,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 1.0, 10.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 '4xs5ag8e' /* 1 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -123,9 +123,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 '32mihb49' /* 2 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -165,9 +165,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 '786bcyth' /* 3 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -210,9 +210,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
+                       /*   FFLocalizations.of(context).getText(
                             '4l3c570q' /* COMERCIO */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -238,9 +238,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                       /*   FFLocalizations.of(context).getText(
                             '4dunajnj' /* Registrar */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -261,9 +261,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'gh49n5fw' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -461,9 +461,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'usbk6q98' /* Confirmar Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -602,9 +602,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text:/*FFLocalizations.of(context).getText(
                                   'nml0w574' /* ¿Ya tenés cuenta? */,
-                                ),
+                                )*/'',
                                 style: TextStyle(
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.w300,
@@ -612,9 +612,9 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                                 ),
                               ),
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text: /*FFLocalizations.of(context).getText(
                                   'fz8njzh4' /* Ingresá acá */,
-                                ),
+                                )*/'',
                                 style: TextStyle(
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.w300,

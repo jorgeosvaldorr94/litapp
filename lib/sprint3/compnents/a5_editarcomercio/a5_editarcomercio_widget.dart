@@ -58,9 +58,9 @@ class _A5EditarcomercioWidgetState extends State<A5EditarcomercioWidget> {
               children: [
                 Expanded(
                   child: Text(
-                    FFLocalizations.of(context).getText(
+                  /*  FFLocalizations.of(context).getText(
                       'ph6je9j2' /* Se ha editado correctamente la... */,
-                    ),
+                    )*/'',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Albra',
                           fontSize: 32.0,
@@ -85,9 +85,9 @@ class _A5EditarcomercioWidgetState extends State<A5EditarcomercioWidget> {
               children: [
                 Expanded(
                   child: Text(
-                    FFLocalizations.of(context).getText(
+                   /* FFLocalizations.of(context).getText(
                       'do3r0uuf' /*  Automáticamente se le enviará... */,
-                    ),
+                    )*/'',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Brandon',
                           fontSize: 24.0,
@@ -107,9 +107,9 @@ class _A5EditarcomercioWidgetState extends State<A5EditarcomercioWidget> {
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: FFLocalizations.of(context).getText(
+                  text: /*FFLocalizations.of(context).getText(
                     'ug52mkbu' /* GUARDAR */,
-                  ),
+                  )*/'',
                   options: FFButtonOptions(
                     width: 209.0,
                     height: 65.0,

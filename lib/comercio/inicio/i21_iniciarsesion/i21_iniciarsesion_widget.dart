@@ -112,9 +112,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             't88melon' /* COMERCIO */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -140,9 +140,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             'zs9u8j3c' /* Iniciar Sesión */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -163,9 +163,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'jsbl64m3' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -226,9 +226,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                       /*   FFLocalizations.of(context).getText(
                             'd2aem5lc' /* Olvidé mi mail */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -249,9 +249,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'jezr60ki' /* Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -318,9 +318,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             'rfzstie9' /* Olvide mi contraseña */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -380,9 +380,9 @@ class _I21IniciarsesionWidgetState extends State<I21IniciarsesionWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             'jli1zjmc' /* INICIAR SESION */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

@@ -173,9 +173,9 @@ class _I186AtencionalclienteiWidgetState
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                              /* FFLocalizations.of(context).getText(
                                   '9tt2bnzj' /* Atención al Cliente */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -239,9 +239,9 @@ class _I186AtencionalclienteiWidgetState
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                    /*FFLocalizations.of(context).getText(
                                       '8x4xt5xd' /* Martes, 15 */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -300,13 +300,13 @@ class _I186AtencionalclienteiWidgetState
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                      /*FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'xpydkzlz' /* Ey! ¿Cómo podemos ayudarte?
 Si... */
                                                         ,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -334,11 +334,11 @@ Si... */
                                                         text: TextSpan(
                                                           children: [
                                                             TextSpan(
-                                                              text: FFLocalizations
+                                                              text: /*FFLocalizations
                                                                       .of(context)
                                                                   .getText(
                                                                 'nvg8pe19' /* .  */,
-                                                              ),
+                                                              )*/'',
                                                               style: TextStyle(
                                                                 color: Colors
                                                                     .black,
@@ -349,13 +349,13 @@ Si... */
                                                               ),
                                                             ),
                                                             TextSpan(
-                                                              text: FFLocalizations
+                                                              text: /*FFLocalizations
                                                                       .of(context)
                                                                   .getText(
                                                                 'drcpe03h' /* 1. Tengo un problema
 con la of... */
                                                                 ,
-                                                              ),
+                                                              )*/'',
                                                               style:
                                                                   TextStyle(),
                                                             )
@@ -481,11 +481,11 @@ gracias! 1... */
                                                         MainAxisAlignment.end,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           '38443p9z' /* 8.33pm */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -564,9 +564,9 @@ gracias! 1... */
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(
-                              hintText: FFLocalizations.of(context).getText(
+                              hintText: /*FFLocalizations.of(context).getText(
                                 '342ipqht' /* Escribir... */,
-                              ),
+                              )*/'',
                               hintStyle: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(

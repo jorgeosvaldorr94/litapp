@@ -115,9 +115,9 @@ class _I46SolicitudaceptadaWidgetState
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'yruk0ura' /* Solicitud Aceptada */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -139,9 +139,9 @@ class _I46SolicitudaceptadaWidgetState
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'fc2vvv9y' /* Hola @Wanda, tu solicitud a la... */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium

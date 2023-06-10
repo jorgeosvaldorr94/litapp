@@ -374,9 +374,9 @@ class _I170WidgetState extends State<I170Widget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                        /*  FFLocalizations.of(context).getText(
                                             'qqk5cnon' /* Lorem ipsum dolor sit amet con... */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(

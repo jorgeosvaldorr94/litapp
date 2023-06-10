@@ -113,9 +113,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                       ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
+                                    /*  FFLocalizations.of(context).getText(
                                         'mfugnw33' /* Mi cuenta */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -150,9 +150,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'p9wqnx4l' /* Privacidad, seguridad, cambiar... */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -205,9 +205,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       '2acipo0p' /* Información personal */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -227,9 +227,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 controller: _model.textController1,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /* FFLocalizations.of(context).getText(
                                     '7bmqmmvk' /* Claudia Fernandez */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -291,9 +291,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 controller: _model.textController2,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /* FFLocalizations.of(context).getText(
                                     'jh9g08wh' /* 10/09/2023 */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -355,9 +355,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 controller: _model.textController3,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText:/*FFLocalizations.of(context).getText(
                                     'rvr40pqu' /* @Clau.fer */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -419,9 +419,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 controller: _model.textController4,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /*FFLocalizations.of(context).getText(
                                     'wm7mdsbc' /* Clu.fer@gmail.com */,
-                                  ),
+                                  )**/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -488,9 +488,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                    /*FFLocalizations.of(context).getText(
                                       'wcrpkcuz' /* Ubicación */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -511,9 +511,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 autofocus: true,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /* FFLocalizations.of(context).getText(
                                     '3xcl6u4f' /* Monseñor de Andrea 1892 */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -580,9 +580,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       '51m14lsp' /* Cambiar contraseña */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -632,9 +632,9 @@ class _I34AjustescuentaWidgetState extends State<I34AjustescuentaWidget> {
                       child: Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             'hfykimr9' /* GUARDAR CAMBIOS */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',

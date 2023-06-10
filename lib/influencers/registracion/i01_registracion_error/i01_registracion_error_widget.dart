@@ -83,9 +83,9 @@ class _I01RegistracionErrorWidgetState
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 1.0, 10.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 'aa04pzjo' /* 1 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -125,9 +125,9 @@ class _I01RegistracionErrorWidgetState
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 '9amjl0ol' /* 2 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -167,9 +167,9 @@ class _I01RegistracionErrorWidgetState
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                              /*FFLocalizations.of(context).getText(
                                 '18h097kj' /* 3 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -212,9 +212,9 @@ class _I01RegistracionErrorWidgetState
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
+                       /*   FFLocalizations.of(context).getText(
                             'vsgtflkq' /* INFLUENCERS */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -240,9 +240,9 @@ class _I01RegistracionErrorWidgetState
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             'o8dde5cv' /* Registrar */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -263,9 +263,9 @@ class _I01RegistracionErrorWidgetState
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'mqb6hqws' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -331,9 +331,9 @@ class _I01RegistracionErrorWidgetState
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /* FFLocalizations.of(context).getText(
                           '0z9dn8j0' /* Confirmar E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -394,9 +394,9 @@ class _I01RegistracionErrorWidgetState
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           '19v376ks' /* Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -463,9 +463,9 @@ class _I01RegistracionErrorWidgetState
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'n5habt6o' /* Confirmar Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -575,9 +575,9 @@ class _I01RegistracionErrorWidgetState
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 0.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   '1xirq9hd' /* Acepto los términos y condicio... */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -603,9 +603,9 @@ class _I01RegistracionErrorWidgetState
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text: /*FFLocalizations.of(context).getText(
                                   'aw95f65f' /* ¿Ya tenés cuenta? */,
-                                ),
+                                )*/'',
                                 style: TextStyle(
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.w300,
@@ -613,9 +613,9 @@ class _I01RegistracionErrorWidgetState
                                 ),
                               ),
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text:/* FFLocalizations.of(context).getText(
                                   '1gjtlsty' /* Ingresá acá */,
-                                ),
+                                )*/'',
                                 style: TextStyle(
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.w300,
@@ -667,9 +667,9 @@ class _I01RegistracionErrorWidgetState
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 3.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                        /*FFLocalizations.of(context).getText(
                                           'ucdiuwdz' /* CONTINUAR */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

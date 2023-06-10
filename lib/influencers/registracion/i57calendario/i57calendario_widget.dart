@@ -118,7 +118,8 @@ class _I57calendarioWidgetState extends State<I57calendarioWidget>
                     fontFamily: 'Brandon',
                     fontWeight: FontWeight.w300,
                   ),
-                  locale: FFLocalizations.of(context).languageCode,
+                  locale: //FFLocalizations.of(context).languageCode,
+                  ''
                 ),
               ],
             ),

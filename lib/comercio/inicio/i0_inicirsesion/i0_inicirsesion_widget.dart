@@ -153,9 +153,9 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'bp8nzocv' /* NOMBRE DE LA APP */,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -187,9 +187,9 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                         child: Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'pbi3j4i4' /* LOGO */,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -312,9 +312,9 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                               child: Align(
                                 alignment: AlignmentDirectional(0.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                  /*FFLocalizations.of(context).getText(
                                     '9acrhe2g' /* REGISTRARSE */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

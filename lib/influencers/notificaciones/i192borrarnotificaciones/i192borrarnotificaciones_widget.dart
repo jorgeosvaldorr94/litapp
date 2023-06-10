@@ -147,11 +147,11 @@ class _I192borrarnotificacionesWidgetState
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'ls66j3qh' /* ¿Estás seguro que
 querés elimi... */
                               ,
-                            ),
+                            )*/'',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -201,9 +201,9 @@ querés elimi... */
                             child: Align(
                               alignment: AlignmentDirectional(0.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   'zusvz7rp' /* ELIMINAR */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -244,9 +244,9 @@ querés elimi... */
                           child: Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 'fylwqmhv' /* CANCELAR */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

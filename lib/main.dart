@@ -24,15 +24,12 @@ import 'backend/stripe/payment_manager.dart';
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
   await initFirebase();
-
- /* await FlutterFlowTheme.initialize();
-  await FFLocalizations.initialize();
-*/
-  final appState = FFAppState(); // Initialize FFAppState
-  await appState.initializePersistedState();
-
-  await initializeStripe();
-  runApp(MyApp());
+await initializeStripe();
+  runApp(ChangeNotifierProvider(create: (BuildContext context) {  },
+  child:MyApp()));
+   
+    
+      
  /* WidgetsFlutterBinding.ensureInitialized();
   await initFirebase();
 
@@ -50,9 +47,10 @@ void main(List<String> args) async {
   ));*/
 }
 
+ 
 
- /* // This widget is the root of your application.
-  @override
+  // This widget is the root of your application.
+ /* @override
   State<MyApp> createState() => _MyAppState();
 
   static _MyAppState of(BuildContext context) =>
@@ -125,5 +123,5 @@ class _MyAppState extends State<MyApp> {
       
       routerDelegate: _router.routerDelegate,
     );
-  }*/
-
+  }
+}*/

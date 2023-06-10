@@ -61,9 +61,9 @@ class _A6ComecrioWidgetState extends State<A6ComecrioWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 104.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         'j61fenaf' /* 4 usuarios alcanzaron el límit... */,
-                      ),
+                      )*/'',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
                             fontSize: 32.0,
@@ -89,9 +89,9 @@ class _A6ComecrioWidgetState extends State<A6ComecrioWidget> {
               children: [
                 Expanded(
                   child: Text(
-                    FFLocalizations.of(context).getText(
+                 /*   FFLocalizations.of(context).getText(
                       '5o7vzgc4' /* Puedes ir al perfil para suspe... */,
-                    ),
+                    )*/'',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Brandon',
                           fontSize: 24.0,
@@ -107,11 +107,11 @@ class _A6ComecrioWidgetState extends State<A6ComecrioWidget> {
             child: Row(
               mainAxisSize: MainAxisSize.max,
               children: [
-                FFButtonWidget(
+                /*FFButtonWidget(
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: FFLocalizations.of(context).getText(
+                 text: FFLocalizations.of(context).getText(
                     'bebzq92h' /* CONTINUAR */,
                   ),
                   options: FFButtonOptions(
@@ -133,7 +133,7 @@ class _A6ComecrioWidgetState extends State<A6ComecrioWidget> {
                     ),
                     borderRadius: BorderRadius.circular(27.5),
                   ),
-                ),
+                ),*/
               ],
             ),
           ),

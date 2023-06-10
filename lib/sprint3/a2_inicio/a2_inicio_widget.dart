@@ -286,9 +286,9 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 12.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 'n4mvnrax' /* INICIAR SESIÓN */,
-                              ),
+                              )*/'',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

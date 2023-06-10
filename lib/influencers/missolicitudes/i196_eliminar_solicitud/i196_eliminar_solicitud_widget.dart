@@ -163,11 +163,11 @@ class _I196EliminarSolicitudWidgetState
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
+                        /*FFLocalizations.of(context).getText(
                           'fk75jzxh' /* ¿Estás seguro que
 querés elimi... */
                           ,
-                        ),
+                        )*/'',
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Albra',
@@ -180,9 +180,9 @@ querés elimi... */
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 9.0, 0.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             '61guce9p' /* Después de varias cancelacione... */,
-                          ),
+                          )*/'',
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
@@ -232,23 +232,23 @@ querés elimi... */
                             text: TextSpan(
                               children: [
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
+                                  text: /*FFLocalizations.of(context).getText(
                                     '7rgh8234' /* Cancelación  */,
-                                  ),
+                                  )*/'',
                                   style: TextStyle(),
                                 ),
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
+                                  text:/* FFLocalizations.of(context).getText(
                                     'yrjpyrlk' /* 2 */,
-                                  ),
+                                  ),*/'',
                                   style: TextStyle(
                                     color: Color(0xFFFF5A26),
                                   ),
                                 ),
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
+                                  text: /*FFLocalizations.of(context).getText(
                                     'h3y7nrcj' /* /3 */,
-                                  ),
+                                  )*/'',
                                   style: TextStyle(),
                                 )
                               ],
@@ -306,9 +306,9 @@ querés elimi... */
                         child: Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'v3rkcx29' /* ELIMINAR */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -348,9 +348,9 @@ querés elimi... */
                       child: Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             'db4h9gei' /* CANCELAR */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',

@@ -143,9 +143,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     10.0, 1.0, 10.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     '8rah3s6g' /* 1 */,
-                                  ),
+                                  )*/'',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -185,9 +185,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 1.0, 8.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     '3n4ow2vh' /* 2 */,
-                                  ),
+                                  )*/'',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -228,9 +228,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 1.0, 8.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     'c74gdxne' /* 3 */,
-                                  ),
+                                  )*/'',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -286,9 +286,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 animationsMap['iconOnPageLoadAnimation']!),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               '4v2vstcp' /* INFLUENCERS */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -315,9 +315,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               '6ly8g8cb' /* Registrar */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -338,9 +338,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                         controller: _model.nombreController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText:/* FFLocalizations.of(context).getText(
                             'cv8kkjdf' /* Nombre */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -400,9 +400,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                         controller: _model.apellidoController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /* FFLocalizations.of(context).getText(
                             'h3hljv0n' /* Apellido */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -473,9 +473,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     hintText:
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                       'xdsm5lnx' /* Cdo. Área */,
-                                    ),
+                                    )*/'',
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
@@ -540,9 +540,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 controller: _model.telefonoController,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText:/* FFLocalizations.of(context).getText(
                                     'e8961qws' /* Teléfono (opcional) */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -712,7 +712,7 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 'd/M/y',
                                 _model.datePicked,
                                 locale:
-                                    FFLocalizations.of(context).languageCode,
+                                  /*  FFLocalizations.of(context).languageCode*/'',
                               );
                             });
                           },
@@ -822,9 +822,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                         () => _model.placePickerValue = place);
                                   },
                                   defaultText:
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                     '4sqa8teb' /* Ubicacion */,
-                                  ),
+                                  )*/'',
                                   buttonOptions: FFButtonOptions(
                                     width: double.infinity,
                                     height: double.infinity,
@@ -861,9 +861,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                         controller: _model.profesionController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'hfdku8xz' /* Profesion */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -952,9 +952,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                   fontWeight: FontWeight.normal,
                                   useGoogleFonts: false,
                                 ),
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'adighjht' /* Representante */,
-                        ),
+                        )*/'',
                         fillColor:
                             FlutterFlowTheme.of(context).primaryBackground,
                         elevation: 2.0,
@@ -974,9 +974,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                         controller: _model.representanteController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'tiaej61e' /* Nombre del representante */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -1173,9 +1173,9 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             'xseeh191' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

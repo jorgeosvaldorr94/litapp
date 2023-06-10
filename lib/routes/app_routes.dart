@@ -6,7 +6,7 @@ import 'routes.dart';
 
 Map<String, WidgetBuilder> get appRoutes {
   return{
-    Routes.initialize: (context) =>  I190splashWidget() ,
+    Routes.initialize: (context) =>  I50selectorWidget() ,
     Routes.I50Selectordeperfil:(context) => I50selectorWidget()
     
 

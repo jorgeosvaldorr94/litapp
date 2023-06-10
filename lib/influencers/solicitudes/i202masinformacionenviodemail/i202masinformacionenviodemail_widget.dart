@@ -131,11 +131,11 @@ class _I202masinformacionenviodemailWidgetState
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
+                    /*FFLocalizations.of(context).getText(
                       'ockgztpe' /* Vas a recibir un mail con
 más ... */
                       ,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Albra',

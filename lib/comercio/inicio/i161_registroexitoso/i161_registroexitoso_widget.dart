@@ -140,9 +140,9 @@ class _I161RegistroexitosoWidgetState extends State<I161RegistroexitosoWidget>
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 20.0, 0.0, 20.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 'ubv3j92z' /* Registro exitoso! */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -168,9 +168,9 @@ class _I161RegistroexitosoWidgetState extends State<I161RegistroexitosoWidget>
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 10.0, 0.0, 20.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                            /*  FFLocalizations.of(context).getText(
                                 '0hklj0ar' /* Estamos evaluando tu perfil. E... */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -202,9 +202,9 @@ class _I161RegistroexitosoWidgetState extends State<I161RegistroexitosoWidget>
                             }.withoutNulls,
                           );*/
                         },
-                        text: FFLocalizations.of(context).getText(
+                        text: /*FFLocalizations.of(context).getText(
                           '7r1rcnze' /* CONTINUAR */,
-                        ),
+                        )*/'',
                         options: FFButtonOptions(
                           width: 178.0,
                           height: 38.0,

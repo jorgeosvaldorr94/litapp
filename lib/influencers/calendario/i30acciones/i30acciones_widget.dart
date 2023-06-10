@@ -171,9 +171,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'oavy4h8g' /* Calendario */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -248,9 +248,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       '3jtnse9k' /* INFLUENCERS */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -287,9 +287,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           'o8uh5tnt' /* 2 de septiembre */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -299,9 +299,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                             ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'h2sa26dw' /* 2021 */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -352,10 +352,10 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                                     .fromSTEB(
                                                         12.0, 0.0, 0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     'ocwvpj31' /* 10:00-13:00 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -376,9 +376,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                            /*FFLocalizations.of(context).getText(
                                               'jb5w6qqc' /* Acción instagram -  Fiesta */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -393,9 +393,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                            /*FFLocalizations.of(context).getText(
                                               'us3wcc01' /* 3 historias , ropa fiesta */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -476,10 +476,10 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                                     .fromSTEB(
                                                         12.0, 0.0, 0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'g9yizmu9' /* 14:00-15:00 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -500,9 +500,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                           /* FFLocalizations.of(context).getText(
                                               '71wxu0n9' /* Tik Tok - GRWM */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -517,9 +517,9 @@ class _I30accionesWidgetState extends State<I30accionesWidget> {
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                            /*FFLocalizations.of(context).getText(
                                               'dhz4cnzv' /* Define the problem or question... */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(

@@ -208,9 +208,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                 animationsMap['iconOnPageLoadAnimation']!),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'gsk89h3k' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -246,9 +246,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                    /*FFLocalizations.of(context).getText(
                                       'd2na4k4w' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -385,9 +385,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                /*  FFLocalizations.of(context).getText(
                                     'pdg5ejxn' /* Método de pago */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -408,7 +408,7 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                       ),
                                       options: ['0', '1', '2'],
                                       optionLabels: [
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           'cpf5fipj' /* Mensual 5% off */,
                                         ),
                                         FFLocalizations.of(context).getText(
@@ -416,7 +416,7 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                         ),
                                         FFLocalizations.of(context).getText(
                                           'mxcv1d89' /* Anual 50% off */,
-                                        )
+                                        )*/
                                       ],
                                       onChanged: (val) async {
                                         setState(
@@ -441,9 +441,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                       textStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium,
                                       hintText:
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                         'aofupgkd' /* Pago */,
-                                      ),
+                                      )*/'',
                                       searchHintText: '',
                                       icon: Icon(
                                         Icons.money_off,
@@ -486,9 +486,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           20.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                     /*   FFLocalizations.of(context).getText(
                                           'efpu2cg1' /* latinoamerica */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -546,9 +546,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           20.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           '4bd6laas' /* Global */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -673,9 +673,9 @@ class _I172oroWidgetState extends State<I172oroWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             '97yyrex0' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

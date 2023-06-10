@@ -204,9 +204,9 @@ class _Op4WidgetState extends State<Op4Widget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'b4r0gr0a' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -312,9 +312,9 @@ class _Op4WidgetState extends State<Op4Widget> {
                                         ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           '8urypai0' /* Oro */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -381,10 +381,10 @@ class _Op4WidgetState extends State<Op4Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     '75104qhb' /* $50 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -407,10 +407,10 @@ class _Op4WidgetState extends State<Op4Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                  /*FFLocalizations.of(context)
                                                       .getText(
                                                     'guxppu4m' /* /mes */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -642,10 +642,10 @@ class _Op4WidgetState extends State<Op4Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     'b112mq99' /* $100 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -699,10 +699,10 @@ class _Op4WidgetState extends State<Op4Widget> {
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       '86w2rhdd' /* 100 influencers */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium

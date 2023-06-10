@@ -70,9 +70,9 @@ class _I209mensajedecodigoincorrectoWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                    /*  FFLocalizations.of(context).getText(
                         'clnqcn1z' /* Error */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
@@ -91,9 +91,9 @@ class _I209mensajedecodigoincorrectoWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                      /*FFLocalizations.of(context).getText(
                         'brggmxad' /* El código no coincide con el q... */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',
@@ -101,13 +101,14 @@ class _I209mensajedecodigoincorrectoWidgetState
                             fontWeight: FontWeight.normal,
                             useGoogleFonts: false,
                           ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(66.0, 18.0, 66.0, 0.0),
-                child: FFButtonWidget(
+                      ),
+                     ],
+                   ),
+                  ),
+                    Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(66.0, 18.0, 66.0, 0.0),
+                    child:Text(""),
+                   /* FFButtonWidget(
                   onPressed: () {
                     print('Button pressed ...');
                   },
@@ -132,14 +133,14 @@ class _I209mensajedecodigoincorrectoWidgetState
                       color: Colors.transparent,
                       width: 1.0,
                     ),
-                    borderRadius: BorderRadius.circular(8.0),
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-        Padding(
+                    borderRadius: BorderRadius.circular(8.0),*/
+                  )
+                
+      ]))
+            
+          
+        
+       /* Padding(
           padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 20.0, 0.0),
           child: Row(
             mainAxisSize: MainAxisSize.max,
@@ -156,7 +157,7 @@ class _I209mensajedecodigoincorrectoWidgetState
               ),
             ],
           ),
-        ),
+        ),*/
       ],
     );
   }

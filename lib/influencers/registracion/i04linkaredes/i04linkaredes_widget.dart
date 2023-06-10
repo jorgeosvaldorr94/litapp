@@ -155,9 +155,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   10.0, 1.0, 10.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   'yc79699d' /* 1 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -198,9 +198,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 1.0, 8.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   '4gyxkq1h' /* 2 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -240,9 +240,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 1.0, 8.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'vl4vkq5n' /* 3 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -298,9 +298,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                 animationsMap['iconOnPageLoadAnimation']!),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'jdmhlupr' /* INFLUENCERS */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -326,9 +326,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'x50fbynn' /* Link a tus redes */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -345,9 +345,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'qyrxvddu' /* Al menos 1 obligatorio * */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -371,9 +371,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                         controller: _model.instagramController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText:/* FFLocalizations.of(context).getText(
                             'rlx7q2t0' /* Instagram */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -438,9 +438,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                         controller: _model.tiktokController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'xuh85w3t' /* Tik Tok */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -505,9 +505,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                         controller: _model.youtubeController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'dpm3r9bd' /* Youtube */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -573,9 +573,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                         controller: _model.twichController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText:/* FFLocalizations.of(context).getText(
                             'vq0h09ib' /* Twitch */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -640,9 +640,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'hdhstc83' /* Portfolio */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -669,9 +669,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                 controller: _model.porfolioController,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /*FFLocalizations.of(context).getText(
                                     'nvn6gagv' /* Link de tu portfolio */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -743,9 +743,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'hwza0lfx' /* Fotos de tu portfolio (opciona... */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -920,9 +920,9 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             'ja6cophw' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

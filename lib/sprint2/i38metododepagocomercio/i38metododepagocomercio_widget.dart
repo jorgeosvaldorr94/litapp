@@ -176,9 +176,9 @@ class _I38metododepagocomercioWidgetState
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'h0fqpeem' /* Calendario */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -417,10 +417,10 @@ class _I38metododepagocomercioWidgetState
                                                   .fromSTEB(
                                                       0.0, 0.0, 18.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                              /*  FFLocalizations.of(context)
                                                     .getText(
                                                   'cd4me8dx' /* Sincronizar */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium

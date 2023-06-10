@@ -163,9 +163,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   10.0, 1.0, 10.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   'opkjnuic' /* 1 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -206,9 +206,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 1.0, 8.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   '6vh4ncqy' /* 2 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -248,9 +248,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 1.0, 8.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                              /*  FFLocalizations.of(context).getText(
                                   'lf2m13h3' /* 3 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -304,9 +304,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               '3yh53c1n' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -340,9 +340,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                   /* FFLocalizations.of(context).getText(
                                       'pcucad01' /* Registrar */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -368,9 +368,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                         autofocus: true,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /* FFLocalizations.of(context).getText(
                             'pjcsosab' /* Instagram */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -436,9 +436,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                         autofocus: true,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText:/* FFLocalizations.of(context).getText(
                             'z5mzwie6' /* Tik Tok */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -504,9 +504,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                         autofocus: true,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'y7nasez7' /* Facebook */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -573,9 +573,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                         autofocus: true,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             's29zvp6x' /* Website */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -640,9 +640,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                            /*FFLocalizations.of(context).getText(
                               '30gq87u4' /* Imágenes de tu comercio */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -815,9 +815,9 @@ class _I16redesWidgetState extends State<I16redesWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             'yzhoj8e5' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

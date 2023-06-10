@@ -82,9 +82,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 1.0, 10.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                           /*   FFLocalizations.of(context).getText(
                                 'wqaasxlg' /* 1 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -124,9 +124,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                           /*   FFLocalizations.of(context).getText(
                                 'rf1zsq0b' /* 2 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -166,9 +166,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 1.0, 8.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
+                             /* FFLocalizations.of(context).getText(
                                 '3j8xmrtt' /* 3 */,
-                              ),
+                              )*/'',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -221,9 +221,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             '05fanddr' /* COMERCIO */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -249,9 +249,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                        /*  FFLocalizations.of(context).getText(
                             'shcwuo4c' /* Registrar */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -271,9 +271,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                       controller: _model.textController1,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'c3yzosbg' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -333,9 +333,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                       controller: _model.textController2,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText:/* FFLocalizations.of(context).getText(
                           'nzhjb23e' /* Confirmar E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -395,9 +395,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                       controller: _model.textController3,
                       obscureText: !_model.passwordVisibility1,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'yyjbsl8o' /* Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -472,9 +472,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                       controller: _model.textController4,
                       obscureText: !_model.passwordVisibility2,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText:/* FFLocalizations.of(context).getText(
                           'aiv0fzcb' /* Confirmar Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -593,9 +593,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 0.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   'lbi3xkj2' /* Acepto los términos y condicio... */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -622,9 +622,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text:/* FFLocalizations.of(context).getText(
                                   'jjcsd2bt' /* ¿Ya tenés cuenta? */,
-                                ),
+                                )*/'',
                                 style: TextStyle(
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.w300,
@@ -632,9 +632,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                                 ),
                               ),
                               TextSpan(
-                                text: FFLocalizations.of(context).getText(
+                                text: /*FFLocalizations.of(context).getText(
                                   'yr8no3ik' /* Ingresá acá */,
-                                ),
+                                )*/'',
                                 style: TextStyle(
                                   fontFamily: 'Brandon',
                                   fontWeight: FontWeight.w300,
@@ -696,9 +696,9 @@ class _I10RegistroComercioWidgetState extends State<I10RegistroComercioWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                        /*  FFLocalizations.of(context).getText(
                                             '0kpyb5wj' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

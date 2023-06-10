@@ -144,9 +144,9 @@ class _I12Registrarcomercio2WidgetState
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   10.0, 1.0, 10.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                                /*FFLocalizations.of(context).getText(
                                   '4an6um2f' /* 1 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -186,9 +186,9 @@ class _I12Registrarcomercio2WidgetState
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 1.0, 8.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                             /*   FFLocalizations.of(context).getText(
                                   'a1rx3ldz' /* 2 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -230,9 +230,9 @@ class _I12Registrarcomercio2WidgetState
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 1.0, 8.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   '5a94gpds' /* 3 */,
-                                ),
+                                )*/'',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -285,9 +285,9 @@ class _I12Registrarcomercio2WidgetState
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                            /*FFLocalizations.of(context).getText(
                               'fp6qnrfk' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -314,9 +314,9 @@ class _I12Registrarcomercio2WidgetState
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'xi2gnrlg' /* Registrar */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -337,9 +337,9 @@ class _I12Registrarcomercio2WidgetState
                         controller: _model.nombreController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'j6x6osr0' /* Nombre del comercio */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -399,9 +399,9 @@ class _I12Registrarcomercio2WidgetState
                         controller: _model.encargadoController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'mfgksfev' /* Nombre y apellido del encargad... */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -567,9 +567,9 @@ class _I12Registrarcomercio2WidgetState
                         controller: _model.codigoController1,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'i055cyxr' /* Categoria */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -629,9 +629,9 @@ class _I12Registrarcomercio2WidgetState
                         controller: _model.codigoController2,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: FFLocalizations.of(context).getText(
+                          hintText: /*FFLocalizations.of(context).getText(
                             'ttva26fg' /* Codigo Promocional (opcional) */,
-                          ),
+                          )*/'',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -719,9 +719,9 @@ class _I12Registrarcomercio2WidgetState
                                       () => _model.placePickerValue = place);
                                 },
                                 defaultText:
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                   '9gc8jwwg' /* Ubicacion */,
-                                ),
+                                )*/'',
                                 buttonOptions: FFButtonOptions(
                                   width: double.infinity,
                                   height: double.infinity,
@@ -774,9 +774,9 @@ class _I12Registrarcomercio2WidgetState
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 10.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
+                                       /* FFLocalizations.of(context).getText(
                                           '7hxnsh1r' /* Descripción del comercio */,
-                                        ),
+                                        )*/'',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
@@ -924,9 +924,9 @@ class _I12Registrarcomercio2WidgetState
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             '8ltnpvhq' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

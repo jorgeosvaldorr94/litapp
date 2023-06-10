@@ -162,9 +162,9 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   '4b5fqi3p' /* Atención al Cliente */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -201,9 +201,9 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                 /*   FFLocalizations.of(context).getText(
                                       'o9vrz7jx' /* Martes, 15 */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -222,9 +222,9 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
+                                     /* FFLocalizations.of(context).getText(
                                         'chwc414q' /* Todavía no tenés mensajes! */,
-                                      ),
+                                      )*/'',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(

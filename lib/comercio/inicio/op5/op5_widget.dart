@@ -112,9 +112,9 @@ class _Op5WidgetState extends State<Op5Widget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'gfdf2dzp' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -149,9 +149,9 @@ class _Op5WidgetState extends State<Op5Widget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       '1mddz84d' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -260,9 +260,9 @@ class _Op5WidgetState extends State<Op5Widget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 120.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             '5enz79l1' /* Oro */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -308,10 +308,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                               /*   FFLocalizations.of(context)
                                                       .getText(
                                                     '7ehjoxyp' /* $50 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -334,10 +334,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'gcn1ua96' /* /mes */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -370,10 +370,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                  /*  FFLocalizations.of(context)
                                                         .getText(
                                                       'iyoutgzk' /* 30 influencers */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -408,10 +408,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       'x43qc8jo' /* Beneficios */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -446,10 +446,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                  /*  FFLocalizations.of(context)
                                                         .getText(
                                                       'i8bkp1s2' /* Beneficios */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -483,9 +483,9 @@ class _Op5WidgetState extends State<Op5Widget> {
                                         alignment:
                                             AlignmentDirectional(0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                         /* FFLocalizations.of(context).getText(
                                             'gtw8fvn4' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -599,9 +599,9 @@ class _Op5WidgetState extends State<Op5Widget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 90.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
+                                            /*FFLocalizations.of(context).getText(
                                               'dqwxuybg' /* Platinum */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -648,10 +648,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       'ato3sghj' /* $100 */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -674,10 +674,10 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       '7eh91d9q' /* /mes */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -711,11 +711,11 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                             .fromSTEB(10.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'tkd7557w' /* 100 influencers */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -752,11 +752,11 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                             .fromSTEB(10.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
+                                                      /*FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'myet17fq' /* Beneficios */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -794,11 +794,11 @@ class _Op5WidgetState extends State<Op5Widget> {
                                                             .fromSTEB(10.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         '1c718orp' /* Beneficios */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -834,9 +834,9 @@ class _Op5WidgetState extends State<Op5Widget> {
                                           alignment:
                                               AlignmentDirectional(0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
+                                           /* FFLocalizations.of(context).getText(
                                               '6qxr0xd6' /* CONTINUAR */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(

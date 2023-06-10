@@ -105,9 +105,9 @@ class _I38MetododepagoWidgetState extends State<I38MetododepagoWidget> {
                                   ),
                                 ),
                                 Text(
-                                  FFLocalizations.of(context).getText(
+                                  /*FFLocalizations.of(context).getText(
                                     '2zzm77l8' /* Método de pago */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -184,10 +184,10 @@ class _I38MetododepagoWidgetState extends State<I38MetododepagoWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 18.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
+                                             /* FFLocalizations.of(context)
                                                   .getText(
                                                 'rv2qoimg' /* Sincronizar */,
-                                              ),
+                                              )*/'',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -269,10 +269,10 @@ class _I38MetododepagoWidgetState extends State<I38MetododepagoWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 18.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
+                                             /* FFLocalizations.of(context)
                                                   .getText(
                                                 '2vnwefh3' /* Sincronizar */,
-                                              ),
+                                              )*/'',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium

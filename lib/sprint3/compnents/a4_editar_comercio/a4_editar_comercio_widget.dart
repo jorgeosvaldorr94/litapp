@@ -132,9 +132,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 autofocus: true,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText:/* FFLocalizations.of(context).getText(
                                     'g6zpmyj6' /* 46 Street */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -239,12 +239,12 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                   fontSize: 19.2,
                                   useGoogleFonts: false,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
+                            hintText: /*FFLocalizations.of(context).getText(
                               'u1uiscud' /* Moda */,
-                            ),
-                            searchHintText: FFLocalizations.of(context).getText(
+                            )*/'',
+                            searchHintText: /*FFLocalizations.of(context).getText(
                               'h5bmxm7y' /* Search for an item... */,
-                            ),
+                            )*/'',
                             fillColor: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
                             elevation: 2.0,
@@ -286,9 +286,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     hintText:
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                       'l1lgarlv' /* 46s@gmail.com */,
-                                    ),
+                                    )*/'',
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
@@ -382,9 +382,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 autofocus: true,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /*FFLocalizations.of(context).getText(
                                     'cone7vrt' /* Juan Perez */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -476,9 +476,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 autofocus: true,
                                 obscureText: !_model.passwordVisibility1,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /* FFLocalizations.of(context).getText(
                                     '7qrb0jn5' /* ************ */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -583,9 +583,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 autofocus: true,
                                 obscureText: !_model.passwordVisibility2,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /*FFLocalizations.of(context).getText(
                                     'gagy6omu' /* +5491134567899 */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -690,9 +690,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 autofocus: true,
                                 obscureText: !_model.passwordVisibility3,
                                 decoration: InputDecoration(
-                                  hintText: FFLocalizations.of(context).getText(
+                                  hintText: /*FFLocalizations.of(context).getText(
                                     '4jg2tx7q' /* Juan Garlos Gruz 100 */,
-                                  ),
+                                  )*/'',
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -810,12 +810,12 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                   fontSize: 19.2,
                                   useGoogleFonts: false,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
+                            hintText: /*FFLocalizations.of(context).getText(
                               'clkrr7p8' /* Platinum */,
-                            ),
-                            searchHintText: FFLocalizations.of(context).getText(
+                            )*/'',
+                            searchHintText: /*FFLocalizations.of(context).getText(
                               'zxpsa8qh' /* Search for an item... */,
-                            ),
+                            )*/'',
                             fillColor: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
                             elevation: 2.0,
@@ -838,9 +838,9 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: FFLocalizations.of(context).getText(
+                      text: /*FFLocalizations.of(context).getText(
                         'r4vfvdsj' /* GUARDAR CAMBIO */,
-                      ),
+                      )*/'',
                       options: FFButtonOptions(
                         width: 255.0,
                         height: 65.0,

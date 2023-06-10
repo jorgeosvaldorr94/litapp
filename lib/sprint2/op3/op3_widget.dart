@@ -248,9 +248,9 @@ class _Op3WidgetState extends State<Op3Widget> {
                                         ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           '7nhu1vtx' /* Platinum */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -317,10 +317,10 @@ class _Op3WidgetState extends State<Op3Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'kxnkj6dl' /* $100 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -343,10 +343,10 @@ class _Op3WidgetState extends State<Op3Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                /*  FFLocalizations.of(context)
                                                       .getText(
                                                     '4tu1fnqc' /* /mes */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -374,10 +374,10 @@ class _Op3WidgetState extends State<Op3Widget> {
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       'avhjbkan' /* 100 influencers */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -411,9 +411,9 @@ class _Op3WidgetState extends State<Op3Widget> {
                                         alignment:
                                             AlignmentDirectional(0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                       /*   FFLocalizations.of(context).getText(
                                             'y0xmikke' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -519,9 +519,9 @@ class _Op3WidgetState extends State<Op3Widget> {
                                         ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
+                                      /*  FFLocalizations.of(context).getText(
                                           'bp0utk7n' /* Oro */,
-                                        ),
+                                        )*/'',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -578,10 +578,10 @@ class _Op3WidgetState extends State<Op3Widget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
+                                                 /* FFLocalizations.of(context)
                                                       .getText(
                                                     'xjzdgoen' /* $25 */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -635,10 +635,10 @@ class _Op3WidgetState extends State<Op3Widget> {
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
                                                   child: Text(
-                                                    FFLocalizations.of(context)
+                                                   /* FFLocalizations.of(context)
                                                         .getText(
                                                       'h6jw49qs' /* 50 influencers */,
-                                                    ),
+                                                    )*/'',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -672,9 +672,9 @@ class _Op3WidgetState extends State<Op3Widget> {
                                         alignment:
                                             AlignmentDirectional(0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                        /*  FFLocalizations.of(context).getText(
                                             'adaj72zx' /* CONTINUAR */,
-                                          ),
+                                          )*/'',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(

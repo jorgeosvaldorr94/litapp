@@ -61,9 +61,9 @@ class _YasosparteWidgetState extends State<YasosparteWidget> {
                   fit: BoxFit.cover,
                 ),
                 Text(
-                  FFLocalizations.of(context).getText(
+                 /* FFLocalizations.of(context).getText(
                     'ynyci84a' /* Ya sos parte de Lit! */,
-                  ),
+                  )*/'',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Brandon',
                         fontSize: 20.0,
@@ -95,9 +95,9 @@ class _YasosparteWidgetState extends State<YasosparteWidget> {
                 child: Align(
                   alignment: AlignmentDirectional(0.0, 0.0),
                   child: Text(
-                    FFLocalizations.of(context).getText(
+                   /* FFLocalizations.of(context).getText(
                       'h8vdux2r' /* VINCULAR MIS PAGOS */,
-                    ),
+                    )*/'',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Brandon',
                           fontSize: 12.0,

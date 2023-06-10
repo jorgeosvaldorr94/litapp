@@ -73,9 +73,9 @@ class _MostrarcomoWidgetState extends State<MostrarcomoWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
+                    /*    FFLocalizations.of(context).getText(
                           'p8ttsurc' /* Porcentaje */,
-                        ),
+                        )*/'',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Brandon',
                               fontSize: 9.0,
@@ -115,9 +115,9 @@ class _MostrarcomoWidgetState extends State<MostrarcomoWidget> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  FFLocalizations.of(context).getText(
+                 /* FFLocalizations.of(context).getText(
                     '0ki5dss3' /* Número */,
-                  ),
+                  )*/'',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Brandon',
                         fontSize: 9.0,

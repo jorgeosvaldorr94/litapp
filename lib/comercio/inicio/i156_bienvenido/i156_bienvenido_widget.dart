@@ -141,9 +141,9 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /*FFLocalizations.of(context).getText(
                             '8ogoha6w' /* Iniciar Sesión */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -164,9 +164,9 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText:/*FFLocalizations.of(context).getText(
                           'g1vfslkh' /* E-mail */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -227,9 +227,9 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             'bhat1bvd' /* Olvidé mi mail */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -250,9 +250,9 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: FFLocalizations.of(context).getText(
+                        hintText: /*FFLocalizations.of(context).getText(
                           'oaynr50t' /* Contraseña */,
-                        ),
+                        )*/'',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -319,9 +319,9 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                          /*FFLocalizations.of(context).getText(
                             'utxn07nd' /* Olvide mi contraseña */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -381,9 +381,9 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                          /*FFLocalizations.of(context).getText(
                                             'jflqywpb' /* INICIAR SESION */,
-                                          ),
+                                          )*/'',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

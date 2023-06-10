@@ -211,9 +211,9 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 5.0, 0.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                                 /* FFLocalizations.of(context).getText(
                                     '63wj9nlb' /* Notificaciones */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -250,9 +250,9 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
+                          /*  FFLocalizations.of(context).getText(
                               'p18c2eg8' /* Borrar Historial */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -360,9 +360,9 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                           /* FFLocalizations.of(context).getText(
                                               'lpljnq8t' /* ¡Ahora sos Mega Influencer! */,
-                                            ),
+                                            ),*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -384,9 +384,9 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                                             MainAxisAlignment.end,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                         /*   FFLocalizations.of(context).getText(
                                               'espiv19h' /* Hoy 12:00 */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -440,9 +440,9 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                           /* FFLocalizations.of(context).getText(
                                               '8wqwsuoq' /* ¡Este mes tuviste 30 contratac... */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -464,9 +464,9 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
                                             MainAxisAlignment.end,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
+                                           /* FFLocalizations.of(context).getText(
                                               'k9a5mx7g' /* Hoy 12:00 */,
-                                            ),
+                                            )*/'',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(

@@ -913,11 +913,11 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         '2q9znveq' /* NEGRONI */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium

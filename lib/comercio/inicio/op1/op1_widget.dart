@@ -161,9 +161,9 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
+                           /* FFLocalizations.of(context).getText(
                               'gaa5uivs' /* COMERCIO */,
-                            ),
+                            )*/'',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -199,9 +199,9 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                 /*   FFLocalizations.of(context).getText(
                                       '1oqm9s4o' /* Membresías */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -320,10 +320,10 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 120.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
+                                             /* FFLocalizations.of(context)
                                                   .getText(
                                                 'og8wzcyu' /* Oro */,
-                                              ),
+                                              )*/'',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -374,11 +374,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                    /*  FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'b94wd4sz' /* $50 */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -404,11 +404,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                      /*FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'fx0gmmy0' /* /mes */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -448,11 +448,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
+                                                       /* FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'uu8c25na' /* 30 influencers */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -495,11 +495,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'lh830xy1' /* Beneficios */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -542,11 +542,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'ypjv4ksv' /* Beneficios */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -660,10 +660,10 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                               alignment: AlignmentDirectional(
                                                   0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                               /* FFLocalizations.of(context)
                                                     .getText(
                                                   'y5dhf1vn' /* CONTINUAR */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -786,10 +786,10 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                   .fromSTEB(
                                                       0.0, 0.0, 90.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
+                                               /* FFLocalizations.of(context)
                                                     .getText(
                                                   'y0ybyfmr' /* Platinum */,
-                                                ),
+                                                )*/'',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -840,11 +840,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                       /* FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           '84gmjf7a' /* $100 */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -871,11 +871,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'dvwh1sx6' /* /mes */,
-                                                        ),
+                                                        )*/'',
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -917,11 +917,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          FFLocalizations.of(
+                                                         /* FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'v1jdpqc1' /* 100 influencers */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -964,11 +964,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          FFLocalizations.of(
+                                                         /* FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'znzxb7hn' /* Beneficios */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -1011,11 +1011,11 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          FFLocalizations.of(
+                                                         /* FFLocalizations.of(
                                                                   context)
                                                               .getText(
                                                             'tuyzusj3' /* Beneficios */,
-                                                          ),
+                                                          )*/'',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -1123,10 +1123,10 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                                 alignment: AlignmentDirectional(
                                                     0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
+                                               /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'zlucu038' /* CONTINUAR */,
-                                                  ),
+                                                  )*/'',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium

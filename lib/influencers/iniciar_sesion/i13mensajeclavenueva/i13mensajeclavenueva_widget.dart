@@ -85,9 +85,9 @@ class _I13mensajeclavenuevaWidgetState
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
+                 /*   FFLocalizations.of(context).getText(
                       '0vu84ji7' /* Cambio realizado */,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Albra',
@@ -106,9 +106,9 @@ class _I13mensajeclavenuevaWidgetState
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
+                  /*  FFLocalizations.of(context).getText(
                       'hanrxx9u' /* Tu contraseña ha sido modifica... */,
-                    ),
+                    )*/'',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Brandon',
@@ -126,9 +126,9 @@ class _I13mensajeclavenuevaWidgetState
                 onPressed: () {
                   print('Button pressed ...');
                 },
-                text: FFLocalizations.of(context).getText(
+                text: /*FFLocalizations.of(context).getText(
                   '4q39hyw8' /* COMENZAR */,
-                ),
+                )*/'',
                 options: FFButtonOptions(
                   width: 178.0,
                   height: 38.0,

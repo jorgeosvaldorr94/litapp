@@ -86,9 +86,9 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 100.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
+                    /*  FFLocalizations.of(context).getText(
                         'iqvlzp1p' /* Nombre admin */,
-                      ),
+                      ),*/ "",
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
                             fontSize: 20.0,
@@ -108,9 +108,9 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                           autofocus: true,
                           obscureText: false,
                           decoration: InputDecoration(
-                            hintText: FFLocalizations.of(context).getText(
+                        /*    hintText: FFLocalizations.of(context).getText(
                               'v5svqrut' /* Buscar */,
-                            ),
+                            ),*/
                             hintStyle:
                                 FlutterFlowTheme.of(context).bodySmall.override(
                                       fontFamily: 'Brandon',

@@ -195,9 +195,9 @@ class _I28AtencionalclienteWidgetState extends State<I28AtencionalclienteWidget>
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'jnh6bo3s' /* Atención al Cliente */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -292,9 +292,9 @@ class _I28AtencionalclienteWidgetState extends State<I28AtencionalclienteWidget>
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
+                                    /*FFLocalizations.of(context).getText(
                                       'nn73bwaq' /* Martes, 15 */,
-                                    ),
+                                    )*/'',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -355,13 +355,13 @@ class _I28AtencionalclienteWidgetState extends State<I28AtencionalclienteWidget>
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      FFLocalizations.of(
+                                                     /* FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'iq76rwiw' /* Ey! ¿Cómo podemos ayudarte?
 Si... */
                                                         ,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -389,11 +389,11 @@ Si... */
                                                         text: TextSpan(
                                                           children: [
                                                             TextSpan(
-                                                              text: FFLocalizations
+                                                              text:/* FFLocalizations
                                                                       .of(context)
                                                                   .getText(
                                                                 'wyiz1bl1' /* .  */,
-                                                              ),
+                                                              )*/'',
                                                               style: TextStyle(
                                                                 color: Colors
                                                                     .black,
@@ -404,13 +404,13 @@ Si... */
                                                               ),
                                                             ),
                                                             TextSpan(
-                                                              text: FFLocalizations
+                                                              text: /*FFLocalizations
                                                                       .of(context)
                                                                   .getText(
                                                                 '1qs1cicz' /* 1. Tengo un problema
 con la of... */
                                                                 ,
-                                                              ),
+                                                              )*/'',
                                                               style:
                                                                   TextStyle(),
                                                             )
@@ -442,11 +442,11 @@ con la of... */
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'x7ko1hxh' /* 8.30pm */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -507,13 +507,13 @@ con la of... */
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                        /*FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'r8izvh1o' /* Hola! ¿Qué tal? Sí,
 gracias! 1... */
                                                           ,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -537,11 +537,11 @@ gracias! 1... */
                                                         MainAxisAlignment.end,
                                                     children: [
                                                       Text(
-                                                        FFLocalizations.of(
+                                                       /* FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'dm1jly9t' /* 8.33pm */,
-                                                        ),
+                                                        )*/'',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -621,9 +621,9 @@ gracias! 1... */
                             controller: _model.textController,
                             obscureText: false,
                             decoration: InputDecoration(
-                              hintText: FFLocalizations.of(context).getText(
+                              hintText: /*FFLocalizations.of(context).getText(
                                 '2gyc62sg' /* Escribir... */,
-                              ),
+                              )*/'',
                               hintStyle: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(

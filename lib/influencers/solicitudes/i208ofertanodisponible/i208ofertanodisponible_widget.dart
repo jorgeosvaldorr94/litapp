@@ -87,11 +87,11 @@ class _I208ofertanodisponibleWidgetState
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         '2dpb7wea' /* Ups! La oferta de @Negroni
 ya ... */
                         ,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Albra',
@@ -110,9 +110,9 @@ ya ... */
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
+                     /* FFLocalizations.of(context).getText(
                         'nv9xpawy' /* Encontrá nuevas ofertas en el ... */,
-                      ),
+                      )*/'',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',
@@ -130,9 +130,9 @@ ya ... */
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: FFLocalizations.of(context).getText(
+                  text: /*FFLocalizations.of(context).getText(
                     '424qus6v' /* CONTINUAR */,
-                  ),
+                  )*/'',
                   options: FFButtonOptions(
                     width: 178.0,
                     height: 38.0,

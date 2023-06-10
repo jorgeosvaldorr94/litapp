@@ -98,9 +98,9 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          FFLocalizations.of(context).getText(
+                         /* FFLocalizations.of(context).getText(
                             'wbjtqnk7' /* Influencer */,
-                          ),
+                          )*/'',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -157,9 +157,9 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                               child: Align(
                                 alignment: AlignmentDirectional(0.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
+                               /*   FFLocalizations.of(context).getText(
                                     'e47wwcmq' /* LOGO */,
-                                  ),
+                                  )*/'',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -179,9 +179,9 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
+                               /* FFLocalizations.of(context).getText(
                                   'rykpmmst' /* ¡Bienvenida a Lit! */,
-                                ),
+                                )*/'',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -208,9 +208,9 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                       text: TextSpan(
                         children: [
                           TextSpan(
-                            text: FFLocalizations.of(context).getText(
+                            text: /*FFLocalizations.of(context).getText(
                               'acrwulx4' /* Hola  */,
-                            ),
+                            )*/'',
                             style: TextStyle(
                               fontFamily: 'Brandon',
                               fontWeight: FontWeight.w300,
@@ -218,9 +218,9 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                             ),
                           ),
                           TextSpan(
-                            text: FFLocalizations.of(context).getText(
+                            text:/* FFLocalizations.of(context).getText(
                               'wt1ljlrr' /* Wanda!  */,
-                            ),
+                            )*/'',
                             style: TextStyle(
                               fontFamily: 'Brandon',
                               color: Color(0xFFFF5A26),
@@ -229,11 +229,11 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                             ),
                           ),
                           TextSpan(
-                            text: FFLocalizations.of(context).getText(
+                            text: /*FFLocalizations.of(context).getText(
                               'sdrvseik' /* Ya sos parte de nuestra
 comuni... */
                               ,
-                            ),
+                            )*/'',
                             style: TextStyle(
                               fontFamily: 'Brandon',
                               fontWeight: FontWeight.w300,
@@ -281,9 +281,9 @@ comuni... */
                                 child: Align(
                                   alignment: AlignmentDirectional(0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
+                                  /*  FFLocalizations.of(context).getText(
                                       'fvwz2nep' /* Todavía no tenés ofertas! */,
-                                    ),
+                                    )*/'',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium

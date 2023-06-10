@@ -139,11 +139,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                       ),
                                                     ),
                                                     Text(
-                                                      FFLocalizations.of(
+                                                   /*   FFLocalizations.of(
                                                               context)
                                                           .getText(
                                                         'p3vowlbo' /* 46 STREET */,
-                                                      ),
+                                                      )*/'',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -165,11 +165,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
+                                                      /*  FFLocalizations.of(
                                                                 context)
                                                             .getText(
                                                           'gfjonpdi' /* Miembro desde 13/09/2022 */,
-                                                        ),
+                                                        )*/'',
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -244,11 +244,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           0.0,
                                                                           0.0),
                                                               child: Text(
-                                                                FFLocalizations.of(
+                                                              /*  FFLocalizations.of(
                                                                         context)
                                                                     .getText(
                                                                   'z5b8cnvv' /* ELIMINAR */,
-                                                                ),
+                                                                )*/'',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -346,11 +346,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                         0.0,
                                                                         0.0),
                                                             child: Text(
-                                                              FFLocalizations.of(
+                                                              /*FFLocalizations.of(
                                                                       context)
                                                                   .getText(
                                                                 '2nrd450k' /* Contacto */,
-                                                              ),
+                                                              )*/'',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -405,7 +405,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               0.0),
                                                                       child:
                                                                           Text(
-                                                                        FFLocalizations.of(context)
+                                                                      /*  FFLocalizations.of(context)
                                                                             .getText(
                                                                           'vhebixg4' /* 47street@gmail.com */,
                                                                         ),
@@ -415,7 +415,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               fontFamily: 'Brandon',
                                                                               fontSize: 14.0,
                                                                               useGoogleFonts: false,
-                                                                            ),
+                                                                            ),*/''
                                                                       ),
                                                                     ),
                                                                   ],
@@ -463,7 +463,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               0.0),
                                                                       child:
                                                                           Text(
-                                                                        FFLocalizations.of(context)
+                                                                       /* FFLocalizations.of(context)
                                                                             .getText(
                                                                           'ush6g30o' /* +54 911 60457878 */,
                                                                         ),
@@ -473,7 +473,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               fontFamily: 'Brandon',
                                                                               fontSize: 14.0,
                                                                               useGoogleFonts: false,
-                                                                            ),
+                                                                            ),*/''
                                                                       ),
                                                                     ),
                                                                   ],
@@ -526,11 +526,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              FFLocalizations.of(
+                                                             /* FFLocalizations.of(
                                                                       context)
                                                                   .getText(
                                                                 'cad0fhlb' /* Membresía */,
-                                                              ),
+                                                              )*/'',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -582,10 +582,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
+                                                                        /*  FFLocalizations.of(context)
                                                                               .getText(
                                                                             '44c45mpy' /* Platinum */,
-                                                                          ),
+                                                                          )*/'',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -702,10 +702,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             .center,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
+                                                                       /* FFLocalizations.of(context)
                                                                             .getText(
                                                                           'bj7b4w5a' /* Campañas creadas */,
-                                                                        ),
+                                                                        )*/'',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -726,11 +726,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           .center,
                                                                   children: [
                                                                     Text(
-                                                                      FFLocalizations.of(
+                                                                      /*FFLocalizations.of(
                                                                               context)
                                                                           .getText(
                                                                         'im326qjf' /* Ultimo mes */,
-                                                                      ),
+                                                                      )*/'',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -778,10 +778,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             FlutterFlowTheme.of(context).accent4,
                                                                         center:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
+                                                                       /*   FFLocalizations.of(context)
                                                                               .getText(
                                                                             '23t5sm76' /* 30 */,
-                                                                          ),
+                                                                          )*/'',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -841,10 +841,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             .center,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
+                                                                      /*  FFLocalizations.of(context)
                                                                             .getText(
                                                                           'k70c1zq8' /* Ultima semana */,
-                                                                        ),
+                                                                        )*/'',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -865,11 +865,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           .center,
                                                                   children: [
                                                                     Text(
-                                                                      FFLocalizations.of(
+                                                                     /* FFLocalizations.of(
                                                                               context)
                                                                           .getText(
                                                                         'jxx73ddw' /* 30% + */,
-                                                                      ),
+                                                                      )*/'',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -982,7 +982,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               .center,
                                                                       children: [
                                                                         Text(
-                                                                          FFLocalizations.of(context)
+                                                                        /*  FFLocalizations.of(context)
                                                                               .getText(
                                                                             '3nu4cg7g' /* Campañas activas */,
                                                                           ),
@@ -992,7 +992,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                 fontFamily: 'Albra',
                                                                                 fontWeight: FontWeight.bold,
                                                                                 useGoogleFonts: false,
-                                                                              ),
+                                                                              ),*/''
                                                                         ),
                                                                       ],
                                                                     ),
@@ -1030,9 +1030,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               FlutterFlowTheme.of(context).accent4,
                                                                           center:
                                                                               Text(
-                                                                            FFLocalizations.of(context).getText(
+                                                                          /* FFLocalizations.of(context).getText(
                                                                               'cmdxlus9' /* 30 */,
-                                                                            ),
+                                                                            )*/'',
                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                   fontFamily: 'Brandon',
                                                                                   color: FlutterFlowTheme.of(context).primaryText,
@@ -1090,10 +1090,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               .center,
                                                                       children: [
                                                                         Text(
-                                                                          FFLocalizations.of(context)
+                                                                         /* FFLocalizations.of(context)
                                                                               .getText(
                                                                             'yqnmvnmx' /* Ultima semana */,
-                                                                          ),
+                                                                          )*/'',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1114,10 +1114,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             .center,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
+                                                                      /*  FFLocalizations.of(context)
                                                                             .getText(
                                                                           'afybzpe8' /* 30% + */,
-                                                                        ),
+                                                                        )*/'',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1189,11 +1189,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      FFLocalizations.of(
+                                                                    /*  FFLocalizations.of(
                                                                               context)
                                                                           .getText(
                                                                         'of035ofe' /* Historial */,
-                                                                      ),
+                                                                      )*/'',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -1254,9 +1254,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               autofocus: true,
                                                                               obscureText: false,
                                                                               decoration: InputDecoration(
-                                                                                hintText: FFLocalizations.of(context).getText(
+                                                                                hintText: /* FFLocalizations.of(context).getText(
                                                                                   '5e2oi3cu' /* Buscar... */,
-                                                                                ),
+                                                                                )*/'',
                                                                                 hintStyle: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                       fontFamily: 'Brandon',
                                                                                       useGoogleFonts: false,
@@ -1387,9 +1387,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                             crossAxisAlignment: CrossAxisAlignment.start,
                                                                                             children: [
                                                                                               Text(
-                                                                                                FFLocalizations.of(context).getText(
+                                                                                              /*  FFLocalizations.of(context).getText(
                                                                                                   'n1lv3skt' /* Camila mendez  */,
-                                                                                                ),
+                                                                                                )*/'',
                                                                                                 style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                       fontFamily: 'Brandon',
                                                                                                       fontSize: 10.0,
@@ -1397,9 +1397,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                     ),
                                                                                               ),
                                                                                               Text(
-                                                                                                FFLocalizations.of(context).getText(
+                                                                                              /*  FFLocalizations.of(context).getText(
                                                                                                   'ux336abh' /* Acción - Stories  */,
-                                                                                                ),
+                                                                                                )*/'',
                                                                                                 style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                       fontFamily: 'Brandon',
                                                                                                       fontSize: 11.9,
@@ -1407,9 +1407,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                     ),
                                                                                               ),
                                                                                               Text(
-                                                                                                FFLocalizations.of(context).getText(
+                                                                                                /*FFLocalizations.of(context).getText(
                                                                                                   'bf2g5rna' /* 20/03/2022 */,
-                                                                                                ),
+                                                                                                )*/'',
                                                                                                 style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                       fontFamily: 'Brandon',
                                                                                                       fontSize: 12.0,
@@ -1424,9 +1424,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                         mainAxisSize: MainAxisSize.max,
                                                                                         children: [
                                                                                           Text(
-                                                                                            FFLocalizations.of(context).getText(
+                                                                                         /*   FFLocalizations.of(context).getText(
                                                                                               '4o71y2zh' /* Campaña de marketing */,
-                                                                                            ),
+                                                                                            )*/'',
                                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                   fontFamily: 'Brandon',
                                                                                                   fontSize: 11.9,
@@ -1439,9 +1439,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                         mainAxisSize: MainAxisSize.max,
                                                                                         children: [
                                                                                           Text(
-                                                                                            FFLocalizations.of(context).getText(
+                                                                                           /* FFLocalizations.of(context).getText(
                                                                                               'h7irg50j' /* POR CANJE */,
-                                                                                            ),
+                                                                                            )*/'',
                                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                   fontFamily: 'Albra',
                                                                                                   fontWeight: FontWeight.w500,
@@ -1521,11 +1521,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
+                                                                  /*  FFLocalizations.of(
                                                                             context)
                                                                         .getText(
                                                                       '75jgzelr' /* Cancelaciones */,
-                                                                    ),
+                                                                    )*/'',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1554,9 +1554,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                         children: [
                                                                           TextSpan(
                                                                             text:
-                                                                                FFLocalizations.of(context).getText(
+                                                                                /*FFLocalizations.of(context).getText(
                                                                               'uj1m1abt' /* 2/ */,
-                                                                            ),
+                                                                            )*/'',
                                                                             style:
                                                                                 TextStyle(
                                                                               fontFamily: 'Brandon',
@@ -1566,9 +1566,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           ),
                                                                           TextSpan(
                                                                             text:
-                                                                                FFLocalizations.of(context).getText(
+                                                                              /*  FFLocalizations.of(context).getText(
                                                                               'iu000raa' /* 3 */,
-                                                                            ),
+                                                                            )*/'',
                                                                             style:
                                                                                 TextStyle(
                                                                               fontFamily: 'Brandon',
@@ -1659,9 +1659,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                                                                   children: [
                                                                                                     Text(
-                                                                                                      FFLocalizations.of(context).getText(
+                                                                                                      /*FFLocalizations.of(context).getText(
                                                                                                         '3ljvjfrz' /* Camila mendez  */,
-                                                                                                      ),
+                                                                                                      )*/'',
                                                                                                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                             fontFamily: 'Brandon',
                                                                                                             fontSize: 10.0,
@@ -1669,9 +1669,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                           ),
                                                                                                     ),
                                                                                                     Text(
-                                                                                                      FFLocalizations.of(context).getText(
+                                                                                                   /*   FFLocalizations.of(context).getText(
                                                                                                         't5jzlciv' /* Acción - Stories  */,
-                                                                                                      ),
+                                                                                                      )*/'',
                                                                                                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                             fontFamily: 'Brandon',
                                                                                                             fontSize: 11.9,
@@ -1679,9 +1679,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                           ),
                                                                                                     ),
                                                                                                     Text(
-                                                                                                      FFLocalizations.of(context).getText(
+                                                                                                    /*  FFLocalizations.of(context).getText(
                                                                                                         '6qrtzfsh' /* 20/03/2022 */,
-                                                                                                      ),
+                                                                                                      )*/'',
                                                                                                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                             fontFamily: 'Brandon',
                                                                                                             fontSize: 12.0,
@@ -1696,9 +1696,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                               mainAxisSize: MainAxisSize.max,
                                                                                               children: [
                                                                                                 Text(
-                                                                                                  FFLocalizations.of(context).getText(
+                                                                                                /*  FFLocalizations.of(context).getText(
                                                                                                     'g3nye4l9' /* Campaña de marketing */,
-                                                                                                  ),
+                                                                                                  )*/'',
                                                                                                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                         fontFamily: 'Brandon',
                                                                                                         fontSize: 11.9,
@@ -1711,9 +1711,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                               mainAxisSize: MainAxisSize.max,
                                                                                               children: [
                                                                                                 Text(
-                                                                                                  FFLocalizations.of(context).getText(
+                                                                                                 /* FFLocalizations.of(context).getText(
                                                                                                     'lqofwx7z' /* Cancelada */,
-                                                                                                  ),
+                                                                                                  )*/'',
                                                                                                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                         fontFamily: 'Albra',
                                                                                                         fontSize: 14.0,
@@ -1838,9 +1838,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                     crossAxisAlignment: CrossAxisAlignment.start,
                                                                                                     children: [
                                                                                                       Text(
-                                                                                                        FFLocalizations.of(context).getText(
+                                                                                                      /*  FFLocalizations.of(context).getText(
                                                                                                           'tyu6dt9m' /* Camila mendez  */,
-                                                                                                        ),
+                                                                                                        )*/'',
                                                                                                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                               fontFamily: 'Brandon',
                                                                                                               fontSize: 10.0,
@@ -1848,9 +1848,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                             ),
                                                                                                       ),
                                                                                                       Text(
-                                                                                                        FFLocalizations.of(context).getText(
+                                                                                                       /* FFLocalizations.of(context).getText(
                                                                                                           '6w3wlqyp' /* Acción - Stories  */,
-                                                                                                        ),
+                                                                                                        )*/'',
                                                                                                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                               fontFamily: 'Brandon',
                                                                                                               fontSize: 11.9,
@@ -1858,9 +1858,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                             ),
                                                                                                       ),
                                                                                                       Text(
-                                                                                                        FFLocalizations.of(context).getText(
+                                                                                                       /* FFLocalizations.of(context).getText(
                                                                                                           'z8nk82va' /* 20/03/2022 */,
-                                                                                                        ),
+                                                                                                        )*/'',
                                                                                                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                               fontFamily: 'Brandon',
                                                                                                               fontSize: 12.0,
@@ -1875,9 +1875,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                 mainAxisSize: MainAxisSize.max,
                                                                                                 children: [
                                                                                                   Text(
-                                                                                                    FFLocalizations.of(context).getText(
+                                                                                                  /*  FFLocalizations.of(context).getText(
                                                                                                       'u6pxceaw' /* Campaña de marketing */,
-                                                                                                    ),
+                                                                                                    )*/'',
                                                                                                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                           fontFamily: 'Brandon',
                                                                                                           fontSize: 11.9,
@@ -1890,9 +1890,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                 mainAxisSize: MainAxisSize.max,
                                                                                                 children: [
                                                                                                   Text(
-                                                                                                    FFLocalizations.of(context).getText(
+                                                                                                   /* FFLocalizations.of(context).getText(
                                                                                                       'emob7d79' /* Cancelada */,
-                                                                                                    ),
+                                                                                                    )*/'',
                                                                                                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                           fontFamily: 'Albra',
                                                                                                           fontSize: 14.0,
@@ -1992,11 +1992,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   print(
                                                                       'Button pressed ...');
                                                                 },
-                                                                text: FFLocalizations.of(
+                                                                text: /*FFLocalizations.of(
                                                                         context)
                                                                     .getText(
                                                                   'p3pf08an' /* SUSPENDER USUARIO */,
-                                                                ),
+                                                                )*/'',
                                                                 options:
                                                                     FFButtonOptions(
                                                                   width: 172.0,
@@ -2151,9 +2151,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                       ),
                                                                                     ),
                                                                                     Text(
-                                                                                      FFLocalizations.of(context).getText(
+                                                                                     /* FFLocalizations.of(context).getText(
                                                                                         '89oi8mul' /* Pagos comerciantes */,
-                                                                                      ),
+                                                                                      )*/'',
                                                                                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                             fontFamily: 'Albra',
                                                                                             fontWeight: FontWeight.bold,
@@ -2302,10 +2302,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             .max,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
+                                                                       /* FFLocalizations.of(context)
                                                                             .getText(
                                                                           'gs60kv4g' /* Resúmen */,
-                                                                        ),
+                                                                        )*/'',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2358,10 +2358,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             .end,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
+                                                                       /* FFLocalizations.of(context)
                                                                             .getText(
                                                                           'faqb7t7t' /* Total del mes: */,
-                                                                        ),
+                                                                        )*/'',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2372,10 +2372,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                             ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
+                                                                       /* FFLocalizations.of(context)
                                                                             .getText(
                                                                           'd72wxwa2' /* $ 7500 */,
-                                                                        ),
+                                                                        )*/'',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2455,10 +2455,10 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               .max,
                                                                       children: [
                                                                         Text(
-                                                                          FFLocalizations.of(context)
+                                                                        /*  FFLocalizations.of(context)
                                                                               .getText(
                                                                             '72e0h9ko' /* Comentarios */,
-                                                                          ),
+                                                                          )*/'',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2741,9 +2741,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                     mainAxisSize: MainAxisSize.max,
                                                                                     children: [
                                                                                       Text(
-                                                                                        FFLocalizations.of(context).getText(
+                                                                                       /* FFLocalizations.of(context).getText(
                                                                                           '1oivsvr6' /* Muy profesionales y muy ordena... */,
-                                                                                        ),
+                                                                                        )*/'',
                                                                                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                               fontFamily: 'Brandon',
                                                                                               fontSize: 11.0,
@@ -2796,9 +2796,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                           mainAxisSize: MainAxisSize.max,
                                                                                           children: [
                                                                                             Text(
-                                                                                              FFLocalizations.of(context).getText(
+                                                                                             /* FFLocalizations.of(context).getText(
                                                                                                 'lawt06vu' /* Sol Gomez */,
-                                                                                              ),
+                                                                                              )*/'',
                                                                                               style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                     fontFamily: 'Brandon',
                                                                                                     fontSize: 11.0,
@@ -3046,9 +3046,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                               autofocus: true,
                                                                                               obscureText: false,
                                                                                               decoration: InputDecoration(
-                                                                                                hintText: FFLocalizations.of(context).getText(
+                                                                                                hintText: /*FFLocalizations.of(context).getText(
                                                                                                   'quqjdk6b' /* Buscar... */,
-                                                                                                ),
+                                                                                                )*/'',
                                                                                                 hintStyle: FlutterFlowTheme.of(context).bodySmall.override(
                                                                                                       fontFamily: 'Brandon',
                                                                                                       useGoogleFonts: false,
@@ -3156,9 +3156,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                       crossAxisAlignment: CrossAxisAlignment.start,
                                                                                                       children: [
                                                                                                         Text(
-                                                                                                          FFLocalizations.of(context).getText(
+                                                                                                        /*  FFLocalizations.of(context).getText(
                                                                                                             'we578k65' /* Nike */,
-                                                                                                          ),
+                                                                                                          )*/'',
                                                                                                           style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                                 fontFamily: 'Brandon',
                                                                                                                 fontSize: 9.0,
@@ -3166,9 +3166,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                               ),
                                                                                                         ),
                                                                                                         Text(
-                                                                                                          FFLocalizations.of(context).getText(
+                                                                                                        /*  FFLocalizations.of(context).getText(
                                                                                                             '7pc8y9ej' /* Campaña Welnness */,
-                                                                                                          ),
+                                                                                                          )*/'',
                                                                                                           style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                                 fontFamily: 'Brandon',
                                                                                                                 fontSize: 11.0,
@@ -3176,9 +3176,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                               ),
                                                                                                         ),
                                                                                                         Text(
-                                                                                                          FFLocalizations.of(context).getText(
+                                                                                                         /* FFLocalizations.of(context).getText(
                                                                                                             'yfwzxgoo' /* 20/03/2022 */,
-                                                                                                          ),
+                                                                                                          )*/'',
                                                                                                           style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                                 fontFamily: 'Brandon',
                                                                                                                 fontSize: 10.0,
@@ -3232,9 +3232,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                         crossAxisAlignment: CrossAxisAlignment.start,
                                                                                                         children: [
                                                                                                           Text(
-                                                                                                            FFLocalizations.of(context).getText(
+                                                                                                          /*  FFLocalizations.of(context).getText(
                                                                                                               'kya2eo8x' /* Nike */,
-                                                                                                            ),
+                                                                                                            )*/'',
                                                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                                   fontFamily: 'Brandon',
                                                                                                                   fontSize: 9.0,
@@ -3242,9 +3242,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                                 ),
                                                                                                           ),
                                                                                                           Text(
-                                                                                                            FFLocalizations.of(context).getText(
+                                                                                                            /*FFLocalizations.of(context).getText(
                                                                                                               'wjlaxo2t' /* Campaña Welnness */,
-                                                                                                            ),
+                                                                                                            )*/'',
                                                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                                   fontFamily: 'Brandon',
                                                                                                                   fontSize: 11.0,
@@ -3252,9 +3252,9 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                                 ),
                                                                                                           ),
                                                                                                           Text(
-                                                                                                            FFLocalizations.of(context).getText(
+                                                                                                         /*   FFLocalizations.of(context).getText(
                                                                                                               'mqxbt30u' /* 20/03/2022 */,
-                                                                                                            ),
+                                                                                                            )*/'',
                                                                                                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                                                   fontFamily: 'Brandon',
                                                                                                                   fontSize: 10.0,
@@ -3512,11 +3512,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   .center,
                                                           children: [
                                                             Text(
-                                                              FFLocalizations.of(
+                                                             /* FFLocalizations.of(
                                                                       context)
                                                                   .getText(
                                                                 '3bk5v6np' /* en el último mes */,
-                                                              ),
+                                                              )*/'',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -3588,11 +3588,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           22.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    FFLocalizations.of(
+                                                                    /*FFLocalizations.of(
                                                                             context)
                                                                         .getText(
                                                                       'f1h2g814' /*  INFLUENCERS  CON LOS QUE TRAB... */,
-                                                                    ),
+                                                                    )*/'',
                                                                     textAlign:
                                                                         TextAlign
                                                                             .center,
@@ -3630,11 +3630,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                     .center,
                                                             children: [
                                                               Text(
-                                                                FFLocalizations.of(
+                                                               /* FFLocalizations.of(
                                                                         context)
                                                                     .getText(
                                                                   'co4oi7w9' /* 24 */,
-                                                                ),
+                                                                )*/'',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -3661,11 +3661,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   .center,
                                                           children: [
                                                             Text(
-                                                              FFLocalizations.of(
+                                                             /* FFLocalizations.of(
                                                                       context)
                                                                   .getText(
                                                                 'xkssxs2d' /* en el último mes */,
-                                                              ),
+                                                              )*/'',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -3724,11 +3724,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   .center,
                                                           children: [
                                                             Text(
-                                                              FFLocalizations.of(
+                                                            /*  FFLocalizations.of(
                                                                       context)
                                                                   .getText(
                                                                 'k9hnxfx8' /* BAJAS DE INFLUENCERS */,
-                                                              ),
+                                                              )*/'',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -3761,11 +3761,11 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                   .center,
                                                           children: [
                                                             Text(
-                                                              FFLocalizations.of(
+                                                             /* FFLocalizations.of(
                                                                       context)
                                                                   .getText(
                                                                 '18yx2xe6' /* 45 */,
-                                                              ),
+                                                              )*/'',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
