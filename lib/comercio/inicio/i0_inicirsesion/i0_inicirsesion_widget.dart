@@ -78,7 +78,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+  //  context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),

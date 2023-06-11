@@ -1,3 +1,10 @@
+import 'package:lit_app/comercio/inicio/i0_inicirsesion/i0_inicirsesion_widget.dart';
+import 'package:lit_app/my_app.dart';
+
+
+import '../../my_app.dart';
+
+import '../../routes/routes.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -35,10 +42,11 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
 
   @override
   Widget build(BuildContext context) {
-   // context.watch<FFAppState>();
+    //context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+  //  onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+    
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: Color(0xFFFF5A26),
@@ -102,10 +110,19 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text(/*
+                                    GestureDetector(
+                                    onTap: () {
+                                    
+                           MaterialPageRoute route = MaterialPageRoute(builder: (context) => I0InicirsesionWidget());
+                                Navigator.push(context, route);
+                                    },
+                                    child:Text(
+                                      
+                                      /*
                                       FFLocalizations.of(context).getText(
                                         'duv4r07f' /* INFLUENCER */,
                                       )*/'INFLUENCER',
+                                      
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -116,6 +133,8 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                                             useGoogleFonts: false,
                                           ),
                                     ),
+                                    
+                                    )
                                   ],
                                 ),
                               ),
@@ -138,7 +157,15 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Text(/*
+                              GestureDetector(
+                                 onTap: () {
+                              /* final myAppState = context.findAncestorStateOfType<MyAppState>();
+                               myAppState?.delegate.setInitialRoutePath(Uri.parse('/i0Inicirsesion'));*/
+                               MaterialPageRoute route = MaterialPageRoute(builder: (context) => I0InicirsesionWidget());
+                                Navigator.push(context, route);
+                               
+                              },
+                                child:  Text(/*
                                 FFLocalizations.of(context).getText(
                                   'x0nf9gfg' /* COMERCIO */,
                                 )*/'COMERCIO',
@@ -149,8 +176,13 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                                       fontSize: 24.0,
                                       fontWeight: FontWeight.w500,
                                       useGoogleFonts: false,
-                                    ),
+                                    ), 
                               ),
+                              
+                              ),
+                              
+                               
+                               
                             ],
                           ),
                         ),
