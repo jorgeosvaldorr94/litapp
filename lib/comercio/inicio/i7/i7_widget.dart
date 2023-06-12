@@ -1,3 +1,4 @@
+import '../../../routes/routes.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -75,7 +76,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
             onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
             child: Padding(
               padding: MediaQuery.of(bottomSheetContext).viewInsets,
-              child: I57calendarioWidget(),
+              //child: I57calendarioWidget(),
             ),
           );
         },
@@ -93,7 +94,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   // context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -122,6 +123,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+                              Navigator.of(context).pop();
                             //cambiar
                             //  context.safePop();
                             },
@@ -146,6 +148,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
+                                  Navigator.of(context).pop();
                                  //cambiar
                                  // context.safePop();
                                 },
@@ -171,7 +174,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                             child: Text(
                             /*  FFLocalizations.of(context).getText(
                                 'wlzmruvm' /* INFLUENCERS */,
-                              )*/'',
+                              )*/'INFLUENCERS',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -228,7 +231,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                 /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'yqjzp08e' /* IMG / ILLU */,
-                                                  )*/'',
+                                                  )*/'IMG / ILLU',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -251,7 +254,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                              /* FFLocalizations.of(context)
                                                   .getText(
                                                 'mh1eqgje' /* Creá ofertas */,
-                                              )*/'',
+                                              )*/'Creá ofertas',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -273,7 +276,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                /* FFLocalizations.of(context)
                                                     .getText(
                                                   'd1x7dy1p' /* Hacé que tu negocio despegue c... */,
-                                                )*/'',
+                                                )*/'Hacé que tu negocio despegue c...',
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -314,7 +317,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                  /* FFLocalizations.of(context)
                                                       .getText(
                                                     'oiidp0s1' /* IMG / ILLU */,
-                                                  )*/'',
+                                                  )*/'IMG / ILLU',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -338,7 +341,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                               /*  FFLocalizations.of(context)
                                                     .getText(
                                                   'vbs7b0cw' /* Encontrá al influencer indicad... */,
-                                                )*/'',
+                                                )*/'Encontrá al influencer indicad...',
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -362,7 +365,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                 /*FFLocalizations.of(context)
                                                     .getText(
                                                   'syvrkqm7' /* Conectá directamente con todo ... */,
-                                                )*/'',
+                                                )*/'Conectá directamente con todo ...',
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -406,7 +409,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                     /*FFLocalizations.of(context)
                                                         .getText(
                                                       '7u085ox8' /* IMG / ILLU */,
-                                                    )*/'',
+                                                    )*/'IMG / ILLU',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -430,7 +433,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                 /*  FFLocalizations.of(context)
                                                       .getText(
                                                     'pdrfijfa' /* Potenciá tu negocio */,
-                                                  )*/'',
+                                                  )*/'Potenciá tu negocio',
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -473,7 +476,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                                                 context)
                                                             .getText(
                                                           'waru4gg0' /* Video Tutorial */,
-                                                        )*/'',
+                                                        )*/'Video Tutorial',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -565,10 +568,11 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                         onTap: () async {
                          //cambiar
                          // context.pushNamed('I0Inicirsesion');
+                         Navigator.pushNamed(context, Routes.I0Inicirsesion);
                         },
                         child: Container(
                           width: 391.0,
-                          height: 82.0,
+                          height: 60.0,
                           decoration: BoxDecoration(
                             color: Color(0xFFFF5A26),
                             borderRadius: BorderRadius.circular(0.0),
@@ -594,7 +598,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                         child: Text(
                                          /* FFLocalizations.of(context).getText(
                                             '4otlrqq9' /* EMPEZAR */,
-                                          )*/'',
+                                          )*/'EMPEZAR',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

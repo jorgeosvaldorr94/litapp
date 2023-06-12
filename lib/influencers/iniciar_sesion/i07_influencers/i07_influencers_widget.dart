@@ -1,3 +1,4 @@
+import '../../../routes/routes.dart';
 import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -220,16 +221,17 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    //context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      //onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
           child: Stack(
             children: [
+              
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 100.0, 0.0, 0.0),
                 child: Column(
@@ -243,10 +245,11 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
+                          
                           Text(
                            /* FFLocalizations.of(context).getText(
                               'aq6mnpob' /* Iniciar Sesión */,
-                            )*/'',
+                            )*/'Iniciar Sesión',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -270,7 +273,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         decoration: InputDecoration(
                           hintText: /*FFLocalizations.of(context).getText(
                             'wjn72zq7' /* E-mail */,
-                          )*/'',
+                          )*/'E-mail',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -342,7 +345,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                             Text(
                              /* FFLocalizations.of(context).getText(
                                 '233sok0q' /* Olvidé mi mail */,
-                              )*/'',
+                              )*/'Olvidé mi mail',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -366,7 +369,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         decoration: InputDecoration(
                           hintText:/*FFLocalizations.of(context).getText(
                             '28oyqje9' /* Contraseña */,
-                          )*/'',
+                          )*/'Contraseña',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Brandon',
@@ -449,6 +452,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+                              Navigator.pushNamed(context, Routes.I08ReseteoContrasena);
                              /*cambiar 
                              context.pushNamed(
                                 'I08ReseteoContrasena',
@@ -464,7 +468,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                             child: Text(
                             /*  FFLocalizations.of(context).getText(
                                 'ucfw6ed1' /* Olvide mi contraseña */,
-                              )*/'',
+                              )*/'Olvide mi contraseña',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -489,7 +493,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                           child: Text(
                             /*FFLocalizations.of(context).getText(
                               'dso4mwgj' /* Use las redes sociales para in... */,
-                            )*/'',
+                            )*/'Use las redes sociales para in...',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -765,7 +769,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                         child: Text(
                                           /*FFLocalizations.of(context).getText(
                                             '1gwusawk' /* INICIAR SESION */,
-                                          )*/'',
+                                          )*/'INICIAR SESION',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium
@@ -817,6 +821,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
+                         Navigator.of(context).pop();
                           // cambiar 
                           // context.safePop();
                         },

@@ -11,31 +11,32 @@ import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'routes/app_routes.dart';
 import 'routes/routes.dart';
-class MyApp extends StatefulWidget {
+
+
+
+class MyApp extends StatelessWidget{
  const MyApp();
   
 
-    @override
-  State<MyApp> createState() => MyAppState();
+
+  
+  @override
+ 
+    Widget build(BuildContext context) {
+     return MaterialApp(
+      routes: appRoutes 
+        
+      
+    );
+
+  }
    }
 
-class MyAppState extends State<MyApp>{
-  
-  final delegate = MyRouterDelegate(
-    pages:[
-MyPage((_) => I50selectorWidget(),
-path: '/'
-),
-MyPage((_) => I0InicirsesionWidget(),
-path: '/i0Inicirsesion')
-    ]
-    ) ;
-  
-  
+ 
+  /*
   Widget build(BuildContext context) {
-  return  MaterialApp.router(
-    routerDelegate: delegate ,
-    routeInformationParser: MyRouteInformationParser(),
+ // return  MaterialApp.router(
+     
      /* home: Navigator(
         onPopPage: (route, result){
           return route.didPop(result);
@@ -47,7 +48,7 @@ path: '/i0Inicirsesion')
       ),*/
     /*initialRoute: Routes.initialize,
      routes: appRoutes,*/
-    );
+   // );
   }
   
 }
@@ -61,7 +62,7 @@ class MyPage{
 }
 class MyRouterDelegate extends RouterDelegate<Uri> 
 with ChangeNotifier, PopNavigatorRouterDelegateMixin{ 
- final List<MyPage> pages;
+ /*final List<MyPage> pages;
 
  late List<Page> _navigatorPages;
 MyRouterDelegate(
@@ -79,9 +80,21 @@ MyRouterDelegate(
     ))
    ]; 
    }
- 
+ */
   Widget build(BuildContext context) {
-     return Navigator(
+     return MaterialApp(
+      routes: appRoutes 
+        
+      
+    );
+
+
+
+
+
+
+
+    /* return Navigator(
         pages: _navigatorPages,
         onPopPage: (route, result) {
           if(route.didPop(result)){
@@ -144,7 +157,7 @@ class MyRouteInformationParser extends RouteInformationParser<Uri>{
   Uri.parse(routeInformation.location?? ''),
 
      );
-}
+}*/
   
   
 }
@@ -152,4 +165,4 @@ class MyRouteInformationParser extends RouteInformationParser<Uri>{
  
   
   
- 
+ */

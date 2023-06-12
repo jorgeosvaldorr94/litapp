@@ -1,3 +1,4 @@
+import '../../../routes/routes.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -36,7 +37,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   // context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -73,6 +74,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
+                                Navigator.of(context).pop();
                                //cambiar
                                // context.safePop();
                               },
@@ -96,7 +98,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                           Text(
                            /* FFLocalizations.of(context).getText(
                               'llo98c4u' /* NOMBRE DE LA APP */,
-                            )*/'',
+                            )*/'NOMBRE DE LA APP',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -126,7 +128,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                           child: Text(
                          /*   FFLocalizations.of(context).getText(
                               'lmn7wvkx' /* LOGO */,
-                            )*/'',
+                            )*/'LOGO',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -144,10 +146,11 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                 ),
                 Padding(
                   padding:
-                      EdgeInsetsDirectional.fromSTEB(25.0, 550.0, 27.0, 0.0),
-                  child: Text('')
-                  /* FFButtonWidget(
+                      EdgeInsetsDirectional.fromSTEB(25.0, 450.0, 27.0, 0.0),
+                  child: 
+                   FFButtonWidget(
                     onPressed: () async {
+                      Navigator.pushNamed(context, Routes.I07Influencers);
                       /* cambiar
                       context.pushNamed(
                         'I07Influencers',
@@ -161,7 +164,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                     },
                     text: /*FFLocalizations.of(context).getText(
                       '387f0t2a' /* INICIAR SESION */,
-                    )*/'',
+                    )*/'INICIAR SESION',
                     options: FFButtonOptions(
                       width: 338.0,
                       height: 56.0,
@@ -187,9 +190,10 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                 ),
                 Padding(
                   padding:
-                      EdgeInsetsDirectional.fromSTEB(25.0, 733.0, 27.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(25.0, 600.0, 27.0, 0.0),
                   child: FFButtonWidget(
                     onPressed: () async {
+                      Navigator.pushNamed(context,Routes.I01Registracionpaso1);
                       /* cambiar
                       context.pushNamed(
                         'I01Registracionpaso1',
@@ -201,9 +205,9 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                         }.withoutNulls,
                       );*/
                     },
-                    text: FFLocalizations.of(context).getText(
+                    text: /*FFLocalizations.of(context).getText(
                       '3bm7q5r2' /* REGISTRARSE */,
-                    ),
+                    )*/'REGISTRARSE',
                     options: FFButtonOptions(
                       width: 338.0,
                       height: 56.0,
@@ -225,7 +229,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                       ),
                       borderRadius: BorderRadius.circular(8.0),
                     ),
-                  ),*/
+                  ),
                 ),
               ],
             ),

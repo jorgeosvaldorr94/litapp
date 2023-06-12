@@ -57,7 +57,7 @@ class _I57calendarioWidgetState extends State<I57calendarioWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    //context.watch<FFAppState>();
 
     return Stack(
       children: [

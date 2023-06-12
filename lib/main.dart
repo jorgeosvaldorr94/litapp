@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:url_strategy/url_strategy.dart';
+ 
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
 
@@ -34,7 +34,7 @@ void main(List<String> args)  {
   final appState = FFAppState(); // Initialize FFAppState
    appState.initializePersistedState();
  initializeStripe();
- setPathUrlStrategy();
+ 
   runApp(
     const MyApp()
     );

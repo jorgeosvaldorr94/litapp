@@ -242,7 +242,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   // context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -283,7 +283,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             child: Text(
                             /*  FFLocalizations.of(context).getText(
                                 '7xwzd3ul' /* 1 */,
-                              )*/'',
+                              )*/'1 ',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -326,7 +326,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             child: Text(
                             /*  FFLocalizations.of(context).getText(
                                 'mqz5xehl' /* 2 */,
-                              )*/'',
+                              )*/'2',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -368,7 +368,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             child: Text(
                            /*   FFLocalizations.of(context).getText(
                                 'up8ct5i7' /* 3 */,
-                              )*/'',
+                              )*/'3',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -411,6 +411,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+                              Navigator.of(context).pop();
                             //cambiar
                             //  context.safePop();
                             },
@@ -425,7 +426,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                         Text(
                         /*  FFLocalizations.of(context).getText(
                             'ulhvsyu8' /* INFLUENCERS */,
-                          )*/'',
+                          )*/'INFLUENCERS',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Brandon',
@@ -454,7 +455,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                         Text(
                          /* FFLocalizations.of(context).getText(
                             'vlffg9jx' /* Registrar */,
-                          )*/'',
+                          )*/'Registrar',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -477,7 +478,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       decoration: InputDecoration(
                         hintText:/* FFLocalizations.of(context).getText(
                           '2ri837qc' /* E-mail */,
-                        )*/'',
+                        )*/'E-mail',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -541,7 +542,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       decoration: InputDecoration(
                         hintText: /* FFLocalizations.of(context).getText(
                           '4xo0u3yc' /* Contraseña */,
-                        )*/'',
+                        )*/'Contraseña',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -619,7 +620,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                       decoration: InputDecoration(
                         hintText: /*FFLocalizations.of(context).getText(
                           '912gsmqc' /* Confirmar Contraseña */,
-                        )*/'',
+                        )*/'Confirmar Contraseña',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
@@ -697,7 +698,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                         child: Text(
                          /* FFLocalizations.of(context).getText(
                             'pvt3efh2' /* Use las redes sociales para re... */,
-                          )*/'',
+                          )*/' Use las redes sociales para re...',
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
@@ -921,7 +922,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                   TextSpan(
                                     text:/* FFLocalizations.of(context).getText(
                                       'iq6vnd6p' /* ¿Ya tenés cuenta? */,
-                                    )*/'',
+                                    )*/'¿Ya tenés cuenta?',
                                     style: TextStyle(
                                       fontFamily: 'Brandon',
                                       fontWeight: FontWeight.w300,
@@ -931,7 +932,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                   TextSpan(
                                     text:/* FFLocalizations.of(context).getText(
                                       '8mft0x2d' /* Ingresá acá */,
-                                    )*/'',
+                                    )*/'Ingresá acá',
                                     style: TextStyle(
                                       fontFamily: 'Brandon',
                                       fontWeight: FontWeight.w300,
@@ -1012,7 +1013,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                               child: Text(
                                /* FFLocalizations.of(context).getText(
                                   'buyqwset' /* Acepto los términos y condicio... */,
-                                )*/'',
+                                )*/'Acepto los términos y condicio...',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -1059,7 +1060,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                       child: Text(
                                       /*  FFLocalizations.of(context).getText(
                                           'as0gfc3t' /* Lorem ipsum dolor sit amet con... */,
-                                        )*/'',
+                                        )*/'Lorem ipsum dolor sit amet con...',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -1267,7 +1268,7 @@ class _I01Registracionpaso1WidgetState extends State<I01Registracionpaso1Widget>
                                       child: Text(
                                       /*  FFLocalizations.of(context).getText(
                                           'psmak8r9' /* CONTINUAR */,
-                                        )*/'',
+                                        )*/'CONTINUAR',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium

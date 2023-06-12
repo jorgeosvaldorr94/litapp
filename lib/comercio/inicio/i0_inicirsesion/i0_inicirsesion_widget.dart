@@ -1,3 +1,4 @@
+import '../../../routes/routes.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -81,7 +82,8 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
   //  context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+    //  onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+    //    onTap: () => Navigator.pushNamed(context, Routes.initialize),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBtnText,
@@ -107,6 +109,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+                              Navigator.of(context).pop();
                              // cambiar
                              // context.safePop();
                             },
@@ -131,6 +134,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
+                                  Navigator.of(context).pop();
                                  // cambiar
                                  // context.safePop();
                                 },
@@ -155,13 +159,13 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                           Text(
                           /*  FFLocalizations.of(context).getText(
                               'bp8nzocv' /* NOMBRE DE LA APP */,
-                            )*/'',
+                            )*/'NOMBRE DE LA APP',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   fontFamily: 'Brandon',
-                                  fontSize: 24.0,
+                                  fontSize: 19.0,
                                   fontWeight: FontWeight.w600,
                                   useGoogleFonts: false,
                                 ),
@@ -173,8 +177,8 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                       padding:
                           EdgeInsetsDirectional.fromSTEB(38.0, 52.0, 39.0, 0.0),
                       child: Container(
-                        width: 313.0,
-                        height: 313.0,
+                        width: 250.0,
+                        height: 250.0,
                         decoration: BoxDecoration(
                           color:
                               FlutterFlowTheme.of(context).secondaryBackground,
@@ -189,7 +193,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                           child: Text(
                           /*  FFLocalizations.of(context).getText(
                               'pbi3j4i4' /* LOGO */,
-                            )*/'',
+                            )*/'LOGO',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -211,7 +215,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 662.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(0.0, 550.0, 0.0, 0.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -219,7 +223,9 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                         highlightColor: Colors.transparent,
                         onTap: () async {
                          //cambiar
-                          /*context.pushNamed(
+                         Navigator.pushNamed(context, Routes.I07Influencers);
+                            
+                         /* Navigator.pushNamed(
                             'I07Influencers',
                             queryParameters: {
                               'tipo': serializeParam(
@@ -253,7 +259,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                                 child: Text(
                                  /* FFLocalizations.of(context).getText(
                                     'qhjb2xh1' /* INICIAR SESION */,
-                                  ),*/ "",
+                                  ),*/ "INICIAR SESION",
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -283,8 +289,9 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              /* cambiar  
-                              context.pushNamed(
+                              Navigator.pushNamed(context, Routes.I01Registracionpaso1);
+                              // cambiar  
+                            /*  Navigation.pushNamed(
                                 'I01Registracionpaso1',
                                 queryParameters: {
                                   'isInfluencer': serializeParam(
@@ -314,7 +321,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                                 child: Text(
                                   /*FFLocalizations.of(context).getText(
                                     '9acrhe2g' /* REGISTRARSE */,
-                                  )*/'',
+                                  )*/'REGISTRARSE',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

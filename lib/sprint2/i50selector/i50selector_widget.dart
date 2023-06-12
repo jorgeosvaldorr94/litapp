@@ -64,7 +64,7 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Container(
                           width: 390.0,
-                          height: 449.8,
+                          height: 400.8,
                           decoration: BoxDecoration(
                             color: Color(0xFFFF5A26),
                           ),
@@ -75,7 +75,7 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                             children: [
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
-                                    154.0, 80.0, 153.0, 0.0),
+                                    153.0, 120.0, 153.0, 0.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
@@ -113,8 +113,8 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                                     GestureDetector(
                                     onTap: () {
                                     
-                           MaterialPageRoute route = MaterialPageRoute(builder: (context) => I0InicirsesionWidget());
-                                Navigator.push(context, route);
+                          
+                                Navigator.pushNamed(context, Routes.I00INICIO);
                                     },
                                     child:Text(
                                       
@@ -144,14 +144,14 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                       ),
                       Container(
                         width: 390.0,
-                        height: 512.0,
+                        height: 380.0,
                         decoration: BoxDecoration(
                           color:
                               FlutterFlowTheme.of(context).secondaryBackground,
                         ),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              129.0, 192.0, 130.0, 192.0),
+                              129.0, 0, 130.0,0),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -159,10 +159,7 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                             children: [
                               GestureDetector(
                                  onTap: () {
-                              /* final myAppState = context.findAncestorStateOfType<MyAppState>();
-                               myAppState?.delegate.setInitialRoutePath(Uri.parse('/i0Inicirsesion'));*/
-                               MaterialPageRoute route = MaterialPageRoute(builder: (context) => I0InicirsesionWidget());
-                                Navigator.push(context, route);
+                              Navigator.pushNamed(context, Routes.I7);
                                
                               },
                                 child:  Text(/*

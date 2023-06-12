@@ -1,3 +1,4 @@
+import '../../../routes/routes.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -104,6 +105,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
+                            Navigator.pushNamed(context, Routes.I00INICIO);
                            //cambiar
                            // context.pushNamed('I00INICIO');
                           },
@@ -145,7 +147,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                                               /*  FFLocalizations.of(context)
                                                     .getText(
                                                   'rr00kqho' /* LOGO */,
-                                                ),*/"2222",
+                                                ),*/"LOGO",
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium,
@@ -165,7 +167,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                                     mainAxisSize: MainAxisSize.max,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text("fff"
+                                      Text("INFLUENCER"
                                       /*  FFLocalizations.of(context).getText(
                                           'w668u0ep' /* INFLUENCER */,
                                         ),*/,
@@ -194,6 +196,8 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
+                           Navigator.pushNamed(context, Routes.I7);
+                         
                           //cambiar
                           //context.pushNamed('I7');
                         },
@@ -212,7 +216,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Text("aaa"
+                                Text("COMERCIO"
                                  /* FFLocalizations.of(context).getText(
                                     '3floxn8e' /* COMERCIO */,
                                   ),*/,
