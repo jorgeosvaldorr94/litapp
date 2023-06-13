@@ -2,9 +2,11 @@
 import 'package:flutter/material.dart';
 import 'package:lit_app/comercio/inicio/i7/i7_widget.dart';
 import 'package:lit_app/index.dart';
+import 'package:lit_app/influencers/ajustes/i37ajustesdeperfil/i37ajustesdeperfil_widget.dart';
 import 'package:lit_app/influencers/entrada/i00inicio/i00inicio_widget.dart';
 import 'package:lit_app/influencers/entrada/i0_x1_h_o_m_e_influencersinofertas/i0_x1_h_o_m_e_influencersinofertas_widget.dart';
 import 'package:lit_app/influencers/iniciar_sesion/i08_reseteo_contrasena/i08_reseteo_contrasena_widget.dart';
+import 'package:lit_app/influencers/notificaciones/i40_notificaciones/i40_notificaciones_widget.dart';
 import 'package:lit_app/influencers/registracion/i01_registracionpaso1/i01_registracionpaso1_widget.dart';
 import '../comercio/inicio/i0_inicirsesion/i0_inicirsesion_widget.dart';
 import '../i190splash/i190splash_widget.dart';
@@ -28,6 +30,8 @@ Map<String, WidgetBuilder> get appRoutes {
     Routes.I01Registracionpaso1:  (_) =>I01Registracionpaso1Widget(isInfluencer: isInfluencer),
     Routes.I7:(_) => I7Widget(),
     Routes.I08ReseteoContrasena:(_) => I08ReseteoContrasenaWidget(),
-    Routes.I0X1HOMEInfluencersinofertas :(_) => I0X1HOMEInfluencersinofertasWidget()
+    Routes.I0X1HOMEInfluencersinofertas :(_) => I0X1HOMEInfluencersinofertasWidget(),
+    Routes.I37ajustesdeperfil:(_) => I37ajustesdeperfilWidget(),
+    Routes.I40Notificaciones:(_) => I40NotificacionesWidget()
   };
 }

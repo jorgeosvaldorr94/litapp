@@ -1,3 +1,4 @@
+import '../../../routes/routes.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/gestures.dart';
@@ -46,6 +47,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+        child: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -81,6 +83,8 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+
+                              Navigator.pushNamed(context, Routes.I37ajustesdeperfil);
                             //cambiar
                             //  context.pushNamed('I37ajustesdeperfil');
                             },
@@ -120,6 +124,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
+                            Navigator.pushNamed(context, Routes.I40Notificaciones);
                           // cambiar
                           //  context.pushNamed('I40Notificaciones');
                           },
@@ -304,7 +309,7 @@ comuni... */
                 ],
               ),
             ],
-          ),
+          ),),
         ),
       ),
     );

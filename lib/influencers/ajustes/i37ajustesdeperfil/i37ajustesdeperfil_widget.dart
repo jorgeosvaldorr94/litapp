@@ -152,10 +152,10 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   // context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+    //  onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
@@ -202,6 +202,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
+                                      Navigator.of(context).pop();
                                   //cambiar
                                   //    context.safePop();
                                     },

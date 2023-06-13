@@ -140,7 +140,7 @@ class _I40NotificacionesWidgetState extends State<I40NotificacionesWidget>
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    //context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),

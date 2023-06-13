@@ -524,15 +524,13 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                   onTap: () async {
                                 //cambiar
                                  //GoRouter.of(context).prepareAuthEvent();
-                                    final user = await authManager
-                                        .signInWithGoogle(context);
+                                   // final user = await authManager.signInWithGoogle(context);
+                                   /* print(user);
                                     if (user == null) {
-                                      return;
-                                    }
-                                    Navigator.pushNamed(context, Routes.I0X1HOMEInfluencersinofertas
-                                    
-                                    
-                                    );
+                                        return ;
+                                    }*/
+                                     Navigator.pushNamed(context, Routes.I0X1HOMEInfluencersinofertas);
+                                   
                                    /* cambiar
                                    context.pushNamedAuth(
                                       'I0X1HOMEInfluencersinofertas',
@@ -770,9 +768,10 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          /*FFLocalizations.of(context).getText(
+                                          FFLocalizations.of(context).getText(
                                             '1gwusawk' /* INICIAR SESION */,
-                                          )*/'INICIAR SESION',
+                                          )//'INICIAR SESION',,
+                                          ,
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium

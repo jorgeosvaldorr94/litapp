@@ -29,7 +29,7 @@ void main(List<String> args)  {
    initFirebase();
 
   FlutterFlowTheme.initialize();
- //  FFLocalizations.initialize();
+  FFLocalizations.initialize();
 
   final appState = FFAppState(); // Initialize FFAppState
    appState.initializePersistedState();
