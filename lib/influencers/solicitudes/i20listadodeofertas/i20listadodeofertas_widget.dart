@@ -293,7 +293,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                           onTap: () async {
                                             context.pushNamed(
                                               'I21detalledeoferta',
-                                              queryParams: {
+                                              queryParameters: {
                                                 'offer': serializeParam(
                                                   listViewOffersRecord
                                                       .reference,

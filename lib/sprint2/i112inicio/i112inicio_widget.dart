@@ -344,7 +344,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                               onTap: () async {
                                                 context.pushNamed(
                                                   'I21detalledeoferta',
-                                                  queryParams: {
+                                                  queryParameters: {
                                                     'offer': serializeParam(
                                                       listViewOffersRecord
                                                           .reference,

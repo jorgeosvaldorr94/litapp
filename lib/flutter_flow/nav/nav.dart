@@ -71,6 +71,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       errorBuilder: (context, _) => appStateNotifier.loggedIn
           ? I190splashWidget()
           : I50SelectordeperfilWidget(),
+         
       routes: [
         FFRoute(
           name: '_initialize',
@@ -518,7 +519,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => RolesWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
-      urlPathStrategy: UrlPathStrategy.path,
+    
+    //  urlPathStrategy: UrlPathStrategy.path,
     );
 
 extension NavParamExtensions on Map<String, String?> {
@@ -542,8 +544,8 @@ extension NavigationExtensions on BuildContext {
           ? null
           : goNamed(
               name,
-              params: params,
-              queryParams: queryParams,
+              pathParameters: params,
+              queryParameters: queryParams,
               extra: extra,
             );
 
@@ -559,22 +561,22 @@ extension NavigationExtensions on BuildContext {
           ? null
           : pushNamed(
               name,
-              params: params,
-              queryParams: queryParams,
+              pathParameters: params,
+              queryParameters: queryParams,
               extra: extra,
             );
 
   void safePop() {
     // If there is only one route on the stack, navigate to the initial
     // page instead of popping.
-    if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
+    if (GoRouter.of(this).routerDelegate.toString().length <= 1) {
       go('/');
     } else {
       pop();
     }
   }
 }
-
+/*
 extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
       (routerDelegate.refreshListenable as AppStateNotifier);
@@ -590,12 +592,28 @@ extension GoRouterExtensions on GoRouter {
           .updateNotifyOnAuthChange(false);
 }
 
+*/ 
+extension GoRouterExtensions on GoRouter {
+  AppStateNotifier get appState =>
+      (routeInformationProvider.notifyListeners()  as AppStateNotifier);
+  void prepareAuthEvent([bool ignoreRedirect = false]) =>
+      appState.hasRedirect() && !ignoreRedirect
+          ? null
+          : appState.updateNotifyOnAuthChange(false);
+  bool shouldRedirect(bool ignoreRedirect) =>
+      !ignoreRedirect && appState.hasRedirect();
+  void clearRedirectLocation() => appState.clearRedirectLocation();
+  void setRedirectLocationIfUnset(String location) =>
+      (routeInformationProvider.notifyListeners()  as AppStateNotifier)
+          .updateNotifyOnAuthChange(false);
+}
+
 extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get extraMap =>
       extra != null ? extra as Map<String, dynamic> : {};
   Map<String, dynamic> get allParams => <String, dynamic>{}
-    ..addAll(params)
-    ..addAll(queryParams)
+    ..addAll(pathParameters)
+    ..addAll(queryParameters)
     ..addAll(extraMap);
   TransitionInfo get transitionInfo => extraMap.containsKey(kTransitionInfoKey)
       ? extraMap[kTransitionInfoKey] as TransitionInfo
@@ -675,7 +693,7 @@ class FFRoute {
   GoRoute toRoute(AppStateNotifier appStateNotifier) => GoRoute(
         name: name,
         path: path,
-        redirect: (state) {
+        redirect: (BuildContext context, GoRouterState state) {
           if (appStateNotifier.shouldRedirect) {
             final redirectLocation = appStateNotifier.getRedirectLocation();
             appStateNotifier.clearRedirectLocation();

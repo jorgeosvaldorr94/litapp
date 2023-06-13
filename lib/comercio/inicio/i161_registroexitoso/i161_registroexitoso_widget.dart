@@ -193,7 +193,7 @@ class _I161RegistroexitosoWidgetState extends State<I161RegistroexitosoWidget>
                         onPressed: () async {
                           context.pushNamed(
                             'I07Influencers',
-                            queryParams: {
+                            queryParameters: {
                               'tipo': serializeParam(
                                 'COMERCIO',
                                 ParamType.String,
