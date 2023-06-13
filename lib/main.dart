@@ -35,6 +35,7 @@ void main(List<String> args)  {
    appState.initializePersistedState();
  initializeStripe();
  
+ 
   runApp(
     const MyApp()
     );

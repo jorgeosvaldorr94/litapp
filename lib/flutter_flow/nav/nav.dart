@@ -83,7 +83,7 @@ class AppStateNotifier extends ChangeNotifier {
   }
 }
  //prueba ----
-class AppLitListRouterDelegate extends RouterDelegate<AppLitListRouterConfig> 
+/*class AppLitListRouterDelegate extends RouterDelegate<AppLitListRouterConfig> 
 with ChangeNotifier, PopNavigatorRouterDelegateMixin<AppLitListRouterConfig>{
  
   final GlobalKey<NavigatorState> navigatorKey;
@@ -93,7 +93,7 @@ with ChangeNotifier, PopNavigatorRouterDelegateMixin<AppLitListRouterConfig>{
   AppLitListRouterConfig get currentConfiguration{
    return 
   }
-
+*
   Widget build(BuildContext context) {
     return Navigator(
       key: navigatorKey,
@@ -137,8 +137,8 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
-
+*/
+/*
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
@@ -605,7 +605,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       ,
       
      // urlPathStrategy: UrlPathStrategy.path,
-    );
+    );*/
 
 extension NavParamExtensions on Map<String, String?> {
   Map<String, String> get withoutNulls => Map.fromEntries(
@@ -613,8 +613,8 @@ extension NavParamExtensions on Map<String, String?> {
             .where((e) => e.value != null)
             .map((e) => MapEntry(e.key, e.value!)),
       );
-}*/
-/*
+}
+
 extension NavigationExtensions on BuildContext {
   void goNamedAuth(
     String name,
@@ -624,7 +624,7 @@ extension NavigationExtensions on BuildContext {
     Object? extra,
     bool ignoreRedirect = false,
   }) =>
-      !mounted || GoRouter.of(this).shouldRedirect(ignoreRedirect)
+      !mounted || Navigator.of(this).shouldRedirect(ignoreRedirect)
           ? null
           : goNamed(
               name,
@@ -641,7 +641,7 @@ extension NavigationExtensions on BuildContext {
     Object? extra,
     bool ignoreRedirect = false,
   }) =>
-      !mounted || GoRouter.of(this).shouldRedirect(ignoreRedirect)
+      !mounted || Navigator.of(this).shouldRedirect(ignoreRedirect)
           ? null
           : pushNamed(
               name,
@@ -654,15 +654,15 @@ extension NavigationExtensions on BuildContext {
     // If there is only one route on the stack, navigate to the initial
     // page instead of popping.
    // if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
-     if (GoRouter.of(this).routerDelegate.toString().length <= 1) {
-      go('/');
+     if (Navigator.of(this).toString().length <= 1) {
+      pushNamedAuth('/');
     } else {
       pop();
     }
   }
-}*/
-
-/*extension GoRouterExtensions on GoRouter {
+}
+/*
+extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
       (routerDelegate.refreshListenable as AppStateNotifier);
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
@@ -689,8 +689,8 @@ extension GoRouterExtensions on GoRouter {
       !ignoreRedirect && appState.hasRedirect();
   void clearRedirectLocation() => appState.clearRedirectLocation();
   void setRedirectLocationIfUnset(String location) => (routerDelegate.notifyListeners()  as AppStateNotifier).updateNotifyOnAuthChange(false);
-}
-
+}*/
+/*
 extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get extraMap =>
       extra != null ? extra as Map<String, dynamic> : {};
@@ -704,7 +704,7 @@ extension _GoRouterStateExtensions on GoRouterState {
       : TransitionInfo.appDefault();
       
         Map<String, dynamic>? get queryParams => null;
-}
+}*/
 
 class FFParameters {
   FFParameters(this.state, [this.asyncParams = const {}]);

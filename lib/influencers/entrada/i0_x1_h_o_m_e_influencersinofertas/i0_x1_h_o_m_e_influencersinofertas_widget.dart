@@ -38,7 +38,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+   // context.watch<FFAppState>();
 
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
@@ -100,7 +100,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                         Text(
                          /* FFLocalizations.of(context).getText(
                             'wbjtqnk7' /* Influencer */,
-                          )*/'',
+                          )*/'Influencer',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Albra',
@@ -159,7 +159,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                                 child: Text(
                                /*   FFLocalizations.of(context).getText(
                                     'e47wwcmq' /* LOGO */,
-                                  )*/'',
+                                  )*/'LOGO',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -181,7 +181,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                               Text(
                                /* FFLocalizations.of(context).getText(
                                   'rykpmmst' /* ¡Bienvenida a Lit! */,
-                                )*/'',
+                                )*/'¡Bienvenida a Lit!',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -210,7 +210,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                           TextSpan(
                             text: /*FFLocalizations.of(context).getText(
                               'acrwulx4' /* Hola  */,
-                            )*/'',
+                            )*/'Hola',
                             style: TextStyle(
                               fontFamily: 'Brandon',
                               fontWeight: FontWeight.w300,
@@ -220,7 +220,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                           TextSpan(
                             text:/* FFLocalizations.of(context).getText(
                               'wt1ljlrr' /* Wanda!  */,
-                            )*/'',
+                            )*/'Wanda!',
                             style: TextStyle(
                               fontFamily: 'Brandon',
                               color: Color(0xFFFF5A26),
@@ -283,7 +283,7 @@ comuni... */
                                   child: Text(
                                   /*  FFLocalizations.of(context).getText(
                                       'fvwz2nep' /* Todavía no tenés ofertas! */,
-                                    )*/'',
+                                    )*/'Todavía no tenés ofertas!',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium

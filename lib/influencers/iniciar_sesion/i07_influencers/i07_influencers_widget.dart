@@ -523,13 +523,16 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
                                 //cambiar
-                                //  GoRouter.of(context).prepareAuthEvent();
+                                 //GoRouter.of(context).prepareAuthEvent();
                                     final user = await authManager
                                         .signInWithGoogle(context);
                                     if (user == null) {
                                       return;
                                     }
-
+                                    Navigator.pushNamed(context, Routes.I0X1HOMEInfluencersinofertas
+                                    
+                                    
+                                    );
                                    /* cambiar
                                    context.pushNamedAuth(
                                       'I0X1HOMEInfluencersinofertas',
