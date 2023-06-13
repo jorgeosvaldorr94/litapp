@@ -211,8 +211,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I34AjustescuentaWidget(),
         ),
         FFRoute(
-          name: 'I186Atencionalcliente',
-          path: '/i186Atencionalcliente',
+          name: 'I186Atencionalcliente1',
+          path: '/i186Atencionalcliente1',
           builder: (context, params) => I186AtencionalclienteWidget(),
         ),
         FFRoute(
@@ -576,10 +576,10 @@ extension NavigationExtensions on BuildContext {
     }
   }
 }
-/*
+
 extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
-      (routerDelegate.refreshListenable as AppStateNotifier);
+      (routerDelegate.addListener(() { }) as AppStateNotifier);
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
       appState.hasRedirect() && !ignoreRedirect
           ? null
@@ -588,14 +588,14 @@ extension GoRouterExtensions on GoRouter {
       !ignoreRedirect && appState.hasRedirect();
   void clearRedirectLocation() => appState.clearRedirectLocation();
   void setRedirectLocationIfUnset(String location) =>
-      (routerDelegate.refreshListenable as AppStateNotifier)
+      (routerDelegate.addListener(() { }) as AppStateNotifier)
           .updateNotifyOnAuthChange(false);
 }
 
-*/ 
-extension GoRouterExtensions on GoRouter {
+
+/*extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
-      (routeInformationProvider.notifyListeners()  as AppStateNotifier);
+      (routerDelegate as AppStateNotifier);
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
       appState.hasRedirect() && !ignoreRedirect
           ? null
@@ -606,7 +606,7 @@ extension GoRouterExtensions on GoRouter {
   void setRedirectLocationIfUnset(String location) =>
       (routeInformationProvider.notifyListeners()  as AppStateNotifier)
           .updateNotifyOnAuthChange(false);
-}
+}*/
 
 extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get extraMap =>
@@ -689,7 +689,8 @@ class FFRoute {
   final Map<String, Future<dynamic> Function(String)> asyncParams;
   final Widget Function(BuildContext, FFParameters) builder;
   final List<GoRoute> routes;
-
+  
+  
   GoRoute toRoute(AppStateNotifier appStateNotifier) => GoRoute(
         name: name,
         path: path,
@@ -741,6 +742,7 @@ class FFRoute {
               : MaterialPage(key: state.pageKey, child: child);
         },
         routes: routes,
+        
       );
 }
 
