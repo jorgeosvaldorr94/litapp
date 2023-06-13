@@ -613,8 +613,8 @@ extension NavParamExtensions on Map<String, String?> {
             .where((e) => e.value != null)
             .map((e) => MapEntry(e.key, e.value!)),
       );
-}
-
+}*/
+/*
 extension NavigationExtensions on BuildContext {
   void goNamedAuth(
     String name,
@@ -660,7 +660,7 @@ extension NavigationExtensions on BuildContext {
       pop();
     }
   }
-}
+}*/
 
 /*extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
@@ -677,6 +677,7 @@ extension NavigationExtensions on BuildContext {
           .updateNotifyOnAuthChange(false);
 }*/
 // problema es el refreshlistenable
+/*
 extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
       ( routerDelegate.notifyListeners() as AppStateNotifier);
