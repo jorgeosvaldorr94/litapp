@@ -524,11 +524,11 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                   onTap: () async {
                                 //cambiar
                                  //GoRouter.of(context).prepareAuthEvent();
-                                   // final user = await authManager.signInWithGoogle(context);
-                                   /* print(user);
+                                    final user = await authManager.signInWithGoogle(context);
+                                    print(user);
                                     if (user == null) {
                                         return ;
-                                    }*/
+                                    }
                                      Navigator.pushNamed(context, Routes.I0X1HOMEInfluencersinofertas);
                                    
                                    /* cambiar
@@ -584,7 +584,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                     if (user == null) {
                                       return;
                                     }
-
+                                    Navigator.pushNamed(context, Routes.I190splash);
                                   //cambiar
                                   //  context.goNamedAuth('I190splash', mounted);
                                   },
@@ -628,7 +628,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                     if (user == null) {
                                       return;
                                     }
-
+                                    Navigator.pushNamed(context, Routes.I190splash);
                                     //cambiar
                                     //context.goNamedAuth('I190splash', mounted);
                                   },
@@ -697,7 +697,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                               if (user == null) {
                                 return;
                               }
-
+                              Navigator.pushNamed(context, Routes.I190splash);
                               //cambiar
                               //_navigate = () =>
                                  // context.goNamedAuth('I190splash', mounted);
@@ -768,9 +768,9 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 3.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
+                                        /*  FFLocalizations.of(context).getText(
                                             '1gwusawk' /* INICIAR SESION */,
-                                          )//'INICIAR SESION',,
+                                          )*/'INICIAR SESION'
                                           ,
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)

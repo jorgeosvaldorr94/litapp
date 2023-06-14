@@ -32,6 +32,7 @@ Map<String, WidgetBuilder> get appRoutes {
     Routes.I08ReseteoContrasena:(_) => I08ReseteoContrasenaWidget(),
     Routes.I0X1HOMEInfluencersinofertas :(_) => I0X1HOMEInfluencersinofertasWidget(),
     Routes.I37ajustesdeperfil:(_) => I37ajustesdeperfilWidget(),
-    Routes.I40Notificaciones:(_) => I40NotificacionesWidget()
+    Routes.I40Notificaciones:(_) => I40NotificacionesWidget(),
+    Routes.I190splash:(_) =>I190splashWidget()
   };
 }
