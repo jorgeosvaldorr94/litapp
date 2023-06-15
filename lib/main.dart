@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:url_strategy/url_strategy.dart';
+ 
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
@@ -89,6 +89,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    var routeInformationProvider;
     return MaterialApp.router(
       title: 'LitApp',
       localizationsDelegates: [
@@ -107,7 +108,7 @@ class _MyAppState extends State<MyApp> {
       themeMode: _themeMode,
       routeInformationParser: _router.routeInformationParser,
       routerDelegate: _router.routerDelegate,
-      routeInformationProvider: _router.routeInformationProvider
+       
     );
   }
 }

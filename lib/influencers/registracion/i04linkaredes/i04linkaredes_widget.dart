@@ -884,7 +884,7 @@ class _I04linkaredesWidgetState extends State<I04linkaredesWidget>
 
                           context.pushNamed(
                             'I07Influencers',
-                            queryParameters: {
+                            queryParams: {
                               'tipo': serializeParam(
                                 'INFLUENCERS',
                                 ParamType.String,

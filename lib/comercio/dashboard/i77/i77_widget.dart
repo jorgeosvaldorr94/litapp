@@ -1026,7 +1026,7 @@ class _I77WidgetState extends State<I77Widget> with TickerProviderStateMixin {
                       onTap: () async {
                         context.pushNamed(
                           'I107crearnuevaoferta',
-                          queryParameters: {
+                          queryParams: {
                             'fecha': serializeParam(
                               _model.datePicked,
                               ParamType.DateTime,

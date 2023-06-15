@@ -341,7 +341,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                   onTap: () async {
                     context.pushNamed(
                       'op1',
-                      queryParameters: {
+                      queryParams: {
                         'isMember': serializeParam(
                           true,
                           ParamType.bool,

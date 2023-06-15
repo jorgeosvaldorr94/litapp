@@ -400,7 +400,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                 onTap: () async {
                                   context.pushNamed(
                                     'I25Detalledesolicitud',
-                                    queryParameters: {
+                                    queryParams: {
                                       'offer': serializeParam(
                                         listViewOffersRecord.reference,
                                         ParamType.DocumentReference,

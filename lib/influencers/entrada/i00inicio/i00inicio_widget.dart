@@ -148,7 +148,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                     onPressed: () async {
                       context.pushNamed(
                         'I07Influencers',
-                        queryParameters: {
+                        queryParams: {
                           'tipo': serializeParam(
                             'INFLUENCERS',
                             ParamType.String,
@@ -189,7 +189,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                     onPressed: () async {
                       context.pushNamed(
                         'I01Registracionpaso1',
-                        queryParameters: {
+                        queryParams: {
                           'isInfluencer': serializeParam(
                             true,
                             ParamType.bool,
