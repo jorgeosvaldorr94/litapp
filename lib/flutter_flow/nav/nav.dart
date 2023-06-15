@@ -71,7 +71,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       errorBuilder: (context, _) => appStateNotifier.loggedIn
           ? I190splashWidget()
           : I50SelectordeperfilWidget(),
-         
       routes: [
         FFRoute(
           name: '_initialize',
@@ -519,8 +518,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => RolesWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
-    
-    //  urlPathStrategy: UrlPathStrategy.path,
+      urlPathStrategy: UrlPathStrategy.path,
     );
 
 extension NavParamExtensions on Map<String, String?> {
@@ -569,7 +567,7 @@ extension NavigationExtensions on BuildContext {
   void safePop() {
     // If there is only one route on the stack, navigate to the initial
     // page instead of popping.
-    if (GoRouter.of(this).routerDelegate.toString().length <= 1) {
+    if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
       go('/');
     } else {
       pop();
@@ -579,7 +577,7 @@ extension NavigationExtensions on BuildContext {
 
 extension GoRouterExtensions on GoRouter {
   AppStateNotifier get appState =>
-      (routerDelegate.addListener(() { }) as AppStateNotifier);
+      (routerDelegate.refreshListenable as AppStateNotifier);
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
       appState.hasRedirect() && !ignoreRedirect
           ? null
@@ -588,25 +586,9 @@ extension GoRouterExtensions on GoRouter {
       !ignoreRedirect && appState.hasRedirect();
   void clearRedirectLocation() => appState.clearRedirectLocation();
   void setRedirectLocationIfUnset(String location) =>
-      (routerDelegate.addListener(() { }) as AppStateNotifier)
+      (routerDelegate.refreshListenable as AppStateNotifier)
           .updateNotifyOnAuthChange(false);
 }
-
-
-/*extension GoRouterExtensions on GoRouter {
-  AppStateNotifier get appState =>
-      (routerDelegate as AppStateNotifier);
-  void prepareAuthEvent([bool ignoreRedirect = false]) =>
-      appState.hasRedirect() && !ignoreRedirect
-          ? null
-          : appState.updateNotifyOnAuthChange(false);
-  bool shouldRedirect(bool ignoreRedirect) =>
-      !ignoreRedirect && appState.hasRedirect();
-  void clearRedirectLocation() => appState.clearRedirectLocation();
-  void setRedirectLocationIfUnset(String location) =>
-      (routeInformationProvider.notifyListeners()  as AppStateNotifier)
-          .updateNotifyOnAuthChange(false);
-}*/
 
 extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get extraMap =>
@@ -689,12 +671,11 @@ class FFRoute {
   final Map<String, Future<dynamic> Function(String)> asyncParams;
   final Widget Function(BuildContext, FFParameters) builder;
   final List<GoRoute> routes;
-  
-  
+
   GoRoute toRoute(AppStateNotifier appStateNotifier) => GoRoute(
         name: name,
         path: path,
-        redirect: (BuildContext context, GoRouterState state) {
+        redirect: (state) {
           if (appStateNotifier.shouldRedirect) {
             final redirectLocation = appStateNotifier.getRedirectLocation();
             appStateNotifier.clearRedirectLocation();
@@ -742,7 +723,6 @@ class FFRoute {
               : MaterialPage(key: state.pageKey, child: child);
         },
         routes: routes,
-        
       );
 }
 
