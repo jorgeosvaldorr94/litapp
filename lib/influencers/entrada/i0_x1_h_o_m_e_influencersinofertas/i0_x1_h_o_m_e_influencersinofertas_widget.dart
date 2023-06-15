@@ -46,6 +46,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          child:SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -301,7 +302,7 @@ comuni... */
                 ],
               ),
             ],
-          ),
+          ),),
         ),
       ),
     );

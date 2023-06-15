@@ -228,6 +228,7 @@ class _I07InfluencersWidgetState extends State<I07InfluencersWidget>
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          
           child: Stack(
             children: [
               Padding(
