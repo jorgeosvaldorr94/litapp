@@ -210,8 +210,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I34AjustescuentaWidget(),
         ),
         FFRoute(
-          name: 'I186Atencionalcliente',
-          path: '/i186Atencionalcliente',
+          name: 'I186Atencionalcliente1',
+          path: '/i186Atencionalcliente1',
           builder: (context, params) => I186AtencionalclienteWidget(),
         ),
         FFRoute(
