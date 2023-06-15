@@ -15,8 +15,8 @@ import 'i37ajustesdeperfil_model.dart';
 export 'i37ajustesdeperfil_model.dart';
 
 class I37ajustesdeperfilWidget extends StatefulWidget {
-  const I37ajustesdeperfilWidget({Key? key, this.user}) : super(key: key);
-final DocumentReference? user;
+  const I37ajustesdeperfilWidget({Key? key}) : super(key: key);
+//final DocumentReference? user;
   @override
   _I37ajustesdeperfilWidgetState createState() =>
       _I37ajustesdeperfilWidgetState();
@@ -284,12 +284,13 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 50.0, 0.0, 0.0),
-                                    child: StreamBuilder<OffersRecord>(
+                                  /*  child: StreamBuilder<OffersRecord>(
                                       stream: OffersRecord.getDocument(widget.user!),
                                       builder: (context, snapshot){
                                       final userRecord = snapshot.data!;
-                                      return Text( 
-                                        userRecord.instagram!,
+                                      return*/
+                                      child: Text("" ,
+                                        //userRecord.city!,
                                       /*FFLocalizations.of(context).getText(
                                         'snvtog7t' /* Claudia Fernandez */,
                                       )*/
@@ -304,7 +305,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                             useGoogleFonts: false,
                                           ),
                                     ).animateOnPageLoad(animationsMap[
-                                        'textOnPageLoadAnimation1']!); } )
+                                        'textOnPageLoadAnimation1']!)/*; } )*/
       /*Text( UsersRecord.getDocument().
                                       /*FFLocalizations.of(context).getText(
                                         'snvtog7t' /* Claudia Fernandez */,
@@ -338,9 +339,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                   ),
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'md5mjyf3' /* @clau.fern
-
- */
+                                      'md5mjyf3' /* @clau.fern*/
                                       ,
                                     ),
                                     style: FlutterFlowTheme.of(context)
