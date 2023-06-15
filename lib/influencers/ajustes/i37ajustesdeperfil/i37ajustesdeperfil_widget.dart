@@ -1,3 +1,7 @@
+import 'package:lit_app/backend/backend.dart';
+import 'package:lit_app/backend/firebase_database.dart';
+import 'package:sign_in_with_apple_web/sign_in_with_apple_web.dart';
+
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -11,8 +15,8 @@ import 'i37ajustesdeperfil_model.dart';
 export 'i37ajustesdeperfil_model.dart';
 
 class I37ajustesdeperfilWidget extends StatefulWidget {
-  const I37ajustesdeperfilWidget({Key? key}) : super(key: key);
-
+  const I37ajustesdeperfilWidget({Key? key, this.user}) : super(key: key);
+final DocumentReference? user;
   @override
   _I37ajustesdeperfilWidgetState createState() =>
       _I37ajustesdeperfilWidgetState();
@@ -280,10 +284,17 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 50.0, 0.0, 0.0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
+                                    child: StreamBuilder<OffersRecord>(
+                                      stream: OffersRecord.getDocument(widget.user!),
+                                      builder: (context, snapshot){
+                                      final userRecord = snapshot.data!;
+                                      return Text( 
+                                        userRecord.instagram!,
+                                      /*FFLocalizations.of(context).getText(
                                         'snvtog7t' /* Claudia Fernandez */,
-                                      ),
+                                      )*/
+
+                                      
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -293,7 +304,37 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                             useGoogleFonts: false,
                                           ),
                                     ).animateOnPageLoad(animationsMap[
-                                        'textOnPageLoadAnimation1']!),
+                                        'textOnPageLoadAnimation1']!); } )
+      /*Text( UsersRecord.getDocument().
+                                      /*FFLocalizations.of(context).getText(
+                                        'snvtog7t' /* Claudia Fernandez */,
+                                      )*/,
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Albra',
+                                            fontSize: 20.0,
+                                            fontWeight: FontWeight.w500,
+                                            useGoogleFonts: false,
+                                          ),
+                                    ).animateOnPageLoad(animationsMap[
+                                        'textOnPageLoadAnimation1']!)
+                                      
+                                    */
+                                    /*Text(
+                                      /*FFLocalizations.of(context).getText(
+                                        'snvtog7t' /* Claudia Fernandez */,
+                                      )*/'',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Albra',
+                                            fontSize: 20.0,
+                                            fontWeight: FontWeight.w500,
+                                            useGoogleFonts: false,
+                                          ),
+                                    ).animateOnPageLoad(animationsMap[
+                                        'textOnPageLoadAnimation1']!),*/
                                   ),
                                   Text(
                                     FFLocalizations.of(context).getText(

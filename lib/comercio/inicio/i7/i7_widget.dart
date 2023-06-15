@@ -101,6 +101,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          
           child: Stack(
             children: [
               SingleChildScrollView(
@@ -111,7 +112,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(12.0, 44.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(12.0, 30.0, 0.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -209,7 +210,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                           Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    84.0, 57.0, 85.0, 0.0),
+                                                    84.0, 40.0, 85.0, 0.0),
                                             child: Container(
                                               width: 221.0,
                                               height: 221.0,
@@ -295,7 +296,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                           Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    84.0, 57.0, 85.0, 0.0),
+                                                    84.0, 40.0, 85.0, 0.0),
                                             child: Container(
                                               width: 221.0,
                                               height: 221.0,
@@ -331,7 +332,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                             child: Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(
-                                                      70.0, 45.0, 61.0, 0.0),
+                                                      70.0, 40.0, 61.0, 0.0),
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
@@ -386,7 +387,7 @@ class _I7WidgetState extends State<I7Widget> with TickerProviderStateMixin {
                                             Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(
-                                                      84.0, 57.0, 85.0, 0.0),
+                                                      84.0, 40.0, 85.0, 0.0),
                                               child: Container(
                                                 width: 221.0,
                                                 height: 221.0,

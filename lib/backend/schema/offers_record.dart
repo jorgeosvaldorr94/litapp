@@ -62,6 +62,8 @@ abstract class OffersRecord
   DocumentReference? get ffRef;
   DocumentReference get reference => ffRef!;
 
+  get instagram => null;
+
   static void _initializeBuilder(OffersRecordBuilder builder) => builder
     ..id = ''
     ..category = ''

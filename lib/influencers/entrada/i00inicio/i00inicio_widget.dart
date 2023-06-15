@@ -44,10 +44,11 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
         key: scaffoldKey,
         backgroundColor: Color(0xFFFF5A26),
         body: SafeArea(
+          child: SingleChildScrollView(
           child: Align(
             alignment: AlignmentDirectional(0.0, 0.0),
             child: Stack(
-              alignment: AlignmentDirectional(0.0, 0.0),
+              //alignment: AlignmentDirectional(0.0, 0.0),
               children: [
                 Column(
                   mainAxisSize: MainAxisSize.max,
@@ -55,7 +56,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(25.0, 43.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(25.0, 30.0, 0.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
@@ -184,7 +185,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
                 ),
                 Padding(
                   padding:
-                      EdgeInsetsDirectional.fromSTEB(25.0, 733.0, 27.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(25.0, 630.0, 27.0, 0.0),
                   child: FFButtonWidget(
                     onPressed: () async {
                       context.pushNamed(
@@ -226,7 +227,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
               ],
             ),
           ),
-        ),
+        ),),
       ),
     );
   }

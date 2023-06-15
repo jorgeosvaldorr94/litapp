@@ -86,10 +86,11 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBtnText,
         body: SafeArea(
+            child: SingleChildScrollView(
           child: Align(
             alignment: AlignmentDirectional(0.0, 0.0),
             child: Stack(
-              alignment: AlignmentDirectional(0.0, 0.0),
+             // alignment: AlignmentDirectional(0.0, 0.0),
               children: [
                 Column(
                   mainAxisSize: MainAxisSize.max,
@@ -97,7 +98,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(25.0, 43.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(25.0, 30.0, 0.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
@@ -209,7 +210,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 662.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(0.0, 570.0, 0.0, 0.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -331,7 +332,7 @@ class _I0InicirsesionWidgetState extends State<I0InicirsesionWidget>
               ],
             ),
           ),
-        ),
+        ),),
       ),
     );
   }

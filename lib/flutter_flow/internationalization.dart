@@ -934,8 +934,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Settings',
     },
     'snvtog7t': {
-      'es': 'Claudia Fernandez',
-      'en': 'Claudia Fernandez',
+      'es': 'Usuario',
+      'en': 'Usuario',
     },
     'md5mjyf3': {
       'es': '@clau.fern\n\n',
