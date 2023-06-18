@@ -28,6 +28,15 @@ Future<int> queryUsersRecordCount({
       limit: limit,
     );
 
+/*Stream<String> queryUsersRecordDate({
+  Query Function(Query)? queryBuilder,
+
+}) =>queryCollectionCount(
+   UsersRecord.collection,
+      queryBuilder: queryBuilder,
+      limit: limit,
+);*/
+
 Stream<List<UsersRecord>> queryUsersRecord({
   Query Function(Query)? queryBuilder,
   int limit = -1,

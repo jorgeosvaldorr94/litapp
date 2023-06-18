@@ -202,7 +202,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'I37ajustesdeperfil',
           path: '/i37ajustesdeperfil',
-          builder: (context, params) => I37ajustesdeperfilWidget(),
+          builder: (context, params) => I37ajustesdeperfilWidget(users:'9wgNJApjwmZRdlCF7S9YWrFLYyg2'
+           // users: params.getParam('users', ParamType.String),
+          ),
         ),
         FFRoute(
           name: 'I34Ajustescuenta',

@@ -127,6 +127,8 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
   static CollectionReference get collection =>
       FirebaseFirestore.instance.collection('users');
 
+  static CollectionReference collectionUser =
+      FirebaseFirestore.instance.collection('users');
   static Stream<UsersRecord> getDocument(DocumentReference ref) => ref
       .snapshots()
       .map((s) => serializers.deserializeWith(serializer, serializedData(s))!);
@@ -143,6 +145,7 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
           Map<String, dynamic> data, DocumentReference reference) =>
       serializers.deserializeWith(serializer,
           {...mapFromFirestore(data), kDocumentReferenceField: reference})!;
+   
 }
 
 Map<String, dynamic> createUsersRecordData({

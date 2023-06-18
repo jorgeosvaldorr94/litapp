@@ -1,3 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:lit_app/auth/base_auth_user_provider.dart';
+
+import '../../../backend/backend.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -11,7 +15,10 @@ import 'i37ajustesdeperfil_model.dart';
 export 'i37ajustesdeperfil_model.dart';
 
 class I37ajustesdeperfilWidget extends StatefulWidget {
-  const I37ajustesdeperfilWidget({Key? key}) : super(key: key);
+  final String users;
+
+     
+  const I37ajustesdeperfilWidget({Key? key,required this.users    }) : super(key: key);
 
   @override
   _I37ajustesdeperfilWidgetState createState() =>
@@ -19,9 +26,10 @@ class I37ajustesdeperfilWidget extends StatefulWidget {
 }
 
 class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
+   
     with TickerProviderStateMixin {
   late I37ajustesdeperfilModel _model;
-
+  
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
 
@@ -135,6 +143,12 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
       ],
     ),
   };
+  
+ 
+  
+   
+  
+  
 
   @override
   void initState() {
@@ -154,13 +168,29 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
   Widget build(BuildContext context) {
     context.watch<FFAppState>();
 
+    String? documenId = '9wgNJApjwmZRdlCF7S9YWrFLYyg2';
     return GestureDetector(
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
-          child: Stack(
+          child:FutureBuilder<DocumentSnapshot>(
+ 
+           future:  UsersRecord.collectionUser.doc(widget.users).get(),
+        builder: (BuildContext context, AsyncSnapshot<DocumentSnapshot> snapshot) {
+                  if (snapshot.hasError) {
+          return Text("Something went wrong");
+        }
+
+        if (snapshot.hasData && !snapshot.data!.exists) {
+          return Text("Document does not exist");
+        }
+                if (snapshot.connectionState == ConnectionState.done) {
+          Map<String, dynamic> data = snapshot.data!.data() as Map<String, dynamic>;
+              
+              return Stack(
+                
             children: [
               SingleChildScrollView(
                 child: Column(
@@ -251,6 +281,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                           Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
+                              
                               Container(
                                 width: 100.0,
                                 height: 100.0,
@@ -259,8 +290,12 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                       .secondaryBackground,
                                   image: DecorationImage(
                                     fit: BoxFit.none,
+                                    
                                     image: Image.asset(
-                                      'assets/images/Frame.png',
+                                        
+                                      "${data['photo_url']}"
+                                       
+                                       ,
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(50.0),
@@ -280,10 +315,12 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 50.0, 0.0, 0.0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
+                                    
+                                    child:  Text("${data['name']} ${data['lastname']}"
+        
+                                     /* FFLocalizations.of(context).getText(
                                         'snvtog7t' /* Claudia Fernandez */,
-                                      ),
+                                      )*/,
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -294,14 +331,17 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                           ),
                                     ).animateOnPageLoad(animationsMap[
                                         'textOnPageLoadAnimation1']!),
-                                  ),
-                                  Text(
-                                    FFLocalizations.of(context).getText(
-                                      'md5mjyf3' /* @clau.fern
+                                  )
+                                       
 
- */
-                                      ,
-                                    ),
+                                    ,
+                                  Text( "${data['instagram']}"
+                                   /* FFLocalizations.of(context).getText(
+                                      'md5mjyf3'  @clau.fern
+
+ 
+                                      
+                                    ),*/,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -315,7 +355,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                               ),
                             ],
                           ),
-                          Row(
+                         Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Padding(
@@ -323,9 +363,9 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                     31.0, 0.0, 0.0, 0.0),
                                 child: Image.asset(
                                   'assets/images/Group_238920.png',
-                                  width: 19.0,
-                                  height: 19.0,
-                                  fit: BoxFit.none,
+                                  width: 25.0,
+                                  height: 25.0,
+                                  fit: BoxFit.contain,
                                 ).animateOnPageLoad(
                                     animationsMap['imageOnPageLoadAnimation']!),
                               ),
@@ -336,7 +376,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 16.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(15.0, 20.0, 16.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -804,7 +844,13 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                     animationsMap['containerOnPageLoadAnimation5']!),
               ),
             ],
-          ),
+          ); 
+
+        
+    }
+    return Text("");
+    },
+    ),
         ),
       ),
     );
