@@ -529,7 +529,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'acrwulx4': {
       'es': 'Hola ',
-      'en': 'Hello',
+      'en': 'Hello ',
     },
     'wt1ljlrr': {
       'es': 'Wanda! ',
@@ -537,9 +537,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'sdrvseik': {
       'es':
-          'Ya sos parte de nuestra\ncomunidad. Aceptá tu primera oferta y empezá\na disfrutar miles de experiencias',
+          ' Ya sos parte de nuestra\ncomunidad. Aceptá tu primera oferta y empezá\na disfrutar miles de experiencias',
       'en':
-          'You are already part of our\ncommunity. Accept your first offer and get started\nto enjoy thousands of experiences',
+          ' You are already part of our\ncommunity. Accept your first offer and get \n startednto enjoy thousands of experiences',
     },
     'fvwz2nep': {
       'es': 'Todavía no tenés ofertas!',

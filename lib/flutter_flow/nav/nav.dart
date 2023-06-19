@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
+import '../../influencers/ajustes/i186_atencionalcliente/i186_atencionalcliente_widget.dart';
 import '../flutter_flow_theme.dart';
 import '../../backend/backend.dart';
 
@@ -212,9 +213,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I34AjustescuentaWidget(),
         ),
         FFRoute(
-          name: 'I186Atencionalcliente1',
-          path: '/i186Atencionalcliente1',
-          builder: (context, params) => I186AtencionalclienteWidget(),
+          name: 'I1861Atencionalcliente',
+          path: '/i1861Atencionalcliente',
+          builder: (context, params) => I1861AtencionalclienteWidget(),
         ),
         FFRoute(
           name: 'I38Metododepago',

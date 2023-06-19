@@ -48,7 +48,7 @@ export '/influencers/ajustes/i37ajustesdeperfil/i37ajustesdeperfil_widget.dart'
 export '/influencers/ajustes/i34_ajustescuenta/i34_ajustescuenta_widget.dart'
     show I34AjustescuentaWidget;
 export '/influencers/ajustes/i186_atencionalcliente/i186_atencionalcliente_widget.dart'
-    show I186AtencionalclienteWidget;
+    show I1861AtencionalclienteWidget;
 export '/influencers/ajustes/i38_metododepago/i38_metododepago_widget.dart'
     show I38MetododepagoWidget;
 export '/i190splash/i190splash_widget.dart' show I190splashWidget;

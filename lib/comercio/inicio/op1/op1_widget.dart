@@ -648,9 +648,10 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                               );
                                             }
                                           },
+                                          //toca editar mal hecho 
                                           child: Container(
-                                            width: 281.2,
-                                            height: 70.0,
+                                            width: 281,
+                                            height: 68.0,
                                             decoration: BoxDecoration(
                                               color: Color(0xCCFF5A26),
                                             ),
@@ -1111,8 +1112,8 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                               }
                                             },
                                             child: Container(
-                                              width: 281.2,
-                                              height: 70.0,
+                                              width: 281,
+                                              height: 68.0,
                                               decoration: BoxDecoration(
                                                 color: Color(0xCCFF5A26),
                                               ),

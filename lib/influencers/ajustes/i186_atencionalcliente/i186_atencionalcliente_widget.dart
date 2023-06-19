@@ -7,16 +7,16 @@ import 'package:provider/provider.dart';
 import 'i186_atencionalcliente_model.dart';
 export 'i186_atencionalcliente_model.dart';
 
-class I186AtencionalclienteWidget extends StatefulWidget {
-  const I186AtencionalclienteWidget({Key? key}) : super(key: key);
+class I1861AtencionalclienteWidget extends StatefulWidget {
+  const I1861AtencionalclienteWidget({Key? key}) : super(key: key);
 
   @override
-  _I186AtencionalclienteWidgetState createState() =>
-      _I186AtencionalclienteWidgetState();
+  _I1861AtencionalclienteWidgetState createState() =>
+      _I1861AtencionalclienteWidgetState();
 }
 
-class _I186AtencionalclienteWidgetState
-    extends State<I186AtencionalclienteWidget> {
+class _I1861AtencionalclienteWidgetState
+    extends State<I1861AtencionalclienteWidget> {
   late I186AtencionalclienteModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
