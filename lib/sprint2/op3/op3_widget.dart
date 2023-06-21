@@ -405,7 +405,7 @@ class _Op3WidgetState extends State<Op3Widget> {
                                       width: 281.2,
                                       height: 70.0,
                                       decoration: BoxDecoration(
-                                        color: Color(0xCCFF5A26),
+                                        color: Color(0xFFF74A41),
                                       ),
                                       child: Align(
                                         alignment:
@@ -666,7 +666,7 @@ class _Op3WidgetState extends State<Op3Widget> {
                                       width: 281.2,
                                       height: 70.0,
                                       decoration: BoxDecoration(
-                                        color: Color(0xCCFF5A26),
+                                        color: Color(0xFFF74A41),
                                       ),
                                       child: Align(
                                         alignment:

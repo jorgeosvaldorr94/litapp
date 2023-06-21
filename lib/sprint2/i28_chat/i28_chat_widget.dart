@@ -412,7 +412,7 @@ con la of... */
                                             width: 187.0,
                                             height: 117.0,
                                             decoration: BoxDecoration(
-                                              color: Color(0xFFFF5A26),
+                                              color: Color(0xFFF74A41),
                                               borderRadius:
                                                   BorderRadius.circular(25.0),
                                             ),
@@ -493,7 +493,7 @@ gracias! 1... */
                                           width: 60.0,
                                           height: 60.0,
                                           decoration: BoxDecoration(
-                                            color: Color(0xFFFF5A26),
+                                            color: Color(0xFFF74A41),
                                             borderRadius:
                                                 BorderRadius.circular(50.0),
                                           ),
@@ -522,7 +522,7 @@ gracias! 1... */
                       width: 397.0,
                       height: 67.0,
                       decoration: BoxDecoration(
-                        color: Color(0xFFFF5A26),
+                        color: Color(0xFFF74A41),
                         boxShadow: [
                           BoxShadow(
                             blurRadius: 4.0,

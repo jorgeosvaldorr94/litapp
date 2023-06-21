@@ -85,7 +85,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFFFF5A26),
+        backgroundColor: Color(0xFFF74A41),
         body: SafeArea(
           child: Stack(
             children: [
@@ -110,7 +110,7 @@ class _I50SelectordeperfilWidgetState extends State<I50SelectordeperfilWidget>
                             width: double.infinity,
                             height: MediaQuery.of(context).size.height * 0.5,
                             decoration: BoxDecoration(
-                              color: Color(0xFFFF5A26),
+                              color: Color(0xFFF74A41),
                             ),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,

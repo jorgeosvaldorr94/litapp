@@ -82,7 +82,7 @@ class _YasosparteWidgetState extends State<YasosparteWidget> {
                 width: 178.0,
                 height: 38.0,
                 decoration: BoxDecoration(
-                  color: Color(0xCCFF5A26),
+                  color: Color(0xFFF74A41),
                   boxShadow: [
                     BoxShadow(
                       blurRadius: 4.0,
@@ -114,7 +114,7 @@ class _YasosparteWidgetState extends State<YasosparteWidget> {
               width: 100.0,
               height: 2.0,
               decoration: BoxDecoration(
-                color: Color(0xCCFF5A26),
+                color: Color(0xFFF74A41),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(20.0),
                   bottomRight: Radius.circular(20.0),

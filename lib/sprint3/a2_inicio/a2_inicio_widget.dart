@@ -276,7 +276,7 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
                       width: 100.0,
                       height: 104.0,
                       decoration: BoxDecoration(
-                        color: Color(0xFFFF5A26),
+                        color: Color(0xFFF74A41),
                       ),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,

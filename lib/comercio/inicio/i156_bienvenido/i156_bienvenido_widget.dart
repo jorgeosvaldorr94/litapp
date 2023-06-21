@@ -357,7 +357,7 @@ class _I156BienvenidoWidgetState extends State<I156BienvenidoWidget>
                           width: 391.0,
                           height: 82.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                             borderRadius: BorderRadius.circular(0.0),
                           ),
                           child: Padding(

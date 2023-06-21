@@ -270,7 +270,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                 ),
                                 Icon(
                                   Icons.navigate_next,
-                                  color: Color(0xFFFF5A26),
+                                  color: Color(0xFFF74A41),
                                   size: 24.0,
                                 ),
                               ],
@@ -559,7 +559,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                       ),
                                       Icon(
                                         Icons.navigate_next,
-                                        color: Color(0xFFFF5A26),
+                                        color: Color(0xFFF74A41),
                                         size: 24.0,
                                       ),
                                     ],
@@ -1285,7 +1285,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                           width: MediaQuery.of(context).size.width * 1.0,
                           height: 82.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,

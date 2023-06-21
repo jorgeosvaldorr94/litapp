@@ -69,7 +69,7 @@ class _I01RegistracionErrorWidgetState
                           width: 26.0,
                           height: 26.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                             boxShadow: [
                               BoxShadow(
                                 blurRadius: 4.0,
@@ -103,7 +103,7 @@ class _I01RegistracionErrorWidgetState
                             width: 68.0,
                             height: 1.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFFF5A26),
+                              color: Color(0xFFF74A41),
                             ),
                           ),
                         ),
@@ -145,7 +145,7 @@ class _I01RegistracionErrorWidgetState
                             width: 68.0,
                             height: 1.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFFF5A26),
+                              color: Color(0xFFF74A41),
                             ),
                           ),
                         ),
@@ -269,13 +269,13 @@ class _I01RegistracionErrorWidgetState
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
-                                  color: Color(0xFFFF5A26),
+                                  color: Color(0xFFF74A41),
                                   fontSize: 18.0,
                                   useGoogleFonts: false,
                                 ),
                         enabledBorder: UnderlineInputBorder(
                           borderSide: BorderSide(
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                             width: 1.0,
                           ),
                           borderRadius: const BorderRadius.only(
@@ -567,7 +567,7 @@ class _I01RegistracionErrorWidgetState
                                   },
                                   activeColor: FlutterFlowTheme.of(context)
                                       .primaryBtnText,
-                                  checkColor: Color(0xFFFF5A26),
+                                  checkColor: Color(0xFFF74A41),
                                 ),
                               ),
                             ),

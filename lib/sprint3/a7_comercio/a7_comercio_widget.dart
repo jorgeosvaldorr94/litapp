@@ -196,7 +196,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                       height: 36.0,
                                                       decoration: BoxDecoration(
                                                         color:
-                                                            Color(0xFFFF5A26),
+                                                            Color(0xFFF74A41),
                                                         boxShadow: [
                                                           BoxShadow(
                                                             blurRadius: 4.0,
@@ -773,7 +773,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                         animation:
                                                                             true,
                                                                         progressColor:
-                                                                            Color(0xFFFF5A26),
+                                                                            Color(0xFFF74A41),
                                                                         backgroundColor:
                                                                             FlutterFlowTheme.of(context).accent4,
                                                                         center:
@@ -1025,7 +1025,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           animation:
                                                                               true,
                                                                           progressColor:
-                                                                              Color(0xFFFF5A26),
+                                                                              Color(0xFFF74A41),
                                                                           backgroundColor:
                                                                               FlutterFlowTheme.of(context).accent4,
                                                                           center:
@@ -1346,7 +1346,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                         decoration:
                                                                             BoxDecoration(
                                                                           color:
-                                                                              Color(0xFFFF5A26),
+                                                                              Color(0xFFF74A41),
                                                                           borderRadius:
                                                                               BorderRadius.circular(9.0),
                                                                         ),
@@ -1622,7 +1622,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                               width: 822.0,
                                                                               height: 64.0,
                                                                               decoration: BoxDecoration(
-                                                                                color: Color(0xFFFF5A26),
+                                                                                color: Color(0xFFF74A41),
                                                                                 borderRadius: BorderRadius.circular(9.0),
                                                                               ),
                                                                               child: Row(
@@ -1740,7 +1740,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                     onChanged: (newValue) async {
                                                                                                       setState(() => _model.checkboxValue1 = newValue!);
                                                                                                     },
-                                                                                                    activeColor: Color(0xFFFF5A26),
+                                                                                                    activeColor: Color(0xFFF74A41),
                                                                                                     checkColor: FlutterFlowTheme.of(context).primaryText,
                                                                                                   ),
                                                                                                 ),
@@ -1801,7 +1801,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                 width: 822.0,
                                                                                 height: 64.0,
                                                                                 decoration: BoxDecoration(
-                                                                                  color: Color(0xFFFF5A26),
+                                                                                  color: Color(0xFFF74A41),
                                                                                   borderRadius: BorderRadius.circular(9.0),
                                                                                 ),
                                                                                 child: Row(
@@ -1919,7 +1919,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                                       onChanged: (newValue) async {
                                                                                                         setState(() => _model.checkboxValue2 = newValue!);
                                                                                                       },
-                                                                                                      activeColor: Color(0xFFFF5A26),
+                                                                                                      activeColor: Color(0xFFF74A41),
                                                                                                       checkColor: FlutterFlowTheme.of(context).primaryText,
                                                                                                     ),
                                                                                                   ),
@@ -2014,7 +2014,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                           0.0,
                                                                           0.0),
                                                                   color: Color(
-                                                                      0xFFFF5A26),
+                                                                      0xFFF74A41),
                                                                   textStyle: FlutterFlowTheme.of(
                                                                           context)
                                                                       .titleSmall
@@ -3126,7 +3126,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                           width: 487.0,
                                                                                           height: 64.0,
                                                                                           decoration: BoxDecoration(
-                                                                                            color: Color(0xFFFF5A26),
+                                                                                            color: Color(0xFFF74A41),
                                                                                             borderRadius: BorderRadius.circular(10.0),
                                                                                           ),
                                                                                           child: Row(
@@ -3202,7 +3202,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                             width: 487.0,
                                                                                             height: 64.0,
                                                                                             decoration: BoxDecoration(
-                                                                                              color: Color(0xFFFF5A26),
+                                                                                              color: Color(0xFFF74A41),
                                                                                               borderRadius: BorderRadius.circular(10.0),
                                                                                             ),
                                                                                             child: Row(
@@ -3279,7 +3279,7 @@ class _A7ComercioWidgetState extends State<A7ComercioWidget> {
                                                                                             width: 487.0,
                                                                                             height: 64.0,
                                                                                             decoration: BoxDecoration(
-                                                                                              color: Color(0xFFFF5A26),
+                                                                                              color: Color(0xFFF74A41),
                                                                                               borderRadius: BorderRadius.circular(10.0),
                                                                                             ),
                                                                                             child: Row(

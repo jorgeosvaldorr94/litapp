@@ -546,7 +546,7 @@ class _I24missolicitudesWidgetState extends State<I24missolicitudesWidget>
                                                                 fontFamily:
                                                                     'Brandon',
                                                                 color: Color(
-                                                                    0xFFFF5A26),
+                                                                    0xFFF74A41),
                                                                 fontSize: 10.0,
                                                                 fontWeight:
                                                                     FontWeight

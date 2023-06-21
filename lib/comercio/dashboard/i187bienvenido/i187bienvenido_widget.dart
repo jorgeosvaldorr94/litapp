@@ -146,7 +146,7 @@ class _I187bienvenidoWidgetState extends State<I187bienvenidoWidget>
                           width: 100.0,
                           height: 100.0,
                           decoration: BoxDecoration(
-                            color: Color(0xCCFF5A26),
+                            color: Color(0xFFf74a41),
                             borderRadius: BorderRadius.circular(200.0),
                           ),
                           child: Align(

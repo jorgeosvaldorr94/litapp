@@ -42,7 +42,7 @@ class _I00inicioWidgetState extends State<I00inicioWidget> {
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFFFF5A26),
+        backgroundColor: Color(0xFFF74A41),
         body: SafeArea(
           child:SingleChildScrollView(
           child: Align(

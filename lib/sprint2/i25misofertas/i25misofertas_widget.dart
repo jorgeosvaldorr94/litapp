@@ -54,7 +54,7 @@ class _I25misofertasWidgetState extends State<I25misofertasWidget> {
                     width: MediaQuery.of(context).size.width * 1.0,
                     height: 82.0,
                     decoration: BoxDecoration(
-                      color: Color(0xFFFF5A26),
+                      color: Color(0xFFF74A41),
                     ),
                     child: Align(
                       alignment: AlignmentDirectional(0.0, 0.0),
@@ -310,17 +310,17 @@ class _I25misofertasWidgetState extends State<I25misofertasWidget> {
                                       ),
                                       Icon(
                                         Icons.star_rate,
-                                        color: Color(0xFFFF5A26),
+                                        color: Color(0xFFF74A41),
                                         size: 15.0,
                                       ),
                                       Icon(
                                         Icons.star_border,
-                                        color: Color(0xFFFF5A26),
+                                        color: Color(0xFFF74A41),
                                         size: 15.0,
                                       ),
                                       Icon(
                                         Icons.star_border,
-                                        color: Color(0xFFFF5A26),
+                                        color: Color(0xFFF74A41),
                                         size: 15.0,
                                       ),
                                     ],

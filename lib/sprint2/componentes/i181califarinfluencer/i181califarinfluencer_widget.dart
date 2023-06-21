@@ -176,7 +176,7 @@ class _I181califarinfluencerWidgetState
                     padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     iconPadding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: Color(0xFFFF5A26),
+                    color: Color(0xFFF74A41),
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                           fontFamily: 'Brandon',
                           color: Colors.black,

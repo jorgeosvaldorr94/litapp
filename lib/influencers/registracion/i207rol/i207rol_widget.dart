@@ -159,7 +159,7 @@ class _I207rolWidgetState extends State<I207rolWidget> {
                                             setState(() => _model
                                                 .checkboxValue1 = newValue!);
                                           },
-                                          activeColor: Color(0xCCFF5A26),
+                                          activeColor: Color(0xFFf74a41),
                                           checkColor:
                                               FlutterFlowTheme.of(context)
                                                   .primaryText,
@@ -240,7 +240,7 @@ class _I207rolWidgetState extends State<I207rolWidget> {
                                             setState(() => _model
                                                 .checkboxValue2 = newValue!);
                                           },
-                                          activeColor: Color(0xCCFF5A26),
+                                          activeColor: Color(0xFFF74A41),
                                           checkColor:
                                               FlutterFlowTheme.of(context)
                                                   .primaryText,
@@ -321,7 +321,7 @@ class _I207rolWidgetState extends State<I207rolWidget> {
                                             setState(() => _model
                                                 .checkboxValue3 = newValue!);
                                           },
-                                          activeColor: Color(0xCCFF5A26),
+                                          activeColor: Color(0xFFF74A41),
                                           checkColor:
                                               FlutterFlowTheme.of(context)
                                                   .primaryText,

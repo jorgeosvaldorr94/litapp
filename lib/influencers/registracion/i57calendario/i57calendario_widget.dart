@@ -88,7 +88,7 @@ class _I57calendarioWidgetState extends State<I57calendarioWidget>
               mainAxisSize: MainAxisSize.max,
               children: [
                 FlutterFlowCalendar(
-                  color: Color(0xFFFF5A26),
+                  color: Color(0xFFF74A41),
                   weekFormat: false,
                   weekStartsMonday: false,
                   rowHeight: 40.0,

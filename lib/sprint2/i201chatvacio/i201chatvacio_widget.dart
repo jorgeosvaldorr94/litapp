@@ -58,7 +58,7 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
                       width: 397.0,
                       height: 67.0,
                       decoration: BoxDecoration(
-                        color: Color(0xFFFF5A26),
+                        color: Color(0xFFF74A41),
                         boxShadow: [
                           BoxShadow(
                             blurRadius: 4.0,

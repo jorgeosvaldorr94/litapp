@@ -55,7 +55,7 @@ class _I146tengounproblemaWidgetState extends State<I146tengounproblemaWidget> {
                     width: 397.0,
                     height: 82.0,
                     decoration: BoxDecoration(
-                      color: Color(0xCCFF5A26),
+                      color: Color(0xFFF74A41),
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 4.0,

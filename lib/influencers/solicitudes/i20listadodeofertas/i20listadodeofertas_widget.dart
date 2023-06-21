@@ -223,7 +223,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                             ),
                             Icon(
                               Icons.navigate_next,
-                              color: Color(0xFFFF5A26),
+                              color: Color(0xFFF74A41),
                               size: 24.0,
                             ),
                           ],
@@ -498,7 +498,7 @@ class _I20listadodeofertasWidgetState extends State<I20listadodeofertasWidget>
                                   ),
                                   Icon(
                                     Icons.navigate_next,
-                                    color: Color(0xFFFF5A26),
+                                    color: Color(0xFFF74A41),
                                     size: 24.0,
                                   ),
                                 ],

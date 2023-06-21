@@ -285,7 +285,7 @@ class _I116ofertasrealizadasWidgetState
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Brandon',
-                                        color: Color(0xCCFF5A26),
+                                        color: Color(0xFFF74A41),
                                         fontWeight: FontWeight.w300,
                                         useGoogleFonts: false,
                                       ),
@@ -305,7 +305,7 @@ class _I116ofertasrealizadasWidgetState
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'Brandon',
-                                    color: Color(0xCCFF5A26),
+                                    color: Color(0xFFF74A41),
                                     fontWeight: FontWeight.w300,
                                     useGoogleFonts: false,
                                   ),

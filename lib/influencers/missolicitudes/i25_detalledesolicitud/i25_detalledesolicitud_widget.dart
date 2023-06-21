@@ -435,17 +435,17 @@ class _I25DetalledesolicitudWidgetState
                                           ),
                                           Icon(
                                             Icons.star_rate,
-                                            color: Color(0xFFFF5A26),
+                                            color: Color(0xFFF74A41),
                                             size: 15.0,
                                           ),
                                           Icon(
                                             Icons.star_border,
-                                            color: Color(0xFFFF5A26),
+                                            color: Color(0xFFF74A41),
                                             size: 15.0,
                                           ),
                                           Icon(
                                             Icons.star_border,
-                                            color: Color(0xFFFF5A26),
+                                            color: Color(0xFFF74A41),
                                             size: 15.0,
                                           ),
                                         ],

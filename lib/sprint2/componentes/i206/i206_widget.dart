@@ -122,7 +122,7 @@ class _I206WidgetState extends State<I206Widget> {
                         width: 122.0,
                         height: 38.0,
                         decoration: BoxDecoration(
-                          color: Color(0xFFFF5A26),
+                          color: Color(0xFFF74A41),
                           boxShadow: [
                             BoxShadow(
                               blurRadius: 4.0,

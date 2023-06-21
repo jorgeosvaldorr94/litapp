@@ -653,7 +653,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                             width: 281,
                                             height: 68.0,
                                             decoration: BoxDecoration(
-                                              color: Color(0xCCFF5A26),
+                                              color: Color(0xFFf74a41),
                                             ),
                                             child: Align(
                                               alignment: AlignmentDirectional(
@@ -1115,7 +1115,7 @@ class _Op1WidgetState extends State<Op1Widget> with TickerProviderStateMixin {
                                               width: 281,
                                               height: 68.0,
                                               decoration: BoxDecoration(
-                                                color: Color(0xCCFF5A26),
+                                                color: Color(0xFFf74a41),
                                               ),
                                               child: Align(
                                                 alignment: AlignmentDirectional(

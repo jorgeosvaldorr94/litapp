@@ -170,7 +170,7 @@ class _FormatopublicacionWidgetState extends State<FormatopublicacionWidget>
                                           Navigator.pop(context);
                                         }
                                       },
-                                      activeColor: Color(0xCCFF5A26),
+                                      activeColor: Color(0xFFF74A41),
                                       checkColor: FlutterFlowTheme.of(context)
                                           .primaryText,
                                     ),
@@ -257,7 +257,7 @@ class _FormatopublicacionWidgetState extends State<FormatopublicacionWidget>
                                           Navigator.pop(context);
                                         }
                                       },
-                                      activeColor: Color(0xCCFF5A26),
+                                      activeColor: Color(0xFFF74A41),
                                       checkColor: FlutterFlowTheme.of(context)
                                           .primaryText,
                                     ),
@@ -344,7 +344,7 @@ class _FormatopublicacionWidgetState extends State<FormatopublicacionWidget>
                                           Navigator.pop(context);
                                         }
                                       },
-                                      activeColor: Color(0xCCFF5A26),
+                                      activeColor: Color(0xFFF74A41),
                                       checkColor: FlutterFlowTheme.of(context)
                                           .primaryText,
                                     ),

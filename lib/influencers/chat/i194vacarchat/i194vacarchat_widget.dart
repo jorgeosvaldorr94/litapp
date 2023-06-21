@@ -270,7 +270,7 @@ class _I194vacarchatWidgetState extends State<I194vacarchatWidget> {
                       width: 397.0,
                       height: 67.0,
                       decoration: BoxDecoration(
-                        color: Color(0xFFFF5A26),
+                        color: Color(0xFFF74A41),
                         boxShadow: [
                           BoxShadow(
                             blurRadius: 4.0,

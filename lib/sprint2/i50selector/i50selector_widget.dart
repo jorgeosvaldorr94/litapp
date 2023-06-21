@@ -41,7 +41,7 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
       onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFFFF5A26),
+        backgroundColor: Color(0xFFF74A41),
         body: SafeArea(
           child: Stack(
             children: [
@@ -58,7 +58,7 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                           width: 390.0,
                           height: 449.8,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,

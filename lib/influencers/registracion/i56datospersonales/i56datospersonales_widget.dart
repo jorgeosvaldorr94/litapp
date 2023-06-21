@@ -163,7 +163,7 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 width: 68.0,
                                 height: 1.0,
                                 decoration: BoxDecoration(
-                                  color: Color(0xFFFF5A26),
+                                  color: Color(0xFFF74A41),
                                 ),
                               ),
                             ),
@@ -171,7 +171,7 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                               width: 26.0,
                               height: 26.0,
                               decoration: BoxDecoration(
-                                color: Color(0xFFFF5A26),
+                                color: Color(0xFFF74A41),
                                 boxShadow: [
                                   BoxShadow(
                                     blurRadius: 4.0,
@@ -205,7 +205,7 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                                 width: 68.0,
                                 height: 1.0,
                                 decoration: BoxDecoration(
-                                  color: Color(0xFFFF5A26),
+                                  color: Color(0xFFF74A41),
                                 ),
                               ),
                             ),
@@ -1149,7 +1149,7 @@ class _I56datospersonalesWidgetState extends State<I56datospersonalesWidget>
                           width: 391.0,
                           height: 82.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                             borderRadius: BorderRadius.circular(0.0),
                           ),
                           child: Padding(

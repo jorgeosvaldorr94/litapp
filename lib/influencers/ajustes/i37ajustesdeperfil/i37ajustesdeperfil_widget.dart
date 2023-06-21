@@ -293,9 +293,9 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                     
                                     image: Image.asset(
                                         
-                                      "${data['photo_url']}"
+                                     
+                                       ""
                                        
-                                       ,
                                     ).image,
                                   ),
                                   borderRadius: BorderRadius.circular(50.0),
@@ -316,11 +316,9 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 50.0, 0.0, 0.0),
                                     
-                                    child:  Text("${data['name']} ${data['lastname']}"
-        
-                                     /* FFLocalizations.of(context).getText(
+                                    child:  Text(  FFLocalizations.of(context).getText(
                                         'snvtog7t' /* Claudia Fernandez */,
-                                      )*/,
+                                      ) ,
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -335,13 +333,12 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                        
 
                                     ,
-                                  Text( "${data['instagram']}"
-                                   /* FFLocalizations.of(context).getText(
-                                      'md5mjyf3'  @clau.fern
+                                  Text(   FFLocalizations.of(context).getText(
+                                      'md5mjyf3' /* @clau.fern*/
 
  
                                       
-                                    ),*/,
+                                    ),  
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -494,7 +491,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                             100.0, 0.0, 5.0, 0.0),
                                         child: Icon(
                                           Icons.navigate_next_sharp,
-                                          color: Color(0xFFFF5A26),
+                                          color: Color(0xFFF74A41),
                                           size: 24.0,
                                         ),
                                       ),
@@ -630,7 +627,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                             80.0, 0.0, 5.0, 0.0),
                                         child: Icon(
                                           Icons.navigate_next_sharp,
-                                          color: Color(0xFFFF5A26),
+                                          color: Color(0xFFF74A41),
                                           size: 24.0,
                                         ),
                                       ),
@@ -766,7 +763,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                                             50.0, 0.0, 5.0, 0.0),
                                         child: Icon(
                                           Icons.navigate_next_sharp,
-                                          color: Color(0xFFFF5A26),
+                                          color: Color(0xFFF74A41),
                                           size: 24.0,
                                         ),
                                       ),
@@ -817,7 +814,7 @@ class _I37ajustesdeperfilWidgetState extends State<I37ajustesdeperfilWidget>
                     width: double.infinity,
                     height: 67.0,
                     decoration: BoxDecoration(
-                      color: Color(0xFFFF5A26),
+                      color: Color(0xFFF74A41),
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 4.0,

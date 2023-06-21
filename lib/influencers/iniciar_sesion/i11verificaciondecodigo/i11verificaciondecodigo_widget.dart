@@ -133,7 +133,7 @@ class _I11verificaciondecodigoWidgetState
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(
                                 fontFamily: 'Albra',
-                                color: Color(0xFFFF5A26),
+                                color: Color(0xFFF74A41),
                                 useGoogleFonts: false,
                               ),
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -142,7 +142,7 @@ class _I11verificaciondecodigoWidgetState
                       enablePinAutofill: true,
                       errorTextSpace: 16.0,
                       showCursor: true,
-                      cursorColor: Color(0xFFFF5A26),
+                      cursorColor: Color(0xFFF74A41),
                       obscureText: false,
                       hintCharacter: '-',
                       pinTheme: PinTheme(
@@ -151,14 +151,14 @@ class _I11verificaciondecodigoWidgetState
                         borderWidth: 2.0,
                         borderRadius: BorderRadius.circular(12.0),
                         shape: PinCodeFieldShape.underline,
-                        activeColor: Color(0xFFFF5A26),
+                        activeColor: Color(0xFFF74A41),
                         inactiveColor:
                             FlutterFlowTheme.of(context).primaryBackground,
-                        selectedColor: Color(0xFFFF5A26),
-                        activeFillColor: Color(0xFFFF5A26),
+                        selectedColor: Color(0xFFF74A41),
+                        activeFillColor: Color(0xFFF74A41),
                         inactiveFillColor:
                             FlutterFlowTheme.of(context).primaryBackground,
-                        selectedFillColor: Color(0xFFFF5A26),
+                        selectedFillColor: Color(0xFFF74A41),
                       ),
                       controller: _model.pinCodeController,
                       onChanged: (_) {},
@@ -177,7 +177,7 @@ class _I11verificaciondecodigoWidgetState
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',
-                            color: Color(0xFFFF5A26),
+                            color: Color(0xFFF74A41),
                             decoration: TextDecoration.underline,
                             useGoogleFonts: false,
                           ),
@@ -245,7 +245,7 @@ class _I11verificaciondecodigoWidgetState
                         width: 391.0,
                         height: 82.0,
                         decoration: BoxDecoration(
-                          color: Color(0xFFFF5A26),
+                          color: Color(0xFFF74A41),
                           borderRadius: BorderRadius.circular(0.0),
                         ),
                         child: Padding(

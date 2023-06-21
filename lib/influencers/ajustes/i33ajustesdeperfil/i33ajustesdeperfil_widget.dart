@@ -59,7 +59,7 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                         width: 397.0,
                         height: 67.0,
                         decoration: BoxDecoration(
-                          color: Color(0xFFFF5A26),
+                          color: Color(0xFFF74A41),
                           boxShadow: [
                             BoxShadow(
                               blurRadius: 4.0,
@@ -352,7 +352,7 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                           100.0, 0.0, 0.0, 0.0),
                                       child: Icon(
                                         Icons.navigate_next_sharp,
-                                        color: Color(0xFFFF5A26),
+                                        color: Color(0xFFF74A41),
                                         size: 24.0,
                                       ),
                                     ),
@@ -476,7 +476,7 @@ class _I33ajustesdeperfilWidgetState extends State<I33ajustesdeperfilWidget> {
                                           100.0, 0.0, 0.0, 0.0),
                                       child: Icon(
                                         Icons.navigate_next_sharp,
-                                        color: Color(0xFFFF5A26),
+                                        color: Color(0xFFF74A41),
                                         size: 24.0,
                                       ),
                                     ),

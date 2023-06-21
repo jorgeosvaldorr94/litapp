@@ -150,7 +150,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                               width: 104.0,
                               height: 104.0,
                               decoration: BoxDecoration(
-                                color: Color(0xFFFF5A26),
+                                color: Color(0xFFF74A41),
                                 borderRadius: BorderRadius.circular(50.0),
                               ),
                               child: Align(
@@ -222,7 +222,7 @@ class _I0X1HOMEInfluencersinofertasWidgetState
                             ),
                             style: TextStyle(
                               fontFamily: 'Brandon',
-                              color: Color(0xFFFF5A26),
+                              color: Color(0xFFF74A41),
                               fontWeight: FontWeight.w500,
                               fontSize: 16.0,
                             ),
@@ -257,7 +257,7 @@ comuni... */
                       width: double.infinity,
                       height: 376.2,
                       decoration: BoxDecoration(
-                        color: Color(0xFFFF5A26),
+                        color: Color(0xFFF74A41),
                       ),
                       child: Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(

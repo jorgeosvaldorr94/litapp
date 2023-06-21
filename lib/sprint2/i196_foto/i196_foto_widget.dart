@@ -347,7 +347,7 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                             dotHeight: 16.0,
                             dotColor:
                                 FlutterFlowTheme.of(context).primaryBtnText,
-                            activeDotColor: Color(0xCCFF5A26),
+                            activeDotColor: Color(0xFFF74A41),
                             paintStyle: PaintingStyle.fill,
                           ),
                         ),
@@ -454,7 +454,7 @@ class _I196FotoWidgetState extends State<I196FotoWidget> {
                             width: 47.0,
                             height: 46.0,
                             decoration: BoxDecoration(
-                              color: Color(0xCCFF5A26),
+                              color: Color(0xFFF74A41),
                               borderRadius: BorderRadius.circular(16.0),
                             ),
                             child: Padding(
