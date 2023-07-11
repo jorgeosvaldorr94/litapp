@@ -17,7 +17,6 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
   late I201chatvacioModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -31,7 +30,6 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -40,11 +38,12 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Padding(
@@ -58,7 +57,7 @@ class _I201chatvacioWidgetState extends State<I201chatvacioWidget> {
                       width: 397.0,
                       height: 67.0,
                       decoration: BoxDecoration(
-                        color: Color(0xFFF74A41),
+                        color: Color(0xFFFF5A26),
                         boxShadow: [
                           BoxShadow(
                             blurRadius: 4.0,

@@ -18,7 +18,6 @@ class _I28ChatWidgetState extends State<I28ChatWidget> {
   late I28ChatModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -32,7 +31,6 @@ class _I28ChatWidgetState extends State<I28ChatWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -41,11 +39,12 @@ class _I28ChatWidgetState extends State<I28ChatWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Align(
@@ -412,7 +411,7 @@ con la of... */
                                             width: 187.0,
                                             height: 117.0,
                                             decoration: BoxDecoration(
-                                              color: Color(0xFFF74A41),
+                                              color: Color(0xFFFF5A26),
                                               borderRadius:
                                                   BorderRadius.circular(25.0),
                                             ),
@@ -493,7 +492,7 @@ gracias! 1... */
                                           width: 60.0,
                                           height: 60.0,
                                           decoration: BoxDecoration(
-                                            color: Color(0xFFF74A41),
+                                            color: Color(0xFFFF5A26),
                                             borderRadius:
                                                 BorderRadius.circular(50.0),
                                           ),
@@ -522,7 +521,7 @@ gracias! 1... */
                       width: 397.0,
                       height: 67.0,
                       decoration: BoxDecoration(
-                        color: Color(0xFFF74A41),
+                        color: Color(0xFFF10909),
                         boxShadow: [
                           BoxShadow(
                             blurRadius: 4.0,

@@ -22,7 +22,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
   late A3ComercioModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -34,7 +33,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -43,11 +41,12 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBtnText,
         body: SafeArea(
+          top: true,
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
@@ -308,18 +307,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                 val),
                                                         width: 47.0,
                                                         height: 21.0,
-                                                        searchHintTextStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyLarge
-                                                                .override(
-                                                                  fontFamily: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyLargeFamily,
-                                                                  color: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .secondaryText,
-                                                                ),
                                                         textStyle:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -340,12 +327,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                     context)
                                                                 .getText(
                                                           '9a0vjy2h' /* Dia */,
-                                                        ),
-                                                        searchHintText:
-                                                            FFLocalizations.of(
-                                                                    context)
-                                                                .getText(
-                                                          'mw3nfer8' /* Search for an item... */,
                                                         ),
                                                         fillColor: FlutterFlowTheme
                                                                 .of(context)
@@ -390,18 +371,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                 val),
                                                         width: 47.0,
                                                         height: 21.0,
-                                                        searchHintTextStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyLarge
-                                                                .override(
-                                                                  fontFamily: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyLargeFamily,
-                                                                  color: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .secondaryText,
-                                                                ),
                                                         textStyle:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -422,12 +391,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                     context)
                                                                 .getText(
                                                           'tvbfvrk0' /* Mes */,
-                                                        ),
-                                                        searchHintText:
-                                                            FFLocalizations.of(
-                                                                    context)
-                                                                .getText(
-                                                          'h1e499h6' /* Search for an item... */,
                                                         ),
                                                         fillColor: FlutterFlowTheme
                                                                 .of(context)
@@ -472,18 +435,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                 val),
                                                         width: 47.0,
                                                         height: 21.0,
-                                                        searchHintTextStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyLarge
-                                                                .override(
-                                                                  fontFamily: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyLargeFamily,
-                                                                  color: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .secondaryText,
-                                                                ),
                                                         textStyle:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -504,12 +455,6 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                     context)
                                                                 .getText(
                                                           'an4gcih5' /* Año */,
-                                                        ),
-                                                        searchHintText:
-                                                            FFLocalizations.of(
-                                                                    context)
-                                                                .getText(
-                                                          'yd9yw2n0' /* Search for an item... */,
                                                         ),
                                                         fillColor: FlutterFlowTheme
                                                                 .of(context)
@@ -589,17 +534,17 @@ class _A3ComercioWidgetState extends State<A3ComercioWidget> {
                                                                     .transparent,
                                                             enableDrag: false,
                                                             context: context,
-                                                            builder:
-                                                                (bottomSheetContext) {
+                                                            builder: (context) {
                                                               return GestureDetector(
                                                                 onTap: () => FocusScope.of(
                                                                         context)
                                                                     .requestFocus(
-                                                                        _unfocusNode),
+                                                                        _model
+                                                                            .unfocusNode),
                                                                 child: Padding(
-                                                                  padding: MediaQuery.of(
-                                                                          bottomSheetContext)
-                                                                      .viewInsets,
+                                                                  padding: MediaQuery
+                                                                      .viewInsetsOf(
+                                                                          context),
                                                                   child:
                                                                       MostrarcomoWidget(),
                                                                 ),

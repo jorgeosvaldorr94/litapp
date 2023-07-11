@@ -17,7 +17,6 @@ class _I142ajustes2WidgetState extends State<I142ajustes2Widget> {
   late I142ajustes2Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -35,7 +34,6 @@ class _I142ajustes2WidgetState extends State<I142ajustes2Widget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -44,11 +42,12 @@ class _I142ajustes2WidgetState extends State<I142ajustes2Widget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -60,7 +59,7 @@ class _I142ajustes2WidgetState extends State<I142ajustes2Widget> {
                     width: 391.0,
                     height: 82.0,
                     decoration: BoxDecoration(
-                      color: Color(0xFFF74A41),
+                      color: Color(0xFFFF5A26),
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 4.0,

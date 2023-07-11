@@ -13,6 +13,7 @@ import 'package:provider/provider.dart';
 class A7ComercioModel extends FlutterFlowModel {
   ///  State fields for stateful widgets in this page.
 
+  final unfocusNode = FocusNode();
   // Model for navbar component.
   late NavbarModel navbarModel;
   // Model for SideBar component.
@@ -42,6 +43,7 @@ class A7ComercioModel extends FlutterFlowModel {
   }
 
   void dispose() {
+    unfocusNode.dispose();
     navbarModel.dispose();
     sideBarModel.dispose();
     textController1?.dispose();
@@ -50,6 +52,7 @@ class A7ComercioModel extends FlutterFlowModel {
     textController4?.dispose();
   }
 
-  /// Additional helper methods are added here.
+  /// Action blocks are added here.
 
+  /// Additional helper methods are added here.
 }

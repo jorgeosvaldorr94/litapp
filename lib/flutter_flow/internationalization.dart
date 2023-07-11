@@ -105,15 +105,11 @@ Locale createLocale(String language) => language.contains('_')
     : Locale(language);
 
 final kTranslationsMap = <Map<String, Map<String, String>>>[
-  // I50Selectordeperfil
+  // I50InicioPerfil
   {
-    'rr00kqho': {
-      'es': 'LOGO',
-      'en': 'LOGO',
-    },
     'w668u0ep': {
       'es': 'INFLUENCER',
-      'en': 'INFLUENCERS',
+      'en': 'INFLUENCER',
     },
     '3floxn8e': {
       'es': 'COMERCIO',
@@ -121,45 +117,41 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '5lwiyoer': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I00INICIO
   {
-    'llo98c4u': {
-      'es': 'NOMBRE DE LA APP',
-      'en': 'APP NAME',
-    },
-    'lmn7wvkx': {
-      'es': 'LOGO',
-      'en': 'LOGO',
-    },
     '387f0t2a': {
       'es': 'INICIAR SESION',
       'en': 'LOG IN',
     },
-    '3bm7q5r2': {
+    'hgdajudm': {
       'es': 'REGISTRARSE',
-      'en': 'RESGISTER',
+      'en': 'REGISTER',
     },
     'dexeokal': {
       'es': 'Home',
       'en': 'Home',
     },
   },
-  // I07Influencers
+  // I07InicioSecionComun
   {
+    'qk9kr3vc': {
+      'es': 'INFLUENCERS',
+      'en': 'INFLUENCERS',
+    },
     'aq6mnpob': {
       'es': 'Iniciar Sesión',
-      'en': 'Log in',
+      'en': 'login',
     },
     'wjn72zq7': {
-      'es': 'E-mail',
-      'en': 'E-mail',
+      'es': 'Email',
+      'en': 'Email',
     },
     '233sok0q': {
       'es': 'Olvidé mi mail',
-      'en': 'I forgot my email',
+      'en': 'Forgot Password',
     },
     '28oyqje9': {
       'es': 'Contraseña',
@@ -167,19 +159,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ucfw6ed1': {
       'es': 'Olvide mi contraseña',
-      'en': 'I forgot my password',
+      'en': 'Forgot Password',
     },
     'dso4mwgj': {
       'es': 'Use las redes sociales para iniciar sesion',
-      'en': 'Your password has been changed\ncorrectly.',
+      'en': 'Login with Social Networks',
     },
     '1gwusawk': {
       'es': 'INICIAR SESION',
-      'en': 'LOG IN',
+      'en': 'LOGIN',
     },
     'wcx3kh6r': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I08ReseteoContrasena
@@ -202,7 +194,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '228662sx': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I11verificaciondecodigo
@@ -213,27 +205,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'uefxx5l1': {
       'es': 'Cambiar Contraseña',
-      'en': 'Change Password',
+      'en': 'Cambiar Contraseña',
     },
     '7a21mb0m': {
       'es': 'REENVIAR CÓDIGO',
-      'en': 'RESEND CODE',
+      'en': 'REENVIAR CÓDIGO',
     },
     'mi7uy3m7': {
       'es': '¿No te llegó el mail? Contactarme \ncon ',
-      'en': 'Didn\'t you get the email? contact me\nwith',
+      'en': '¿No te llegó el mail? Contactarme \ncon ',
     },
     't9g1drhx': {
       'es': 'soporte técnico',
-      'en': 'technical support',
+      'en': 'soporte técnico',
     },
     'zfglz8q3': {
       'es': 'ENVIAR CÓDIGO',
-      'en': 'SEND CODE',
+      'en': 'ENVIAR CÓDIGO',
     },
     'kpzlikr4': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I12NuevaContrasena
@@ -244,26 +236,26 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'r8b94hwd': {
       'es': 'Nueva Contraseña',
-      'en': 'New Password',
+      'en': 'Nueva Contraseña',
     },
     'z6kwrj8c': {
       'es': 'Contraseña',
-      'en': 'Password',
+      'en': 'Contraseña',
     },
     'fq83067z': {
       'es': 'Nueva Contraseña',
-      'en': 'New Password',
+      'en': 'Nueva Contraseña',
     },
     '2jrf6sqv': {
       'es': 'CONFIRMAR',
-      'en': 'CONFIRM',
+      'en': 'CONFIRMAR',
     },
     'btks0r4k': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I01Registracionpaso1
+  // I01RegistrarPaso1
   {
     '7xwzd3ul': {
       'es': '1',
@@ -277,17 +269,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '3',
       'en': '3',
     },
-    'ulhvsyu8': {
-      'es': 'INFLUENCERS',
-      'en': 'INFLUENCERS',
-    },
     'vlffg9jx': {
       'es': 'Registrar',
       'en': 'Log in',
     },
     '2ri837qc': {
       'es': 'E-mail',
-      'en': 'E-mail',
+      'en': 'Email',
     },
     '4xo0u3yc': {
       'es': 'Contraseña',
@@ -299,7 +287,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'pvt3efh2': {
       'es': 'Use las redes sociales para registrarte',
-      'en': 'Your password has been changed\ncorrectly.',
+      'en': 'Use social networks to register',
     },
     'iq6vnd6p': {
       'es': '¿Ya tenés cuenta?',
@@ -307,7 +295,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '8mft0x2d': {
       'es': 'Ingresá acá',
-      'en': 'enter here',
+      'en': 'Enter here',
     },
     'buyqwset': {
       'es': 'Acepto los términos y condiciones',
@@ -315,79 +303,79 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'as0gfc3t': {
       'es':
-          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum....Lorem ipsum dolor sit amet consectetur ',
+          'Si se han realizado cambios en la estructura de la colección en la base de datos, como la eliminación o modificación de campos, puede afectar cómo se muestra en webligth. Asegúrate de que la estructura de la colección sea coherente en ambos lugares y que no haya cambios que impidan que webligth la muestre correctamente.',
       'en':
-          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum....Lorem ipsum dolor sit amet consectetur',
+          'Si se han realizado cambios en la estructura de la colección en la base de datos, como la eliminación o modificación de campos, puede afectar cómo se muestra en webligth. Asegúrate de que la estructura de la colección sea coherente en ambos lugares y que no haya cambios que impidan que webligth la muestre correctamente.',
     },
-    'psmak8r9': {
+    'bqpvxfph': {
       'es': 'CONTINUAR',
       'en': 'CONTINUE',
     },
     'gky8muki': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I01RegistracionError
   {
     'aa04pzjo': {
       'es': '1',
-      'en': '1',
+      'en': '',
     },
     '9amjl0ol': {
       'es': '2',
-      'en': '2',
+      'en': '',
     },
     '18h097kj': {
       'es': '3',
-      'en': '3',
+      'en': '',
     },
     'vsgtflkq': {
       'es': 'INFLUENCERS',
-      'en': 'INFLUENCERS',
+      'en': '',
     },
     'o8dde5cv': {
       'es': 'Registrar',
-      'en': 'Log in',
+      'en': '',
     },
     'mqb6hqws': {
       'es': 'E-mail',
-      'en': 'E-mail',
+      'en': '',
     },
     '0z9dn8j0': {
       'es': 'Confirmar E-mail',
-      'en': 'confirm email',
+      'en': '',
     },
     '19v376ks': {
       'es': 'Contraseña',
-      'en': 'Password',
+      'en': '',
     },
     'n5habt6o': {
       'es': 'Confirmar Contraseña',
-      'en': 'Confirm Password',
+      'en': '',
     },
     '1xirq9hd': {
       'es': 'Acepto los términos y condiciones',
-      'en': 'I accept the terms and conditions',
+      'en': '',
     },
     'aw95f65f': {
       'es': '¿Ya tenés cuenta?',
-      'en': 'Do you already have an account?',
+      'en': '',
     },
     '1gjtlsty': {
       'es': 'Ingresá acá',
-      'en': 'enter here',
+      'en': '',
     },
     'ucdiuwdz': {
       'es': 'CONTINUAR',
-      'en': 'CONTINUE',
+      'en': '',
     },
     'cyzwki34': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
-  // I56datospersonales
+  // I56RegistrarPaso2
   {
     '8rah3s6g': {
       'es': '1',
@@ -407,7 +395,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '6ly8g8cb': {
       'es': 'Registrar',
-      'en': 'to register',
+      'en': 'Register',
     },
     'cv8kkjdf': {
       'es': 'Nombre',
@@ -415,19 +403,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'h3hljv0n': {
       'es': 'Apellido',
-      'en': 'Last name',
+      'en': 'Last Name',
     },
     'xdsm5lnx': {
       'es': 'Cdo. Área',
-      'en': 'cdo. Area',
+      'en': 'Cdo. Área',
     },
     'e8961qws': {
       'es': 'Teléfono (opcional)',
-      'en': 'Telephone (optional)',
+      'en': 'Phone(optional)',
     },
     '4sqa8teb': {
       'es': 'Ubicacion',
-      'en': '',
+      'en': 'Location',
     },
     'hfdku8xz': {
       'es': 'Profesion',
@@ -439,7 +427,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'tiaej61e': {
       'es': 'Nombre del representante',
-      'en': 'Profession',
+      'en': 'Representative Name',
     },
     'xseeh191': {
       'es': 'CONTINUAR',
@@ -447,10 +435,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '480wstff': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I04linkaredes
+  // I04RegistrarPaso3
   {
     'yc79699d': {
       'es': '1',
@@ -470,15 +458,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'x50fbynn': {
       'es': 'Link a tus redes',
-      'en': 'Link to your networks',
+      'en': 'Network Link',
     },
     'qyrxvddu': {
-      'es': 'Al menos 1 obligatorio *',
-      'en': 'At least 1 required *',
+      'es': 'Al menos 1 obligatorio',
+      'en': 'at least 1 required',
     },
     'rlx7q2t0': {
       'es': 'Instagram',
-      'en': 'instagram',
+      'en': 'Instagram',
     },
     'xuh85w3t': {
       'es': 'Tik Tok',
@@ -490,19 +478,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vq0h09ib': {
       'es': 'Twitch',
-      'en': 'twitch',
+      'en': 'Twitch',
     },
     'hdhstc83': {
       'es': 'Portfolio',
-      'en': 'portfolio',
+      'en': 'Portfolio',
     },
     'nvn6gagv': {
       'es': 'Link de tu portfolio',
-      'en': 'Link of your portfolio',
+      'en': 'Portfolio Link',
     },
     'hwza0lfx': {
       'es': 'Fotos de tu portfolio (opcionales)',
-      'en': 'Photos from your portfolio (optional)',
+      'en': 'Portfolio Galery(optional)',
     },
     'ja6cophw': {
       'es': 'CONTINUAR',
@@ -510,36 +498,28 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '28eeqmbb': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I0X1HOMEInfluencersinofertas
   {
     'wbjtqnk7': {
       'es': 'Influencer',
-      'en': 'Influencers',
-    },
-    'e47wwcmq': {
-      'es': 'LOGO',
-      'en': 'LOGO',
+      'en': 'Influencer',
     },
     'rykpmmst': {
-      'es': '¡Bienvenida a Lit!',
-      'en': 'Welcome to lit!',
+      'es': '¡Bienvenid@ a Lit!',
+      'en': 'Welcome to Lit!',
     },
     'acrwulx4': {
-      'es': 'Hola ',
-      'en': 'Hello ',
-    },
-    'wt1ljlrr': {
-      'es': 'Wanda! ',
-      'en': 'Wanda!',
+      'es': 'Hola  ',
+      'en': 'Hello',
     },
     'sdrvseik': {
       'es':
-          ' Ya sos parte de nuestra\ncomunidad. Aceptá tu primera oferta y empezá\na disfrutar miles de experiencias',
+          'Ya sos parte de nuestra\ncomunidad. Aceptá tu primera oferta y empezá\na disfrutar miles de experiencias',
       'en':
-          ' You are already part of our\ncommunity. Accept your first offer and get \n startednto enjoy thousands of experiences',
+          'You are already part of our\ncommunity. Accept your first offer and get started\nto enjoy thousands of experiences',
     },
     'fvwz2nep': {
       'es': 'Todavía no tenés ofertas!',
@@ -547,78 +527,26 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'bxz4vove': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I20listadodeofertas
   {
+    '2go60xkj': {
+      'es': 'Ofertas',
+      'en': 'Offers',
+    },
     'c2cdvwew': {
       'es': 'Comida',
-      'en': 'Meal',
-    },
-    'xa276vi6': {
-      'es': '2Km',
-      'en': '2Km',
+      'en': 'Food',
     },
     'cvawfwdg': {
       'es': 'Fitness',
-      'en': 'Meal',
-    },
-    'urh6z0sx': {
-      'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
-    },
-    '72d6rutm': {
-      'es': 'De 18:00 - 19:30pm',
-      'en': 'From 18:00 - 19:30pm',
-    },
-    '2lou2ygw': {
-      'es': 'NEGRONI',
-      'en': 'NEGRONI',
-    },
-    '7cf3y9q3': {
-      'es': '2Km',
-      'en': '2Km',
-    },
-    'eyoqpx3z': {
-      'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
-    },
-    'ksc2v8qr': {
-      'es': 'De 18:00 - 19:30pm',
-      'en': 'From 18:00 - 19:30pm',
-    },
-    'amuprdwt': {
-      'es': 'NEGRONI',
-      'en': 'NEGRONI',
-    },
-    'r1wrk7l2': {
-      'es': '2Km',
-      'en': '2Km',
-    },
-    'wmht69g9': {
-      'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
-    },
-    '32muf5jv': {
-      'es': 'De 18:00 - 19:30pm',
-      'en': 'From 18:00 - 19:30pm',
-    },
-    '9g3mmwko': {
-      'es': 'NEGRONI',
-      'en': 'NEGRONI',
-    },
-    '5dtuwbbh': {
-      'es': '2Km',
-      'en': '2Km',
-    },
-    '2go60xkj': {
-      'es': 'Buenos Aires',
-      'en': 'Influencers',
+      'en': 'Fitness',
     },
     'b70am1wt': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I21detalledeoferta
@@ -627,23 +555,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '2km',
       'en': '2km',
     },
-    '337cqpn1': {
-      'es': 'NEGRONI',
-      'en': 'NEGRONI',
-    },
-    'pvr1oh5j': {
-      'es': 'Av. Santa Fe 19888',
-      'en': 'Av. Santa Fe 19888',
-    },
     'i1txylr2': {
       'es': 'Código - AD1234 ',
-      'en': 'Code - AD1234',
-    },
-    '2omyeu81': {
-      'es':
-          'Disfrutá una porción de pan o ensalada de \ncortesía + una Provoleta Negroni o unos\nLangostinos de Roca o unas Papas Bravas + 2 \ntragos a elección.',
-      'en':
-          'Enjoy a serving of bread or salad\ncourtesy + a Provoleta Negroni or some\nRock Prawns or some Papas Bravas + 2\ndrinks of choice',
+      'en': 'Código - AD1234 ',
     },
     '8dcqwbka': {
       'es': 'Dejanos tu reseña en Google!\n',
@@ -655,7 +569,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '236yjdpb': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I24missolicitudes
@@ -670,18 +584,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vtwxsefq': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I25Detalledesolicitud
   {
     'cg0497t5': {
       'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
+      'en': 'Drinks + entrada',
     },
     'hwbv57ly': {
       'es': 'Pasá entre las 18:00 - 19:30pm',
-      'en': 'It happens between 18:00 - 19:30pm',
+      'en': 'Pasá entre las 18:00 - 19:30pm',
     },
     'j0pu6nkh': {
       'es': '2km',
@@ -697,38 +611,38 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'fjb9imrn': {
       'es': 'Código - AD1234 ',
-      'en': 'Code - AD1234',
+      'en': 'Código - AD1234 ',
     },
     's0uld9cm': {
       'es':
           'Disfrutá una porción de pan o ensalada de \ncortesía + una Provoleta Negroni o unos\nLangostinos de Roca o unas Papas Bravas + 2 \ntragos a elección.',
       'en':
-          'Enjoy a serving of bread or salad\ncourtesy + a Provoleta Negroni or some\nRock Prawns or some Papas Bravas + 2\ndrinks of choice',
+          'Disfrutá una porción de pan o ensalada de \ncortesía + una Provoleta Negroni o unos\nLangostinos de Roca o unas Papas Bravas + 2 \ntragos a elección.',
     },
     'bjdgeooc': {
       'es': 'Dejanos tu reseña en Google!\n',
-      'en': 'Leave us your review on Google!',
+      'en': '',
     },
     'dngvnz67': {
       'es': 'Home',
-      'en': 'Home',
+      'en': '',
     },
   },
   // I28Atencionalcliente
   {
     'jnh6bo3s': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': 'Atención al Cliente',
     },
     'nn73bwaq': {
       'es': 'Martes, 15',
-      'en': 'Tuesday, 15',
+      'en': 'Martes, 15',
     },
     'iq76rwiw': {
       'es':
           'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
       'en':
-          'Hey! how can we help you?\nIf you\'re having trouble\nwith the app send:',
+          'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
     },
     'wyiz1bl1': {
       'es': '. ',
@@ -736,7 +650,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '1qs1cicz': {
       'es': '1. Tengo un problema\ncon la oferta.',
-      'en': '1. I have a problem\nwith the offer.',
+      'en': '1. Tengo un problema\ncon la oferta.',
     },
     'x7ko1hxh': {
       'es': '8.30pm',
@@ -746,7 +660,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es':
           'Hola! ¿Qué tal? Sí,\ngracias! 1. tengo un\nproblema con la\noferta.',
       'en':
-          'Hello! How are you? Yeah,\nthank you! 1. I have a\nproblem with\noffer.',
+          'Hola! ¿Qué tal? Sí,\ngracias! 1. tengo un\nproblema con la\noferta.',
     },
     'dm1jly9t': {
       'es': '8.33pm',
@@ -754,34 +668,34 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '2gyc62sg': {
       'es': 'Escribir...',
-      'en': 'Write...',
+      'en': 'Escribir...',
     },
     'uub2pr8w': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // i194vacarchat
   {
     'sq05mjol': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': 'Atención al Cliente',
     },
     'dlwdojew': {
       'es': 'Martes, 15',
-      'en': 'Tuesday, 15',
+      'en': 'Martes, 15',
     },
     'ih2iqd6c': {
       'es': 'Todavía no tenés mensajes!',
-      'en': 'You still have no messages!',
+      'en': 'Todavía no tenés mensajes!',
     },
     'kgiugcuc': {
       'es': 'Escribir...',
-      'en': 'Write...',
+      'en': 'Escribir...',
     },
     'j24tzi0l': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I29Calendario
@@ -792,7 +706,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'lnrjyvtm': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I30acciones
@@ -807,7 +721,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'o8uh5tnt': {
       'es': '2 de septiembre',
-      'en': 'September 2',
+      'en': '2 de septiembre',
     },
     'h2sa26dw': {
       'es': '2021',
@@ -819,11 +733,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'jb5w6qqc': {
       'es': 'Acción instagram -  Fiesta',
-      'en': 'Instagram Action - Party',
+      'en': 'Acción instagram -  Fiesta',
     },
     'us3wcc01': {
       'es': '3 historias , ropa fiesta',
-      'en': '3 stories, party clothes',
+      'en': '3 historias , ropa fiesta',
     },
     'g9yizmu9': {
       'es': '14:00-15:00',
@@ -839,80 +753,84 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'fxqdr8sn': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I40Notificaciones
   {
     '63wj9nlb': {
       'es': 'Notificaciones',
-      'en': 'notifications',
+      'en': 'Notificaciones',
     },
     'p18c2eg8': {
       'es': 'Borrar Historial',
-      'en': 'Delete history',
-    },
-    'lpljnq8t': {
-      'es': '¡Ahora sos Mega Influencer!',
-      'en': 'Now you are a Mega Influencer!',
-    },
-    'espiv19h': {
-      'es': 'Hoy 12:00',
-      'en': 'Today 12:00',
+      'en': 'Borrar Historial',
     },
     '8wqwsuoq': {
       'es': '¡Este mes tuviste 30 contrataciones!',
-      'en': 'This month you had 30 hires!',
+      'en': '¡Este mes tuviste 30 contrataciones!',
     },
     'k9a5mx7g': {
       'es': 'Hoy 12:00',
-      'en': 'Today 12:00',
+      'en': 'Hoy 12:00',
+    },
+    'lpljnq8t': {
+      'es': '¡Ahora sos Mega Influencer!',
+      'en': '¡Ahora sos Mega Influencer!',
+    },
+    'espiv19h': {
+      'es': 'Hoy 12:00',
+      'en': 'Hoy 12:00',
     },
     '7hsorica': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I192sinnotificaciones
   {
     'owsqfd4j': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': 'Atención al Cliente',
     },
     'n13vl4wd': {
       'es': 'No tenés notificaciones!',
-      'en': 'You have no notifications!',
+      'en': 'No tenés notificaciones!',
     },
     'mduy6g4f': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I33ajustesdeperfil
+  // I33PerfilComun
   {
-    '64lf8cuz': {
-      'es': 'CERRAR SESIÓN',
-      'en': 'SIGN OFF',
-    },
     'ee6chbyj': {
       'es': 'Ajustes',
-      'en': 'Settings',
-    },
-    'iuxxdjs8': {
-      'es': 'Claudia Fernandez',
-      'en': 'Claudia Fernandez',
-    },
-    'ck74coxl': {
-      'es': '@clau.fern\n\n',
-      'en': '@clau.fern',
+      'en': 'Setting',
     },
     'xqbdnti2': {
       'es': 'Mi cuenta',
-      'en': 'My account',
+      'en': 'My Account',
     },
     'bq7otfc8': {
       'es': 'Usuario, contraseña...',
-      'en': 'User password...',
+      'en': 'User, password...',
+    },
+    'jl5fwx31': {
+      'es': 'Mis Ofertas',
+      'en': 'My Offers',
+    },
+    'uvubj8pr': {
+      'es': 'Ir a mis ofertas...',
+      'en': 'Go to my offers...',
+    },
+    'f8ok4wmg': {
+      'es': 'Crear Oferta',
+      'en': 'Add Offer',
+    },
+    'vnv4mdb1': {
+      'es': 'Crear Nueva Oferta...',
+      'en': 'Add a new offer...',
     },
     'yl7m6equ': {
       'es': 'Atencion al cliente',
@@ -922,32 +840,32 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Responde tus preguntas...',
       'en': 'Answer your questions...',
     },
+    'pd4juk8v': {
+      'es': 'Salir del Perfil',
+      'en': 'Log out',
+    },
+    'rcqu6gry': {
+      'es': 'Salir del perfil...',
+      'en': 'Log out',
+    },
     'kc67mpfx': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I37ajustesdeperfil
+  // I37ajustesdeperfilNOesElqVA
   {
     '72x7xb3k': {
       'es': 'Ajustes',
-      'en': 'Settings',
-    },
-    'snvtog7t': {
-      'es': 'Claudia Fernandez',
-      'en': 'Claudia Fernandez',
-    },
-    'md5mjyf3': {
-      'es': '@clau.fern\n\n',
-      'en': '@clau.fern',
+      'en': 'Setting',
     },
     'o5js6wsu': {
       'es': 'Mi cuenta',
-      'en': 'My account',
+      'en': 'My Profile',
     },
     'y7w8zqmk': {
-      'es': 'Usuario, contraseña...',
-      'en': 'User password...',
+      'es': 'Editar perfil...',
+      'en': 'Edit profile',
     },
     '4k8f3knh': {
       'es': 'Soporte Técnico',
@@ -962,59 +880,67 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Payment method',
     },
     'utynvfdi': {
-      'es': 'La mejor manera de recibir los....',
-      'en': 'The best way to receive...',
+      'es': 'Mejor manera de recibir los....',
+      'en': 'Best way to receive...',
     },
     'dgo2m3qb': {
       'es': 'CERRAR SESIÓN',
-      'en': 'SIGN OFF',
+      'en': 'LOG OUT',
     },
     'w4xhs6ag': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I34Ajustescuenta
+  // I34EditarPerfilInfluencer
   {
     'mfugnw33': {
-      'es': 'Mi cuenta',
-      'en': 'My account',
-    },
-    'p9wqnx4l': {
-      'es': 'Privacidad, seguridad, cambiar email o número',
-      'en': 'Privacy, security, change email or number',
+      'es': 'Editar Cuenta',
+      'en': 'My Account',
     },
     '2acipo0p': {
       'es': 'Información personal',
-      'en': 'Personal information',
+      'en': 'Personal Information',
     },
     '7bmqmmvk': {
       'es': 'Claudia Fernandez',
       'en': 'Claudia Fernandez',
     },
+    'wm7mdsbc': {
+      'es': 'Clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
+    },
     'jh9g08wh': {
       'es': '10/09/2023',
-      'en': '09/10/2023',
+      'en': '10/09/2023',
     },
     'rvr40pqu': {
       'es': '@Clau.fer',
       'en': '@Clau.fer',
     },
-    'wm7mdsbc': {
+    '0nml61sm': {
       'es': 'Clu.fer@gmail.com',
-      'en': 'clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
     },
     'wcrpkcuz': {
       'es': 'Ubicación',
       'en': 'Location',
     },
-    '3xcl6u4f': {
-      'es': 'Monseñor de Andrea 1892',
-      'en': 'Monsignor of Andrea 1892',
+    '7dnalxla': {
+      'es': 'Ubicacion',
+      'en': '',
     },
-    '51m14lsp': {
-      'es': 'Cambiar contraseña',
-      'en': 'Change Password',
+    'ogpxahha': {
+      'es': 'Dirección',
+      'en': 'Address',
+    },
+    'br6odjqp': {
+      'es': 'Actualizar Ubicacion',
+      'en': 'Update Location',
+    },
+    'hziiu1zh': {
+      'es': 'Ir a mí Ubicación',
+      'en': 'Go to my Location',
     },
     'hfykimr9': {
       'es': 'GUARDAR CAMBIOS',
@@ -1022,99 +948,69 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '9gasrcsn': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I186Atencionalcliente
+  // IAtencionalcliente
   {
     '9tt2bnzj': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': 'Atención al Cliente',
     },
-    '8x4xt5xd': {
-      'es': 'Martes, 15',
-      'en': 'Tuesday, 15',
-    },
-    'xpydkzlz': {
+    'nsc7nr4d': {
       'es':
-          'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
+          'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:\n\n             1. Servicios Técnicos\n             2.Problemas con la \n                Oferta',
       'en':
-          'Hey! how can we help you?\nIf you\'re having trouble\nwith the app send:',
-    },
-    'nvg8pe19': {
-      'es': '. ',
-      'en': '.',
-    },
-    'drcpe03h': {
-      'es': '1. Tengo un problema\ncon la oferta.',
-      'en': '1. I have a problem\nwith the offer.',
-    },
-    'nuffcnl8': {
-      'es': '8.30pm',
-      'en': '8.30pm',
-    },
-    'doco6tz4': {
-      'es':
           'Hola! ¿Qué tal? Sí,\ngracias! 1. tengo un\nproblema con la\noferta.',
-      'en':
-          'Hello! How are you? Yeah,\nthank you! 1. I have a\nproblem with\noffer.',
     },
-    '38443p9z': {
+    'am398tnn': {
       'es': '8.33pm',
       'en': '8.33pm',
     },
-    '342ipqht': {
-      'es': 'Escribir...',
-      'en': 'Write...',
+    'u6bs2dfl': {
+      'es': '',
+      'en': 'Label here...',
+    },
+    'nz93bnds': {
+      'es': 'Escribir Aqui...',
+      'en': 'Write here...',
     },
     'l778mypg': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I38Metododepago
   {
     '2zzm77l8': {
       'es': 'Método de pago',
-      'en': 'Payment method',
+      'en': 'Método de pago',
     },
     'rv2qoimg': {
       'es': 'Sincronizar',
-      'en': 'Sync up',
+      'en': 'Sincronizar',
     },
     '2vnwefh3': {
       'es': 'Sincronizar',
-      'en': 'Sync up',
+      'en': 'Sincronizar',
     },
     'ikb53bke': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I190splash
   {
-    'y6fyk3mk': {
-      'es': 'LOGO',
-      'en': 'LOGO',
-    },
-    'pzlaloch': {
-      'es': 'LIT',
-      'en': 'APP NAME',
-    },
     '90nxe6uz': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I50selector
   {
-    'p0bbct9i': {
-      'es': 'LOGO',
-      'en': 'LOGO',
-    },
     'duv4r07f': {
       'es': 'INFLUENCER',
-      'en': 'INFLUENCERS',
+      'en': 'INFLUENCER',
     },
     'x0nf9gfg': {
       'es': 'COMERCIO',
@@ -1122,84 +1018,64 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '6rzwc5rq': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I7
+  // I7Presentacion
   {
     'wlzmruvm': {
-      'es': 'INFLUENCERS',
-      'en': 'to register',
-    },
-    'yqjzp08e': {
-      'es': 'IMG / ILLU',
-      'en': '',
+      'es': 'Influencer',
+      'en': 'Influencer',
     },
     'mh1eqgje': {
       'es': 'Creá ofertas',
-      'en': '',
+      'en': 'Creá ofertas',
     },
     'd1x7dy1p': {
       'es': 'Hacé que tu negocio despegue con nuestros influencers\n',
-      'en': '',
-    },
-    'oiidp0s1': {
-      'es': 'IMG / ILLU',
-      'en': '',
+      'en': 'Hacé que tu negocio despegue con nuestros influencers\n',
     },
     'vbs7b0cw': {
       'es': 'Encontrá al influencer indicado ',
-      'en': '',
+      'en': 'Encontrá al influencer indicado ',
     },
     'syvrkqm7': {
       'es': 'Conectá directamente con todo el talento de nuestra comunidad ',
-      'en': '',
-    },
-    '7u085ox8': {
-      'es': 'IMG / ILLU',
-      'en': '',
+      'en': 'Conectá directamente con todo el talento de nuestra comunidad ',
     },
     'pdrfijfa': {
       'es': 'Potenciá tu negocio',
-      'en': '',
+      'en': 'Potenciá tu negocio',
     },
     'waru4gg0': {
       'es': 'Video Tutorial',
-      'en': '',
+      'en': 'Video Tutorial',
     },
     '4otlrqq9': {
       'es': 'EMPEZAR',
-      'en': 'CONTINUE',
+      'en': 'EMPEZAR',
     },
     'vke7uhou': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I0Inicirsesion
+  // I0Seleccion
   {
-    'bp8nzocv': {
-      'es': 'NOMBRE DE LA APP',
-      'en': 'APP NAME',
-    },
-    'pbi3j4i4': {
-      'es': 'LOGO',
-      'en': 'LOGO',
-    },
-    'qhjb2xh1': {
+    'ey1ep132': {
       'es': 'INICIAR SESION',
-      'en': '',
+      'en': 'LOG IN',
     },
-    '9acrhe2g': {
+    '8axrvns8': {
       'es': 'REGISTRARSE',
-      'en': '',
+      'en': 'REGISTER',
     },
     'i1e4irdz': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I10RegistroComercio
+  // I10RegistrarComercio1
   {
     'wqaasxlg': {
       'es': '1',
@@ -1213,21 +1089,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '3',
       'en': '3',
     },
-    '05fanddr': {
-      'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
-    },
     'shcwuo4c': {
       'es': 'Registrar',
-      'en': 'Log in',
+      'en': 'Register',
     },
     'c3yzosbg': {
       'es': 'E-mail',
-      'en': 'E-mail',
-    },
-    'nzhjb23e': {
-      'es': 'Confirmar E-mail',
-      'en': 'confirm email',
+      'en': 'Email',
     },
     'yyjbsl8o': {
       'es': 'Contraseña',
@@ -1237,17 +1105,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Confirmar Contraseña',
       'en': 'Confirm Password',
     },
-    'lbi3xkj2': {
-      'es': 'Acepto los términos y condiciones',
-      'en': 'I accept the terms and conditions',
-    },
     'jjcsd2bt': {
       'es': '¿Ya tenés cuenta?',
-      'en': 'Do you already have an account?',
+      'en': 'Have Account?',
     },
     'yr8no3ik': {
       'es': 'Ingresá acá',
-      'en': 'enter here',
+      'en': 'Enter here',
+    },
+    'hy8m2bid': {
+      'es': 'Use las redes sociales para registrarte',
+      'en': 'Use social networks to register',
+    },
+    'lbi3xkj2': {
+      'es': 'Acepto los términos y condiciones',
+      'en': 'Accept the terms and conditions',
+    },
+    'sbt90m77': {
+      'es':
+          'Si se han realizado cambios en la estructura de la colección en la base de datos, como la eliminación o modificación de campos, puede afectar cómo se muestra en webligth. Asegúrate de que la estructura de la colección sea coherente en ambos lugares y que no haya cambios que impidan que webligth la muestre correctamente.',
+      'en':
+          'Si se han realizado cambios en la estructura de la colección en la base de datos, como la eliminación o modificación de campos, puede afectar cómo se muestra en webligth. Asegúrate de que la estructura de la colección sea coherente en ambos lugares y que no haya cambios que impidan que webligth la muestre correctamente.',
     },
     '0kpyb5wj': {
       'es': 'CONTINUAR',
@@ -1255,7 +1133,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'z62svs16': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I11Comercios
@@ -1274,19 +1152,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'rg4j6x4g': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
     'atksotgy': {
       'es': 'Registrar',
-      'en': 'Log in',
+      'en': 'Register',
     },
     'wcphyit5': {
       'es': 'E-mail',
-      'en': 'E-mail',
+      'en': 'Email',
     },
     'o3ihsjq4': {
       'es': 'Confirmar E-mail',
-      'en': 'confirm email',
+      'en': 'Confirm Email',
     },
     'crwzzre4': {
       'es': 'Contraseña',
@@ -1298,29 +1176,29 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'it4nz4le': {
       'es': 'Acepto los términos y condiciones',
-      'en': 'I accept the terms and conditions',
+      'en': 'Accept the terms and conditions',
     },
     'mzsx4qqs': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum....Lorem ipsum dolor sit amet consectetur ',
       'en':
-          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum....Lorem ipsum dolor sit amet consectetur',
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum....Lorem ipsum dolor sit amet consectetur ',
     },
     'z89yv8ak': {
       'es': '¿Ya tenés cuenta?',
-      'en': 'Do you already have an account?',
+      'en': 'Have Account?',
     },
     '7vy5r5z7': {
       'es': 'Ingresá acá',
-      'en': 'enter here',
+      'en': '',
     },
     'kqyn5qar': {
       'es': 'CONTINUAR',
-      'en': 'CONTINUE',
+      'en': '',
     },
     'iyc2m8n9': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // errorregistro
@@ -1339,50 +1217,50 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '4l3c570q': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
     '4dunajnj': {
       'es': 'Registrar',
-      'en': 'Log in',
+      'en': 'Registrar',
     },
     'gh49n5fw': {
       'es': 'E-mail',
       'en': 'E-mail',
     },
     'q8sfgrdq': {
-      'es': 'Confirmar E-mail',
-      'en': 'confirm email',
+      'es': 'Confirmar Email',
+      'en': 'Confirmar Email',
     },
     'losfdnsf': {
       'es': 'Contraseña',
-      'en': 'Password',
+      'en': 'Contraseña',
     },
     'usbk6q98': {
       'es': 'Confirmar Contraseña',
-      'en': 'Confirm Password',
+      'en': 'Confirmar Contraseña',
     },
     'g2yrzeye': {
       'es': 'Acepto los términos y condiciones',
-      'en': 'I accept the terms and conditions',
+      'en': 'Acepto los términos y condiciones',
     },
     'nml0w574': {
       'es': '¿Ya tenés cuenta?',
-      'en': 'Do you already have an account?',
+      'en': '¿Ya tenés cuenta?',
     },
     'fz8njzh4': {
       'es': 'Ingresá acá',
-      'en': 'enter here',
+      'en': 'Ingresá acá',
     },
     'rfr3l70z': {
       'es': 'CONTINUAR',
-      'en': 'CONTINUE',
+      'en': 'CONTINUAR',
     },
     'vp7g62qv': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I12Registrarcomercio2
+  // I12RegistrarComercio2
   {
     '4an6um2f': {
       'es': '1',
@@ -1396,37 +1274,33 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '3',
       'en': '3',
     },
-    'fp6qnrfk': {
-      'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
-    },
     'xi2gnrlg': {
       'es': 'Registrar',
-      'en': 'to register',
+      'en': 'Register',
     },
     'j6x6osr0': {
       'es': 'Nombre del comercio',
-      'en': 'Name',
+      'en': 'Trade Name',
     },
     'mfgksfev': {
       'es': 'Nombre y apellido del encargado',
-      'en': 'Last name',
+      'en': 'First and last name of the manager',
     },
     'i055cyxr': {
       'es': 'Categoria',
-      'en': 'Profession',
+      'en': 'Category',
     },
     'ttva26fg': {
       'es': 'Codigo Promocional (opcional)',
-      'en': 'Profession',
+      'en': 'Promotional Code (Optional)',
     },
     '9gc8jwwg': {
       'es': 'Ubicacion',
-      'en': '',
+      'en': 'Location',
     },
     '7hxnsh1r': {
       'es': 'Descripción del comercio',
-      'en': '',
+      'en': 'Trade Description',
     },
     '8ltnpvhq': {
       'es': 'CONTINUAR',
@@ -1434,10 +1308,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '529wkzzv': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I16redes
+  // I16RegistrarComercio3
   {
     'opkjnuic': {
       'es': '1',
@@ -1451,33 +1325,29 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '3',
       'en': '3',
     },
-    '3yh53c1n': {
-      'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
-    },
     'pcucad01': {
       'es': 'Registrar',
-      'en': 'Link to your networks',
+      'en': 'Register',
     },
     'pjcsosab': {
       'es': 'Instagram',
-      'en': 'instagram',
+      'en': 'Instagram',
     },
     'z5mzwie6': {
       'es': 'Tik Tok',
       'en': 'Tik Tok',
     },
     'y7nasez7': {
-      'es': 'Facebook',
-      'en': 'Youtube',
+      'es': 'YouTube',
+      'en': 'YouTube',
     },
     's29zvp6x': {
-      'es': 'Website',
-      'en': 'twitch',
+      'es': 'Twich',
+      'en': 'Twich',
     },
     '30gq87u4': {
       'es': 'Imágenes de tu comercio',
-      'en': 'portfolio',
+      'en': 'Trade Photos',
     },
     'yzhoj8e5': {
       'es': 'CONTINUAR',
@@ -1485,165 +1355,97 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'osnmehml': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // op1
   {
     'gaa5uivs': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
     '1oqm9s4o': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Memberships',
     },
     'og8wzcyu': {
       'es': 'Oro',
-      'en': '',
+      'en': 'Oro',
     },
     'b94wd4sz': {
       'es': '\$50',
-      'en': '',
+      'en': '\$50',
     },
     'fx0gmmy0': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     'uu8c25na': {
       'es': '30 influencers',
-      'en': '',
+      'en': '30 influencers',
     },
     'lh830xy1': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     'ypjv4ksv': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     'y5dhf1vn': {
       'es': 'CONTINUAR',
-      'en': '',
-    },
-    '6rv95bd0': {
-      'es': 'Oro',
-      'en': '',
-    },
-    '2x4ixvhw': {
-      'es': '\$50',
-      'en': '',
-    },
-    'gc7k4w5v': {
-      'es': '30 influencers',
-      'en': '',
-    },
-    'wdkxg72e': {
-      'es':
-          'Beneficios Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
-      'en': '',
-    },
-    'i2yrebz3': {
-      'es': 'Oro',
-      'en': '',
-    },
-    'e53wisnd': {
-      'es': '\$50',
-      'en': '',
-    },
-    '9pk8fhgh': {
-      'es': '30 influencers',
-      'en': '',
-    },
-    '6t9j43r8': {
-      'es':
-          'Beneficios Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
-      'en': '',
+      'en': 'CONTINUE',
     },
     'y0ybyfmr': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     '84gmjf7a': {
       'es': '\$100',
-      'en': '',
+      'en': '\$100',
     },
     'dvwh1sx6': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     'v1jdpqc1': {
       'es': '100 influencers',
-      'en': '',
+      'en': '100 influencers',
     },
     'znzxb7hn': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     'tuyzusj3': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     'zlucu038': {
       'es': 'CONTINUAR',
-      'en': '',
-    },
-    'jawgrdoz': {
-      'es': 'Platinum',
-      'en': '',
-    },
-    'felq3gmb': {
-      'es': '\$100',
-      'en': '',
-    },
-    'bhdnp1fr': {
-      'es': '100 influencers',
-      'en': '',
-    },
-    '013teemb': {
-      'es':
-          'Beneficios Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
-      'en': '',
+      'en': 'CONTINUE',
     },
     'eou9drnq': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I18Membresias
   {
-    'c7ff047p': {
-      'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
-    },
     'izp626fn': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Memberships',
     },
-    'ddct1cud': {
-      'es': 'Oro',
-      'en': '',
+    '5jvi7m81': {
+      'es': 'Ver Detalles',
+      'en': 'View Details',
     },
-    'nj12rdtb': {
-      'es': '50 \$',
-      'en': '',
-    },
-    'kr8grcav': {
-      'es': '30 Influencers',
-      'en': '',
-    },
-    'uobegcxk': {
-      'es':
-          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
-      'en': '',
-    },
-    'o8akdfnm': {
-      'es': 'CONTINUAR',
-      'en': 'CONTINUE',
+    'enht6f8h': {
+      'es': 'Lo Quiero',
+      'en': 'I want it',
     },
     'ntn892il': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I156Bienvenido
@@ -1654,11 +1456,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'g1vfslkh': {
       'es': 'E-mail',
-      'en': 'E-mail',
-    },
-    'bhat1bvd': {
-      'es': 'Olvidé mi mail',
-      'en': 'I forgot my email',
+      'en': 'Email',
     },
     'oaynr50t': {
       'es': 'Contraseña',
@@ -1666,7 +1464,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'utxn07nd': {
       'es': 'Olvide mi contraseña',
-      'en': 'I forgot my password',
+      'en': 'Forgot my Password',
     },
     'jflqywpb': {
       'es': 'INICIAR SESION',
@@ -1674,26 +1472,26 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ckbv9pvw': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I21Iniciarsesion
   {
     't88melon': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
     'zs9u8j3c': {
       'es': 'Iniciar Sesión',
-      'en': 'Log in',
+      'en': 'Log In',
     },
     'jsbl64m3': {
       'es': 'E-mail',
-      'en': 'E-mail',
+      'en': 'Email',
     },
     'd2aem5lc': {
       'es': 'Olvidé mi mail',
-      'en': 'I forgot my email',
+      'en': 'Forgor my Email',
     },
     'jezr60ki': {
       'es': 'Contraseña',
@@ -1701,7 +1499,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'rfzstie9': {
       'es': 'Olvide mi contraseña',
-      'en': 'I forgot my password',
+      'en': 'Forgor my Password',
     },
     'jli1zjmc': {
       'es': 'INICIAR SESION',
@@ -1709,22 +1507,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '0afavz1d': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I23cambiarpass
   {
     'rcht8262': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
     'a7v44pzj': {
       'es': 'Cambiar Contraseña',
-      'en': 'Change Password',
+      'en': 'Chage Password',
     },
     'ecmpuhhv': {
       'es': 'E-mail',
-      'en': 'E-mail',
+      'en': 'Email',
     },
     'll5yb30v': {
       'es': 'ENVIAR CÓDIGO',
@@ -1732,76 +1530,76 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'swairmkr': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I150verificarcodigo
   {
     'qpbg6ydw': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     'ecivmzyv': {
       'es': 'Cambiar Contraseña',
-      'en': 'Change Password',
+      'en': 'Cambiar Contraseña',
     },
     'ql92nfz2': {
       'es': 'REENVIAR CÓDIGO',
-      'en': 'RESEND CODE',
+      'en': 'REENVIAR CÓDIGO',
     },
     'b9ii6p9w': {
       'es': '¿No te llegó el mail? Contactarme \ncon ',
-      'en': 'Didn\'t you get the email? contact me\nwith',
+      'en': '¿No te llegó el mail? Contactarme \ncon ',
     },
     'm95vaxcw': {
       'es': 'soporte técnico',
-      'en': 'technical support',
+      'en': 'soporte técnico',
     },
     'ljg4tsa4': {
       'es': 'ENVIAR CÓDIGO',
-      'en': 'SEND CODE',
+      'en': 'ENVIAR CÓDIGO',
     },
     'gyb20up5': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I30nuevapass
   {
     't5xzw8cb': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     'reqvmhkp': {
       'es': 'Nueva Contraseña',
-      'en': 'New Password',
+      'en': 'Nueva Contraseña',
     },
     'lrb6tl60': {
       'es': 'Contraseña',
-      'en': 'Password',
+      'en': 'Contraseña',
     },
     'kr3upoa8': {
       'es': 'Nueva Contraseña',
-      'en': 'New Password',
+      'en': 'Nueva Contraseña',
     },
     '27o4fqsv': {
       'es': 'CONFIRMAR',
-      'en': 'CONFIRM',
+      'en': 'CONFIRMAR',
     },
     'cpis4sle': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I155iniciarsesion
   {
     'mjz4x4en': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     '8ikdls51': {
       'es': 'Iniciar Sesión',
-      'en': 'Log in',
+      'en': 'Iniciar Sesión',
     },
     'ddb2o6z5': {
       'es': 'E-mail',
@@ -1809,116 +1607,116 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'fr0aou2t': {
       'es': 'Olvidé mi mail',
-      'en': 'I forgot my email',
+      'en': 'Olvidé mi mail',
     },
     'j6kk7sds': {
       'es': 'Contraseña',
-      'en': 'Password',
+      'en': 'Contraseña',
     },
     'f2zm2kt4': {
       'es': 'Olvide mi contraseña',
-      'en': 'I forgot my password',
+      'en': 'Olvide mi contraseña',
     },
     '42p643ep': {
       'es': 'INICIAR SESION',
-      'en': 'LOG IN',
+      'en': 'INICIAR SESION',
     },
     'eqqubuth': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I191Bienvenido
+  // I191ComercioBienvenido
   {
-    'nf5igd7c': {
-      'es': 'LOGO',
-      'en': '',
-    },
     '7e256607': {
       'es': '¡Bienvenido!',
-      'en': '',
+      'en': '¡Bienvenido!',
+    },
+    '7a36l1ul': {
+      'es': 'Subí una nueva oferta       ',
+      'en': 'Uploaded a new offer',
     },
     '4yfcikki': {
       'es': 'Home',
-      'en': '',
+      'en': 'Home',
     },
   },
   // op5
   {
     'gfdf2dzp': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     '1mddz84d': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Membresías',
     },
     '5enz79l1': {
       'es': 'Oro',
-      'en': '',
+      'en': 'Oro',
     },
     '7ehjoxyp': {
       'es': '\$50',
-      'en': '',
+      'en': '\$50',
     },
     'gcn1ua96': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     'iyoutgzk': {
       'es': '30 influencers',
-      'en': '',
+      'en': '30 influencers',
     },
     'x43qc8jo': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     'i8bkp1s2': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     'gtw8fvn4': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUAR',
     },
     'dqwxuybg': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     'ato3sghj': {
       'es': '\$100',
-      'en': '',
+      'en': '\$100',
     },
     '7eh91d9q': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     'tkd7557w': {
       'es': '100 influencers',
-      'en': '',
+      'en': '100 influencers',
     },
     'myet17fq': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     '1c718orp': {
       'es': 'Beneficios',
-      'en': '',
+      'en': 'Beneficios',
     },
     '6qxr0xd6': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUAR',
     },
     '1mlj11gt': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I172oro
   {
     'gsk89h3k': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': '',
     },
     'd2na4k4w': {
       'es': 'Membresías',
@@ -1954,134 +1752,134 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '97yyrex0': {
       'es': 'CONTINUAR',
-      'en': 'CONTINUE',
+      'en': '',
     },
     'vvcdqpbb': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I187bienvenido
   {
     'zhozyark': {
       'es': 'LOGO',
-      'en': '',
+      'en': 'LOGO',
     },
     'bfytz9ge': {
       'es': '¡Bienvenido!',
-      'en': '',
+      'en': 'Welcome!',
     },
     '8b19f0b1': {
       'es': 'Subí una nueva oferta',
-      'en': '',
+      'en': 'Uploaded a new offer',
     },
     'rgjfoj7z': {
       'es': 'Comercio',
-      'en': 'Influencers',
+      'en': 'Trade',
     },
     'dusatjox': {
       'es': 'Home',
-      'en': '',
+      'en': 'Home',
     },
   },
-  // I107crearnuevaoferta
+  // I107Crearnuevaoferta2
   {
     'qd817vwe': {
-      'es': 'Crear una nueva oferta',
-      'en': 'INFLUENCERS',
+      'es': 'Nueva oferta',
+      'en': 'New Offer',
     },
     'nakgys59': {
       'es': 'Descripción del beneficio',
-      'en': '',
+      'en': 'Benefit Description',
     },
     '5xvlom3g': {
       'es': 'CREAR',
-      'en': 'SEND CODE',
+      'en': 'CREATE',
     },
     'jyifx2g6': {
       'es': 'Home',
-      'en': '',
+      'en': 'Home',
     },
   },
   // I77
   {
     'dep7v5mr': {
       'es': 'Crear una nueva oferta',
-      'en': 'INFLUENCERS',
+      'en': 'New Offer',
     },
     '66gh667i': {
       'es': 'Fecha/Hora',
-      'en': '',
+      'en': 'Data/Time',
     },
     'lwu998u6': {
       'es': 'Cantidad de influencer ',
-      'en': '',
+      'en': 'Quantity Influencer',
     },
     'zdfrybg2': {
       'es': 'Ubicacion',
-      'en': '',
+      'en': 'Location',
     },
     'tmol1lv0': {
       'es': 'Descripción del trabajo',
-      'en': '',
+      'en': 'Work Description',
     },
     'arpxgxg9': {
       'es': 'Cargar imágenes (opcional)',
-      'en': '',
+      'en': 'Upload image(optional)',
     },
     '64ldl9x5': {
       'es': 'CONTINUAR',
-      'en': 'SEND CODE',
+      'en': 'CONTINUE',
     },
     'h1mrkidl': {
-      'es': 'Home',
-      'en': '',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I196Foto
   {
     '2lvbkoz1': {
       'es': 'Kristin Watson, 24',
-      'en': '',
+      'en': 'Kristin Watson, 24',
     },
     'ew2eefud': {
       'es': 'Modelo',
+      'en': 'Modelo',
+    },
+    '9wc19e68': {
+      'es': 'Ususario No Disponible',
       'en': '',
     },
     'culxz6vn': {
       'es': 'Juan Carlo, 61',
-      'en': '',
+      'en': 'Juan Carlo, 61',
     },
     'nv4u8fwj': {
       'es': 'Modelo',
-      'en': '',
+      'en': 'Modelo',
     },
     'lcwpb0v7': {
       'es': 'Kristin Watson, 24',
-      'en': '',
+      'en': 'Kristin Watson, 24',
     },
     'x3mf0wp4': {
       'es': 'Modelo',
-      'en': '',
+      'en': 'Modelo',
     },
     '5in9xmfy': {
       'es': 'Home',
-      'en': '',
+      'en': 'Home',
     },
   },
   // I170
   {
-    'ax88o0r0': {
-      'es': 'SOLICITAR',
-      'en': '',
-    },
     'vwxe8mid': {
       'es': 'Kristin Watson',
-      'en': 'Drinks + entrance',
+      'en': 'Kristin Watson',
     },
     '5bd2uu8n': {
       'es': 'Mega influencer',
-      'en': 'It happens between 18:00 - 19:30pm',
+      'en': 'Mega influencer',
     },
     'tvy7mj7z': {
       'es': '2km',
@@ -2089,103 +1887,107 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vnuq0zk0': {
       'es': 'COMIDA',
-      'en': 'NEGRONI',
+      'en': 'FOOD',
     },
     'qqk5cnon': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.',
       'en':
-          'Enjoy a serving of bread or salad\ncourtesy + a Provoleta Negroni or some\nRock Prawns or some Papas Bravas + 2\ndrinks of choice',
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.',
     },
     'qg089w61': {
       'es': 'Lorem ipsum dolor sit amet consectetur!\n',
-      'en': 'Leave us your review on Google!',
+      'en': 'Lorem ipsum dolor sit amet consectetur!\n',
     },
     'ixqp5hwz': {
       'es': 'Abonos',
-      'en': '',
+      'en': 'Abonos',
     },
     'qc44tcnf': {
       'es': 'Tik Tok  ',
-      'en': '',
+      'en': 'Tik To',
     },
     'wekca495': {
       'es': '10.000 \$',
-      'en': '',
+      'en': '10.000 \$',
     },
     'j4nc92sf': {
       'es': 'Twitch',
-      'en': '',
+      'en': 'Twitch',
     },
     'dgp2wghw': {
       'es': '20.000 \$',
-      'en': '',
+      'en': '20.000 \$',
+    },
+    'ax88o0r0': {
+      'es': 'SOLICITAR',
+      'en': 'SOLICITAR',
     },
     'n5wzznyi': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // op3
   {
     '0snk5ka1': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     '7znsqee6': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Membresías',
     },
     '7nhu1vtx': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     'kxnkj6dl': {
       'es': '\$100',
-      'en': '',
+      'en': '\$100',
     },
     '4tu1fnqc': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     'avhjbkan': {
       'es': '100 influencers',
-      'en': '',
+      'en': '100 influencers',
     },
     'y0xmikke': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUAR',
     },
     'bp0utk7n': {
       'es': 'Oro',
-      'en': '',
+      'en': 'Oro',
     },
     'xjzdgoen': {
       'es': '\$25',
-      'en': '',
+      'en': '\$25',
     },
     '76srzi9e': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     'h6jw49qs': {
       'es': '50 influencers',
-      'en': '',
+      'en': '50 influencers',
     },
     'adaj72zx': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUAR',
     },
     'a5ush6zy': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I166
   {
     'yquba9xh': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': '',
     },
     'l7bs7wtu': {
       'es': 'Membresías',
@@ -2210,177 +2012,177 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'xqf7s2d6': {
       'es': 'UPGRADE',
-      'en': 'CONTINUE',
+      'en': '',
     },
     'edarxtu7': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
-  // I197
+  // I197MegaInfluencer
   {
     '4o0xs69z': {
       'es': 'Buscar...',
-      'en': '',
+      'en': 'Buscar...',
     },
     's43jxig4': {
       'es': 'Mega Influencers',
-      'en': '',
+      'en': 'Mega Influencers',
     },
     'vv7mt10o': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     'wnckbbxo': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'tzmvk4ed': {
       'es': 'Kristin Watson',
-      'en': '',
+      'en': 'Kristin Watson',
     },
     'o40n0ymf': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'qumzglce': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     '1enmdrqp': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     't8vvt0qa': {
       'es': 'CHAYANE AZUL',
-      'en': '',
+      'en': 'CHAYANE AZUL',
     },
     '7eszbtxw': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     '2ksus7hq': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     'm0nm6jii': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'rdxvo9xl': {
       'es': 'ROMINA GROL',
-      'en': '',
+      'en': 'ROMINA GROL',
     },
     'c444n7v4': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     '86v4zhvl': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     'awp0hptq': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'j97r4tfe': {
       'es': 'Kristin Watson',
-      'en': '',
+      'en': 'Kristin Watson',
     },
     '9id0xw7y': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'bghhf1um': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     '0sfby590': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'xmdz2hx8': {
       'es': 'CHAYANE AZUL',
-      'en': '',
+      'en': 'CHAYANE AZUL',
     },
     'pix2lhie': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'y0c3l9bp': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     'llah3p2u': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     '5dcmrps4': {
       'es': 'ROMINA GROL',
-      'en': '',
+      'en': 'ROMINA GROL',
     },
     'uavigo03': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'pvmble3e': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'c3u5if3o': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'qg8kyiw7': {
       'es': 'Kristin Watson',
-      'en': '',
+      'en': 'Kristin Watson',
     },
     '796unsfh': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'z71pscqg': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     'ufcwm0mb': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'citz7l4r': {
       'es': 'CHAYANE AZUL',
-      'en': '',
+      'en': 'CHAYANE AZUL',
     },
     '9cle7e38': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'qckjubce': {
       'es': 'Abs +  Gluteos',
-      'en': '',
+      'en': 'Abs +  Gluteos',
     },
     'ugrz3sh5': {
       'es': 'Nano influencer',
-      'en': '',
+      'en': 'Nano influencer',
     },
     'oshu6eho': {
       'es': 'ROMINA GROL',
-      'en': '',
+      'en': 'ROMINA GROL',
     },
     'dtxqr1g3': {
       'es': '2km',
-      'en': '',
+      'en': '2km',
     },
     'tqjediu4': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I112inicio
   {
     '9rw5pmsp': {
       'es': 'Comida',
-      'en': 'Meal',
+      'en': 'Comida',
     },
     'rd6t081k': {
       'es': '2Km',
@@ -2388,15 +2190,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'sg402o6a': {
       'es': 'Fitness',
-      'en': 'Meal',
+      'en': 'Fitness',
     },
     'm5mu7mt9': {
       'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
+      'en': 'Drinks + entrada',
     },
     'h7ubh0dr': {
       'es': 'De 18:00 - 19:30pm',
-      'en': 'From 18:00 - 19:30pm',
+      'en': 'De 18:00 - 19:30pm',
     },
     'ul98jrum': {
       'es': 'NEGRONI',
@@ -2408,11 +2210,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ez5liq5h': {
       'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
+      'en': 'Drinks + entrada',
     },
     'vkzmq69f': {
       'es': 'De 18:00 - 19:30pm',
-      'en': 'From 18:00 - 19:30pm',
+      'en': 'De 18:00 - 19:30pm',
     },
     '2q9znveq': {
       'es': 'NEGRONI',
@@ -2424,11 +2226,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '5q5rmolx': {
       'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
+      'en': 'Drinks + entra',
     },
     'pyqfsim7': {
       'es': 'De 18:00 - 19:30pm',
-      'en': 'From 18:00 - 19:30pm',
+      'en': 'De 18:00 - 19:30pm',
     },
     '8hdumdnd': {
       'es': 'NEGRONI',
@@ -2440,30 +2242,26 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ws0i6y78': {
       'es': 'Buenos Aires',
-      'en': 'Influencers',
+      'en': 'Buenos Aires',
     },
     'a76mp70h': {
       'es': 'PUBLICAR UNA NUEVA OFERTA',
-      'en': '',
+      'en': 'PUBLICAR UNA NUEVA OFERTA',
     },
     'zuyz6jbi': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I25misofertas
   {
-    'p4axl1cv': {
-      'es': 'ACEPTAR',
-      'en': 'ACCEPT',
-    },
     'zr4waxox': {
       'es': 'Drinks + entrada',
-      'en': 'Drinks + entrance',
+      'en': 'Drinks + entrada',
     },
     'o0gr7cxw': {
       'es': 'Pasá entre las 18:00 - 19:30pm',
-      'en': 'It happens between 18:00 - 19:30pm',
+      'en': 'Pasá entre las 18:00 - 19:30pm',
     },
     'unnhavqz': {
       'es': '2km',
@@ -2479,32 +2277,36 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     's7bs8187': {
       'es': 'Código - AD1234 ',
-      'en': 'Code - AD1234',
+      'en': 'Código - AD1234 ',
     },
     '1kos67zz': {
       'es':
           'Disfrutá una porción de pan o ensalada de \ncortesía + una Provoleta Negroni o unos\nLangostinos de Roca o unas Papas Bravas + 2 \ntragos a elección.',
       'en':
-          'Enjoy a serving of bread or salad\ncourtesy + a Provoleta Negroni or some\nRock Prawns or some Papas Bravas + 2\ndrinks of choice',
+          'Disfrutá una porción de pan o ensalada de \ncortesía + una Provoleta Negroni o unos\nLangostinos de Roca o unas Papas Bravas + 2 \ntragos a elección.',
     },
     'z03yofmp': {
       'es': 'Dejanos tu reseña en Google!\n',
-      'en': 'Leave us your review on Google!',
+      'en': 'Dejanos tu reseña en Google!',
+    },
+    'p4axl1cv': {
+      'es': 'ACEPTAR',
+      'en': 'ACEPTAR',
     },
     '568ssvys': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I116ofertasrealizadas
   {
     '1umxfq18': {
       'es': 'Clase de abdominales',
-      'en': 'Drinks + entrance',
+      'en': 'Clase de abdominales',
     },
     '4lsxlvr9': {
       'es': 'Pasá entre 16:00 - 17:30pm',
-      'en': 'It happens between 18:00 - 19:30pm',
+      'en': 'Pasá entre 16:00 - 17:30pm',
     },
     'oigodd6d': {
       'es': '2km',
@@ -2512,7 +2314,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'cr45folr': {
       'es': 'SPORT CLUB',
-      'en': 'NEGRONI',
+      'en': 'SPORT CLUB',
     },
     'is22bqd6': {
       'es': 'Av. Santa Fe 19888',
@@ -2520,44 +2322,44 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'c1ihfh5r': {
       'es': 'Brand Partnership',
-      'en': '',
+      'en': 'Brand Partnership',
     },
     'ajvhlbrl': {
       'es': 'Realizada',
-      'en': '',
+      'en': 'Realizada',
     },
     'msj5nufv': {
       'es': 'Código - AD1234 ',
-      'en': 'Code - AD1234',
+      'en': 'Código - AD1234 ',
     },
     'xs006v9s': {
       'es':
           'Vení a entrenar. Sumate a una de nuestras clases de gimnasia localizada de 45 minutos. Te esperamos!',
       'en':
-          'Enjoy a serving of bread or salad\ncourtesy + a Provoleta Negroni or some\nRock Prawns or some Papas Bravas + 2\ndrinks of choice',
+          'Vení a entrenar. Sumate a una de nuestras clases de gimnasia localizada de 45 minutos. Te esperamos!',
     },
     'qzty54yw': {
       'es': 'Dejanos tu reseña en Google!\n',
-      'en': 'Leave us your review on Google!',
+      'en': 'Dejanos tu reseña en Google!',
     },
     'awo3bcdz': {
       'es': 'Influencers que formaron parte',
-      'en': '',
+      'en': 'Influencers que formaron parte',
     },
     'rowjgor9': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I184
   {
     '4zhwlsjw': {
       'es': 'Clase de abdominales',
-      'en': 'Drinks + entrance',
+      'en': 'Clase de abdominales',
     },
     '6mdvz05b': {
       'es': 'Pasá entre 16:00 - 17:30pm',
-      'en': 'It happens between 18:00 - 19:30pm',
+      'en': 'Pasá entre 16:00 - 17:30pm',
     },
     '2t3cwg6l': {
       'es': '2km',
@@ -2565,7 +2367,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'crcr5wwx': {
       'es': 'SPORT CLUB',
-      'en': 'NEGRONI',
+      'en': 'SPORT CLUB',
     },
     'lgitb9r4': {
       'es': 'Av. Santa Fe 19888',
@@ -2573,147 +2375,148 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'xweglqgs': {
       'es': 'Brand Partnership',
-      'en': '',
+      'en': 'Brand Partnership',
     },
     'y0gko3a1': {
       'es': 'Realizada',
-      'en': '',
+      'en': 'Realizada',
     },
     'pxcauqu4': {
       'es': 'Código - AD1234 ',
-      'en': 'Code - AD1234',
+      'en': 'Código - AD1234 ',
     },
     'xqfzmro2': {
       'es':
           'Vení a entrenar. Sumate a una de nuestras clases de gimnasia localizada de 45 minutos. Te esperamos!',
       'en':
-          'Enjoy a serving of bread or salad\ncourtesy + a Provoleta Negroni or some\nRock Prawns or some Papas Bravas + 2\ndrinks of choice',
+          'Vení a entrenar. Sumate a una de nuestras clases de gimnasia localizada de 45 minutos. Te esperamos!',
     },
     'q2bgusls': {
       'es': 'Dejanos tu reseña en Google!\n',
-      'en': 'Leave us your review on Google!',
+      'en': 'Dejanos tu reseña en Google!',
     },
     '28yx18y3': {
       'es': 'Influencers que formaron parte',
-      'en': '',
+      'en': 'Influencers que formaron parte',
     },
     'ld8fv6et': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // op4
   {
     'r1kbe8r4': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     'b4r0gr0a': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Membresías',
     },
     '8urypai0': {
       'es': 'Oro',
-      'en': '',
+      'en': 'Oro',
     },
     '75104qhb': {
       'es': '\$50',
-      'en': '',
+      'en': '\$50',
     },
     'guxppu4m': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     '7s8jradn': {
       'es': '30 influencers',
-      'en': '',
+      'en': '30 influencers',
     },
     'ifnfifek': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUAR',
     },
     'fmv7t06h': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     'b112mq99': {
       'es': '\$100',
-      'en': '',
+      'en': '\$100',
     },
     'pnev6hjm': {
       'es': '/mes',
-      'en': '',
+      'en': '/mes',
     },
     '86w2rhdd': {
       'es': '100 influencers',
-      'en': '',
+      'en': '100 influencers',
     },
     'wk4grx5t': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUAR',
     },
     'dmjinggm': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I194Oro
   {
     'hkmb3mf3': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'COMERCIO',
     },
     'lq6qnr9w': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Membresías',
     },
     'xsxh1dae': {
       'es': 'Oro',
-      'en': '',
+      'en': 'Oro',
     },
     'f9z5h1uo': {
       'es': '50 \$',
-      'en': '',
+      'en': '50 \$',
     },
     '6utdmu7h': {
       'es': '30 Influencers',
-      'en': '',
+      'en': '30 Influencers',
     },
     '075jj52n': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
-      'en': '',
+      'en':
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
     },
     'goj4v46c': {
       'es': 'Método de pago',
-      'en': '',
+      'en': 'Método de pago',
     },
     'qilrov6f': {
       'es': 'Pago',
-      'en': '',
+      'en': 'Pago',
     },
     '7l0vw7hq': {
       'es': 'Sincronizar',
-      'en': '',
+      'en': 'Sincronizar',
     },
     'y4pv5d8k': {
       'es': 'Sincronizar',
-      'en': '',
+      'en': 'Sincronizar',
     },
     'rdhq7weg': {
       'es': 'UPGRADE',
-      'en': 'CONTINUE',
+      'en': 'UPGRADE',
     },
     '2wfnq14q': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I193oroupgrade
   {
     'lpyxyjs0': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': '',
     },
     '7pxvjojq': {
       'es': 'Membresías',
@@ -2738,148 +2541,147 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'k6szmh6j': {
       'es': 'UPGRADE',
-      'en': 'CONTINUE',
+      'en': '',
     },
     'mcq57ib8': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I168
   {
     '0hc8zrdk': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
     'wdh39kjm': {
       'es': 'Membresías',
-      'en': '',
+      'en': 'Memberships',
     },
     '1xun8dam': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     'kpu6y5io': {
       'es': '100 \$',
-      'en': '',
+      'en': '100 \$',
     },
     '5fg82ytf': {
       'es': '30 Influencers',
-      'en': '',
+      'en': '30 Influencers',
     },
     'gia4ione': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
-      'en': '',
+      'en':
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..',
     },
     '6fb6gd2w': {
       'es': 'Método de pago',
-      'en': '',
+      'en': 'Método de pago',
     },
     'mxrszkrw': {
       'es': 'Pago',
-      'en': '',
+      'en': 'Pago',
     },
     'qpmaz43t': {
       'es': 'Sincronizar',
-      'en': '',
+      'en': 'Sincronizar',
     },
     '9zklrnbq': {
       'es': 'Sincronizar',
-      'en': '',
+      'en': 'Sincronizar',
     },
     'r7abscu8': {
       'es': 'UPGRADE',
-      'en': 'CONTINUE',
+      'en': 'UPGRADE',
     },
     'itici4zb': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I28Chat
   {
     'ozsu6lgf': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': '',
     },
     'dunyu2tt': {
       'es': 'Martes, 15',
-      'en': 'Tuesday, 15',
+      'en': '',
     },
     'qitzg82h': {
       'es':
           'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
-      'en':
-          'Hey! how can we help you?\nIf you\'re having trouble\nwith the app send:',
+      'en': '',
     },
     'wpz9mi2s': {
       'es': '. ',
-      'en': '.',
+      'en': '',
     },
     'np79e2s9': {
       'es': '1. Tengo un problema\ncon la oferta.',
-      'en': '1. I have a problem\nwith the offer.',
+      'en': '',
     },
     'jrqbgkfz': {
       'es': '8.30pm',
-      'en': '8.30pm',
+      'en': '',
     },
     '5ox9cdkd': {
       'es':
           'Hola! ¿Qué tal? Sí,\ngracias! 1. tengo un\nproblema con la\noferta.',
-      'en':
-          'Hello! How are you? Yeah,\nthank you! 1. I have a\nproblem with\noffer.',
+      'en': '',
     },
     'q396vcc4': {
       'es': '8.33pm',
-      'en': '8.33pm',
+      'en': '',
     },
     '1hrgtg0f': {
       'es': 'Escribir...',
-      'en': 'Write...',
+      'en': '',
     },
     '6yspv4cw': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I201chatvacio
   {
     'ewhwe5b8': {
       'es': 'Escribir...',
-      'en': 'Write...',
+      'en': 'Escribir...',
     },
     '4b5fqi3p': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': 'Atención al Cliente',
     },
     'o9vrz7jx': {
       'es': 'Martes, 15',
-      'en': 'Tuesday, 15',
+      'en': 'Martes, 15',
     },
     'chwc414q': {
       'es': 'Todavía no tenés mensajes!',
-      'en': 'You still have no messages!',
+      'en': 'Todavía no tenés mensajes',
     },
     'vpb6xumk': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I136Acciones
   {
     'e6hlsxyn': {
       'es': 'Calendario',
-      'en': 'Calendar',
+      'en': 'Calendario',
     },
     '73dc0m01': {
       'es': 'Acciones del mes',
-      'en': 'INFLUENCERS',
+      'en': 'Acciones del mes',
     },
     'hrbixviz': {
       'es': '2 de septiembre',
-      'en': 'September 2',
+      'en': '2 de septiembre',
     },
     't7bvuj1w': {
       'es': '2021',
@@ -2891,11 +2693,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '4fdobcak': {
       'es': 'Acción instagram -  Fiesta',
-      'en': 'Instagram Action - Party',
+      'en': 'Acción instagram -  Fiesta',
     },
     '2gpl7ffk': {
       'es': '3 historias , ropa fiesta',
-      'en': '3 stories, party clothes',
+      'en': '3 historias , ropa fiesta',
     },
     'rf2f6skf': {
       'es': '14:00-15:00',
@@ -2911,88 +2713,80 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'n7g1qo59': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
-  // I40notificacionescomercio
+  // I40notificacionesComercio
   {
     'kwn8ey8t': {
       'es': 'Notificaciones',
-      'en': 'notifications',
+      'en': 'Notificaciones',
     },
     '8jdb3lck': {
       'es': 'Borrar Historial',
-      'en': 'Delete history',
+      'en': 'Borrar Historia',
     },
-    'bfhfnusi': {
-      'es': '¡Ahora sos Mega Influencer!',
-      'en': 'Now you are a Mega Influencer!',
+    'oany34xf': {
+      'es': 'Ahora sos Mega Influencer!',
+      'en': '',
     },
-    'j9l5j0x5': {
-      'es': 'Hoy 12:00',
-      'en': 'Today 12:00',
-    },
-    'rqejleqc': {
-      'es': '¡Este mes tuviste 30 contrataciones!',
-      'en': 'This month you had 30 hires!',
-    },
-    'c7v7z0m3': {
-      'es': 'Hoy 12:00',
-      'en': 'Today 12:00',
+    'knj7g8wt': {
+      'es': '12:00',
+      'en': '',
     },
     'gxrs59ol': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I203sinnotificaciones
   {
     'j3r0o0zn': {
       'es': 'Notificaciones',
-      'en': 'notifications',
+      'en': '',
     },
     'jl9n5d94': {
       'es': 'No tenés notificaciones!',
-      'en': 'You have no notifications!',
+      'en': '',
     },
     'dzjfmbn6': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I140ajustes
   {
     '9t91mipw': {
       'es': 'CERRAR SESIÓN',
-      'en': 'SIGN OFF',
+      'en': 'LOG OUT',
     },
     'hlootydp': {
       'es': 'Ajustes',
-      'en': 'Settings',
+      'en': 'Satting',
     },
     'tusbbz93': {
       'es': 'Negroni',
-      'en': 'Claudia Fernandez',
+      'en': 'Negroni',
     },
     '4shzrk0d': {
       'es': '@clau.fern.ceo',
-      'en': '@clau.fern',
+      'en': '@clau.fern.ceo',
     },
     'ljyr0v89': {
       'es': 'CEO',
-      'en': '@clau.fern',
+      'en': 'CEO',
     },
     '0tb1bu9q': {
       'es': 'Mi cuenta',
-      'en': 'My account',
+      'en': 'My Account',
     },
     'el6osojt': {
       'es': 'Usuario, contraseña...',
-      'en': 'User password...',
+      'en': 'User, password...',
     },
     '6tpbz4cu': {
       'es': 'Atencion al cliente',
-      'en': 'Technical support',
+      'en': 'Customer Support',
     },
     'yqjegwrj': {
       'es': 'Responde tus preguntas...',
@@ -3000,11 +2794,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'g9wwj6kx': {
       'es': 'Ayuda',
-      'en': 'Technical support',
+      'en': 'Help',
     },
     'ruedi4nj': {
       'es': 'Todas tus dudas...',
-      'en': 'Answer your questions...',
+      'en': 'All your doubts...',
     },
     'ooo540dz': {
       'es': 'Método de pago',
@@ -3015,23 +2809,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'The best way to receive...',
     },
     't3ngwlje': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I142ajustes2
   {
     'm2utthdu': {
       'es': 'EDITAR',
-      'en': 'SAVE CHANGES',
+      'en': 'EDIT',
     },
     '3juaaqtw': {
       'es': 'Ajustes',
-      'en': 'Settings',
+      'en': 'Setting',
     },
     'j7s3qlwg': {
       'es': 'Mi cuenta',
-      'en': 'My account',
+      'en': 'My Account',
     },
     '0haay6hy': {
       'es': 'Privacidad, seguridad, cambiar email o número',
@@ -3039,11 +2833,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vpohcwju': {
       'es': 'Negroni',
-      'en': 'Personal information',
+      'en': 'Negroni',
     },
     '199pamit': {
       'es': 'Información personal',
-      'en': 'Personal information',
+      'en': 'Personal Information',
     },
     'tivq7nhi': {
       'es': 'Claudia Fernandez',
@@ -3051,7 +2845,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'j00q6b80': {
       'es': '10/09/2023',
-      'en': '09/10/2023',
+      'en': '10/09/2023',
     },
     'paxwoqzv': {
       'es': '@Clau.fer',
@@ -3059,7 +2853,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'res8obp2': {
       'es': 'Clu.fer@gmail.com',
-      'en': 'clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
     },
     'wehlbodn': {
       'es': 'Ubicación',
@@ -3067,7 +2861,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '7hh5cv4i': {
       'es': 'Monseñor de Andrea 1892',
-      'en': 'Monsignor of Andrea 1892',
+      'en': 'Monseñor de Andrea 1892',
     },
     'oim9r19p': {
       'es': 'Cambiar contraseña',
@@ -3075,7 +2869,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '6z8t0x0v': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I143ajustes3
@@ -3086,11 +2880,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '6y3dkfc2': {
       'es': 'Ajustes',
-      'en': 'Settings',
+      'en': 'Setting',
     },
     'z8hazc8g': {
       'es': 'Mi cuenta',
-      'en': 'My account',
+      'en': 'My Account',
     },
     'ach5ojoz': {
       'es': 'Privacidad, seguridad, cambiar email o número',
@@ -3098,11 +2892,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '3kt16jps': {
       'es': 'Negroni',
-      'en': 'Personal information',
+      'en': 'Negroni',
     },
     'gsa7ldo2': {
       'es': 'Información personal',
-      'en': 'Personal information',
+      'en': 'personal information',
     },
     'puyddvwd': {
       'es': 'Claudia Fernandez',
@@ -3110,7 +2904,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '783qk8hy': {
       'es': '10/09/2023',
-      'en': '09/10/2023',
+      'en': '10/09/2023',
     },
     'ul04q3wj': {
       'es': '@Clau.fer',
@@ -3118,7 +2912,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'hu6te5ey': {
       'es': 'Clu.fer@gmail.com',
-      'en': 'clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
     },
     'k5qzdr7j': {
       'es': 'Ubicación',
@@ -3126,32 +2920,32 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'sosqh6cc': {
       'es': 'Monseñor de Andrea 1892',
-      'en': 'Monsignor of Andrea 1892',
+      'en': 'Monseñor de Andrea 1892',
     },
     '05hvzeme': {
-      'es': 'Cambiar contraseña',
+      'es': 'Cambiar Contraseña',
       'en': 'Change Password',
     },
     '4xwr5hz3': {
       'es': 'Home',
-      'en': 'home',
+      'en': 'Home',
     },
   },
   // I186atencionalcliente
   {
     'ldzjg2dv': {
       'es': 'Atención al Cliente',
-      'en': 'Customer Support',
+      'en': 'Atención al Cliente',
     },
     'o73mweb3': {
       'es': 'Martes, 15',
-      'en': 'Tuesday, 15',
+      'en': 'Martes, 15',
     },
     'pww29s3n': {
       'es':
           'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
       'en':
-          'Hey! how can we help you?\nIf you\'re having trouble\nwith the app send:',
+          'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
     },
     '9gwbjqxb': {
       'es': '. ',
@@ -3159,7 +2953,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'eir4sq3j': {
       'es': '1. Tengo un problema\ncon la oferta.',
-      'en': '1. I have a problem\nwith the offer.',
+      'en': '1. Tengo un problema\ncon la oferta.',
     },
     'dw3da9qx': {
       'es': '8.30pm',
@@ -3169,122 +2963,125 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es':
           'Hola! ¿Qué tal? Sí,\ngracias! 1. tengo un\nproblema con la\noferta.',
       'en':
-          'Hello! How are you? Yeah,\nthank you! 1. I have a\nproblem with\noffer.',
+          'Hola! ¿Qué tal? Sí,\ngracias! 1. tengo un\nproblema con la\noferta.',
     },
     'bo46knba': {
       'es': '8.33pm',
-      'en': '8.33pm',
+      'en': '',
     },
     'm4865yy4': {
       'es': 'Escribir...',
-      'en': 'Write...',
+      'en': '',
     },
     '29sd0tly': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I145ayuda
   {
     'q9d2f5fr': {
       'es': 'Ajustes',
-      'en': 'Calendar',
+      'en': 'Setting',
     },
     'b4ziimnm': {
       'es': 'Ayuda',
-      'en': 'Payment method',
+      'en': 'Help',
     },
     'h62gl7px': {
       'es': 'Buscar...',
-      'en': '',
+      'en': 'Search..',
     },
     '6rfqzfip': {
       'es': 'Tengo un problema',
-      'en': '',
+      'en': 'I Have a Problem',
     },
     'nek8a53l': {
       'es': 'Estado de la cuenta',
-      'en': '',
+      'en': 'Acount State',
     },
     'nkj6ifnr': {
       'es': 'Privacidad y seguridad',
-      'en': '',
+      'en': 'Privacy & Security',
     },
     'j6hou8ee': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I146tengounproblema
   {
     'x3elvsq8': {
       'es': 'IR A MI CASILLA DE MAIL',
-      'en': '',
+      'en': 'GO TO MY MAIL BOX',
     },
     'n5lilfog': {
       'es': 'Ajustes',
-      'en': 'Calendar',
+      'en': 'Setting',
     },
     '62u9tthf': {
       'es': 'Ayuda',
-      'en': 'Payment method',
+      'en': 'Help',
     },
     'pcl1652x': {
       'es': 'Tengo un problema',
-      'en': '',
+      'en': 'I have a Problem',
     },
     'n5ix6z32': {
       'es': 'Mandá un mail a info@litapp.com indicando el problema.',
-      'en': '',
+      'en': 'Send an email to info@litapp.com indicating the problem.',
     },
     't8nc4aka': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I149estadodelacuenta
   {
     'tib5290k': {
       'es': 'Ajustes',
-      'en': 'Calendar',
+      'en': 'Setting',
     },
     '36jl20dd': {
       'es': 'Estado de la cuenta',
-      'en': 'Payment method',
+      'en': 'Acount State',
     },
     '88q722ok': {
       'es': 'Mandá un mail a info@litapp.com indicando el problema.',
-      'en': '',
+      'en': 'Send an email to info@litapp.com indicating the problem.',
     },
     'f5bi22hl': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.',
-      'en': '',
+      'en':
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.',
     },
     '9jgv8qx2': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.',
-      'en': '',
+      'en':
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.',
     },
     '4glbxvuu': {
       'es':
           'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.',
-      'en': '',
+      'en':
+          'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.',
     },
     'uhcj48i6': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I150seguridadyprivacidad
   {
     'sapt89yq': {
       'es': 'Ajustes',
-      'en': 'Calendar',
+      'en': '',
     },
     '2w1zdnv7': {
       'es': 'Seguridad y Privacidad',
-      'en': 'Payment method',
+      'en': '',
     },
     'ykrd1ksm': {
       'es':
@@ -3293,68 +3090,69 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'a5zv12bp': {
       'es': 'Home',
-      'en': 'home',
+      'en': '',
     },
   },
   // I147ayuda
   {
     '8ldr8asq': {
       'es': 'Ajustes',
-      'en': 'Calendar',
+      'en': 'Setting',
     },
     'ugft25nk': {
       'es': 'Ayuda',
-      'en': 'Payment method',
+      'en': 'Help',
     },
     'zhwiryh0': {
       'es': 'No me anda el chat...',
-      'en': '',
+      'en': 'The chat doesn\'t work for me...',
     },
     'x3vji07i': {
       'es': 'Tengo un problema',
-      'en': '',
+      'en': 'I have a problem',
     },
     'rxkmp0ek': {
       'es': 'Estado de la cuenta',
-      'en': '',
+      'en': 'Account status',
     },
     'bqn681sz': {
       'es': 'Privacidad y seguridad',
-      'en': '',
+      'en': 'Privacy & Security',
     },
     'qoc1x9ff': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I148ayudanoseencontro
   {
     'gbur879v': {
       'es': 'Ajustes',
-      'en': 'Calendar',
+      'en': 'Setting',
     },
     'bls5yrfn': {
       'es': 'Ayuda',
-      'en': 'Payment method',
+      'en': 'Help',
     },
     'ga1m9efw': {
       'es': 'No me anda el chat...',
-      'en': '',
+      'en': 'The chat doesn\'t work for me...',
     },
     '1lzgflkk': {
       'es':
           'No encontramos nada relacionado a tu búsqueda, podés probar reportando el problema',
-      'en': '',
+      'en':
+          'We did not find anything related to your search, you can try reporting the problem',
     },
     '1wj30f7z': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // I38metododepagocomercio
   {
     'h0fqpeem': {
-      'es': 'Calendario',
+      'es': 'Ajustes',
       'en': 'Calendar',
     },
     '4ijbhpuh': {
@@ -3363,443 +3161,997 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vjywfw73': {
       'es': 'Sincronizar',
-      'en': 'Sync up',
+      'en': 'Sync',
     },
     'cd4me8dx': {
       'es': 'Sincronizar',
-      'en': 'Sync up',
+      'en': 'Sync',
     },
     'p1rv0c73': {
-      'es': 'Home',
-      'en': 'home',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // A2Inicio
   {
+    'n4mvnrax': {
+      'es': 'INICIAR SESIÓN',
+      'en': 'LOG IN',
+    },
     'ltt7bxz8': {
       'es': 'INICIAR SESIÓN',
-      'en': '',
+      'en': 'LOG IN',
     },
     'yakcoo7j': {
       'es': 'USUARIO',
-      'en': '',
+      'en': 'USER',
     },
     '7tttp2ry': {
       'es': 'CONTRASEÑA',
-      'en': '',
-    },
-    'n4mvnrax': {
-      'es': 'INICIAR SESIÓN',
-      'en': '',
+      'en': 'PASSWORD',
     },
     '7paiutal': {
-      'es': 'Home',
-      'en': '',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // A3Comercio
   {
     '3l6s05iz': {
       'es': 'Comercios',
-      'en': '',
+      'en': 'Trades',
     },
     'mh9ukq53': {
       'es': 'Filtrar por',
-      'en': '',
+      'en': 'Filter by',
     },
     'a0zd4jhu': {
       'es': 'Filtrar por',
-      'en': '',
+      'en': 'Filter by',
     },
     '9a0vjy2h': {
       'es': 'Dia',
-      'en': '',
+      'en': 'Day',
     },
     'mw3nfer8': {
-      'es': 'Search for an item...',
-      'en': '',
+      'es': 'Buscar por iten...',
+      'en': 'Search for item...',
     },
     'tvbfvrk0': {
       'es': 'Mes',
-      'en': '',
+      'en': 'Month',
     },
     'h1e499h6': {
-      'es': 'Search for an item...',
-      'en': '',
+      'es': 'Buscar por item...',
+      'en': 'Search for an item...',
     },
     'an4gcih5': {
       'es': 'Año',
-      'en': '',
+      'en': 'Year',
     },
     'yd9yw2n0': {
-      'es': 'Search for an item...',
-      'en': '',
+      'es': 'Buscar por item...',
+      'en': 'Search for an item...',
     },
     'dhm2dumg': {
       'es': 'Mostrar como',
-      'en': '',
+      'en': 'Show as',
     },
     'fatc8glo': {
       'es': 'NUEVOS COMERCIANTES',
-      'en': '',
+      'en': 'NEW TRADE',
     },
     'c5l8z3r9': {
       'es': '24',
-      'en': '',
+      'en': '24',
     },
     '9gqv59cl': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'last month',
     },
     'ajdd873x': {
       'es': 'BAJAS',
-      'en': '',
+      'en': 'LOW',
     },
     'rr6dmss4': {
       'es': '24',
-      'en': '',
+      'en': '24',
     },
     'aq4ge67a': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'last month',
     },
     '3drwc49m': {
       'es': 'NUEVAS SOLICITUDES',
-      'en': '',
+      'en': 'NEW REQUESTS',
     },
     'jhkjh7k2': {
       'es': '24',
-      'en': '',
+      'en': '24',
     },
     'k3kme18t': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'last month',
     },
     'hqzvhh9c': {
       'es': 'RUBRO MAS CONTRATADO',
-      'en': '',
+      'en': 'JOB MOST HIRED',
     },
     'bk4p37tf': {
       'es': 'MODA',
-      'en': '',
+      'en': 'FASHION',
     },
     'r0smdgf4': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'last month',
     },
     '8jvzqaq7': {
-      'es': 'Home',
-      'en': '',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // A7Comercio
   {
     'p3vowlbo': {
       'es': '46 STREET',
-      'en': '',
+      'en': '46 STREET',
     },
     'gfjonpdi': {
       'es': 'Miembro desde 13/09/2022',
-      'en': '',
+      'en': 'Member since 13/09/2022',
     },
     'z5b8cnvv': {
       'es': 'ELIMINAR',
-      'en': '',
+      'en': 'DELETE',
     },
     '2nrd450k': {
       'es': 'Contacto',
-      'en': '',
+      'en': 'Contact',
     },
     'vhebixg4': {
       'es': '47street@gmail.com',
-      'en': '',
+      'en': '47street@gmail.com',
     },
     'ush6g30o': {
       'es': '+54 911 60457878',
-      'en': '',
+      'en': '+54 911 60457878',
     },
     'cad0fhlb': {
       'es': 'Membresía',
-      'en': '',
+      'en': 'Memberships',
     },
     '44c45mpy': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     'bj7b4w5a': {
       'es': 'Campañas creadas',
-      'en': '',
+      'en': 'Campaigns created',
     },
     'im326qjf': {
       'es': 'Ultimo mes',
-      'en': '',
+      'en': 'Last Month',
     },
     '23t5sm76': {
       'es': '30',
-      'en': '',
+      'en': '30',
     },
     'k70c1zq8': {
       'es': 'Ultima semana',
-      'en': '',
+      'en': 'Last Week',
     },
     'jxx73ddw': {
       'es': '30% +',
-      'en': '',
+      'en': '30% +',
     },
     '3nu4cg7g': {
       'es': 'Campañas activas',
-      'en': '',
+      'en': 'Active campaigns',
     },
     'cmdxlus9': {
       'es': '30',
-      'en': '',
+      'en': '30',
     },
     'yqnmvnmx': {
       'es': 'Ultima semana',
-      'en': '',
+      'en': 'Last Week',
     },
     'afybzpe8': {
       'es': '30% +',
-      'en': '',
+      'en': '30% +',
     },
     'of035ofe': {
       'es': 'Historial',
-      'en': '',
+      'en': 'Record',
     },
     '5e2oi3cu': {
       'es': 'Buscar...',
-      'en': '',
+      'en': 'Search...',
     },
     'n1lv3skt': {
       'es': 'Camila mendez ',
-      'en': '',
+      'en': 'Camila mendez ',
     },
     'ux336abh': {
       'es': 'Acción - Stories ',
-      'en': '',
+      'en': 'Acción - Stories ',
     },
     'bf2g5rna': {
       'es': '20/03/2022',
-      'en': '',
+      'en': '20/03/2022',
     },
     '4o71y2zh': {
       'es': 'Campaña de marketing',
-      'en': '',
+      'en': 'Marketing campaign',
     },
     'h7irg50j': {
       'es': 'POR CANJE',
-      'en': '',
+      'en': 'BY CANJE',
     },
     '75jgzelr': {
       'es': 'Cancelaciones',
-      'en': '',
+      'en': 'Cancellations',
     },
     'uj1m1abt': {
       'es': '2/',
-      'en': '',
+      'en': '2/',
     },
     'iu000raa': {
       'es': '3',
-      'en': '',
+      'en': '3',
     },
     '3ljvjfrz': {
       'es': 'Camila mendez ',
-      'en': '',
+      'en': 'Camila mendez ',
     },
     't5jzlciv': {
       'es': 'Acción - Stories ',
-      'en': '',
+      'en': 'Acción - Stories ',
     },
     '6qrtzfsh': {
       'es': '20/03/2022',
-      'en': '',
+      'en': '20/03/2022',
     },
     'g3nye4l9': {
       'es': 'Campaña de marketing',
-      'en': '',
+      'en': 'Marketing campaign',
     },
     'lqofwx7z': {
       'es': 'Cancelada',
-      'en': '',
+      'en': 'Cancellations',
     },
     'tyu6dt9m': {
       'es': 'Camila mendez ',
-      'en': '',
+      'en': 'Camila mendez ',
     },
     '6w3wlqyp': {
       'es': 'Acción - Stories ',
-      'en': '',
+      'en': 'Acción - Stories ',
     },
     'z8nk82va': {
       'es': '20/03/2022',
-      'en': '',
+      'en': '20/03/2022',
     },
     'u6pxceaw': {
       'es': 'Campaña de marketing',
-      'en': '',
+      'en': 'Marketing campaign',
     },
     'emob7d79': {
       'es': 'Cancelada',
-      'en': '',
+      'en': 'Cancellations',
     },
     'p3pf08an': {
       'es': 'SUSPENDER USUARIO',
-      'en': '',
+      'en': 'SUSPEND USER',
     },
     '89oi8mul': {
       'es': 'Pagos comerciantes',
-      'en': '',
+      'en': 'Merchant payments',
     },
     'q6fk9l9g': {
       'es': 'Resúmen de pagos y clases del usuario Julian Alonso.',
-      'en': '',
+      'en': 'Summary of payments and classes of the user Julian Alonso.',
     },
     '7si4j0tb': {
       'es': 'Buscar...',
-      'en': '',
+      'en': 'Search...',
     },
     'gs60kv4g': {
       'es': 'Resúmen',
-      'en': '',
+      'en': 'Summary',
     },
     'faqb7t7t': {
       'es': 'Total del mes:',
-      'en': '',
+      'en': 'Total for the month:',
     },
     'd72wxwa2': {
       'es': '\$ 7500',
-      'en': '',
+      'en': '\$ 7500',
     },
     '72e0h9ko': {
       'es': 'Comentarios',
-      'en': '',
+      'en': 'Comments',
     },
     'nwcczt56': {
       'es': 'Buscar...',
-      'en': '',
+      'en': 'Search...',
     },
     'yf2tud1z': {
       'es': 'Sol Gomez',
-      'en': '',
+      'en': 'Sol Gomez',
     },
     '1oivsvr6': {
       'es': 'Muy profesionales y muy ordenados con todos los pagos!',
-      'en': '',
+      'en': 'Very professional and very organized with all payments!',
     },
     'lawt06vu': {
       'es': 'Sol Gomez',
-      'en': '',
+      'en': 'Sol Gomez',
     },
     'wu9rw7dp': {
       'es': 'Muy profesionales y muy ordenados con todos los pagos!',
-      'en': '',
+      'en': 'Very professional and very organized with all payments!',
     },
     'v9s3a2oy': {
       'es': 'Calendario',
-      'en': '',
+      'en': 'Calendar',
     },
     'quqjdk6b': {
       'es': 'Buscar...',
-      'en': '',
+      'en': 'Search...',
     },
     'we578k65': {
       'es': 'Nike',
-      'en': '',
+      'en': 'Nike',
     },
     '7pc8y9ej': {
       'es': 'Campaña Welnness',
-      'en': '',
+      'en': 'Welness Campaign',
     },
     'yfwzxgoo': {
       'es': '20/03/2022',
-      'en': '',
+      'en': '20/03/2022',
     },
     'kya2eo8x': {
       'es': 'Nike',
-      'en': '',
+      'en': 'Nike',
     },
     'wjlaxo2t': {
       'es': 'Campaña Welnness',
-      'en': '',
+      'en': 'Welness Campaign',
     },
     'mqxbt30u': {
       'es': '20/03/2022',
-      'en': '',
+      'en': '20/03/2022',
     },
     'gaii7q8k': {
       'es': 'Nike',
-      'en': '',
+      'en': 'Nike',
     },
     'budmah79': {
       'es': 'Campaña Welnness',
-      'en': '',
+      'en': '20/03/2022',
     },
     'hq8n8c0r': {
       'es': '20/03/2022',
-      'en': '',
+      'en': '20/03/2022',
     },
     'h8wero5i': {
       'es': 'Estadísticas',
-      'en': '',
+      'en': 'Statistics',
     },
     '540epbrx': {
       'es': 'OFERTAS ACEPTADAS',
-      'en': '',
+      'en': 'OFFERS ACCEPTED',
     },
     's86m2d58': {
       'es': '100',
-      'en': '',
+      'en': '100',
     },
     '3bk5v6np': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'in last month',
     },
     'f1h2g814': {
       'es': ' INFLUENCERS  CON LOS QUE TRABAJO ',
-      'en': '',
+      'en': 'INFLUENCERS I WORK WITH',
     },
     'co4oi7w9': {
       'es': '24',
-      'en': '',
+      'en': '24',
     },
     'xkssxs2d': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'in last month',
     },
     'k9hnxfx8': {
       'es': 'BAJAS DE INFLUENCERS',
-      'en': '',
+      'en': 'INFLUENCER REMOVALS',
     },
     '18yx2xe6': {
       'es': '45',
-      'en': '',
+      'en': '45',
     },
     'vvbawqqz': {
       'es': 'en el último mes',
-      'en': '',
+      'en': 'in last month',
     },
     'vhy5u116': {
-      'es': 'Home',
-      'en': '',
+      'es': 'Inicio',
+      'en': 'Home',
     },
   },
   // roles
   {
     'p8f2jd2y': {
       'es': 'Influencers',
-      'en': '',
+      'en': 'Influencers',
     },
     'k27q6hdn': {
       'es': 'Comercios',
-      'en': '',
+      'en': 'Trade',
     },
     'f4uppux9': {
       'es': 'Page Title',
-      'en': '',
+      'en': 'Page Title',
     },
     '8z7td72o': {
+      'es': 'Inicio',
+      'en': 'Home',
+    },
+  },
+  // listTest
+  {
+    '90drplcs': {
+      'es': 'Añadir Miembros',
+      'en': 'Add Members',
+    },
+    'kfwo5zor': {
+      'es': 'Buscar Miembros...',
+      'en': 'Search members...',
+    },
+    'vekqawcg': {
+      'es': 'Miembros en Proyecto',
+      'en': 'Members in Project',
+    },
+    'pq272lya': {
+      'es': 'Nombre ',
+      'en': 'UserName',
+    },
+    'm8ldtgz3': {
+      'es': 'Eliminar',
+      'en': 'Remove',
+    },
+    'm3rpgk3j': {
+      'es': 'Nombre ',
+      'en': 'UserName',
+    },
+    'qrpebqnx': {
+      'es': 'Eliminar',
+      'en': 'Remove',
+    },
+    '90mwn6bb': {
+      'es': 'Nombre ',
+      'en': 'UserName',
+    },
+    'uwbtjqfy': {
+      'es': 'Eliminar',
+      'en': 'Remove',
+    },
+    'sfnrzw5r': {
+      'es': 'Añadir Miembro',
+      'en': 'Add Members',
+    },
+    'qb7ni136': {
+      'es': 'user@domainname.com',
+      'en': 'user@domainname.com',
+    },
+    '157ooz6f': {
+      'es': 'Ver',
+      'en': 'View',
+    },
+    'yhuyi4mg': {
+      'es': 'user@domainname.com',
+      'en': 'user@domainname.com',
+    },
+    'kcd3m4ab': {
+      'es': 'Ver',
+      'en': 'View',
+    },
+    'ey1cs2ax': {
+      'es': 'Nombre ',
+      'en': 'Username',
+    },
+    'q734as8v': {
+      'es': 'user@domainname.com',
+      'en': 'user@domainname.com',
+    },
+    'sib8rxep': {
+      'es': 'Ver',
+      'en': 'View',
+    },
+    'ss5enjj6': {
+      'es': 'Nombre ',
+      'en': 'Username',
+    },
+    'z8e9s6zi': {
+      'es': 'user@domainname.com',
+      'en': 'user@domainname.com',
+    },
+    'ob7lla9h': {
+      'es': 'Ver',
+      'en': 'View',
+    },
+    '6avraojt': {
+      'es': 'user@domainname.com',
+      'en': 'user@domainname.com',
+    },
+    'su9kclt2': {
+      'es': 'Ver',
+      'en': 'View',
+    },
+    'tyx74o27': {
+      'es': 'Inicio',
+      'en': 'Home',
+    },
+  },
+  // I07ComercioInicioSecion
+  {
+    '8lo7fy5n': {
+      'es': 'Iniciar Sesión',
+      'en': 'Log in',
+    },
+    'vc9tr9fg': {
+      'es': 'Email',
+      'en': 'Email',
+    },
+    'u55zz8m5': {
+      'es': 'Olvidé mi mail',
+      'en': 'Forgot my email',
+    },
+    '4h43qkr9': {
+      'es': 'Contraseña',
+      'en': 'Password',
+    },
+    'kwp4rvqs': {
+      'es': 'Olvide mi contraseña',
+      'en': 'Forgot my Password',
+    },
+    'pgn6uyb3': {
+      'es': 'Use las redes sociales para iniciar sesion',
+      'en': 'Log in with social networks',
+    },
+    '17uj0f37': {
+      'es': 'INICIAR SESION',
+      'en': 'LOG IN',
+    },
+    'kgh52cdx': {
+      'es': 'Inicio',
+      'en': 'Home',
+    },
+  },
+  // I20MisOfertas
+  {
+    '6t0q0gpa': {
+      'es': 'Mis Ofertas',
+      'en': 'My Offer',
+    },
+    'kuclu8a1': {
+      'es': 'Comida',
+      'en': 'Food',
+    },
+    'izm0up3z': {
+      'es': 'Fitness',
+      'en': 'Fitness',
+    },
+    '2u1yxcw7': {
+      'es': 'Inicio',
+      'en': 'Home',
+    },
+  },
+  // I33PerfilComercioYaNo
+  {
+    '4g5buj8z': {
+      'es': 'Mi Perfil',
+      'en': 'My Profile',
+    },
+    'ndprnc06': {
+      'es': 'Editar Perfil',
+      'en': 'Edit Profile',
+    },
+    'o2866ats': {
+      'es': 'Editar perfil...',
+      'en': 'Edit Profile...',
+    },
+    '121q8xnx': {
+      'es': 'Mis Ofertas',
+      'en': 'My Offer',
+    },
+    'b635vldp': {
+      'es': 'Ver mis ofertas...',
+      'en': 'View my Offer...',
+    },
+    'u86hxdbs': {
+      'es': 'Crear Oferta',
+      'en': 'Add Offer',
+    },
+    '1ik1ksk2': {
+      'es': 'Crear nueva oferta...',
+      'en': 'Add new offer...',
+    },
+    'qn1tmj2i': {
+      'es': 'Soporte Técnico',
+      'en': 'Technical support',
+    },
+    'eowc9w40': {
+      'es': 'Responde tus preguntas...',
+      'en': 'Answer your questions...',
+    },
+    'wmjc7879': {
+      'es': 'Método de pago',
+      'en': 'Payment method',
+    },
+    'w4yg7six': {
+      'es': 'Mejor manera de recibir los....',
+      'en': 'Best way to receive...',
+    },
+    'reveubl1': {
+      'es': 'CERRAR SESIÓN',
+      'en': 'LOG OUT',
+    },
+    '453he0en': {
       'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // I34EditPerfilComercio
+  {
+    'yb03iz3t': {
+      'es': 'Editar Cuenta',
+      'en': 'Edit Profile',
+    },
+    'ysio7kmp': {
+      'es': 'Información del Comercio',
+      'en': 'Trade Information',
+    },
+    '5xid5grk': {
+      'es': 'Claudia Fernandez',
+      'en': 'Claudia Fernandez',
+    },
+    'gfcaxx1m': {
+      'es': 'Claudia Fernandez',
+      'en': 'Claudia Fernandez',
+    },
+    '8rhnmugg': {
+      'es': '10/09/2023',
+      'en': '10/09/2023',
+    },
+    'hs8wdzb8': {
+      'es': '@Clau.fer',
+      'en': '@Clau.fer',
+    },
+    'auugnz9r': {
+      'es': 'Clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
+    },
+    'phuktkcu': {
+      'es': 'Clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
+    },
+    '5ma0gm93': {
+      'es': 'Clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
+    },
+    'bmrgi0sv': {
+      'es': 'Clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
+    },
+    '7e2m6s87': {
+      'es': 'Clu.fer@gmail.com',
+      'en': 'Clu.fer@gmail.com',
+    },
+    'fwh8zwzp': {
+      'es': 'Descripción',
+      'en': 'Description',
+    },
+    'jxx9qrob': {
+      'es': 'Descripción',
+      'en': 'Description',
+    },
+    'yhyxmfsr': {
+      'es': 'Ubicación',
+      'en': 'Location',
+    },
+    'vqt22rk0': {
+      'es': 'Ubicación',
       'en': '',
+    },
+    '6mdr7mix': {
+      'es': 'Ciudad',
+      'en': 'City',
+    },
+    '0e3mm4oi': {
+      'es': 'Estado',
+      'en': 'State',
+    },
+    'ydpjnde2': {
+      'es': 'Pais',
+      'en': 'Coutry',
+    },
+    'dqplgjy8': {
+      'es': 'ZipCode',
+      'en': 'ZipCode',
+    },
+    '0kv4tf2l': {
+      'es': 'Dirección',
+      'en': 'Address',
+    },
+    '65eam651': {
+      'es': 'Actualizar Ubicación',
+      'en': '',
+    },
+    'gerwxtz6': {
+      'es': 'Ir a mí Ubicación',
+      'en': 'Go to my Location',
+    },
+    '4mo0j0vq': {
+      'es': 'GUARDAR',
+      'en': 'SAVE',
+    },
+    'biatqkdn': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // I20EstaNo
+  {
+    'j7x0vzau': {
+      'es': 'Todas Ofertas',
+      'en': 'All Offer',
+    },
+    '96jdz2la': {
+      'es': 'Comida',
+      'en': 'Food',
+    },
+    'lhvyie9k': {
+      'es': 'Fitness',
+      'en': 'Fitness',
+    },
+    'zni4ekuz': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // I18MembresiasDetalles
+  {
+    '42lh6h87': {
+      'es': 'COMERCIO',
+      'en': 'TRADE',
+    },
+    'ajfcivu4': {
+      'es': 'Membresías',
+      'en': 'Memberships',
+    },
+    'dzot33je': {
+      'es': ' / ',
+      'en': '/',
+    },
+    '3uq5w06h': {
+      'es': 'Mes',
+      'en': 'Month',
+    },
+    '4hhx9ph4': {
+      'es': 'ACEPTAR',
+      'en': 'ACCEPT',
+    },
+    '8yzric5a': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // CrearNuevaOferta1
+  {
+    'tvq6sv8v': {
+      'es': 'Nueva Oferta',
+      'en': 'New Offer',
+    },
+    'h7ledhhf': {
+      'es': 'Cantidad de influencer ',
+      'en': 'Influencer quantity',
+    },
+    '8ptbc2ka': {
+      'es': 'Ubicacion',
+      'en': 'Location',
+    },
+    'kd6mfxkv': {
+      'es': 'Fitness',
+      'en': 'Fitness',
+    },
+    '0420w47y': {
+      'es': 'Food',
+      'en': 'Food',
+    },
+    'eponel5v': {
+      'es': 'Selecciona Categoria...',
+      'en': 'Select Category...',
+    },
+    'po3wil3o': {
+      'es': 'Buscar por item...',
+      'en': 'Search for an item...',
+    },
+    'vwebs8ww': {
+      'es': 'Descripción del trabajo',
+      'en': 'Work description',
+    },
+    'y7p4899b': {
+      'es': 'Adjuntar Referencia',
+      'en': 'Upload image',
+    },
+    'ui77hvq8': {
+      'es': 'CONTINUAR',
+      'en': 'CONTINUE',
+    },
+    'wpkxmizd': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // InicioAPK
+  {
+    '5xkb5ooe': {
+      'es': 'INFLUENCER',
+      'en': 'INFLUENCER',
+    },
+    'zgyu0bel': {
+      'es': 'COMERCIO',
+      'en': 'TRADE',
+    },
+    'yp4yxmom': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // Transicion
+  {
+    'm2nhwjig': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // RecoverPassword
+  {
+    'gmg58319': {
+      'es': 'Recuperar Password',
+      'en': 'Recover Password',
+    },
+    'xnp7v9gw': {
+      'es':
+          'Escriba su correo, luego presione en \"Enviar\". Revise su bandeja de cooreos y recibirá uno con las indicaciones para reestablecer su contraseña. Saludos, equipo ',
+      'en':
+          '\nWrite your email, then click on \"Send\". Check your email tray and you will receive one with instructions to reset your password. Regards, team',
+    },
+    'heu0hnlh': {
+      'es': 'Lit',
+      'en': 'Lit',
+    },
+    'o48usywy': {
+      'es': 'Email...',
+      'en': 'Email...',
+    },
+    'zafmoj85': {
+      'es': 'Enviar',
+      'en': 'Send',
+    },
+    'xh8iz839': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // EditarOferta
+  {
+    'aqzwjv0c': {
+      'es': 'Nueva Oferta',
+      'en': 'New Offer',
+    },
+    'rr6arlzf': {
+      'es': 'Cantidad de influencer ',
+      'en': 'Influencer quantity',
+    },
+    '6nyx95kg': {
+      'es': 'Ubicacion',
+      'en': 'Location',
+    },
+    '3ccfk1un': {
+      'es': 'Fitness',
+      'en': 'Fitness',
+    },
+    'qa0yqf11': {
+      'es': 'Food',
+      'en': 'Food',
+    },
+    'f2aewlhk': {
+      'es': 'Selecciona Categoria...',
+      'en': 'Select Category...',
+    },
+    'w093hn3i': {
+      'es': 'Buscar por item...',
+      'en': 'Search for an item...',
+    },
+    '9u6ug2ne': {
+      'es': 'Descripción del trabajo',
+      'en': 'Work description',
+    },
+    'imnh3i0r': {
+      'es': 'Cargar imagen',
+      'en': 'Upload image',
+    },
+    'kmupwgyl': {
+      'es': 'CONTINUAR',
+      'en': 'CONTINUE',
+    },
+    '1d573wmp': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // DetalleMiSolicitud
+  {
+    '5mgki1tk': {
+      'es': '2km',
+      'en': '2km',
+    },
+    'n3vmfyu5': {
+      'es': 'Código - ',
+      'en': 'Código - AD1234 ',
+    },
+    'kiytsx5f': {
+      'es': 'Dejanos tu reseña en Google!\n',
+      'en': 'Leave us your review on Google!',
+    },
+    '9kkr8f1d': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
+  // IAtencionalclienteCopy
+  {
+    '5i0e6yh3': {
+      'es': 'Atención al Cliente',
+      'en': 'Atención al Cliente',
+    },
+    'dfn6fjz5': {
+      'es':
+          'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
+      'en':
+          'Ey! ¿Cómo podemos ayudarte?\nSi estás teniendo problemas\ncon la app mandá:',
+    },
+    'spmc9qr8': {
+      'es': '. ',
+      'en': '. ',
+    },
+    'ajytzn25': {
+      'es': '1. Tengo un problema\ncon la oferta.',
+      'en': '1. Tengo un problema\ncon la oferta.',
+    },
+    'qhfyziez': {
+      'es': '. ',
+      'en': '. ',
+    },
+    '08lq11it': {
+      'es': '2. Servicio Técnico.',
+      'en': '1. Tengo un problema\ncon la oferta.',
+    },
+    'e6h11qhw': {
+      'es': '',
+      'en': 'Label here...',
+    },
+    'gwfz51hi': {
+      'es': 'Escribir Aqui...',
+      'en': '',
+    },
+    'clmv5l4l': {
+      'es': 'Home',
+      'en': 'Home',
     },
   },
   // I14MensajeClaveIncorrecta
@@ -3829,18 +4181,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '4q39hyw8': {
       'es': 'COMENZAR',
-      'en': 'BEGIN',
+      'en': 'START',
     },
   },
   // I209mensajedecodigoincorrecto
   {
     'clnqcn1z': {
       'es': 'Error',
-      'en': 'Mistake',
+      'en': 'Error',
     },
     'brggmxad': {
-      'es': 'El código no coincide con el que te\nenviamos.',
-      'en': 'The code does not match the one you\nwe send.',
+      'es': 'El código no coincide con el que te enviamos.',
+      'en': 'The code does not match the one we sent you.',
     },
     'znp88ohz': {
       'es': 'REENVIAR CODIGO',
@@ -3851,11 +4203,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'nvx3t073': {
       'es': 'Registro exitoso!',
-      'en': 'Successful change!',
+      'en': 'Successful registration!',
     },
     '5mkon361': {
-      'es': 'Estamos evaluando tu perfil. En\nbreve nos pondremos en contacto.',
-      'en': 'We are evaluating your profile. In\nwe will contact you shortly.',
+      'es': 'Estamos evaluando tu perfil. En breve nos pondremos en contacto.',
+      'en': 'We are evaluating your profile. We will contact you shortly.',
     },
     's9ax2123': {
       'es': 'CONTINUAR',
@@ -3868,19 +4220,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Solicitud Aceptada',
       'en': 'Request accepted',
     },
-    'fc2vvv9y': {
+    '2kikgmu8': {
+      'es': 'Hola ',
+      'en': 'Hello ',
+    },
+    '8025thut': {
       'es':
-          'Hola @Wanda, tu solicitud a la oferta \nfue aceptada. \nSalí a divertirte y compartí tu experiencia.\n',
+          ', tu solicitud a la oferta \nfue aceptada. \nSalí a divertirte y compartí tu experiencia.',
       'en':
-          'Hello @Wanda, your request for the offer\nwas accepted.\nI went out to have fun and shared your experience.',
+          ', your request for the offer\nwas accepted.\nI went out to have fun and shared your experience.',
     },
     '324orrre': {
       'es': 'No te olvides de arrobar al comercio!',
       'en': 'Don\'t forget to throw in the trade!',
     },
-    'jy6fvohm': {
-      'es': 'EMPEZAR',
-      'en': 'BEGIN',
+    '8gmpd9uu': {
+      'es': 'ACEPTAR',
+      'en': 'ACCEPT',
     },
   },
   // I47sincronizarsolicitud
@@ -3889,11 +4245,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Solicitud Aceptada',
       'en': 'Request accepted',
     },
-    'nuts7etb': {
+    '7qz9wku9': {
+      'es': 'Estimado ',
+      'en': 'Dear',
+    },
+    'fzvknfim': {
       'es':
-          'Hola @Wanda, tu solicitud a la oferta \nfue aceptada. \nSalí a divertirte y compartí tu experiencia.\n',
+          ', su oferta ha sido aceptada. ¡Es hora de ponerse en marcha y hacer el trabajo!\n',
       'en':
-          'Hello @Wanda, your request for the offer\nwas accepted.\nI went out to have fun and shared your experience.',
+          ', your offer has been accepted. It\'s time to get going and get the job done!',
     },
     'xg5x9p15': {
       'es': 'No te olvides de arrobar al comercio!',
@@ -3901,7 +4261,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '228g93a7': {
       'es': 'Sincronizar calendario',
-      'en': 'sync calendar',
+      'en': 'Sync calendar',
     },
     'occo1s20': {
       'es': 'Google Calendar',
@@ -3909,14 +4269,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'bs7l76qq': {
       'es': 'SINCRONIZAR',
-      'en': 'SYNC UP',
+      'en': 'SYNC',
     },
   },
   // I208ofertanodisponible
   {
     '2dpb7wea': {
       'es': 'Ups! La oferta de @Negroni\nya no esta disponible',
-      'en': 'oops! @Negroni\'s offer\nit\'s no longer available',
+      'en': 'Ups! @Negroni\'s offer\nit\'s no longer available',
     },
     'nv9xpawy': {
       'es': 'Encontrá nuevas ofertas en el home.',
@@ -3934,6 +4294,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en':
           'You will receive an email with\nmore information about the\noffer!',
     },
+    '9vsxfddw': {
+      'es': 'Aceptar',
+      'en': 'Acept',
+    },
   },
   // I197informaciondellugar
   {
@@ -3943,20 +4307,20 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ld42uh2m': {
       'es': 'Bar Premium',
-      'en': 'premium bar',
+      'en': 'Bar Premium',
     },
     'uwsdblpd': {
       'es':
           'Una propuesta diferente con \nespíritu Italo-Neoyorquino. \nSushibar, cocktails, cucina & beers. \nEstamos en Miami, Buenos Aires, \nPilar, Pinamar, Rosario, La Plata, \nCityBell, Montevideo y Asu. del\n Paraguay.',
       'en':
-          'A different proposal with\nItalo-New York spirit.\nSushibar, cocktails, cuisine & beers.\nWe are in Miami, Buenos Aires,\nPilar, Pinamar, Rosario, La Plata,\nCityBell, Montevideo and Asu. of the\n Paraguayan.',
+          'Una propuesta diferente con \nespíritu Italo-Neoyorquino. \nSushibar, cocktails, cucina & beers. \nEstamos en Miami, Buenos Aires, \nPilar, Pinamar, Rosario, La Plata, \nCityBell, Montevideo y Asu. del\n Paraguay.',
     },
   },
   // I196EliminarSolicitud
   {
     'fk75jzxh': {
       'es': '¿Estás seguro que\nquerés eliminar la oferta?',
-      'en': 'are you sure\nDo you want to remove the offer?',
+      'en': 'Are you sure\nDo you want to remove the offer?',
     },
     '61guce9p': {
       'es':
@@ -3978,7 +4342,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'v3rkcx29': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'db4h9gei': {
       'es': 'CANCELAR',
@@ -3989,11 +4353,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     '5xgkzi4w': {
       'es': '¿Estás seguro que\nquerés eliminar la chat?',
-      'en': 'are you sure\nDo you want to delete the chat?',
+      'en': 'Are you sure\nDo you want to delete the chat?',
     },
     '0ay6myii': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'zrssrskn': {
       'es': 'CANCELAR',
@@ -4014,7 +4378,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '7zwujri6': {
       'es': 'Cancelación ',
-      'en': 'Cancellation',
+      'en': '\nCancellation',
     },
     '1hpfus00': {
       'es': '2',
@@ -4026,7 +4390,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'zzm45be8': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'm8f1u4w4': {
       'es': 'CANCELAR',
@@ -4037,11 +4401,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'ls66j3qh': {
       'es': '¿Estás seguro que\nquerés eliminar la historial?',
-      'en': 'are you sure\nDo you want to delete the history?',
+      'en': 'Are you sure\nDo you want to delete the history?',
     },
     'zusvz7rp': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'fylwqmhv': {
       'es': 'CANCELAR',
@@ -4060,7 +4424,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'o3mgnk1z': {
       'es': 'CERRAR SESIÓN',
-      'en': 'SIGN OFF',
+      'en': 'LOG OUT',
     },
     'v97dlnl4': {
       'es': 'CANCELAR',
@@ -4082,11 +4446,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'ubv3j92z': {
       'es': 'Registro exitoso!',
-      'en': 'Successful change!',
+      'en': 'Successful registration!',
     },
     '0hklj0ar': {
-      'es': 'Estamos evaluando tu perfil. En\nbreve nos pondremos en contacto.',
-      'en': 'We are evaluating your profile. In\nwe will contact you shortly.',
+      'es': 'Estamos evaluando tu perfil. En breve nos pondremos en contacto.',
+      'en': 'We are evaluating your profile. We will contact you shortly.',
     },
     '7r1rcnze': {
       'es': 'CONTINUAR',
@@ -4112,7 +4476,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'k7ib9jwk': {
       'es': 'Error',
-      'en': 'Mistake',
+      'en': 'Error',
     },
     's3r06pae': {
       'es': 'El código no coincide con el que te\nenviamos.',
@@ -4127,11 +4491,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'km7y70w1': {
       'es': 'Registro exitoso!',
-      'en': 'Successful change!',
+      'en': 'Successful registration!',
     },
     'dfnwfbn0': {
       'es': 'Tu contraseña ha sido modificada \ncorrectamente.',
-      'en': 'We are evaluating your profile. In\nwe will contact you shortly.',
+      'en': 'Your password has been changed\ncorrectly.',
     },
     'd0e644tq': {
       'es': 'CONTINUAR',
@@ -4142,18 +4506,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'ynyci84a': {
       'es': 'Ya sos parte de Lit!',
-      'en': '',
+      'en': 'You are already part of Lit!',
     },
     'h8vdux2r': {
       'es': 'VINCULAR MIS PAGOS',
-      'en': '',
+      'en': 'LINK MY PAYMENTS',
     },
   },
   // bienvenido
   {
     '3hcf6bx3': {
       'es': 'Bienvenido!',
-      'en': '',
+      'en': 'Welcome!',
     },
   },
   // I174sincronizaciondecuenta
@@ -4171,191 +4535,191 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'u1oifp41': {
       'es': 'COMERCIO',
-      'en': 'INFLUENCERS',
+      'en': 'TRADE',
     },
   },
   // I192ofertapublicada
   {
     'chwybojf': {
       'es': 'Oferta Publicada!',
-      'en': 'Are you sure you want to\nremove the offer?',
+      'en': 'Posted Offer!',
     },
     '5rgcto2w': {
       'es':
           'Preparate para recibir todo el talento de nuestra comunidad de influencers',
       'en':
-          'After several cancellations\nfollowed your user will be suspended.',
+          'Get ready to receive all the talent from our community of influencers',
     },
     'o9u1bx6k': {
       'es': 'CONTINUAR',
-      'en': 'ELIMINATE',
+      'en': 'CONTINUE',
     },
   },
   // I212aceptaron
   {
     'cla5c7ud': {
       'es': 'Aceptaron tu oferta',
-      'en': 'oops! @Negroni\'s offer\nit\'s no longer available',
+      'en': 'They accepted your offer',
     },
     'ni5obsf8': {
       'es': '@Influencer aceptó',
-      'en': 'Find new offers in the home.',
+      'en': '@Influencer acept',
     },
     'jdr1reuz': {
       'es': 'VER OFERTA',
-      'en': 'CONTINUE',
+      'en': 'VIEW OFFER',
     },
   },
   // niveldeinfluencer
   {
     'x0h9ry68': {
       'es': 'Nano Influencer',
-      'en': '',
+      'en': 'Nano Influencer',
     },
     'vctw9squ': {
       'es': 'Mega Influencer',
-      'en': '',
+      'en': 'Mega Influencer',
     },
     'gvm2sdls': {
       'es': 'Micro Influencer',
-      'en': '',
+      'en': 'Micro Influencer',
     },
     '5s1csx1j': {
       'es': 'Macro Influencer',
-      'en': '',
+      'en': 'Macro Influencer',
     },
   },
   // categorias
   {
     'htbyhums': {
       'es': 'Comida',
-      'en': '',
+      'en': 'Food',
     },
     'ika0uzs8': {
       'es': 'Fitness',
-      'en': '',
+      'en': 'Fitness',
     },
     '20t1ktb6': {
       'es': 'Wellness',
-      'en': '',
+      'en': 'Wellness',
     },
   },
   // Descripcionpropuesta
   {
     'zkoeiq3s': {
       'es': 'Drinks  + entradas',
-      'en': '',
+      'en': 'Drinks + tickets',
     },
     'efrci1b8': {
       'es': 'Pizza party',
-      'en': '',
+      'en': 'Pizza party',
     },
     'vjk047yk': {
       'es': 'Sushi + Aperol ',
-      'en': '',
+      'en': 'Sushi + Aperol ',
     },
     'f0kizufo': {
       'es': 'Cafe + brunch',
-      'en': '',
+      'en': 'Coffe + brunch',
     },
   },
   // horario
   {
     'ytl3lwv1': {
       'es': 'Cena',
-      'en': '',
+      'en': 'Dinner',
     },
     'sw2jopah': {
       'es': 'Brunch',
-      'en': '',
+      'en': 'Brunch',
     },
     'c97suuic': {
       'es': 'Almuerzo',
-      'en': '',
+      'en': 'Lunch',
     },
     'ip6ik67k': {
       'es': 'Desayuno',
-      'en': '',
+      'en': 'Breakfast',
     },
   },
   // campanaconinfluencer
   {
     '7zeoof31': {
       'es': 'Campaña de marketing',
-      'en': '',
+      'en': 'Marketing campaign',
     },
     'p8d1y9ia': {
       'es': 'Campaña con influencer',
-      'en': '',
+      'en': 'Influencer campaign',
     },
   },
   // plataforma
   {
     '8l6s7n70': {
       'es': 'Instagram',
-      'en': '',
+      'en': 'Instagram',
     },
     '7xubv2l0': {
       'es': 'Tik Tok',
-      'en': '',
+      'en': 'Tik Tok',
     },
     '27e0g0bw': {
       'es': 'Youtube',
-      'en': '',
+      'en': 'Youtube',
     },
     '37alt9a4': {
       'es': 'Twitch',
-      'en': '',
+      'en': 'Twitch',
     },
   },
   // formatopublicacion
   {
     'izv94xjv': {
       'es': 'Posteo',
-      'en': '',
+      'en': 'Post',
     },
     'emlll8or': {
       'es': 'Stories',
-      'en': '',
+      'en': 'Story',
     },
     'l14x48o8': {
       'es': 'Reels',
-      'en': '',
+      'en': 'Reels',
     },
   },
   // cantidaddepublicaciones
   {
     '8bpexgij': {
       'es': '1',
-      'en': '',
+      'en': '1',
     },
     'o8ss0zkn': {
       'es': '2',
-      'en': '',
+      'en': '2',
     },
     'ir7b0kqu': {
       'es': '3',
-      'en': '',
+      'en': '3',
     },
     '6h21c5ip': {
       'es': '4',
-      'en': '',
+      'en': '4',
     },
   },
   // I205
   {
     'ypvxvf71': {
       'es': '¡Llegaste al máximo!',
-      'en': 'Sign off',
+      'en': 'You maxed out!',
     },
     't0ba9uvb': {
       'es':
           'Para seleccionar a este influencer tenés que hacer un upgrade en tu membresía.',
-      'en': 'Are you sure you want\nSign off?',
+      'en': 'To select this influencer you have to upgrade your membership.',
     },
     'i6c4otfg': {
       'es': 'UPGRADE',
-      'en': 'SIGN OFF',
+      'en': 'UPGRADE',
     },
     'eo5ji4gr': {
       'es': 'CANCELAR',
@@ -4366,16 +4730,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'y7s9a060': {
       'es': 'Ups!',
-      'en': 'Sign off',
+      'en': 'Ups!',
     },
     'bbo0bmqd': {
       'es':
           'Este influencer no está dentro tu membresía. Hacé el upgrade y disfrutá más beneficios.',
-      'en': 'Are you sure you want\nSign off?',
+      'en':
+          'This influencer is not in your membership. Upgrade and enjoy more benefits.',
     },
     'jq2bjglc': {
       'es': 'UPGRADE',
-      'en': 'SIGN OFF',
+      'en': 'UPGRADE',
     },
     'zmp9z69q': {
       'es': 'CANCELAR',
@@ -4386,51 +4751,51 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'l9tkos9q': {
       'es': 'Upgrade Realizado!',
-      'en': 'Mistake',
+      'en': 'Upgrade Done!',
     },
     '379d1n3q': {
       'es': 'Ya sos “Platinum”. Empezá a disfrutar más beneficios.',
-      'en': 'The code does not match the one you\nwe send.',
+      'en': 'You are already “Platinum”. Start enjoying more benefits.',
     },
     'bcaxbd16': {
       'es': 'CONTINUAR',
-      'en': 'RESEND CODE',
+      'en': 'CONTINUE',
     },
   },
   // I210baja
   {
     'mcr0shm2': {
       'es': 'El influencer @pedroalonso se dio de baja ',
-      'en': 'Mistake',
+      'en': 'The influencer @pedroalonso unsubscribed',
     },
     '6dht0wt5': {
       'es': 'Podés elegir un nuevo influencer para tu oferta',
-      'en': 'The code does not match the one you\nwe send.',
+      'en': 'You can choose a new influencer for your offer',
     },
     'i6dklm07': {
       'es': 'BUSCAR NUEVO INFLUENCER',
-      'en': 'RESEND CODE',
+      'en': 'SEARCH NEW INFLUENCER',
     },
   },
   // I209BAJA2
   {
     'hn1wymd1': {
       'es': 'El influencer @pedroalonso se dio de baja ',
-      'en': 'Mistake',
+      'en': 'The influencer @pedroalonso unsubscribed',
     },
     'et7vqywh': {
       'es': 'Se asignará un nuevo influencer para tu oferta',
-      'en': 'The code does not match the one you\nwe send.',
+      'en': 'A new influencer will be assigned for your offer',
     },
     'bwrkxygs': {
       'es': 'VER OFERTA',
-      'en': 'RESEND CODE',
+      'en': 'VIEW OFFER',
     },
   },
   // I115eliminaroferta
   {
     'ku5et4az': {
-      'es': '¿Seguro querés e\nliminar la oferta?',
+      'es': '¿Seguro querés eliminar la oferta?',
       'en': 'Are you sure you want to\nremove the offer?',
     },
     '4gecc9is': {
@@ -4453,7 +4818,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'hkigd5fv': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'sww4w11v': {
       'es': 'CANCELAR',
@@ -4463,16 +4828,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // I181califarinfluencer
   {
     'vbvg8e92': {
-      'es': 'Calificá al influencer',
-      'en': 'Mistake',
+      'es': 'Califica al influencer',
+      'en': 'rate the influencer',
     },
     'j5l5bmj6': {
       'es': 'Por favor calificá el trabajo del influencer.',
-      'en': 'The code does not match the one you\nwe send.',
+      'en': 'Please rate the influencer\'s work.',
     },
     '3v3jnd06': {
       'es': 'CALIFICAR',
-      'en': 'RESEND CODE',
+      'en': 'QUALIFY',
     },
   },
   // I204eliminaroferta
@@ -4501,7 +4866,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'emby6a41': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     '9947dz7r': {
       'es': 'CANCELAR',
@@ -4512,45 +4877,45 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     '2zvmxtf6': {
       'es': 'Mensual',
-      'en': '',
+      'en': 'Month',
     },
     '7u1a2yf6': {
       'es': '5% off',
-      'en': '',
+      'en': '5% off',
     },
     '0i4tvc6m': {
       'es': 'Trimestral',
-      'en': '',
+      'en': 'Quarterly',
     },
     '8pvuzglb': {
       'es': '20% off',
-      'en': '',
+      'en': '20% off',
     },
     'cgjs9jbw': {
       'es': 'Anual',
-      'en': '',
+      'en': 'Year',
     },
     'c9f3wd4b': {
       'es': '50% off',
-      'en': '',
+      'en': '50% off',
     },
   },
   // upgraderealizado
   {
     'hreozumr': {
       'es': 'Upgrade realizado!',
-      'en': '',
+      'en': 'Upgrade done!',
     },
   },
   // I200eliminarchat
   {
     'gijc6un5': {
       'es': '¿Estás seguro que\nquerés eliminar la chat?',
-      'en': 'are you sure\nDo you want to delete the chat?',
+      'en': 'Are you sure\nDo you want to delete the chat?',
     },
     '6z71a6mu': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'j03dkl3w': {
       'es': 'CANCELAR',
@@ -4571,7 +4936,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'medb0489': {
       'es': 'Cancelación ',
-      'en': 'Cancellation',
+      'en': '\nCancellation',
     },
     'eicg4ckp': {
       'es': '2',
@@ -4583,7 +4948,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '10qiu4ym': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     'merannbz': {
       'es': 'CANCELAR',
@@ -4594,11 +4959,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     '3iobi3zi': {
       'es': '¿Estás seguro que\nquerés eliminar la historial?',
-      'en': 'are you sure\nDo you want to delete the history?',
+      'en': 'Are you sure\nDo you want to delete the history?',
     },
     'yjsih7yv': {
       'es': 'ELIMINAR',
-      'en': 'ELIMINATE',
+      'en': 'DELETE',
     },
     '4tdofou7': {
       'es': 'CANCELAR',
@@ -4620,15 +4985,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'wlnan392': {
       'es': 'Cerrar Sesión',
-      'en': 'Sign off',
+      'en': 'Log Out',
     },
     '7gw9ucbc': {
       'es': '¿Seguro querés cerrar sesión?',
-      'en': 'Are you sure you want\nSign off?',
+      'en': 'Are you sure you want to log out?',
     },
     '3ogzeklq': {
       'es': 'CERRAR SESIÓN',
-      'en': 'SIGN OFF',
+      'en': 'LOG OUT',
     },
     'xddpnhlf': {
       'es': 'CANCELAR',
@@ -4639,222 +5004,255 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'j8b2ifvr': {
       'es': 'Comercios',
-      'en': '',
+      'en': 'Trade',
     },
     'q4kbplx7': {
       'es': 'Notificaciones',
-      'en': '',
+      'en': 'Notifications',
     },
     'mc8ktnre': {
       'es': 'Membresias',
-      'en': '',
+      'en': 'Memberships',
     },
     '8sxcmq3a': {
       'es': 'Influencers',
-      'en': '',
+      'en': 'Influencers',
     },
     'jsvkpokj': {
       'es': 'Ofertas',
-      'en': '',
+      'en': 'Ofert',
     },
     'x2h7h7yt': {
       'es': 'Administración general',
-      'en': '',
+      'en': 'General Administration',
     },
     'dwamur0q': {
       'es': 'Chat',
-      'en': '',
+      'en': 'Chat',
     },
     'yltgerjb': {
       'es': 'Cerrar sesión',
-      'en': '',
+      'en': 'Log Out',
     },
   },
   // navbar
   {
     'iqvlzp1p': {
       'es': 'Nombre admin',
-      'en': '',
+      'en': 'Admin Name',
     },
     'v5svqrut': {
       'es': 'Buscar',
-      'en': '',
+      'en': 'Search',
     },
   },
   // mostrarcomo
   {
     'p8ttsurc': {
       'es': 'Porcentaje',
-      'en': '',
+      'en': 'Porcent',
     },
     '0ki5dss3': {
       'es': 'Número',
-      'en': '',
+      'en': 'Number',
     },
   },
   // A4EditarComercio
   {
     'viw0nwty': {
       'es': 'Editar Comercio',
-      'en': '',
+      'en': 'Edit Trade',
     },
     'g6zpmyj6': {
       'es': '46 Street',
-      'en': '',
+      'en': '46 Street',
     },
     'u1uiscud': {
       'es': 'Moda',
-      'en': '',
+      'en': 'Moda',
     },
     'h5bmxm7y': {
-      'es': 'Search for an item...',
-      'en': '',
+      'es': 'Buscar por item...',
+      'en': 'Search for an item...',
     },
     'l1lgarlv': {
       'es': '46s@gmail.com',
-      'en': '',
+      'en': '46s@gmail.com',
     },
     'cone7vrt': {
       'es': 'Juan Perez',
-      'en': '',
+      'en': 'Juan Perez',
     },
     '7qrb0jn5': {
       'es': '************',
-      'en': '',
+      'en': '************',
     },
     'gagy6omu': {
       'es': '+5491134567899',
-      'en': '',
+      'en': '+5491134567899',
     },
     '4jg2tx7q': {
       'es': 'Juan Garlos Gruz 100',
-      'en': '',
+      'en': 'Juan Garlos Gruz 100',
     },
     'clkrr7p8': {
       'es': 'Platinum',
-      'en': '',
+      'en': 'Platinum',
     },
     'zxpsa8qh': {
-      'es': 'Search for an item...',
-      'en': '',
+      'es': 'Buscar por item...',
+      'en': 'Search for an item...',
     },
     'r4vfvdsj': {
       'es': 'GUARDAR CAMBIO',
-      'en': '',
+      'en': 'SAVE CHANGES',
     },
   },
   // A5Editarcomercio
   {
     'ph6je9j2': {
       'es': 'Se ha editado correctamente la inormación de @46Street',
-      'en': '',
+      'en': 'Correctly edited @46Street info',
     },
     'do3r0uuf': {
       'es':
           ' Automáticamente se le enviará una notificación al comercio, \ninformándole los cambios realizados. ',
-      'en': '',
+      'en':
+          'A notification will automatically be sent to the merchant,\ninforming you of the changes made.',
     },
     'ug52mkbu': {
       'es': 'GUARDAR',
-      'en': '',
+      'en': 'SAVE',
     },
   },
   // A6Comecrio
   {
     'j61fenaf': {
       'es': '4 usuarios alcanzaron el límite de cancelaciones!',
-      'en': '',
+      'en': '4 users reached the cancellation limit!',
     },
     '5o7vzgc4': {
       'es': 'Puedes ir al perfil para suspender a dichos usuarios.',
-      'en': '',
+      'en': 'You can go to the profile to suspend such users.',
     },
     'bebzq92h': {
       'es': 'CONTINUAR',
-      'en': '',
+      'en': 'CONTINUE',
     },
   },
   // filter
   {
     'fq6b649z': {
       'es': 'Mejor a peor',
-      'en': '',
+      'en': 'better to worse',
     },
     'ap6510n3': {
       'es': 'Mas recientes',
-      'en': '',
+      'en': 'Most recent',
     },
   },
   // A8comercio
   {
     'bkjjcoqy': {
       'es': 'Se ha editado información del comercio',
-      'en': '',
+      'en': 'Trade information has been edited',
     },
     'vak9sukr': {
       'es':
           'Automáticamente se le enviará una notificación al comercio, informándole los cambios realizados.',
-      'en': '',
+      'en':
+          'A notification will automatically be sent to the merchant, informing them of the changes made.',
     },
     'jpegg5iq': {
       'es': 'ACEPTAR',
-      'en': '',
+      'en': 'ACCEPT',
     },
   },
   // I55Genero
   {
     '3pf4orfl': {
       'es': 'Femenino',
-      'en': '',
+      'en': 'Female',
     },
     'kivib6uk': {
       'es': 'Masculino',
-      'en': '',
+      'en': 'Male',
     },
   },
   // I207porcentaje
   {
     'i8nn89wn': {
       'es': '10%',
-      'en': '',
+      'en': '10%',
     },
     'i4lfw7sy': {
       'es': '15%',
-      'en': '',
+      'en': '15%',
     },
     '9lk5xjl5': {
       'es': '25%',
-      'en': '',
+      'en': '25%',
     },
   },
   // I206representante
   {
     '12x8hfkh': {
       'es': 'Nombre del representante',
-      'en': 'Name',
+      'en': 'Name of the representative',
     },
     'ghqvofof': {
       'es': 'Porcentaje del representante',
-      'en': 'Name',
+      'en': 'Representative Percentage',
     },
   },
   // I207rol
   {
     '8twyovfb': {
       'es': 'Dueño',
-      'en': '',
+      'en': 'Owner',
     },
     'umypgk02': {
       'es': 'Director X',
-      'en': '',
+      'en': 'Director X',
     },
     'wvqle87r': {
       'es': 'Otro',
-      'en': '',
+      'en': 'Other',
+    },
+  },
+  // itemChat
+  {
+    'u5ofpspe': {
+      'es': 'Hello World',
+      'en': 'Hello World',
+    },
+    'rxttkskr': {
+      'es': 'Hello World',
+      'en': 'Hello World',
+    },
+    'edlbpi31': {
+      'es': 'Hello World',
+      'en': 'Hello World',
+    },
+    'oc1xb84a': {
+      'es': 'Hello World',
+      'en': 'Hello World',
     },
   },
   // Miscellaneous
   {
+    '3tlk1ehv': {
+      'es': '',
+      'en': '',
+    },
+    'vprnh636': {
+      'es': '',
+      'en': '',
+    },
+    '1r0f2ezo': {
+      'es': 'Lit solicita permiso para acceder a las notificaciones',
+      'en': '',
+    },
     '65uttrkp': {
       'es': '',
       'en': '',

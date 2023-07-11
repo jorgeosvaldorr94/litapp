@@ -17,7 +17,6 @@ class _I143ajustes3WidgetState extends State<I143ajustes3Widget> {
   late I143ajustes3Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -35,7 +34,6 @@ class _I143ajustes3WidgetState extends State<I143ajustes3Widget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -44,11 +42,12 @@ class _I143ajustes3WidgetState extends State<I143ajustes3Widget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -60,7 +59,7 @@ class _I143ajustes3WidgetState extends State<I143ajustes3Widget> {
                     width: 391.0,
                     height: 82.0,
                     decoration: BoxDecoration(
-                      color: Color(0xFFF74A41),
+                      color: Color(0xFFFF5A26),
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 4.0,
@@ -694,7 +693,7 @@ class _I143ajustes3WidgetState extends State<I143ajustes3Widget> {
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      '05hvzeme' /* Cambiar contraseña */,
+                                      '05hvzeme' /* Cambiar Contraseña */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium

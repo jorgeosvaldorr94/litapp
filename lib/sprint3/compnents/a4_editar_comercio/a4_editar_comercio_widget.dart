@@ -224,14 +224,6 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 setState(() => _model.dropDownValue1 = val),
                             width: 180.0,
                             height: 50.0,
-                            searchHintTextStyle: FlutterFlowTheme.of(context)
-                                .bodyLarge
-                                .override(
-                                  fontFamily: FlutterFlowTheme.of(context)
-                                      .bodyLargeFamily,
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                ),
                             textStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -241,9 +233,6 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 ),
                             hintText: FFLocalizations.of(context).getText(
                               'u1uiscud' /* Moda */,
-                            ),
-                            searchHintText: FFLocalizations.of(context).getText(
-                              'h5bmxm7y' /* Search for an item... */,
                             ),
                             fillColor: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
@@ -795,14 +784,6 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 setState(() => _model.dropDownValue2 = val),
                             width: 180.0,
                             height: 50.0,
-                            searchHintTextStyle: FlutterFlowTheme.of(context)
-                                .bodyLarge
-                                .override(
-                                  fontFamily: FlutterFlowTheme.of(context)
-                                      .bodyLargeFamily,
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                ),
                             textStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -812,9 +793,6 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                                 ),
                             hintText: FFLocalizations.of(context).getText(
                               'clkrr7p8' /* Platinum */,
-                            ),
-                            searchHintText: FFLocalizations.of(context).getText(
-                              'zxpsa8qh' /* Search for an item... */,
                             ),
                             fillColor: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
@@ -848,12 +826,13 @@ class _A4EditarComercioWidgetState extends State<A4EditarComercioWidget> {
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         iconPadding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFFF74A41),
+                        color: Color(0xFFF10909),
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
                             .override(
                               fontFamily: 'Brandon',
-                              color: FlutterFlowTheme.of(context).primaryText,
+                              color:
+                                  FlutterFlowTheme.of(context).primaryBtnText,
                               fontSize: 20.6,
                               useGoogleFonts: false,
                             ),

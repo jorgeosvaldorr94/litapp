@@ -19,7 +19,6 @@ class _I116ofertasrealizadasWidgetState
   late I116ofertasrealizadasModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -31,7 +30,6 @@ class _I116ofertasrealizadasWidgetState
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -40,18 +38,19 @@ class _I116ofertasrealizadasWidgetState
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Container(
-                    width: MediaQuery.of(context).size.width * 1.0,
+                    width: MediaQuery.sizeOf(context).width * 1.0,
                     height: 321.0,
                     decoration: BoxDecoration(
                       color: FlutterFlowTheme.of(context).secondaryBackground,
@@ -87,7 +86,7 @@ class _I116ofertasrealizadasWidgetState
                               ),
                               child: Icon(
                                 Icons.chevron_left,
-                                color: Color(0xFF949494),
+                                color: FlutterFlowTheme.of(context).tertiary,
                                 size: 24.0,
                               ),
                             ),
@@ -156,7 +155,7 @@ class _I116ofertasrealizadasWidgetState
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Container(
-                          width: MediaQuery.of(context).size.width * 1.0,
+                          width: MediaQuery.sizeOf(context).width * 1.0,
                           height: 44.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
@@ -285,7 +284,7 @@ class _I116ofertasrealizadasWidgetState
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Brandon',
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xCCFF5A26),
                                         fontWeight: FontWeight.w300,
                                         useGoogleFonts: false,
                                       ),
@@ -305,7 +304,7 @@ class _I116ofertasrealizadasWidgetState
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'Brandon',
-                                    color: Color(0xFFF74A41),
+                                    color: Color(0xCCFF5A26),
                                     fontWeight: FontWeight.w300,
                                     useGoogleFonts: false,
                                   ),

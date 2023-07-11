@@ -131,7 +131,7 @@ class LightModeTheme extends FlutterFlowTheme {
 
   late Color primary = const Color(0xFF4B39EF);
   late Color secondary = const Color(0xFF39D2C0);
-  late Color tertiary = const Color(0xFFEE8B60);
+  late Color tertiary = const Color(0xFFFF3234);
   late Color alternate = const Color(0xFFFF5963);
   late Color primaryText = const Color(0xFF101213);
   late Color secondaryText = const Color(0xFF57636C);
@@ -273,9 +273,12 @@ class ThemeTypography extends Typography {
         fontWeight: FontWeight.w500,
         fontSize: 11.0,
       );
-  String get bodyLargeFamily => '';
-  TextStyle get bodyLarge => GoogleFonts.getFont(
-        'Roboto',
+  String get bodyLargeFamily => 'Albra';
+  TextStyle get bodyLarge => TextStyle(
+        fontFamily: 'Albra',
+        color: theme.primaryText,
+        fontWeight: FontWeight.normal,
+        fontSize: 16.0,
       );
   String get bodyMediumFamily => 'Albra';
   TextStyle get bodyMedium => TextStyle(

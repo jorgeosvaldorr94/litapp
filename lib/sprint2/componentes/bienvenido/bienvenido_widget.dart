@@ -87,11 +87,20 @@ class _BienvenidoWidgetState extends State<BienvenidoWidget> {
                     ),
                   ],
                 ),
-                Image.asset(
-                  'assets/images/close-circle.png',
-                  width: 32.0,
-                  height: 32.0,
-                  fit: BoxFit.contain,
+                InkWell(
+                  splashColor: Colors.transparent,
+                  focusColor: Colors.transparent,
+                  hoverColor: Colors.transparent,
+                  highlightColor: Colors.transparent,
+                  onTap: () async {
+                    Navigator.pop(context);
+                  },
+                  child: Image.asset(
+                    'assets/images/close-circle.png',
+                    width: 32.0,
+                    height: 32.0,
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ],
             ),
@@ -101,7 +110,7 @@ class _BienvenidoWidgetState extends State<BienvenidoWidget> {
               width: 100.0,
               height: 2.0,
               decoration: BoxDecoration(
-                color: Color(0xFFF74A41),
+                color: Color(0xFFF10909),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(20.0),
                   bottomRight: Radius.circular(20.0),

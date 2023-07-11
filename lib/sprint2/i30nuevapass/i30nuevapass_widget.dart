@@ -18,7 +18,6 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
   late I30nuevapassModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -33,7 +32,6 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -42,11 +40,12 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -78,7 +77,7 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                           ),
                           child: Icon(
                             Icons.chevron_left,
-                            color: Color(0xFF949494),
+                            color: FlutterFlowTheme.of(context).tertiary,
                             size: 24.0,
                           ),
                         ),
@@ -106,7 +105,7 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(22.0, 31.0, 190.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(15.0, 15.0, 15.0, 0.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -128,7 +127,7 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(22.0, 30.0, 23.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(15.0, 10.0, 15.0, 0.0),
                     child: TextFormField(
                       controller: _model.textController1,
                       autofocus: true,
@@ -197,7 +196,7 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(22.0, 30.0, 23.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(15.0, 10.0, 15.0, 0.0),
                     child: TextFormField(
                       controller: _model.textController2,
                       autofocus: true,
@@ -276,50 +275,53 @@ class _I30nuevapassWidgetState extends State<I30nuevapassWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 27.0, 0.0, 0.0),
-                      child: Container(
-                        width: 391.0,
-                        height: 82.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
-                          borderRadius: BorderRadius.circular(0.0),
-                        ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              27.57, 0.0, 27.57, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  Align(
-                                    alignment: AlignmentDirectional(0.0, -0.1),
-                                    child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 3.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          '27o4fqsv' /* CONFIRMAR */,
-                                        ),
-                                        textAlign: TextAlign.center,
-                                        style: FlutterFlowTheme.of(context)
-                                            .headlineMedium
-                                            .override(
-                                              fontFamily: 'Brandon',
-                                              color: Colors.black,
-                                              fontSize: 16.0,
-                                              fontWeight: FontWeight.normal,
-                                              useGoogleFonts: false,
-                                            ),
+                      child: InkWell(
+                        splashColor: Colors.transparent,
+                        focusColor: Colors.transparent,
+                        hoverColor: Colors.transparent,
+                        highlightColor: Colors.transparent,
+                        onTap: () async {
+                          context.safePop();
+                        },
+                        child: Container(
+                          height: 87.0,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).tertiary,
+                            borderRadius: BorderRadius.circular(0.0),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                15.0, 0.0, 15.0, 0.0),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Align(
+                                  alignment: AlignmentDirectional(0.0, -0.1),
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0.0, 3.0, 0.0, 0.0),
+                                    child: Text(
+                                      FFLocalizations.of(context).getText(
+                                        '27o4fqsv' /* CONFIRMAR */,
                                       ),
+                                      textAlign: TextAlign.center,
+                                      style: FlutterFlowTheme.of(context)
+                                          .headlineMedium
+                                          .override(
+                                            fontFamily: 'Brandon',
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryBtnText,
+                                            fontSize: 16.0,
+                                            fontWeight: FontWeight.normal,
+                                            useGoogleFonts: false,
+                                          ),
                                     ),
                                   ),
-                                ],
-                              ),
-                            ],
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),

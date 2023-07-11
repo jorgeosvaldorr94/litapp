@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 class I142ajustes2Model extends FlutterFlowModel {
   ///  State fields for stateful widgets in this page.
 
+  final unfocusNode = FocusNode();
   // State field(s) for TextField widget.
   TextEditingController? textController1;
   String? Function(BuildContext, String?)? textController1Validator;
@@ -28,6 +29,7 @@ class I142ajustes2Model extends FlutterFlowModel {
   void initState(BuildContext context) {}
 
   void dispose() {
+    unfocusNode.dispose();
     textController1?.dispose();
     textController2?.dispose();
     textController3?.dispose();
@@ -35,6 +37,7 @@ class I142ajustes2Model extends FlutterFlowModel {
     textController5?.dispose();
   }
 
-  /// Additional helper methods are added here.
+  /// Action blocks are added here.
 
+  /// Additional helper methods are added here.
 }

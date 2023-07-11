@@ -1,6 +1,6 @@
+import '/comercio/mis_ofertas/i57calendario/i57calendario_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/influencers/registracion/i57calendario/i57calendario_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -20,7 +20,6 @@ class _Op3WidgetState extends State<Op3Widget> {
   late Op3Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -35,11 +34,12 @@ class _Op3WidgetState extends State<Op3Widget> {
         barrierColor: Color(0x00000000),
         enableDrag: false,
         context: context,
-        builder: (bottomSheetContext) {
+        builder: (context) {
           return GestureDetector(
-            onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+            onTap: () =>
+                FocusScope.of(context).requestFocus(_model.unfocusNode),
             child: Padding(
-              padding: MediaQuery.of(bottomSheetContext).viewInsets,
+              padding: MediaQuery.viewInsetsOf(context),
               child: I57calendarioWidget(),
             ),
           );
@@ -52,7 +52,6 @@ class _Op3WidgetState extends State<Op3Widget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -61,11 +60,12 @@ class _Op3WidgetState extends State<Op3Widget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               SingleChildScrollView(
@@ -98,7 +98,7 @@ class _Op3WidgetState extends State<Op3Widget> {
                             ),
                             child: Icon(
                               Icons.chevron_left,
-                              color: Color(0xFF949494),
+                              color: FlutterFlowTheme.of(context).tertiary,
                               size: 24.0,
                             ),
                           ),
@@ -293,7 +293,8 @@ class _Op3WidgetState extends State<Op3Widget> {
                                         .secondaryBackground,
                                     borderRadius: BorderRadius.circular(0.0),
                                     border: Border.all(
-                                      color: Color(0xFFEA1616),
+                                      color:
+                                          FlutterFlowTheme.of(context).tertiary,
                                     ),
                                   ),
                                 ),
@@ -405,7 +406,8 @@ class _Op3WidgetState extends State<Op3Widget> {
                                       width: 281.2,
                                       height: 70.0,
                                       decoration: BoxDecoration(
-                                        color: Color(0xFFF74A41),
+                                        color: FlutterFlowTheme.of(context)
+                                            .tertiary,
                                       ),
                                       child: Align(
                                         alignment:
@@ -666,7 +668,8 @@ class _Op3WidgetState extends State<Op3Widget> {
                                       width: 281.2,
                                       height: 70.0,
                                       decoration: BoxDecoration(
-                                        color: Color(0xFFF74A41),
+                                        color: FlutterFlowTheme.of(context)
+                                            .tertiary,
                                       ),
                                       child: Align(
                                         alignment:

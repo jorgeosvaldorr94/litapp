@@ -3,9 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
-import '../../influencers/ajustes/i186_atencionalcliente/i186_atencionalcliente_widget.dart';
 import '../flutter_flow_theme.dart';
-import '../../backend/backend.dart';
+import '/backend/backend.dart';
 
 import '../../auth/base_auth_user_provider.dart';
 
@@ -21,6 +20,11 @@ export 'serialization_util.dart';
 const kTransitionInfoKey = '__transition_info__';
 
 class AppStateNotifier extends ChangeNotifier {
+  AppStateNotifier._();
+
+  static AppStateNotifier? _instance;
+  static AppStateNotifier get instance => _instance ??= AppStateNotifier._();
+
   BaseAuthUser? initialUser;
   BaseAuthUser? user;
   bool showSplashImage = true;
@@ -48,10 +52,13 @@ class AppStateNotifier extends ChangeNotifier {
   void updateNotifyOnAuthChange(bool notify) => notifyOnAuthChange = notify;
 
   void update(BaseAuthUser newUser) {
+    final shouldUpdate =
+        user?.uid == null || newUser.uid == null || user?.uid != newUser.uid;
     initialUser ??= newUser;
     user = newUser;
     // Refresh the app on auth change unless explicitly marked otherwise.
-    if (notifyOnAuthChange) {
+    // No need to update unless the user has changed.
+    if (notifyOnAuthChange && shouldUpdate) {
       notifyListeners();
     }
     // Once again mark the notifier as needing to update on auth change
@@ -69,21 +76,20 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, _) => appStateNotifier.loggedIn
-          ? I190splashWidget()
-          : I50SelectordeperfilWidget(),
+      errorBuilder: (context, state) =>
+          appStateNotifier.loggedIn ? TransicionWidget() : InicioAPKWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) => appStateNotifier.loggedIn
-              ? I190splashWidget()
-              : I50SelectordeperfilWidget(),
+              ? TransicionWidget()
+              : InicioAPKWidget(),
         ),
         FFRoute(
-          name: 'I50Selectordeperfil',
-          path: '/i50Selectordeperfil',
-          builder: (context, params) => I50SelectordeperfilWidget(),
+          name: 'I50InicioPerfil',
+          path: '/i50InicioPerfil',
+          builder: (context, params) => I50InicioPerfilWidget(),
         ),
         FFRoute(
           name: 'I00INICIO',
@@ -91,9 +97,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I00inicioWidget(),
         ),
         FFRoute(
-          name: 'I07Influencers',
-          path: '/i07Influencers',
-          builder: (context, params) => I07InfluencersWidget(
+          name: 'I07InicioSecionComun',
+          path: '/i07InicioSecionComun',
+          builder: (context, params) => I07InicioSecionComunWidget(
             tipo: params.getParam('tipo', ParamType.String),
           ),
         ),
@@ -113,11 +119,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I12NuevaContrasenaWidget(),
         ),
         FFRoute(
-          name: 'I01Registracionpaso1',
-          path: '/i01Registracionpaso1',
-          builder: (context, params) => I01Registracionpaso1Widget(
-            isInfluencer: params.getParam('isInfluencer', ParamType.bool),
-          ),
+          name: 'I01RegistrarPaso1',
+          path: '/i01RegistrarPaso1',
+          builder: (context, params) => I01RegistrarPaso1Widget(),
         ),
         FFRoute(
           name: 'I01RegistracionError',
@@ -125,14 +129,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I01RegistracionErrorWidget(),
         ),
         FFRoute(
-          name: 'I56datospersonales',
-          path: '/i56datospersonales',
-          builder: (context, params) => I56datospersonalesWidget(),
+          name: 'I56RegistrarPaso2',
+          path: '/i56RegistrarPaso2',
+          builder: (context, params) => I56RegistrarPaso2Widget(),
         ),
         FFRoute(
-          name: 'I04linkaredes',
-          path: '/i04linkaredes',
-          builder: (context, params) => I04linkaredesWidget(),
+          name: 'I04RegistrarPaso3',
+          path: '/i04RegistrarPaso3',
+          builder: (context, params) => I04RegistrarPaso3Widget(),
         ),
         FFRoute(
           name: 'I0X1HOMEInfluencersinofertas',
@@ -196,26 +200,24 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I192sinnotificacionesWidget(),
         ),
         FFRoute(
-          name: 'I33ajustesdeperfil',
-          path: '/i33ajustesdeperfil',
-          builder: (context, params) => I33ajustesdeperfilWidget(),
+          name: 'I33PerfilComun',
+          path: '/i33PerfilComun',
+          builder: (context, params) => I33PerfilComunWidget(),
         ),
         FFRoute(
-          name: 'I37ajustesdeperfil',
-          path: '/i37ajustesdeperfil',
-          builder: (context, params) => I37ajustesdeperfilWidget(users:'9wgNJApjwmZRdlCF7S9YWrFLYyg2'
-           // users: params.getParam('users', ParamType.String),
-          ),
+          name: 'I37ajustesdeperfilNOesElqVA',
+          path: '/i37ajustesdeperfilNOesElqVA',
+          builder: (context, params) => I37ajustesdeperfilNOesElqVAWidget(),
         ),
         FFRoute(
-          name: 'I34Ajustescuenta',
-          path: '/i34Ajustescuenta',
-          builder: (context, params) => I34AjustescuentaWidget(),
+          name: 'I34EditarPerfilInfluencer',
+          path: '/i34EditarPerfilInfluencer',
+          builder: (context, params) => I34EditarPerfilInfluencerWidget(),
         ),
         FFRoute(
-          name: 'I1861Atencionalcliente',
-          path: '/i1861Atencionalcliente',
-          builder: (context, params) => I1861AtencionalclienteWidget(),
+          name: 'IAtencionalcliente',
+          path: '/iAtencionalcliente',
+          builder: (context, params) => IAtencionalclienteWidget(),
         ),
         FFRoute(
           name: 'I38Metododepago',
@@ -233,19 +235,19 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I50selectorWidget(),
         ),
         FFRoute(
-          name: 'I7',
-          path: '/i7',
-          builder: (context, params) => I7Widget(),
+          name: 'I7Presentacion',
+          path: '/i7Presentacion',
+          builder: (context, params) => I7PresentacionWidget(),
         ),
         FFRoute(
-          name: 'I0Inicirsesion',
-          path: '/i0Inicirsesion',
-          builder: (context, params) => I0InicirsesionWidget(),
+          name: 'I0Seleccion',
+          path: '/i0Seleccion',
+          builder: (context, params) => I0SeleccionWidget(),
         ),
         FFRoute(
-          name: 'I10RegistroComercio',
-          path: '/i10RegistroComercio',
-          builder: (context, params) => I10RegistroComercioWidget(),
+          name: 'I10RegistrarComercio1',
+          path: '/i10RegistrarComercio1',
+          builder: (context, params) => I10RegistrarComercio1Widget(),
         ),
         FFRoute(
           name: 'I11Comercios',
@@ -258,14 +260,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ErrorregistroWidget(),
         ),
         FFRoute(
-          name: 'I12Registrarcomercio2',
-          path: '/i12Registrarcomercio2',
-          builder: (context, params) => I12Registrarcomercio2Widget(),
+          name: 'I12RegistrarComercio2',
+          path: '/i12RegistrarComercio2',
+          builder: (context, params) => I12RegistrarComercio2Widget(),
         ),
         FFRoute(
-          name: 'I16redes',
-          path: '/i16redes',
-          builder: (context, params) => I16redesWidget(),
+          name: 'I16RegistrarComercio3',
+          path: '/i16RegistrarComercio3',
+          builder: (context, params) => I16RegistrarComercio3Widget(),
         ),
         FFRoute(
           name: 'op1',
@@ -277,12 +279,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'I18Membresias',
           path: '/i18Membresias',
-          builder: (context, params) => I18MembresiasWidget(
-            titulo: params.getParam('titulo', ParamType.String),
-            monto: params.getParam('monto', ParamType.String),
-            subtitulo: params.getParam('subtitulo', ParamType.String),
-            descripcion: params.getParam('descripcion', ParamType.String),
-          ),
+          builder: (context, params) => I18MembresiasWidget(),
         ),
         FFRoute(
           name: 'I156Bienvenido',
@@ -315,9 +312,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I155iniciarsesionWidget(),
         ),
         FFRoute(
-          name: 'I191Bienvenido',
-          path: '/i191Bienvenido',
-          builder: (context, params) => I191BienvenidoWidget(),
+          name: 'I191ComercioBienvenido',
+          path: '/i191ComercioBienvenido',
+          builder: (context, params) => I191ComercioBienvenidoWidget(),
         ),
         FFRoute(
           name: 'op5',
@@ -340,9 +337,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I187bienvenidoWidget(),
         ),
         FFRoute(
-          name: 'I107crearnuevaoferta',
-          path: '/i107crearnuevaoferta',
-          builder: (context, params) => I107crearnuevaofertaWidget(
+          name: 'I107Crearnuevaoferta2',
+          path: '/i107Crearnuevaoferta2',
+          builder: (context, params) => I107Crearnuevaoferta2Widget(
             fecha: params.getParam('fecha', ParamType.DateTime),
             descripcion: params.getParam('descripcion', ParamType.String),
             ubicacion: params.getParam('ubicacion', ParamType.FFPlace),
@@ -376,9 +373,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I166Widget(),
         ),
         FFRoute(
-          name: 'I197',
-          path: '/i197',
-          builder: (context, params) => I197Widget(),
+          name: 'I197MegaInfluencer',
+          path: '/i197MegaInfluencer',
+          builder: (context, params) => I197MegaInfluencerWidget(),
         ),
         FFRoute(
           name: 'I112inicio',
@@ -436,9 +433,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => I136AccionesWidget(),
         ),
         FFRoute(
-          name: 'I40notificacionescomercio',
-          path: '/i40notificacionescomercio',
-          builder: (context, params) => I40notificacionescomercioWidget(),
+          name: 'I40notificacionesComercio',
+          path: '/i40notificacionesComercio',
+          builder: (context, params) => I40notificacionesComercioWidget(),
         ),
         FFRoute(
           name: 'I203sinnotificaciones',
@@ -519,9 +516,91 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'roles',
           path: '/roles',
           builder: (context, params) => RolesWidget(),
+        ),
+        FFRoute(
+          name: 'listTest',
+          path: '/listTest',
+          builder: (context, params) => ListTestWidget(),
+        ),
+        FFRoute(
+          name: 'I07ComercioInicioSecion',
+          path: '/i07ComercioInicioSecion',
+          builder: (context, params) => I07ComercioInicioSecionWidget(),
+        ),
+        FFRoute(
+          name: 'I20MisOfertas',
+          path: '/i20MisOfertas',
+          builder: (context, params) => I20MisOfertasWidget(),
+        ),
+        FFRoute(
+          name: 'I33PerfilComercioYaNo',
+          path: '/i33PerfilComercioYaNo',
+          builder: (context, params) => I33PerfilComercioYaNoWidget(),
+        ),
+        FFRoute(
+          name: 'I34EditPerfilComercio',
+          path: '/i34EditPerfilComercio',
+          builder: (context, params) => I34EditPerfilComercioWidget(),
+        ),
+        FFRoute(
+          name: 'I20EstaNo',
+          path: '/i20EstaNo',
+          builder: (context, params) => I20EstaNoWidget(),
+        ),
+        FFRoute(
+          name: 'I18MembresiasDetalles',
+          path: '/i18MembresiasDetalles',
+          asyncParams: {
+            'membresia': getDoc(['Membresia'], MembresiaRecord.fromSnapshot),
+          },
+          builder: (context, params) => I18MembresiasDetallesWidget(
+            membresia: params.getParam('membresia', ParamType.Document),
+          ),
+        ),
+        FFRoute(
+          name: 'CrearNuevaOferta1',
+          path: '/crearNuevaOferta1',
+          builder: (context, params) => CrearNuevaOferta1Widget(),
+        ),
+        FFRoute(
+          name: 'InicioAPK',
+          path: '/inicioAPK',
+          builder: (context, params) => InicioAPKWidget(),
+        ),
+        FFRoute(
+          name: 'Transicion',
+          path: '/transicion',
+          builder: (context, params) => TransicionWidget(),
+        ),
+        FFRoute(
+          name: 'RecoverPassword',
+          path: '/recoverPassword',
+          builder: (context, params) => RecoverPasswordWidget(),
+        ),
+        FFRoute(
+          name: 'EditarOferta',
+          path: '/editarOferta',
+          asyncParams: {
+            'oferta': getDoc(['offers'], OffersRecord.fromSnapshot),
+          },
+          builder: (context, params) => EditarOfertaWidget(
+            oferta: params.getParam('oferta', ParamType.Document),
+          ),
+        ),
+        FFRoute(
+          name: 'DetalleMiSolicitud',
+          path: '/detalleMiSolicitud',
+          builder: (context, params) => DetalleMiSolicitudWidget(
+            offer: params.getParam(
+                'offer', ParamType.DocumentReference, false, ['offers']),
+          ),
+        ),
+        FFRoute(
+          name: 'IAtencionalclienteCopy',
+          path: '/iAtencionalclienteCopy',
+          builder: (context, params) => IAtencionalclienteCopyWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
-      urlPathStrategy: UrlPathStrategy.path,
     );
 
 extension NavParamExtensions on Map<String, String?> {
@@ -536,8 +615,8 @@ extension NavigationExtensions on BuildContext {
   void goNamedAuth(
     String name,
     bool mounted, {
-    Map<String, String> params = const <String, String>{},
-    Map<String, String> queryParams = const <String, String>{},
+    Map<String, String> pathParameters = const <String, String>{},
+    Map<String, String> queryParameters = const <String, String>{},
     Object? extra,
     bool ignoreRedirect = false,
   }) =>
@@ -545,16 +624,16 @@ extension NavigationExtensions on BuildContext {
           ? null
           : goNamed(
               name,
-              params: params,
-              queryParams: queryParams,
+              pathParameters: pathParameters,
+              queryParameters: queryParameters,
               extra: extra,
             );
 
   void pushNamedAuth(
     String name,
     bool mounted, {
-    Map<String, String> params = const <String, String>{},
-    Map<String, String> queryParams = const <String, String>{},
+    Map<String, String> pathParameters = const <String, String>{},
+    Map<String, String> queryParameters = const <String, String>{},
     Object? extra,
     bool ignoreRedirect = false,
   }) =>
@@ -562,25 +641,24 @@ extension NavigationExtensions on BuildContext {
           ? null
           : pushNamed(
               name,
-              params: params,
-              queryParams: queryParams,
+              pathParameters: pathParameters,
+              queryParameters: queryParameters,
               extra: extra,
             );
 
   void safePop() {
     // If there is only one route on the stack, navigate to the initial
     // page instead of popping.
-    if (GoRouter.of(this).routerDelegate.matches.length <= 1) {
-      go('/');
-    } else {
+    if (canPop()) {
       pop();
+    } else {
+      go('/');
     }
   }
 }
 
 extension GoRouterExtensions on GoRouter {
-  AppStateNotifier get appState =>
-      (routerDelegate.refreshListenable as AppStateNotifier);
+  AppStateNotifier get appState => AppStateNotifier.instance;
   void prepareAuthEvent([bool ignoreRedirect = false]) =>
       appState.hasRedirect() && !ignoreRedirect
           ? null
@@ -589,16 +667,15 @@ extension GoRouterExtensions on GoRouter {
       !ignoreRedirect && appState.hasRedirect();
   void clearRedirectLocation() => appState.clearRedirectLocation();
   void setRedirectLocationIfUnset(String location) =>
-      (routerDelegate.refreshListenable as AppStateNotifier)
-          .updateNotifyOnAuthChange(false);
+      appState.updateNotifyOnAuthChange(false);
 }
 
 extension _GoRouterStateExtensions on GoRouterState {
   Map<String, dynamic> get extraMap =>
       extra != null ? extra as Map<String, dynamic> : {};
   Map<String, dynamic> get allParams => <String, dynamic>{}
-    ..addAll(params)
-    ..addAll(queryParams)
+    ..addAll(pathParameters)
+    ..addAll(queryParameters)
     ..addAll(extraMap);
   TransitionInfo get transitionInfo => extraMap.containsKey(kTransitionInfoKey)
       ? extraMap[kTransitionInfoKey] as TransitionInfo
@@ -654,7 +731,8 @@ class FFParameters {
       return param;
     }
     // Return serialized value.
-    return deserializeParam<T>(param, type, isList, collectionNamePath);
+    return deserializeParam<T>(param, type, isList,
+        collectionNamePath: collectionNamePath);
   }
 }
 
@@ -678,7 +756,7 @@ class FFRoute {
   GoRoute toRoute(AppStateNotifier appStateNotifier) => GoRoute(
         name: name,
         path: path,
-        redirect: (state) {
+        redirect: (context, state) {
           if (appStateNotifier.shouldRedirect) {
             final redirectLocation = appStateNotifier.getRedirectLocation();
             appStateNotifier.clearRedirectLocation();
@@ -687,7 +765,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.location);
-            return '/i50Selectordeperfil';
+            return '/inicioAPK';
           }
           return null;
         },
@@ -703,7 +781,7 @@ class FFRoute {
               ? Container(
                   color: Colors.transparent,
                   child: Image.asset(
-                    'assets/images/188.png',
+                    'assets/images/Lit.png',
                     fit: BoxFit.cover,
                   ),
                 )

@@ -166,7 +166,7 @@ liminar la of... */
                                   'eicg4ckp' /* 2 */,
                                 ),
                                 style: TextStyle(
-                                  color: Color(0xFFF74A41),
+                                  color: Color(0xFFFF5A26),
                                 ),
                               ),
                               TextSpan(
@@ -203,7 +203,7 @@ liminar la of... */
                     width: 122.0,
                     height: 38.0,
                     decoration: BoxDecoration(
-                      color: Color(0xFFF74A41),
+                      color: Color(0xFFFF5A26),
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 4.0,

@@ -3,11 +3,11 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:firebase_core/firebase_core.dart';
- 
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
-import 'package:flutter_web_plugins/url_strategy.dart';
+
 import 'backend/firebase/firebase_config.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
@@ -19,6 +19,7 @@ import 'backend/stripe/payment_manager.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  usePathUrlStrategy();
   await initFirebase();
 
   await FlutterFlowTheme.initialize();
@@ -26,8 +27,7 @@ void main() async {
 
   final appState = FFAppState(); // Initialize FFAppState
   await appState.initializePersistedState();
-  usePathUrlStrategy();
-  //setPathUrlStrategy();
+
   await initializeStripe();
 
   runApp(ChangeNotifierProvider(
@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _appStateNotifier = AppStateNotifier();
+    _appStateNotifier = AppStateNotifier.instance;
     _router = createRouter(_appStateNotifier);
     userStream = litAppFirebaseUserStream()
       ..listen((user) => _appStateNotifier.update(user));
@@ -89,7 +89,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    var routeInformationProvider;
     return MaterialApp.router(
       title: 'LitApp',
       localizationsDelegates: [
@@ -106,9 +105,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(brightness: Brightness.light),
       darkTheme: ThemeData(brightness: Brightness.dark),
       themeMode: _themeMode,
-      routeInformationParser: _router.routeInformationParser,
-      routerDelegate: _router.routerDelegate,
-       
+      routerConfig: _router,
     );
   }
 }

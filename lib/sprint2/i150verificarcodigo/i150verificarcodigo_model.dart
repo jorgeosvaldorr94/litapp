@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 class I150verificarcodigoModel extends FlutterFlowModel {
   ///  State fields for stateful widgets in this page.
 
+  final unfocusNode = FocusNode();
   // State field(s) for PinCode widget.
   TextEditingController? pinCodeController;
   String? Function(BuildContext, String?)? pinCodeControllerValidator;
@@ -20,9 +21,11 @@ class I150verificarcodigoModel extends FlutterFlowModel {
   }
 
   void dispose() {
+    unfocusNode.dispose();
     pinCodeController?.dispose();
   }
 
-  /// Additional helper methods are added here.
+  /// Action blocks are added here.
 
+  /// Additional helper methods are added here.
 }

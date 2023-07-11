@@ -98,8 +98,9 @@ class _FilterWidgetState extends State<FilterWidget> {
                           onChanged: (newValue) async {
                             setState(() => _model.checkboxValue1 = newValue!);
                           },
-                          activeColor: FlutterFlowTheme.of(context).tertiary,
-                          checkColor: FlutterFlowTheme.of(context).primaryText,
+                          activeColor: Color(0xFFF10909),
+                          checkColor:
+                              FlutterFlowTheme.of(context).primaryBtnText,
                         ),
                       ),
                     ],

@@ -17,7 +17,6 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
   late A2InicioModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -32,7 +31,6 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -41,11 +39,12 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Visibility(
             visible: responsiveVisibility(
               context: context,
@@ -55,6 +54,48 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
             ),
             child: Stack(
               children: [
+                Column(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Container(
+                      width: 100.0,
+                      height: 104.0,
+                      decoration: BoxDecoration(
+                        color: Color(0xFFFF5A26),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 12.0, 0.0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                'n4mvnrax' /* INICIAR SESIÓN */,
+                              ),
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyMedium
+                                  .override(
+                                    fontFamily: 'Brandon',
+                                    fontSize: 20.0,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ),
+                          Image.asset(
+                            'assets/images/Arrow_right.png',
+                            width: 35.0,
+                            height: 19.0,
+                            fit: BoxFit.cover,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
                 Column(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -264,48 +305,6 @@ class _A2InicioWidgetState extends State<A2InicioWidget> {
                           ),
                         ),
                       ],
-                    ),
-                  ],
-                ),
-                Column(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Container(
-                      width: 100.0,
-                      height: 104.0,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFF74A41),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 12.0, 0.0),
-                            child: Text(
-                              FFLocalizations.of(context).getText(
-                                'n4mvnrax' /* INICIAR SESIÓN */,
-                              ),
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    fontFamily: 'Brandon',
-                                    fontSize: 20.0,
-                                    useGoogleFonts: false,
-                                  ),
-                            ),
-                          ),
-                          Image.asset(
-                            'assets/images/Arrow_right.png',
-                            width: 35.0,
-                            height: 19.0,
-                            fit: BoxFit.cover,
-                          ),
-                        ],
-                      ),
                     ),
                   ],
                 ),

@@ -81,7 +81,7 @@ class _I181califarinfluencerWidgetState
                   children: [
                     Text(
                       FFLocalizations.of(context).getText(
-                        'vbvg8e92' /* Calificá al influencer */,
+                        'vbvg8e92' /* Califica al influencer */,
                       ),
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -176,7 +176,7 @@ class _I181califarinfluencerWidgetState
                     padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     iconPadding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: Color(0xFFF74A41),
+                    color: Color(0xFFFF5A26),
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                           fontFamily: 'Brandon',
                           color: Colors.black,

@@ -1,8 +1,8 @@
+import '/comercio/mis_ofertas/i57calendario/i57calendario_widget.dart';
 import '/flutter_flow/flutter_flow_drop_down.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/form_field_controller.dart';
-import '/influencers/registracion/i57calendario/i57calendario_widget.dart';
 import '/sprint2/componentes/pago/pago_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -22,7 +22,6 @@ class _I168WidgetState extends State<I168Widget> {
   late I168Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -37,11 +36,12 @@ class _I168WidgetState extends State<I168Widget> {
         barrierColor: Color(0x00000000),
         enableDrag: false,
         context: context,
-        builder: (bottomSheetContext) {
+        builder: (context) {
           return GestureDetector(
-            onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+            onTap: () =>
+                FocusScope.of(context).requestFocus(_model.unfocusNode),
             child: Padding(
-              padding: MediaQuery.of(bottomSheetContext).viewInsets,
+              padding: MediaQuery.viewInsetsOf(context),
               child: I57calendarioWidget(),
             ),
           );
@@ -54,7 +54,6 @@ class _I168WidgetState extends State<I168Widget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -63,11 +62,12 @@ class _I168WidgetState extends State<I168Widget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               SingleChildScrollView(
@@ -100,7 +100,7 @@ class _I168WidgetState extends State<I168Widget> {
                             ),
                             child: Icon(
                               Icons.chevron_left,
-                              color: Color(0xFF949494),
+                              color: FlutterFlowTheme.of(context).tertiary,
                               size: 24.0,
                             ),
                           ),
@@ -315,14 +315,14 @@ class _I168WidgetState extends State<I168Widget> {
                                         backgroundColor: Colors.transparent,
                                         enableDrag: false,
                                         context: context,
-                                        builder: (bottomSheetContext) {
+                                        builder: (context) {
                                           return GestureDetector(
                                             onTap: () => FocusScope.of(context)
-                                                .requestFocus(_unfocusNode),
+                                                .requestFocus(
+                                                    _model.unfocusNode),
                                             child: Padding(
-                                              padding: MediaQuery.of(
-                                                      bottomSheetContext)
-                                                  .viewInsets,
+                                              padding: MediaQuery.viewInsetsOf(
+                                                  context),
                                               child: PagoWidget(),
                                             ),
                                           );
@@ -331,23 +331,12 @@ class _I168WidgetState extends State<I168Widget> {
                                     },
                                     width: 88.0,
                                     height: 32.0,
-                                    searchHintTextStyle:
-                                        FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .override(
-                                              fontFamily: 'Albra',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryText,
-                                              useGoogleFonts: false,
-                                            ),
                                     textStyle:
                                         FlutterFlowTheme.of(context).bodyMedium,
                                     hintText:
                                         FFLocalizations.of(context).getText(
                                       'mxrszkrw' /* Pago */,
                                     ),
-                                    searchHintText: '',
                                     fillColor: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
                                     elevation: 2.0,
@@ -416,7 +405,7 @@ class _I168WidgetState extends State<I168Widget> {
                           Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Container(
-                              width: MediaQuery.of(context).size.width * 0.88,
+                              width: MediaQuery.sizeOf(context).width * 0.88,
                               height: 2.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context).primaryText,
@@ -475,7 +464,7 @@ class _I168WidgetState extends State<I168Widget> {
                           Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Container(
-                              width: MediaQuery.of(context).size.width * 0.88,
+                              width: MediaQuery.sizeOf(context).width * 0.88,
                               height: 2.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context).primaryText,
@@ -502,7 +491,7 @@ class _I168WidgetState extends State<I168Widget> {
                         width: 391.0,
                         height: 82.0,
                         decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
+                          color: Color(0xFFF10909),
                           borderRadius: BorderRadius.circular(0.0),
                         ),
                         child: Padding(
@@ -531,7 +520,9 @@ class _I168WidgetState extends State<I168Widget> {
                                             .headlineMedium
                                             .override(
                                               fontFamily: 'Brandon',
-                                              color: Colors.black,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
                                               fontSize: 16.0,
                                               fontWeight: FontWeight.normal,
                                               useGoogleFonts: false,

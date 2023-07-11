@@ -17,7 +17,6 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
   late I50selectorModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -29,7 +28,6 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -38,11 +36,12 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFFF74A41),
+        backgroundColor: Color(0xFFFF5A26),
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Align(
@@ -55,104 +54,66 @@ class _I50selectorWidgetState extends State<I50selectorWidget> {
                       Align(
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Container(
-                          width: 390.0,
-                          height: 449.8,
+                          height: MediaQuery.sizeOf(context).height * 0.5,
                           decoration: BoxDecoration(
-                            color: Color(0xFFF74A41),
+                            color: FlutterFlowTheme.of(context).tertiary,
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    154.0, 80.0, 153.0, 0.0),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  children: [
-                                    Container(
-                                      width: 83.0,
-                                      height: 83.0,
-                                      decoration: BoxDecoration(
-                                        color: FlutterFlowTheme.of(context)
-                                            .secondaryBackground,
-                                        borderRadius:
-                                            BorderRadius.circular(50.0),
-                                      ),
-                                      child: Align(
-                                        alignment:
-                                            AlignmentDirectional(0.0, 0.0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'p0bbct9i' /* LOGO */,
-                                          ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyMedium,
+                              Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    FFLocalizations.of(context).getText(
+                                      'duv4r07f' /* INFLUENCER */,
+                                    ),
+                                    textAlign: TextAlign.center,
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyMedium
+                                        .override(
+                                          fontFamily: 'Brandon',
+                                          color: FlutterFlowTheme.of(context)
+                                              .primaryBackground,
+                                          fontSize: 22.0,
+                                          fontWeight: FontWeight.w500,
+                                          useGoogleFonts: false,
                                         ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    120.0, 62.0, 120.0, 0.0),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      FFLocalizations.of(context).getText(
-                                        'duv4r07f' /* INFLUENCER */,
-                                      ),
-                                      textAlign: TextAlign.center,
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .override(
-                                            fontFamily: 'Brandon',
-                                            fontSize: 24.0,
-                                            fontWeight: FontWeight.w500,
-                                            useGoogleFonts: false,
-                                          ),
-                                    ),
-                                  ],
-                                ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                        width: 390.0,
-                        height: 512.0,
+                        height: MediaQuery.sizeOf(context).height * 0.5,
                         decoration: BoxDecoration(
                           color:
                               FlutterFlowTheme.of(context).secondaryBackground,
                         ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              129.0, 192.0, 130.0, 192.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Text(
-                                FFLocalizations.of(context).getText(
-                                  'x0nf9gfg' /* COMERCIO */,
-                                ),
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyMedium
-                                    .override(
-                                      fontFamily: 'Albra',
-                                      fontSize: 24.0,
-                                      fontWeight: FontWeight.w500,
-                                      useGoogleFonts: false,
-                                    ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Text(
+                              FFLocalizations.of(context).getText(
+                                'x0nf9gfg' /* COMERCIO */,
                               ),
-                            ],
-                          ),
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyMedium
+                                  .override(
+                                    fontFamily: 'Albra',
+                                    fontSize: 22.0,
+                                    fontWeight: FontWeight.w500,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ],
                         ),
                       ),
                     ],

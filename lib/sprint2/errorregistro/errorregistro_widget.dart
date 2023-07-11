@@ -19,7 +19,6 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
   late ErrorregistroModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -36,7 +35,6 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -45,11 +43,12 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -67,7 +66,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                           width: 26.0,
                           height: 26.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFF74A41),
+                            color: Color(0xFFF10909),
                             boxShadow: [
                               BoxShadow(
                                 blurRadius: 4.0,
@@ -89,6 +88,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'Brandon',
+                                    color: Colors.white,
                                     useGoogleFonts: false,
                                   ),
                             ),
@@ -101,7 +101,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                             width: 68.0,
                             height: 1.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFF74A41),
+                              color: Color(0xFFFF5A26),
                             ),
                           ),
                         ),
@@ -143,7 +143,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                             width: 68.0,
                             height: 1.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFF74A41),
+                              color: Color(0xFFFF5A26),
                             ),
                           ),
                         ),
@@ -205,7 +205,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                           ),
                           child: Icon(
                             Icons.chevron_left,
-                            color: Color(0xFF949494),
+                            color: FlutterFlowTheme.of(context).tertiary,
                             size: 24.0,
                           ),
                         ),
@@ -267,13 +267,13 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
                                   fontFamily: 'Brandon',
-                                  color: Color(0xFFF74A41),
+                                  color: Color(0xFFF10909),
                                   fontSize: 18.0,
                                   useGoogleFonts: false,
                                 ),
                         enabledBorder: UnderlineInputBorder(
                           borderSide: BorderSide(
-                            color: Color(0xFFF74A41),
+                            color: Color(0xFFF10909),
                             width: 1.0,
                           ),
                           borderRadius: const BorderRadius.only(
@@ -330,7 +330,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                       obscureText: false,
                       decoration: InputDecoration(
                         hintText: FFLocalizations.of(context).getText(
-                          'q8sfgrdq' /* Confirmar E-mail */,
+                          'q8sfgrdq' /* Confirmar Email */,
                         ),
                         hintStyle:
                             FlutterFlowTheme.of(context).bodySmall.override(
@@ -565,7 +565,7 @@ class _ErrorregistroWidgetState extends State<ErrorregistroWidget> {
                                   },
                                   activeColor: FlutterFlowTheme.of(context)
                                       .primaryBtnText,
-                                  checkColor: Color(0xFFF74A41),
+                                  checkColor: Color(0xFFFF5A26),
                                 ),
                               ),
                             ),

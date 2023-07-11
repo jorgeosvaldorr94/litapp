@@ -142,9 +142,8 @@ class _PagoWidgetState extends State<PagoWidget> {
                                     setState(() =>
                                         _model.checkboxValue1 = newValue!);
                                   },
-                                  activeColor: Color(0xFFF74A41),
-                                  checkColor:
-                                      FlutterFlowTheme.of(context).primaryText,
+                                  activeColor: Color(0xFFF10909),
+                                  checkColor: Colors.white,
                                 ),
                               ),
                             ),
@@ -223,7 +222,7 @@ class _PagoWidgetState extends State<PagoWidget> {
                                     setState(() =>
                                         _model.checkboxValue2 = newValue!);
                                   },
-                                  activeColor: Color(0xFFF74A41),
+                                  activeColor: Color(0xCCFF5A26),
                                   checkColor:
                                       FlutterFlowTheme.of(context).primaryText,
                                 ),
@@ -304,7 +303,7 @@ class _PagoWidgetState extends State<PagoWidget> {
                                     setState(() =>
                                         _model.checkboxValue3 = newValue!);
                                   },
-                                  activeColor: Color(0xFFF74A41),
+                                  activeColor: Color(0xCCFF5A26),
                                   checkColor:
                                       FlutterFlowTheme.of(context).primaryText,
                                 ),

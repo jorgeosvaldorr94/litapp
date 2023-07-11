@@ -19,7 +19,6 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
   late I11ComerciosModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -36,7 +35,6 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -45,11 +43,12 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -67,7 +66,7 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                           width: 26.0,
                           height: 26.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFF74A41),
+                            color: Color(0xFFF10909),
                             boxShadow: [
                               BoxShadow(
                                 blurRadius: 4.0,
@@ -89,6 +88,8 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'Brandon',
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryBtnText,
                                     useGoogleFonts: false,
                                   ),
                             ),
@@ -101,7 +102,7 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                             width: 68.0,
                             height: 1.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFF74A41),
+                              color: Color(0xFFFF5A26),
                             ),
                           ),
                         ),
@@ -143,7 +144,7 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                             width: 68.0,
                             height: 1.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFF74A41),
+                              color: Color(0xFFFF5A26),
                             ),
                           ),
                         ),
@@ -205,7 +206,7 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                           ),
                           child: Icon(
                             Icons.chevron_left,
-                            color: Color(0xFF949494),
+                            color: FlutterFlowTheme.of(context).tertiary,
                             size: 24.0,
                           ),
                         ),
@@ -560,7 +561,7 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                                   },
                                   activeColor: FlutterFlowTheme.of(context)
                                       .primaryBtnText,
-                                  checkColor: Color(0xFFF74A41),
+                                  checkColor: Color(0xFFF10909),
                                 ),
                               ),
                             ),
@@ -689,7 +690,7 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                         width: 391.0,
                         height: 82.0,
                         decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
+                          color: Color(0xFFF10909),
                           borderRadius: BorderRadius.circular(0.0),
                         ),
                         child: Padding(
@@ -718,7 +719,9 @@ class _I11ComerciosWidgetState extends State<I11ComerciosWidget> {
                                             .headlineMedium
                                             .override(
                                               fontFamily: 'Brandon',
-                                              color: Colors.black,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBtnText,
                                               fontSize: 16.0,
                                               fontWeight: FontWeight.normal,
                                               useGoogleFonts: false,

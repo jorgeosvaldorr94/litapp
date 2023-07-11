@@ -1,107 +1,217 @@
 import 'dart:async';
 
+import 'package:collection/collection.dart';
+
+import '/backend/schema/util/firestore_util.dart';
+import '/backend/schema/util/schema_util.dart';
+
 import 'index.dart';
-import 'serializers.dart';
-import 'package:built_value/built_value.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 
-part 'offers_record.g.dart';
+class OffersRecord extends FirestoreRecord {
+  OffersRecord._(
+    DocumentReference reference,
+    Map<String, dynamic> data,
+  ) : super(reference, data) {
+    _initializeFields();
+  }
 
-abstract class OffersRecord
-    implements Built<OffersRecord, OffersRecordBuilder> {
-  static Serializer<OffersRecord> get serializer => _$offersRecordSerializer;
+  // "id" field.
+  String? _id;
+  String get id => _id ?? '';
+  bool hasId() => _id != null;
 
-  String? get id;
+  // "category" field.
+  String? _category;
+  String get category => _category ?? '';
+  bool hasCategory() => _category != null;
 
-  String? get category;
+  // "active" field.
+  bool? _active;
+  bool get active => _active ?? false;
+  bool hasActive() => _active != null;
 
-  bool? get active;
+  // "name" field.
+  String? _name;
+  String get name => _name ?? '';
+  bool hasName() => _name != null;
 
-  String? get name;
+  // "schedule" field.
+  String? _schedule;
+  String get schedule => _schedule ?? '';
+  bool hasSchedule() => _schedule != null;
 
-  String? get schedule;
+  // "place_name" field.
+  String? _placeName;
+  String get placeName => _placeName ?? '';
+  bool hasPlaceName() => _placeName != null;
 
-  @BuiltValueField(wireName: 'place_name')
-  String? get placeName;
+  // "image" field.
+  String? _image;
+  String get image => _image ?? '';
+  bool hasImage() => _image != null;
 
-  String? get image;
+  // "created_time" field.
+  DateTime? _createdTime;
+  DateTime? get createdTime => _createdTime;
+  bool hasCreatedTime() => _createdTime != null;
 
-  @BuiltValueField(wireName: 'created_time')
-  DateTime? get createdTime;
+  // "linked" field.
+  String? _linked;
+  String get linked => _linked ?? '';
+  bool hasLinked() => _linked != null;
 
-  String? get linked;
+  // "description" field.
+  String? _description;
+  String get description => _description ?? '';
+  bool hasDescription() => _description != null;
 
-  String? get description;
+  // "position" field.
+  LatLng? _position;
+  LatLng? get position => _position;
+  bool hasPosition() => _position != null;
 
-  LatLng? get position;
+  // "city" field.
+  String? _city;
+  String get city => _city ?? '';
+  bool hasCity() => _city != null;
 
-  String? get city;
+  // "level" field.
+  String? _level;
+  String get level => _level ?? '';
+  bool hasLevel() => _level != null;
 
-  String? get level;
+  // "campaing" field.
+  String? _campaing;
+  String get campaing => _campaing ?? '';
+  bool hasCampaing() => _campaing != null;
 
-  String? get campaing;
+  // "platform" field.
+  String? _platform;
+  String get platform => _platform ?? '';
+  bool hasPlatform() => _platform != null;
 
-  String? get platform;
+  // "format" field.
+  String? _format;
+  String get format => _format ?? '';
+  bool hasFormat() => _format != null;
 
-  String? get format;
+  // "publications" field.
+  String? _publications;
+  String get publications => _publications ?? '';
+  bool hasPublications() => _publications != null;
 
-  String? get publications;
+  // "creationDate" field.
+  DateTime? _creationDate;
+  DateTime? get creationDate => _creationDate;
+  bool hasCreationDate() => _creationDate != null;
 
-  DateTime? get creationDate;
+  // "emailcreator" field.
+  String? _emailcreator;
+  String get emailcreator => _emailcreator ?? '';
+  bool hasEmailcreator() => _emailcreator != null;
 
-  String? get emailcreator;
+  // "eventDate" field.
+  DateTime? _eventDate;
+  DateTime? get eventDate => _eventDate;
+  bool hasEventDate() => _eventDate != null;
 
-  DateTime? get eventDate;
+  // "influencers" field.
+  String? _influencers;
+  String get influencers => _influencers ?? '';
+  bool hasInfluencers() => _influencers != null;
 
-  String? get influencers;
+  // "horario" field.
+  String? _horario;
+  String get horario => _horario ?? '';
+  bool hasHorario() => _horario != null;
 
-  String? get horario;
+  // "beneficio" field.
+  String? _beneficio;
+  String get beneficio => _beneficio ?? '';
+  bool hasBeneficio() => _beneficio != null;
 
-  String? get beneficio;
+  // "idCreador" field.
+  String? _idCreador;
+  String get idCreador => _idCreador ?? '';
+  bool hasIdCreador() => _idCreador != null;
 
-  @BuiltValueField(wireName: kDocumentReferenceField)
-  DocumentReference? get ffRef;
-  DocumentReference get reference => ffRef!;
+  // "idInfluencerAcptados" field.
+  List<String>? _idInfluencerAcptados;
+  List<String> get idInfluencerAcptados => _idInfluencerAcptados ?? const [];
+  bool hasIdInfluencerAcptados() => _idInfluencerAcptados != null;
 
-  static void _initializeBuilder(OffersRecordBuilder builder) => builder
-    ..id = ''
-    ..category = ''
-    ..active = false
-    ..name = ''
-    ..schedule = ''
-    ..placeName = ''
-    ..image = ''
-    ..linked = ''
-    ..description = ''
-    ..city = ''
-    ..level = ''
-    ..campaing = ''
-    ..platform = ''
-    ..format = ''
-    ..publications = ''
-    ..emailcreator = ''
-    ..influencers = ''
-    ..horario = ''
-    ..beneficio = '';
+  // "descripcionBeneficio" field.
+  String? _descripcionBeneficio;
+  String get descripcionBeneficio => _descripcionBeneficio ?? '';
+  bool hasDescripcionBeneficio() => _descripcionBeneficio != null;
+
+  // "descricionPropuesta" field.
+  String? _descricionPropuesta;
+  String get descricionPropuesta => _descricionPropuesta ?? '';
+  bool hasDescricionPropuesta() => _descricionPropuesta != null;
+
+  void _initializeFields() {
+    _id = snapshotData['id'] as String?;
+    _category = snapshotData['category'] as String?;
+    _active = snapshotData['active'] as bool?;
+    _name = snapshotData['name'] as String?;
+    _schedule = snapshotData['schedule'] as String?;
+    _placeName = snapshotData['place_name'] as String?;
+    _image = snapshotData['image'] as String?;
+    _createdTime = snapshotData['created_time'] as DateTime?;
+    _linked = snapshotData['linked'] as String?;
+    _description = snapshotData['description'] as String?;
+    _position = snapshotData['position'] as LatLng?;
+    _city = snapshotData['city'] as String?;
+    _level = snapshotData['level'] as String?;
+    _campaing = snapshotData['campaing'] as String?;
+    _platform = snapshotData['platform'] as String?;
+    _format = snapshotData['format'] as String?;
+    _publications = snapshotData['publications'] as String?;
+    _creationDate = snapshotData['creationDate'] as DateTime?;
+    _emailcreator = snapshotData['emailcreator'] as String?;
+    _eventDate = snapshotData['eventDate'] as DateTime?;
+    _influencers = snapshotData['influencers'] as String?;
+    _horario = snapshotData['horario'] as String?;
+    _beneficio = snapshotData['beneficio'] as String?;
+    _idCreador = snapshotData['idCreador'] as String?;
+    _idInfluencerAcptados = getDataList(snapshotData['idInfluencerAcptados']);
+    _descripcionBeneficio = snapshotData['descripcionBeneficio'] as String?;
+    _descricionPropuesta = snapshotData['descricionPropuesta'] as String?;
+  }
 
   static CollectionReference get collection =>
       FirebaseFirestore.instance.collection('offers');
 
-  static Stream<OffersRecord> getDocument(DocumentReference ref) => ref
-      .snapshots()
-      .map((s) => serializers.deserializeWith(serializer, serializedData(s))!);
+  static Stream<OffersRecord> getDocument(DocumentReference ref) =>
+      ref.snapshots().map((s) => OffersRecord.fromSnapshot(s));
 
-  static Future<OffersRecord> getDocumentOnce(DocumentReference ref) => ref
-      .get()
-      .then((s) => serializers.deserializeWith(serializer, serializedData(s))!);
+  static Future<OffersRecord> getDocumentOnce(DocumentReference ref) =>
+      ref.get().then((s) => OffersRecord.fromSnapshot(s));
 
-  OffersRecord._();
-  factory OffersRecord([void Function(OffersRecordBuilder) updates]) =
-      _$OffersRecord;
+  static OffersRecord fromSnapshot(DocumentSnapshot snapshot) => OffersRecord._(
+        snapshot.reference,
+        mapFromFirestore(snapshot.data() as Map<String, dynamic>),
+      );
 
   static OffersRecord getDocumentFromData(
-          Map<String, dynamic> data, DocumentReference reference) =>
-      serializers.deserializeWith(serializer,
-          {...mapFromFirestore(data), kDocumentReferenceField: reference})!;
+    Map<String, dynamic> data,
+    DocumentReference reference,
+  ) =>
+      OffersRecord._(reference, mapFromFirestore(data));
+
+  @override
+  String toString() =>
+      'OffersRecord(reference: ${reference.path}, data: $snapshotData)';
+
+  @override
+  int get hashCode => reference.path.hashCode;
+
+  @override
+  bool operator ==(other) =>
+      other is OffersRecord &&
+      reference.path.hashCode == other.reference.path.hashCode;
 }
 
 Map<String, dynamic> createOffersRecordData({
@@ -128,36 +238,111 @@ Map<String, dynamic> createOffersRecordData({
   String? influencers,
   String? horario,
   String? beneficio,
+  String? idCreador,
+  String? descripcionBeneficio,
+  String? descricionPropuesta,
 }) {
-  final firestoreData = serializers.toFirestore(
-    OffersRecord.serializer,
-    OffersRecord(
-      (o) => o
-        ..id = id
-        ..category = category
-        ..active = active
-        ..name = name
-        ..schedule = schedule
-        ..placeName = placeName
-        ..image = image
-        ..createdTime = createdTime
-        ..linked = linked
-        ..description = description
-        ..position = position
-        ..city = city
-        ..level = level
-        ..campaing = campaing
-        ..platform = platform
-        ..format = format
-        ..publications = publications
-        ..creationDate = creationDate
-        ..emailcreator = emailcreator
-        ..eventDate = eventDate
-        ..influencers = influencers
-        ..horario = horario
-        ..beneficio = beneficio,
-    ),
+  final firestoreData = mapToFirestore(
+    <String, dynamic>{
+      'id': id,
+      'category': category,
+      'active': active,
+      'name': name,
+      'schedule': schedule,
+      'place_name': placeName,
+      'image': image,
+      'created_time': createdTime,
+      'linked': linked,
+      'description': description,
+      'position': position,
+      'city': city,
+      'level': level,
+      'campaing': campaing,
+      'platform': platform,
+      'format': format,
+      'publications': publications,
+      'creationDate': creationDate,
+      'emailcreator': emailcreator,
+      'eventDate': eventDate,
+      'influencers': influencers,
+      'horario': horario,
+      'beneficio': beneficio,
+      'idCreador': idCreador,
+      'descripcionBeneficio': descripcionBeneficio,
+      'descricionPropuesta': descricionPropuesta,
+    }.withoutNulls,
   );
 
   return firestoreData;
+}
+
+class OffersRecordDocumentEquality implements Equality<OffersRecord> {
+  const OffersRecordDocumentEquality();
+
+  @override
+  bool equals(OffersRecord? e1, OffersRecord? e2) {
+    const listEquality = ListEquality();
+    return e1?.id == e2?.id &&
+        e1?.category == e2?.category &&
+        e1?.active == e2?.active &&
+        e1?.name == e2?.name &&
+        e1?.schedule == e2?.schedule &&
+        e1?.placeName == e2?.placeName &&
+        e1?.image == e2?.image &&
+        e1?.createdTime == e2?.createdTime &&
+        e1?.linked == e2?.linked &&
+        e1?.description == e2?.description &&
+        e1?.position == e2?.position &&
+        e1?.city == e2?.city &&
+        e1?.level == e2?.level &&
+        e1?.campaing == e2?.campaing &&
+        e1?.platform == e2?.platform &&
+        e1?.format == e2?.format &&
+        e1?.publications == e2?.publications &&
+        e1?.creationDate == e2?.creationDate &&
+        e1?.emailcreator == e2?.emailcreator &&
+        e1?.eventDate == e2?.eventDate &&
+        e1?.influencers == e2?.influencers &&
+        e1?.horario == e2?.horario &&
+        e1?.beneficio == e2?.beneficio &&
+        e1?.idCreador == e2?.idCreador &&
+        listEquality.equals(
+            e1?.idInfluencerAcptados, e2?.idInfluencerAcptados) &&
+        e1?.descripcionBeneficio == e2?.descripcionBeneficio &&
+        e1?.descricionPropuesta == e2?.descricionPropuesta;
+  }
+
+  @override
+  int hash(OffersRecord? e) => const ListEquality().hash([
+        e?.id,
+        e?.category,
+        e?.active,
+        e?.name,
+        e?.schedule,
+        e?.placeName,
+        e?.image,
+        e?.createdTime,
+        e?.linked,
+        e?.description,
+        e?.position,
+        e?.city,
+        e?.level,
+        e?.campaing,
+        e?.platform,
+        e?.format,
+        e?.publications,
+        e?.creationDate,
+        e?.emailcreator,
+        e?.eventDate,
+        e?.influencers,
+        e?.horario,
+        e?.beneficio,
+        e?.idCreador,
+        e?.idInfluencerAcptados,
+        e?.descripcionBeneficio,
+        e?.descricionPropuesta
+      ]);
+
+  @override
+  bool isValidKey(Object? o) => o is OffersRecord;
 }

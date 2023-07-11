@@ -1,6 +1,6 @@
+import '/comercio/mis_ofertas/i57calendario/i57calendario_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/influencers/registracion/i57calendario/i57calendario_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -20,7 +20,6 @@ class _Op4WidgetState extends State<Op4Widget> {
   late Op4Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -35,11 +34,12 @@ class _Op4WidgetState extends State<Op4Widget> {
         barrierColor: Color(0x00000000),
         enableDrag: false,
         context: context,
-        builder: (bottomSheetContext) {
+        builder: (context) {
           return GestureDetector(
-            onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+            onTap: () =>
+                FocusScope.of(context).requestFocus(_model.unfocusNode),
             child: Padding(
-              padding: MediaQuery.of(bottomSheetContext).viewInsets,
+              padding: MediaQuery.viewInsetsOf(context),
               child: I57calendarioWidget(),
             ),
           );
@@ -52,7 +52,6 @@ class _Op4WidgetState extends State<Op4Widget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -61,11 +60,12 @@ class _Op4WidgetState extends State<Op4Widget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -162,7 +162,7 @@ class _Op4WidgetState extends State<Op4Widget> {
                             ),
                             child: Icon(
                               Icons.chevron_left,
-                              color: Color(0xFF949494),
+                              color: FlutterFlowTheme.of(context).tertiary,
                               size: 24.0,
                             ),
                           ),
@@ -469,7 +469,7 @@ class _Op4WidgetState extends State<Op4Widget> {
                                       width: 281.2,
                                       height: 70.0,
                                       decoration: BoxDecoration(
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFF10909),
                                       ),
                                       child: Align(
                                         alignment:
@@ -482,6 +482,9 @@ class _Op4WidgetState extends State<Op4Widget> {
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'Brandon',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryBtnText,
                                                 fontSize: 12.0,
                                                 fontWeight: FontWeight.w500,
                                                 useGoogleFonts: false,
@@ -730,7 +733,7 @@ class _Op4WidgetState extends State<Op4Widget> {
                                       width: 281.2,
                                       height: 70.0,
                                       decoration: BoxDecoration(
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFF10909),
                                       ),
                                       child: Align(
                                         alignment:
@@ -743,6 +746,9 @@ class _Op4WidgetState extends State<Op4Widget> {
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'Brandon',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryBtnText,
                                                 fontSize: 12.0,
                                                 fontWeight: FontWeight.w500,
                                                 useGoogleFonts: false,

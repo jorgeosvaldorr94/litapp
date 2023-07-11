@@ -120,10 +120,10 @@ class _A6ComecrioWidgetState extends State<A6ComecrioWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     iconPadding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: Color(0xFFF74A41),
+                    color: Color(0xFFF10909),
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                           fontFamily: 'Brandon',
-                          color: FlutterFlowTheme.of(context).primaryText,
+                          color: FlutterFlowTheme.of(context).primaryBtnText,
                           fontSize: 20.6,
                           useGoogleFonts: false,
                         ),

@@ -1,6 +1,6 @@
+import '/comercio/mis_ofertas/i57calendario/i57calendario_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/influencers/registracion/i57calendario/i57calendario_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -19,7 +19,6 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
   late I193oroupgradeModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -34,11 +33,12 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
         barrierColor: Color(0x00000000),
         enableDrag: false,
         context: context,
-        builder: (bottomSheetContext) {
+        builder: (context) {
           return GestureDetector(
-            onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+            onTap: () =>
+                FocusScope.of(context).requestFocus(_model.unfocusNode),
             child: Padding(
-              padding: MediaQuery.of(bottomSheetContext).viewInsets,
+              padding: MediaQuery.viewInsetsOf(context),
               child: I57calendarioWidget(),
             ),
           );
@@ -51,7 +51,6 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -60,11 +59,12 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               SingleChildScrollView(
@@ -75,30 +75,39 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(12.0, 64.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(15.0, 45.0, 15.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Container(
-                            width: 47.0,
-                            height: 46.0,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.of(context)
-                                  .secondaryBackground,
-                              boxShadow: [
-                                BoxShadow(
-                                  blurRadius: 4.0,
-                                  color: Color(0x33000000),
-                                  offset: Offset(0.0, 2.0),
-                                )
-                              ],
-                              borderRadius: BorderRadius.circular(20.0),
-                            ),
-                            child: Icon(
-                              Icons.chevron_left,
-                              color: Color(0xFF949494),
-                              size: 24.0,
+                          InkWell(
+                            splashColor: Colors.transparent,
+                            focusColor: Colors.transparent,
+                            hoverColor: Colors.transparent,
+                            highlightColor: Colors.transparent,
+                            onTap: () async {
+                              context.safePop();
+                            },
+                            child: Container(
+                              width: 47.0,
+                              height: 46.0,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryBackground,
+                                boxShadow: [
+                                  BoxShadow(
+                                    blurRadius: 4.0,
+                                    color: Color(0x33000000),
+                                    offset: Offset(0.0, 2.0),
+                                  )
+                                ],
+                                borderRadius: BorderRadius.circular(20.0),
+                              ),
+                              child: Icon(
+                                Icons.chevron_left,
+                                color: FlutterFlowTheme.of(context).tertiary,
+                                size: 24.0,
+                              ),
                             ),
                           ),
                           Text(
@@ -208,7 +217,8 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
                                   width: 100.0,
                                   height: 2.0,
                                   decoration: BoxDecoration(
-                                    color: Color(0xFFEA1616),
+                                    color:
+                                        FlutterFlowTheme.of(context).tertiary,
                                   ),
                                 ),
                               ),
@@ -294,50 +304,53 @@ class _I193oroupgradeWidgetState extends State<I193oroupgradeWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 27.0, 0.0, 0.0),
-                      child: Container(
-                        width: 391.0,
-                        height: 82.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
-                          borderRadius: BorderRadius.circular(0.0),
-                        ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              27.57, 0.0, 27.57, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  Align(
-                                    alignment: AlignmentDirectional(0.0, -0.1),
-                                    child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 3.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'k6szmh6j' /* UPGRADE */,
-                                        ),
-                                        textAlign: TextAlign.center,
-                                        style: FlutterFlowTheme.of(context)
-                                            .headlineMedium
-                                            .override(
-                                              fontFamily: 'Brandon',
-                                              color: Colors.black,
-                                              fontSize: 16.0,
-                                              fontWeight: FontWeight.normal,
-                                              useGoogleFonts: false,
-                                            ),
+                      child: InkWell(
+                        splashColor: Colors.transparent,
+                        focusColor: Colors.transparent,
+                        hoverColor: Colors.transparent,
+                        highlightColor: Colors.transparent,
+                        onTap: () async {
+                          context.safePop();
+                        },
+                        child: Container(
+                          height: 87.0,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).tertiary,
+                            borderRadius: BorderRadius.circular(0.0),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                15.0, 0.0, 15.0, 0.0),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Align(
+                                  alignment: AlignmentDirectional(0.0, -0.1),
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0.0, 3.0, 0.0, 0.0),
+                                    child: Text(
+                                      FFLocalizations.of(context).getText(
+                                        'k6szmh6j' /* UPGRADE */,
                                       ),
+                                      textAlign: TextAlign.center,
+                                      style: FlutterFlowTheme.of(context)
+                                          .headlineMedium
+                                          .override(
+                                            fontFamily: 'Brandon',
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryBtnText,
+                                            fontSize: 16.0,
+                                            fontWeight: FontWeight.normal,
+                                            useGoogleFonts: false,
+                                          ),
                                     ),
                                   ),
-                                ],
-                              ),
-                            ],
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),

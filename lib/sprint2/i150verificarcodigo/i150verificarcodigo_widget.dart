@@ -20,7 +20,6 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
   late I150verificarcodigoModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -32,7 +31,6 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -41,11 +39,12 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Column(
@@ -55,30 +54,39 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                 children: [
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(12.0, 55.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(15.0, 45.0, 15.0, 0.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Container(
-                          width: 47.0,
-                          height: 46.0,
-                          decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context)
-                                .secondaryBackground,
-                            boxShadow: [
-                              BoxShadow(
-                                blurRadius: 4.0,
-                                color: Color(0x33000000),
-                                offset: Offset(0.0, 2.0),
-                              )
-                            ],
-                            borderRadius: BorderRadius.circular(20.0),
-                          ),
-                          child: Icon(
-                            Icons.chevron_left,
-                            color: Color(0xFF949494),
-                            size: 24.0,
+                        InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.safePop();
+                          },
+                          child: Container(
+                            width: 47.0,
+                            height: 46.0,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.of(context)
+                                  .secondaryBackground,
+                              boxShadow: [
+                                BoxShadow(
+                                  blurRadius: 4.0,
+                                  color: Color(0x33000000),
+                                  offset: Offset(0.0, 2.0),
+                                )
+                              ],
+                              borderRadius: BorderRadius.circular(20.0),
+                            ),
+                            child: Icon(
+                              Icons.chevron_left,
+                              color: FlutterFlowTheme.of(context).tertiary,
+                              size: 24.0,
+                            ),
                           ),
                         ),
                         Text(
@@ -105,7 +113,7 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(40.0, 33.0, 132.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(15.0, 33.0, 15.0, 0.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -135,7 +143,7 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(
                                 fontFamily: 'Albra',
-                                color: Color(0xFFF74A41),
+                                color: Color(0xFFFF5A26),
                                 useGoogleFonts: false,
                               ),
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -144,7 +152,7 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                       enablePinAutofill: true,
                       errorTextSpace: 16.0,
                       showCursor: true,
-                      cursorColor: Color(0xFFF74A41),
+                      cursorColor: Color(0xFFFF5A26),
                       obscureText: false,
                       hintCharacter: '-',
                       pinTheme: PinTheme(
@@ -153,14 +161,14 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                         borderWidth: 2.0,
                         borderRadius: BorderRadius.circular(12.0),
                         shape: PinCodeFieldShape.underline,
-                        activeColor: Color(0xFFF74A41),
+                        activeColor: Color(0xFFFF5A26),
                         inactiveColor:
                             FlutterFlowTheme.of(context).primaryBackground,
-                        selectedColor: Color(0xFFF74A41),
-                        activeFillColor: Color(0xFFF74A41),
+                        selectedColor: Color(0xFFFF5A26),
+                        activeFillColor: Color(0xFFFF5A26),
                         inactiveFillColor:
                             FlutterFlowTheme.of(context).primaryBackground,
-                        selectedFillColor: Color(0xFFF74A41),
+                        selectedFillColor: Color(0xFFFF5A26),
                       ),
                       controller: _model.pinCodeController,
                       onChanged: (_) {},
@@ -179,7 +187,7 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Brandon',
-                            color: Color(0xFFF74A41),
+                            color: Color(0xFFF10909),
                             decoration: TextDecoration.underline,
                             useGoogleFonts: false,
                           ),
@@ -243,50 +251,62 @@ class _I150verificarcodigoWidgetState extends State<I150verificarcodigoWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 27.0, 0.0, 0.0),
-                      child: Container(
-                        width: 391.0,
-                        height: 82.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
-                          borderRadius: BorderRadius.circular(0.0),
-                        ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              27.57, 0.0, 27.57, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  Align(
-                                    alignment: AlignmentDirectional(0.0, -0.1),
-                                    child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 3.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'ljg4tsa4' /* ENVIAR CÓDIGO */,
+                      child: InkWell(
+                        splashColor: Colors.transparent,
+                        focusColor: Colors.transparent,
+                        hoverColor: Colors.transparent,
+                        highlightColor: Colors.transparent,
+                        onTap: () async {
+                          context.safePop();
+                        },
+                        child: Container(
+                          width: 391.0,
+                          height: 82.0,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).tertiary,
+                            borderRadius: BorderRadius.circular(0.0),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                27.57, 0.0, 27.57, 0.0),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Align(
+                                      alignment:
+                                          AlignmentDirectional(0.0, -0.1),
+                                      child: Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 3.0, 0.0, 0.0),
+                                        child: Text(
+                                          FFLocalizations.of(context).getText(
+                                            'ljg4tsa4' /* ENVIAR CÓDIGO */,
+                                          ),
+                                          textAlign: TextAlign.center,
+                                          style: FlutterFlowTheme.of(context)
+                                              .headlineMedium
+                                              .override(
+                                                fontFamily: 'Brandon',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryBtnText,
+                                                fontSize: 16.0,
+                                                fontWeight: FontWeight.normal,
+                                                useGoogleFonts: false,
+                                              ),
                                         ),
-                                        textAlign: TextAlign.center,
-                                        style: FlutterFlowTheme.of(context)
-                                            .headlineMedium
-                                            .override(
-                                              fontFamily: 'Brandon',
-                                              color: Colors.black,
-                                              fontSize: 16.0,
-                                              fontWeight: FontWeight.normal,
-                                              useGoogleFonts: false,
-                                            ),
                                       ),
                                     ),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),

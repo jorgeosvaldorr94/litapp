@@ -101,7 +101,7 @@ class _UpgraderealizadoWidgetState extends State<UpgraderealizadoWidget> {
               width: 100.0,
               height: 2.0,
               decoration: BoxDecoration(
-                color: Color(0xFFF74A41),
+                color: Color(0xFFF10909),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(20.0),
                   bottomRight: Radius.circular(20.0),

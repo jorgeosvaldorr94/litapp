@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'backend/backend.dart';
+import '/backend/backend.dart';
 import 'backend/api_requests/api_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'flutter_flow/flutter_flow_util.dart';
@@ -15,7 +15,25 @@ class FFAppState extends ChangeNotifier {
 
   Future initializePersistedState() async {
     prefs = await SharedPreferences.getInstance();
-    _vinculacion = prefs.getBool('ff_vinculacion') ?? _vinculacion;
+    _safeInit(() {
+      _vinculacion = prefs.getBool('ff_vinculacion') ?? _vinculacion;
+    });
+    _safeInit(() {
+      _isInfluencers = prefs.getBool('ff_isInfluencers') ?? _isInfluencers;
+    });
+    _safeInit(() {
+      _nivelInfluencer =
+          prefs.getStringList('ff_nivelInfluencer') ?? _nivelInfluencer;
+    });
+    _safeInit(() {
+      _firstTime = prefs.getBool('ff_firstTime') ?? _firstTime;
+    });
+    _safeInit(() {
+      _firstChat = prefs.getBool('ff_firstChat') ?? _firstChat;
+    });
+    _safeInit(() {
+      _firstChatId = prefs.getString('ff_firstChatId') ?? _firstChatId;
+    });
   }
 
   void update(VoidCallback callback) {
@@ -151,6 +169,105 @@ class FFAppState extends ChangeNotifier {
   set horariop(String _value) {
     _horariop = _value;
   }
+
+  bool _isInfluencers = false;
+  bool get isInfluencers => _isInfluencers;
+  set isInfluencers(bool _value) {
+    _isInfluencers = _value;
+    prefs.setBool('ff_isInfluencers', _value);
+  }
+
+  List<String> _nivelInfluencer = [
+    'Nano Influencer',
+    'Mega Influencer',
+    'Micro Influencer',
+    'Macro Influencer'
+  ];
+  List<String> get nivelInfluencer => _nivelInfluencer;
+  set nivelInfluencer(List<String> _value) {
+    _nivelInfluencer = _value;
+    prefs.setStringList('ff_nivelInfluencer', _value);
+  }
+
+  void addToNivelInfluencer(String _value) {
+    _nivelInfluencer.add(_value);
+    prefs.setStringList('ff_nivelInfluencer', _nivelInfluencer);
+  }
+
+  void removeFromNivelInfluencer(String _value) {
+    _nivelInfluencer.remove(_value);
+    prefs.setStringList('ff_nivelInfluencer', _nivelInfluencer);
+  }
+
+  void removeAtIndexFromNivelInfluencer(int _index) {
+    _nivelInfluencer.removeAt(_index);
+    prefs.setStringList('ff_nivelInfluencer', _nivelInfluencer);
+  }
+
+  void updateNivelInfluencerAtIndex(
+    int _index,
+    String Function(String) updateFn,
+  ) {
+    _nivelInfluencer[_index] = updateFn(_nivelInfluencer[_index]);
+    prefs.setStringList('ff_nivelInfluencer', _nivelInfluencer);
+  }
+
+  bool _firstTime = false;
+  bool get firstTime => _firstTime;
+  set firstTime(bool _value) {
+    _firstTime = _value;
+    prefs.setBool('ff_firstTime', _value);
+  }
+
+  int _cantidadInfluencer = 0;
+  int get cantidadInfluencer => _cantidadInfluencer;
+  set cantidadInfluencer(int _value) {
+    _cantidadInfluencer = _value;
+  }
+
+  LatLng? _ofertaUbicacion;
+  LatLng? get ofertaUbicacion => _ofertaUbicacion;
+  set ofertaUbicacion(LatLng? _value) {
+    _ofertaUbicacion = _value;
+  }
+
+  String _descrpcionOferta = '';
+  String get descrpcionOferta => _descrpcionOferta;
+  set descrpcionOferta(String _value) {
+    _descrpcionOferta = _value;
+  }
+
+  String _adjuntarReferencia = '';
+  String get adjuntarReferencia => _adjuntarReferencia;
+  set adjuntarReferencia(String _value) {
+    _adjuntarReferencia = _value;
+  }
+
+  DateTime? _horarioPropuesta;
+  DateTime? get horarioPropuesta => _horarioPropuesta;
+  set horarioPropuesta(DateTime? _value) {
+    _horarioPropuesta = _value;
+  }
+
+  String _descripcionBeneficioPropuesta = '';
+  String get descripcionBeneficioPropuesta => _descripcionBeneficioPropuesta;
+  set descripcionBeneficioPropuesta(String _value) {
+    _descripcionBeneficioPropuesta = _value;
+  }
+
+  bool _firstChat = false;
+  bool get firstChat => _firstChat;
+  set firstChat(bool _value) {
+    _firstChat = _value;
+    prefs.setBool('ff_firstChat', _value);
+  }
+
+  String _firstChatId = '';
+  String get firstChatId => _firstChatId;
+  set firstChatId(String _value) {
+    _firstChatId = _value;
+    prefs.setString('ff_firstChatId', _value);
+  }
 }
 
 LatLng? _latLngFromString(String? val) {
@@ -161,4 +278,16 @@ LatLng? _latLngFromString(String? val) {
   final lat = double.parse(split.first);
   final lng = double.parse(split.last);
   return LatLng(lat, lng);
+}
+
+void _safeInit(Function() initializeField) {
+  try {
+    initializeField();
+  } catch (_) {}
+}
+
+Future _safeInitAsync(Function() initializeField) async {
+  try {
+    await initializeField();
+  } catch (_) {}
 }

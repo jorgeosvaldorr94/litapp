@@ -17,7 +17,6 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
   late I140ajustesModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -29,7 +28,6 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -38,11 +36,12 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Align(
@@ -58,7 +57,7 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
                         width: 397.0,
                         height: 67.0,
                         decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
+                          color: Color(0xFFFF5A26),
                           boxShadow: [
                             BoxShadow(
                               blurRadius: 4.0,
@@ -452,7 +451,7 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
                                           100.0, 0.0, 0.0, 0.0),
                                       child: Icon(
                                         Icons.navigate_next_sharp,
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFFF5A26),
                                         size: 24.0,
                                       ),
                                     ),
@@ -576,7 +575,7 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
                                           100.0, 0.0, 0.0, 0.0),
                                       child: Icon(
                                         Icons.navigate_next_sharp,
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFFF5A26),
                                         size: 24.0,
                                       ),
                                     ),
@@ -713,7 +712,7 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
                                           100.0, 0.0, 0.0, 0.0),
                                       child: Icon(
                                         Icons.navigate_next_sharp,
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFFF5A26),
                                         size: 24.0,
                                       ),
                                     ),
@@ -837,7 +836,7 @@ class _I140ajustesWidgetState extends State<I140ajustesWidget> {
                                           50.0, 0.0, 0.0, 0.0),
                                       child: Icon(
                                         Icons.navigate_next_sharp,
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFFF5A26),
                                         size: 24.0,
                                       ),
                                     ),

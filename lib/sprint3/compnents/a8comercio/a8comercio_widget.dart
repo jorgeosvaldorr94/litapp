@@ -132,10 +132,10 @@ class _A8comercioWidgetState extends State<A8comercioWidget> {
               height: 65.0,
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
               iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-              color: Color(0xFFF74A41),
+              color: Color(0xFFF10909),
               textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                     fontFamily: 'Brandon',
-                    color: FlutterFlowTheme.of(context).primaryText,
+                    color: FlutterFlowTheme.of(context).primaryBtnText,
                     fontSize: 20.0,
                     fontWeight: FontWeight.w500,
                     useGoogleFonts: false,

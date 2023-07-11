@@ -1,8 +1,8 @@
+import '/comercio/mis_ofertas/i57calendario/i57calendario_widget.dart';
 import '/flutter_flow/flutter_flow_drop_down.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/form_field_controller.dart';
-import '/influencers/registracion/i57calendario/i57calendario_widget.dart';
 import '/sprint2/componentes/pago/pago_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -22,7 +22,6 @@ class _I194OroWidgetState extends State<I194OroWidget> {
   late I194OroModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   @override
   void initState() {
@@ -37,11 +36,12 @@ class _I194OroWidgetState extends State<I194OroWidget> {
         barrierColor: Color(0x00000000),
         enableDrag: false,
         context: context,
-        builder: (bottomSheetContext) {
+        builder: (context) {
           return GestureDetector(
-            onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+            onTap: () =>
+                FocusScope.of(context).requestFocus(_model.unfocusNode),
             child: Padding(
-              padding: MediaQuery.of(bottomSheetContext).viewInsets,
+              padding: MediaQuery.viewInsetsOf(context),
               child: I57calendarioWidget(),
             ),
           );
@@ -54,7 +54,6 @@ class _I194OroWidgetState extends State<I194OroWidget> {
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -63,11 +62,12 @@ class _I194OroWidgetState extends State<I194OroWidget> {
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               SingleChildScrollView(
@@ -78,30 +78,39 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(12.0, 64.0, 0.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(15.0, 45.0, 15.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Container(
-                            width: 47.0,
-                            height: 46.0,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.of(context)
-                                  .secondaryBackground,
-                              boxShadow: [
-                                BoxShadow(
-                                  blurRadius: 4.0,
-                                  color: Color(0x33000000),
-                                  offset: Offset(0.0, 2.0),
-                                )
-                              ],
-                              borderRadius: BorderRadius.circular(20.0),
-                            ),
-                            child: Icon(
-                              Icons.chevron_left,
-                              color: Color(0xFF949494),
-                              size: 24.0,
+                          InkWell(
+                            splashColor: Colors.transparent,
+                            focusColor: Colors.transparent,
+                            hoverColor: Colors.transparent,
+                            highlightColor: Colors.transparent,
+                            onTap: () async {
+                              context.safePop();
+                            },
+                            child: Container(
+                              width: 47.0,
+                              height: 46.0,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryBackground,
+                                boxShadow: [
+                                  BoxShadow(
+                                    blurRadius: 4.0,
+                                    color: Color(0x33000000),
+                                    offset: Offset(0.0, 2.0),
+                                  )
+                                ],
+                                borderRadius: BorderRadius.circular(20.0),
+                              ),
+                              child: Icon(
+                                Icons.chevron_left,
+                                color: FlutterFlowTheme.of(context).tertiary,
+                                size: 24.0,
+                              ),
                             ),
                           ),
                           Text(
@@ -211,7 +220,8 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                   width: 100.0,
                                   height: 2.0,
                                   decoration: BoxDecoration(
-                                    color: Color(0xFFEA1616),
+                                    color:
+                                        FlutterFlowTheme.of(context).tertiary,
                                   ),
                                 ),
                               ),
@@ -315,14 +325,14 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                         backgroundColor: Colors.transparent,
                                         enableDrag: false,
                                         context: context,
-                                        builder: (bottomSheetContext) {
+                                        builder: (context) {
                                           return GestureDetector(
                                             onTap: () => FocusScope.of(context)
-                                                .requestFocus(_unfocusNode),
+                                                .requestFocus(
+                                                    _model.unfocusNode),
                                             child: Padding(
-                                              padding: MediaQuery.of(
-                                                      bottomSheetContext)
-                                                  .viewInsets,
+                                              padding: MediaQuery.viewInsetsOf(
+                                                  context),
                                               child: PagoWidget(),
                                             ),
                                           );
@@ -331,23 +341,12 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                                     },
                                     width: 88.0,
                                     height: 32.0,
-                                    searchHintTextStyle:
-                                        FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .override(
-                                              fontFamily: 'Albra',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryText,
-                                              useGoogleFonts: false,
-                                            ),
                                     textStyle:
                                         FlutterFlowTheme.of(context).bodyMedium,
                                     hintText:
                                         FFLocalizations.of(context).getText(
                                       'qilrov6f' /* Pago */,
                                     ),
-                                    searchHintText: '',
                                     fillColor: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
                                     elevation: 2.0,
@@ -416,7 +415,7 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                           Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Container(
-                              width: MediaQuery.of(context).size.width * 0.88,
+                              width: MediaQuery.sizeOf(context).width * 0.88,
                               height: 2.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context).primaryText,
@@ -475,7 +474,7 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                           Align(
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Container(
-                              width: MediaQuery.of(context).size.width * 0.88,
+                              width: MediaQuery.sizeOf(context).width * 0.88,
                               height: 2.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context).primaryText,
@@ -498,50 +497,42 @@ class _I194OroWidgetState extends State<I194OroWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 27.0, 0.0, 0.0),
-                      child: Container(
-                        width: 391.0,
-                        height: 82.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFF74A41),
-                          borderRadius: BorderRadius.circular(0.0),
-                        ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              27.57, 0.0, 27.57, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  Align(
-                                    alignment: AlignmentDirectional(0.0, -0.1),
-                                    child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 3.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'rdhq7weg' /* UPGRADE */,
-                                        ),
-                                        textAlign: TextAlign.center,
-                                        style: FlutterFlowTheme.of(context)
-                                            .headlineMedium
-                                            .override(
-                                              fontFamily: 'Brandon',
-                                              color: Colors.black,
-                                              fontSize: 16.0,
-                                              fontWeight: FontWeight.normal,
-                                              useGoogleFonts: false,
-                                            ),
-                                      ),
+                      child: InkWell(
+                        splashColor: Colors.transparent,
+                        focusColor: Colors.transparent,
+                        hoverColor: Colors.transparent,
+                        highlightColor: Colors.transparent,
+                        onTap: () async {
+                          context.safePop();
+                        },
+                        child: Container(
+                          height: 87.0,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).tertiary,
+                            borderRadius: BorderRadius.circular(0.0),
+                          ),
+                          child: Align(
+                            alignment: AlignmentDirectional(0.0, -0.1),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 3.0, 0.0, 0.0),
+                              child: Text(
+                                FFLocalizations.of(context).getText(
+                                  'rdhq7weg' /* UPGRADE */,
+                                ),
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .headlineMedium
+                                    .override(
+                                      fontFamily: 'Brandon',
+                                      color: FlutterFlowTheme.of(context)
+                                          .primaryBtnText,
+                                      fontSize: 16.0,
+                                      fontWeight: FontWeight.normal,
+                                      useGoogleFonts: false,
                                     ),
-                                  ),
-                                ],
                               ),
-                            ],
+                            ),
                           ),
                         ),
                       ),

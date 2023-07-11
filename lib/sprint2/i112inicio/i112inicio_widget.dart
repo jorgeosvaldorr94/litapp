@@ -1,8 +1,8 @@
 import '/backend/backend.dart';
+import '/comercio/mis_ofertas/i57calendario/i57calendario_widget.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/influencers/registracion/i57calendario/i57calendario_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -23,7 +23,6 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
   late I112inicioModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  final _unfocusNode = FocusNode();
 
   final animationsMap = {
     'columnOnPageLoadAnimation': AnimationInfo(
@@ -201,11 +200,12 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
         barrierColor: Color(0x00000000),
         enableDrag: false,
         context: context,
-        builder: (bottomSheetContext) {
+        builder: (context) {
           return GestureDetector(
-            onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+            onTap: () =>
+                FocusScope.of(context).requestFocus(_model.unfocusNode),
             child: Padding(
-              padding: MediaQuery.of(bottomSheetContext).viewInsets,
+              padding: MediaQuery.viewInsetsOf(context),
               child: I57calendarioWidget(),
             ),
           );
@@ -218,7 +218,6 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
   void dispose() {
     _model.dispose();
 
-    _unfocusNode.dispose();
     super.dispose();
   }
 
@@ -227,11 +226,12 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
     context.watch<FFAppState>();
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
+          top: true,
           child: Stack(
             children: [
               Stack(
@@ -270,7 +270,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                 ),
                                 Icon(
                                   Icons.navigate_next,
-                                  color: Color(0xFFF74A41),
+                                  color: Color(0xFFF10909),
                                   size: 24.0,
                                 ),
                               ],
@@ -296,7 +296,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                       height: 50.0,
                                       child: CircularProgressIndicator(
                                         color: FlutterFlowTheme.of(context)
-                                            .primary,
+                                            .tertiary,
                                       ),
                                     ),
                                   );
@@ -344,7 +344,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                               onTap: () async {
                                                 context.pushNamed(
                                                   'I21detalledeoferta',
-                                                  queryParams: {
+                                                  queryParameters: {
                                                     'offer': serializeParam(
                                                       listViewOffersRecord
                                                           .reference,
@@ -395,7 +395,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                       children: [
                                                         Text(
                                                           listViewOffersRecord
-                                                              .name!,
+                                                              .name,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -432,7 +432,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                                       0.0),
                                                           child: Text(
                                                             listViewOffersRecord
-                                                                .schedule!,
+                                                                .schedule,
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -466,7 +466,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                                       children: [
                                                         Text(
                                                           listViewOffersRecord
-                                                              .placeName!,
+                                                              .placeName,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -559,7 +559,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                       ),
                                       Icon(
                                         Icons.navigate_next,
-                                        color: Color(0xFFF74A41),
+                                        color: Color(0xFFF10909),
                                         size: 24.0,
                                       ),
                                     ],
@@ -1209,7 +1209,8 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed('I37ajustesdeperfil');
+                                  context
+                                      .pushNamed('I37ajustesdeperfilNOesElqVA');
                                 },
                                 child: Image.asset(
                                   'assets/images/setting.png',
@@ -1282,10 +1283,10 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          width: MediaQuery.of(context).size.width * 1.0,
+                          width: MediaQuery.sizeOf(context).width * 1.0,
                           height: 82.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFF74A41),
+                            color: Color(0xFFFF3234),
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
@@ -1302,6 +1303,7 @@ class _I112inicioWidgetState extends State<I112inicioWidget>
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Brandon',
+                                        color: Colors.white,
                                         fontWeight: FontWeight.w500,
                                         useGoogleFonts: false,
                                       ),
